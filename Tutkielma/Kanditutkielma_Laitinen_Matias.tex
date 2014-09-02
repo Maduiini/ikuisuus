@@ -46,11 +46,11 @@
 
 \title{SV- ja EV-järjestelmät kaupallisessa ilmailussa}
 
-\translatedtitle{SVS and EVS in Commercial Aviation}
+\translatedtitle{SV and EV Systems in Commercial Aviation}
 
 %\studyline{}
-\avainsanat{SVS, EVS, ilmailu, näkyvyys, HUD, HDD, lentoturvallisuus}
-\keywords{SVS, EVS, synthetic vision, enhanced vision, aviation, HUD, HDD, flying, safety, visibility}
+\avainsanat{SVS, EVS, ilmailu, näkyvyys, HUD, HDD, lentäminen, lentoturvallisuus, IFR}
+\keywords{SVS, EVS, synthetic vision, enhanced vision, aviation, HUD, HDD, flying, safety, visibility, IFR}
 \tiivistelma{Tähän tulee tiivistelmä (tausta, tavoite, tulokset, johtopäätökset).
 }
 \abstract{Tähän tulee englanninkielinen versio tiivistelmästä.
@@ -59,9 +59,9 @@
 \author{Matias Laitinen}
 \contactinformation{\texttt{matias.laitinen@gmail.com}}
 % jos useita tekijöitä, anna useampi \author-komento
-%\supervisor{Kirsi Valjus}
+%\supervisor{TODO}
 % jos useita ohjaajia, anna useampi \supervisor-komento
-%\type{kandidaatintutkielma} % tämän makron oletus on "pro gradu -tutkielma" ja bachelor-optiolla kandidaatintutkielma
+%\type{bachelor} % tämän makron oletus on "pro gradu -tutkielma" ja bachelor-optiolla kandidaatintutkielma
 
 \maketitle
   
@@ -71,19 +71,19 @@
 
 Viime aikoina lentoturvallisuus on noussut useasti esille medioissa, kun sekä harraste- että kaupallisen ilmailun puolella on tapahtunut monenlaisia lento-onnettomuuksia tai ilmailun vaaratilanteita. Nämä onnettomuudet aiheutuvat useimmiten inhimillisistä virheistä. Tutkimuksen tavoitteena on ottaa selvää, millä eri tavoin olisi keinotekoisia näköjärjestelmiä käyttämällä mahdollista ehkäistä lento-onnettomuuksia ja parantaa lentäjän tilannetietoisuutta, etenkin huonon näkyvyyden olosuhteissa. Tällaiset järjestelmät ovat olleet sotilaspuolen käytössä jo pitkän aikaa, mutta siviili-ilmailussa niitä hyödynnetään vasta melko vähän. Kartoittamalla näiden järjestelmien kustannuksia ja käytettävyyttä saadaan toivottavasti tehtyä jonkinlaisia johtopäätöksiä niiden soveltuvuudesta käytäntöön. TODO: Kerro paremmin ja laita viitteet kuntoon.
 
-\chapter{Ilmailu ja näkyvyys} \label{lukuviite} % esimerkki sisäisestä viittauksesta
+\chapter{Ilmailu ja näkyvyys}
 
 \section{Näkyvyyden vaikutus lennon aikana}
 
-Näkyvyys on lentokoneen ohjaajalle tärkeää lennettäessä lähellä maata, etenkin laskeutumisen aikana. Sen vuoksi huonot näkyvyysolosuhteet aiheuttavat suuria rajoitteita lentotoiminnalle. Pilotin lentonäkyvyyteen vaikuttavat monet meteorologiset olosuhteet, kuten pimeys, pöly, sumu ja sade ~\citep{wickens2009} Erityisesti sumuisissa olosuhteissa näkyvyys voi huonontua dramaattisesti ja ulkomaailman yksityiskohtia on miltei mahdotonta erottaa~\citep{beiergemperlein2004}.
+Näkyvyys on lentokoneen ohjaajalle tärkeää lennettäessä lähellä maata, etenkin laskeutumisen aikana. Sen vuoksi huonot näkyvyysolosuhteet aiheuttavat suuria rajoitteita lentotoiminnalle. Pilotin lentonäkyvyyteen vaikuttavat monet meteorologiset olosuhteet, kuten pimeys, pöly, sumu ja sade \citep{wickens2009} Erityisesti sumuisissa olosuhteissa näkyvyys voi huonontua dramaattisesti ja ulkomaailman yksityiskohtia on miltei mahdotonta erottaa \citep{beiergemperlein2004}.
 
 Kaikilla lentokentillä toimittaessa ovat voimassa tietyt näkyvyysrajoitukset. Kentillä, joilla on käytössä esimerkiksi ILS:n kaltaisia lähestymisapuja, on tietty minimi, josta tulee olla mahdollista jatkaa lähestymistä visuaalisesti. Vakavimmillaan rajoitukset vaikuttavat kentillä, joilla ei tällaisia järjestelmiä ole käytössä. Nämä säännöt ovat voimassa, vaikka lähestyvällä koneella olisi käytössään nykyaikaiset mittari- ja navigointilaitteet.~\cite{mollersachs1994}
 
 \section{Näkyvyyden vaikutus maatoimintaan}
 
-Prinzelin ym. (2013) // TODO SITAATTI tutkimuksen ja kokemuksen perusteella huonon näkyvyyden aiheuttamat toiminnan hidastumiset ja viivästykset maatoiminnassa ovat kasvavasti vaikuttamassa myös ilmatilankäytön viiveisiin. Huonon näkyvyyden olosuhteissa ohjaajien ja ajoneuvonkuljettajien tulee säilyttää tilannetietoisuutensa varmistaakseen, että maatoiminta on turvallista ja tehokasta.
+Prinzelin ym. (\citeyear{prinzel2013}) tutkimuksen ja kokemuksen perusteella huonon näkyvyyden aiheuttamat toiminnan hidastumiset ja viivästykset maatoiminnassa ovat kasvavasti vaikuttamassa myös ilmatilankäytön viiveisiin. Huonon näkyvyyden olosuhteissa ohjaajien ja ajoneuvonkuljettajien tulee säilyttää tilannetietoisuutensa varmistaakseen, että maatoiminta on turvallista ja tehokasta.
 
-FAA:n vuoden 2010 turvallisuusselvityksen mukaan 52 928 316 maatoimintaan liittyvän tapahtuman aikana tapahtui 951 kiitotiepoikkeamaa, joista 12 oli vakavia. Vaikka tämä luku on suhteessa pieni, kiitotiepoikkeamalla voi olla tuhoisat seuraukset. Suurimpana syynä näissä tapauksissa oli ohjaajan inhimillinen erehdys (63 \%). Tilannetietoisuutta parantamalla voitaisiin siis saada merkittävästi vähennettyä kiitotiepoikkeamien määrää.~\cite{prinzel2013}
+Esimerkiksi FAA:n vuoden 2010 turvallisuusselvityksen mukaan 52 928 316 maatoimintaan liittyvän tapahtuman aikana tapahtui 951 kiitotiepoikkeamaa, joista 12 oli vakavia. Vaikka tämä luku on suhteessa pieni, kiitotiepoikkeamalla voi olla tuhoisat seuraukset. Suurimpana syynä näissä tapauksissa oli ohjaajan inhimillinen erehdys (63 \%). Tilannetietoisuutta parantamalla voitaisiin siis saada merkittävästi vähennettyä kiitotiepoikkeamien määrää. \citep{prinzel2013}
 
 
 \chapter{SV- ja EV-järjestelmät}
@@ -155,12 +155,12 @@ Beier, Kurt \& Gemperlein, Hans 2004.
 \textit{Simulation of Infrared Detection Range at Fog Conditions for Enhanced Vision Systems in Civil Aviation}.
 Aerospace Science and Technology, 8, s.~63--71.
 
-\bibitem[Crawford \& Neal (2006)Crawford, Jennifer \& Neal, Andrew]{crawford2006}
+\bibitem[Crawford \& Neal(2006)Crawford, Jennifer \& Neal, Andrew]{crawford2006}
 Crawford, Jennifer \& Neal, Andrew 2006.
 \textit{A Review of the Perceptual and Cognitive Issues Associated With the Use of Head-Up Displays in Commercial Aviation}
 The International Journal of Aviation Psychology, 16:1, s.~1--19.
 
-\bibitem[Hooey \& Foyle (2007)Hooey, B.L. \& Foyle, D.C.]{hooey2007}
+\bibitem[Hooey \& Foyle(2007)Hooey, B.L. \& Foyle, D.C.]{hooey2007}
 Hooey, B.L. \& Foyle, D.C. 2007.
 \textit{Aviation Safety Studies: Taxi Navigation Errors and Synthetic Vision Systems Operations}
 Human Performance Modeling in Aviation.
@@ -175,7 +175,7 @@ Möller, H. \& Sachs, G. 1994.
 \textit{Synthetic Vision for Enhancing Poor Visibility Flight Operations}.
 IEEE AES Systems Magazine, maaliskuu 1994, s.~27--33.
 
-\bibitem[Nordwall (1993)]{nordwall1993}
+\bibitem[Nordwall(1993)]{nordwall1993}
 Nordwall, B.D. 1993
 \textit{HUD with IR System extends Pilot Vision}.
 Aviation Week \& Space Technology, helmikuu 1993, s.~62--63.
@@ -200,7 +200,7 @@ Ververs, Patricia May \& Wickens, Christopher D. 1998.
 \textit{Head-Up Displays: Effect of Clutter, Display Intensity, and Display Location on Pilot Performance}
 The International Journal of Aviation Psychology, 8:4, s.~377--403.
 
-\bibitem[Wickens \& Alexander (2009)Wickens, Christopher D. \& Alexander, Amy L.]{wickens2009}
+\bibitem[Wickens \& Alexander(2009)Wickens, Christopher D. \& Alexander, Amy L.]{wickens2009}
 Wickens, Christopher D. \& Alexander, Amy L. 2009.
 \textit{Attentional Tunneling and Task Management in Synthetic Vision Displays}
 The International Journal of Aviation Psychology, 19:2, s.~182--199.
