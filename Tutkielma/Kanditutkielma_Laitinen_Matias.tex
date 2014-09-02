@@ -1,0 +1,221 @@
+% !TeX encoding = utf8
+%
+% [ Tiedostossa käytetty merkistö on utf8, vaihtoehtoisesti voisi olla esim.]
+% [ ISO 8859-1 eli Latin 1. Ylläoleva rivi ]
+% [ tarvitaan, jos käyttää MiKTeX-paketin mukana tulevaa TeXworks-editoria. ]
+%
+% TIETOTEKNIIKAN KANDIDAATINTUTKIELMA
+%
+% Yksinkertainen LaTeX2e-mallipohja kandidaatintutkielmalle.
+% Käyttää Antti-Juhani Kaijanahon kirjoittamaa gradu3-dokumenttiluokkaa.
+%
+% Jos kirjoitat pro gradu -tutkielmaa, tee mallipohjaan seuraavat muutokset:
+%  - Poista dokumenttiluokasta optio bachelor .
+%  - Poista makro \type .
+%  - Lisää suuntautumisvaihtoehto makrolla \studyline .
+%  - Lisää tieto ohjaajasta makrolla \supervisor .
+
+\documentclass[utf8,bachelor,manualbib]{gradu3}
+
+\usepackage{palatino} % valitaan oletusfonttia hieman tyylikkäämpi fontti
+
+\usepackage{graphicx} % tarvitaan vain, jos halutaan mukaan kuvia
+\usepackage{amsmath}  % tarvitaan käytettäessä monimutkaisten matemaattisten kaavojen ja \eqref-kaavaviittauksen yhteydessä
+\usepackage{url} % tarvitaan \url-komentoa varten
+\usepackage{booktabs}
+
+% Otetaan käyttöön author-date-järjestelmän mukaiset lähdeviittaukset:
+\usepackage{natbib}
+% Vaihdetaan kirjoittajan nimen ja vuosiluvun väliseksi erottimeksi
+% välilyönti (oletuserottimena on pilkku):
+%\bibpunct{(}{)}{;}{a}{}{,}
+
+
+% HUOM! Tämän tulee olla viimeinen \usepackage koko dokumentissa!
+\usepackage[bookmarksopen,bookmarksnumbered,linktocpage]{hyperref}
+
+%\addbibresource{viite.bib}% Lähdetietokannan tiedostonimi
+%http://www.tex.ac.uk/tex-archive/macros/latex/exptl/biblatex-contrib/biblatex-chicago/latex/biblatex-chicago.sty
+%http://www.tex.ac.uk/tex-archive/macros/latex/contrib/etoolbox/etoolbox.sty
+%http://mirrors.med.harvard.edu/ctan/macros/latex/contrib/biblatex/latex/biblatex.sty
+%http://ctan.mackichan.com/macros/latex/contrib/biblatex/latex/biblatex2.sty
+%http://mirror.hmc.edu/ctan/macros/latex/contrib/logreq/logreq.sty
+%https://github.com/Martin-Rotter/qt-survival-guide/blob/master/logreq.def
+
+\begin{document}
+
+\title{SV- ja EV-järjestelmät kaupallisessa ilmailussa}
+
+\translatedtitle{SVS and EVS in Commercial Aviation}
+
+%\studyline{}
+\avainsanat{SVS, EVS, ilmailu, näkyvyys, HUD, HDD, lentoturvallisuus}
+\keywords{SVS, EVS, synthetic vision, enhanced vision, aviation, HUD, HDD, flying, safety, visibility}
+\tiivistelma{Tähän tulee tiivistelmä (tausta, tavoite, tulokset, johtopäätökset).
+}
+\abstract{Tähän tulee englanninkielinen versio tiivistelmästä.
+}
+
+\author{Matias Laitinen}
+\contactinformation{\texttt{matias.laitinen@gmail.com}}
+% jos useita tekijöitä, anna useampi \author-komento
+%\supervisor{Kirsi Valjus}
+% jos useita ohjaajia, anna useampi \supervisor-komento
+%\type{kandidaatintutkielma} % tämän makron oletus on "pro gradu -tutkielma" ja bachelor-optiolla kandidaatintutkielma
+
+\maketitle
+  
+\mainmatter
+
+\chapter{Johdanto}
+
+Viime aikoina lentoturvallisuus on noussut useasti esille medioissa, kun sekä harraste- että kaupallisen ilmailun puolella on tapahtunut monenlaisia lento-onnettomuuksia tai ilmailun vaaratilanteita. Nämä onnettomuudet aiheutuvat useimmiten inhimillisistä virheistä. Tutkimuksen tavoitteena on ottaa selvää, millä eri tavoin olisi keinotekoisia näköjärjestelmiä käyttämällä mahdollista ehkäistä lento-onnettomuuksia ja parantaa lentäjän tilannetietoisuutta, etenkin huonon näkyvyyden olosuhteissa. Tällaiset järjestelmät ovat olleet sotilaspuolen käytössä jo pitkän aikaa, mutta siviili-ilmailussa niitä hyödynnetään vasta melko vähän. Kartoittamalla näiden järjestelmien kustannuksia ja käytettävyyttä saadaan toivottavasti tehtyä jonkinlaisia johtopäätöksiä niiden soveltuvuudesta käytäntöön. TODO: Kerro paremmin ja laita viitteet kuntoon.
+
+\chapter{Ilmailu ja näkyvyys} \label{lukuviite} % esimerkki sisäisestä viittauksesta
+
+\section{Näkyvyyden vaikutus lennon aikana}
+
+Näkyvyys on lentokoneen ohjaajalle tärkeää lennettäessä lähellä maata, etenkin laskeutumisen aikana. Sen vuoksi huonot näkyvyysolosuhteet aiheuttavat suuria rajoitteita lentotoiminnalle. Pilotin lentonäkyvyyteen vaikuttavat monet meteorologiset olosuhteet, kuten pimeys, pöly, sumu ja sade ~\citep{wickens2009} Erityisesti sumuisissa olosuhteissa näkyvyys voi huonontua dramaattisesti ja ulkomaailman yksityiskohtia on miltei mahdotonta erottaa~\citep{beiergemperlein2004}.
+
+Kaikilla lentokentillä toimittaessa ovat voimassa tietyt näkyvyysrajoitukset. Kentillä, joilla on käytössä esimerkiksi ILS:n kaltaisia lähestymisapuja, on tietty minimi, josta tulee olla mahdollista jatkaa lähestymistä visuaalisesti. Vakavimmillaan rajoitukset vaikuttavat kentillä, joilla ei tällaisia järjestelmiä ole käytössä. Nämä säännöt ovat voimassa, vaikka lähestyvällä koneella olisi käytössään nykyaikaiset mittari- ja navigointilaitteet.~\cite{mollersachs1994}
+
+\section{Näkyvyyden vaikutus maatoimintaan}
+
+Prinzelin ym. (2013) // TODO SITAATTI tutkimuksen ja kokemuksen perusteella huonon näkyvyyden aiheuttamat toiminnan hidastumiset ja viivästykset maatoiminnassa ovat kasvavasti vaikuttamassa myös ilmatilankäytön viiveisiin. Huonon näkyvyyden olosuhteissa ohjaajien ja ajoneuvonkuljettajien tulee säilyttää tilannetietoisuutensa varmistaakseen, että maatoiminta on turvallista ja tehokasta.
+
+FAA:n vuoden 2010 turvallisuusselvityksen mukaan 52 928 316 maatoimintaan liittyvän tapahtuman aikana tapahtui 951 kiitotiepoikkeamaa, joista 12 oli vakavia. Vaikka tämä luku on suhteessa pieni, kiitotiepoikkeamalla voi olla tuhoisat seuraukset. Suurimpana syynä näissä tapauksissa oli ohjaajan inhimillinen erehdys (63 \%). Tilannetietoisuutta parantamalla voitaisiin siis saada merkittävästi vähennettyä kiitotiepoikkeamien määrää.~\cite{prinzel2013}
+
+
+\chapter{SV- ja EV-järjestelmät}
+
+Keinonäköjärjestelmillä (SVS, Synthetic Vision Systems) tarkoitetaan keinotekoisen ympäristökuvan luomista tietokoneella. Kuva luodaan yhdistäen lentoasento- ja tarkkuusnavigointijärjestelmiltä sekä maasto- ja estetietokannoista saatua lennon kannalta tärkeää tietoa. SV-järjestelmillä saadaan huomattavia parannuksia maastoestetietouteen ja se vähentää tahattomien maahantörmäysten (CFIT, Controlled Flight Into Terrain) riskiä nykyiseen ohjaamoissa käytettävään teknologiaan verrattuna. \citep{baileyym2007}
+
+Parannellun näön järjestelmillä (EVS, Enhanced Vision Systems tai EFVS, Enhanced Flight Vision Systems) tarkoitetaan elektronisen apuvälineen, kuten lämpökameran (FLIR, Forward-Looking Infrared) tai millimetritutkan (MMWR, Millimeter Wave Radar) avulla näytettyä kuvaa ulkomaailmasta \citep{baileyym2007}. Möller ja Sachs \citeyearpar{mollersachs1994} kertovat, optisten järjestelmien, kuten lämpökameran, olevan passiivinen laite, jolla voidaan muodostaa ympäristökuva ilman tietoa etäisyyksistä. Tutkalla sen sijaan saadaan aktiivisesti etäisyystietoa ympäristöstä, mutta tavallisen näköistä kuvaa on vaikea muodostaa.  Jo Nordwallin \citeyearpar{nordwall1993} mukaan heijastusnäyttö(HUD, Head-Up Display)-lämpökamera -yhdistelmällä saavutetaan esimerkiksi sumussa huomattavasti parempi kuva ynpäristöstä, kuin mitä paljaalla silmällä voitaisiin saavuttaa. 
+
+\section{Käyttö lennon aikana}
+
+Tässä kerrotaan mahdollisista eduista, joita lennon eri vaiheissa voidaan saavuttaa.
+
+\section{Käyttö maatoiminnassa}
+
+Maatoiminnassa lennonjohdon, koneiden ohjaajien sekä ajoneuvonkuljettajien tilannetietoisuutta pyritään pitämään yllä tarjoamalla visuaalisia merkkejä omasta sijainnista, kulkureiteistä ja tilasta kiito- ja rullausteillä, odotuspaikoilla ja asematasoilla. Tämä hoidetaan esimerkiksi valojen, merkintöjen ja opasteiden avulla. Tällaisia järjestelmiä kutsutaan nimellä Surface Movement Guidance and Control System (SMGCS). \citep{prinzel2013}
+
+Tilannetietoa ylläpitäviä järjestelmiä voitaisiin myös käyttää ohjaamoissa. Tällaisista järjestelmistä voisi Prinzelin ym. \citeyearpar{prinzel2013} mukaan olla hyötyä, varsinkin henkilöstön näkyvyyden parantamisessa keinotekoisesti sekä tilannetietoisuuden (paikka- ja reittitiedon ja mahdollisesti myös liikenne- ja estetiedon) parantamisessa erilaisten karttajärjestelmien avulla. Etenkin yöllä, tai savun tai pölyn haitatessa näkyvyyttä EV-järjestelmät voivat auttaa pilottia toimimaan turvallisemmin maassa \citep{prinzel2013}. Hooeyn \& Foylen \citeyearpar{hooey2007} tutkimuksen mukaan 17\% huonossa näkyvyydessä tai yöllä tapahtuneessa rullauskokeessa tuli esille navigointivirheitä, jotka saatiin korjattua liikkuvien lentokenttäkarttojen (Airport Moving Map, AMM) avulla.
+
+TODO muokkaa tätä
+The results demonstrated that an enhanced flight vision system may potentially enhance situation awareness and ameliorate problems witnessed when visibility drops requiring the use of LVO/SMGCS enhanced visual aids. However, the use of EV alone was not found to substantially enhance surface operations compared to baseline (i.e., no FLIR) without the addition of an AMM. Pilots consistently rated the AMM to be of significant value for these operations and, together, the EV and AMM was rated to be of tremendous benefit in maintaining SA and workload during 300 RVR approach and departures with simulated taxi-in and -out. The results also fully support the potential direction that EV with an AMM may provide an “operational credit” for SMGCS wherein an operator, with these requisite flight deck technologies, may be able to conduct lower than 500 RVR operations at airports that may only have a Level 1 LVO/SMGCS airport visual aids in place. Another option may be to enable under 1200 RVR surface operations at airports that do not have any LVO/SMGCS airport visual aids in place.
+The FAA has stated that, “taxiing on the airport surface is the most hazardous phase of flight” (Gerold, 2001). Almost a decade later, that statement still rings true, but LVO/SMGCS enhanced visual aids and other controls are significantly improving this situation. Emerging flight deck technologies offer a potential means to create an equivalent level of safety and performance. These flight deck technologies, such as the E-SMGCS -AMM display and EV, could assist in fully realizing the potential of NextGen by offering a more affordable path toward safe and efficient LVO/SMGCS operations through an “equivalent visual” paradigm.
+
+\chapter{Järjestelmien käyttöön liittyviä haasteita}
+
+Tässä kappaleessa kerrotaan erilaisista ongelmista, joita järjestelmien käyttöönotossa on otettava huomioon.
+
+\section{Järjestelmien käyttöönotto vanhoissa ja uusissa ohjaamoissa}
+
+Tässä kerrotaan lähinnä teknisistä haasteita, joita voi esiintyä otettaessa järjestelmiä käyttöön vanhoissa sekä uusissa ohjaamoissa. Luonnollisesti uusissa ohjaamoissa voidaan ottaa SVS huomioon jo niitä suunniteltaessa.
+
+\section{Ohjaajan suorituskyky ja kognitiiviset haasteet}
+
+Tässä kappaleessa kerrotaan niistä monista haasteista, joita suurimmilta osin HUD-näyttöjen käyttö ja automatisoitu tekniikka ohjaamossa voi aiheuttaa.
+
+
+\chapter{SV- ja EV-järjestelmien tulevaisuus}
+
+\section{Tulevaisuuden sovelluksia}
+
+Tässä pohditaan, minkälainen tulevaisuus SV- ja EV-järjestelmiä mahdollisesti odottaa kaupallisen ilmailun näkökulmasta.
+
+\section{NextGen ja EVO-konseptit}
+
+Tässä osiossa kerrotaan NextGen-ilmailukonseptista sekä EVO-konseptista sekä näönparannusjärjestelmän vaatimuksista, joita näihin konsepteihin on visioitu.
+
+Tämä saattaa olla hyvä laittaa edellisen osion alle (tai sitten ei), katsottava muotoiluvaiheessa.
+
+
+\chapter{Yhteenveto}
+
+
+%Lähdeluettelo
+
+\begin{thebibliography}{}
+
+% Hakasulkeisiin tulee kirjoittajien sukunimet (siinä muodossa kuin
+% ne halutaan lähdeviittaukseen) ja julkaisun vuosiluku suluissa.
+% Huom: Älä laita välilyöntiä ennen vuosiluvun alkusulkua.
+
+% Normaali viittaus ym.-sanalla, ensimmäisessä viittauksessa kaikki nimet:
+
+\bibitem[Bailey ym. (2007)Bailey, Randall E. , Kramer, Lynda J. \& Prinzel, Lawrence, III]{baileyym2007}
+Bailey, Randall E. , Kramer, Lynda J. \& Prinzel, Lawrence, III 2007.
+\textit{Fusion of Synthetic and Enhanced Vision for All-Weather Commercial Aviation Operations}.
+NASA Technical Reports Server (NTRS), huhtikuu 2007.
+
+\bibitem[Beier \& Gemperlein(1994)Beier \& Gemperlein]{beiergemperlein2004}
+Beier, Kurt \& Gemperlein, Hans 2004.
+\textit{Simulation of Infrared Detection Range at Fog Conditions for Enhanced Vision Systems in Civil Aviation}.
+Aerospace Science and Technology, 8, s.~63--71.
+
+\bibitem[Crawford \& Neal (2006)Crawford, Jennifer \& Neal, Andrew]{crawford2006}
+Crawford, Jennifer \& Neal, Andrew 2006.
+\textit{A Review of the Perceptual and Cognitive Issues Associated With the Use of Head-Up Displays in Commercial Aviation}
+The International Journal of Aviation Psychology, 16:1, s.~1--19.
+
+\bibitem[Hooey \& Foyle (2007)Hooey, B.L. \& Foyle, D.C.]{hooey2007}
+Hooey, B.L. \& Foyle, D.C. 2007.
+\textit{Aviation Safety Studies: Taxi Navigation Errors and Synthetic Vision Systems Operations}
+Human Performance Modeling in Aviation.
+
+\bibitem[Mosier ym. (1998)Mosier, Kathleen L. , Skitka, Linda J. , Heers, Susan, \& Burdick, Mark]{mosier1998}
+Mosier, Kathleen L. , Skitka, Linda J. , Heers, Susan, \& Burdick, Mark 1998.
+\textit{Automation Bias: Decision Making and Performance in High-Tech Cockpits}
+The International Journal of Aviation Psychology, 8:1, s.~47--63.
+
+\bibitem[Möller \& Sachs (1994)Möller \& Sachs]{mollersachs1994}
+Möller, H. \& Sachs, G. 1994.
+\textit{Synthetic Vision for Enhancing Poor Visibility Flight Operations}.
+IEEE AES Systems Magazine, maaliskuu 1994, s.~27--33.
+
+\bibitem[Nordwall (1993)]{nordwall1993}
+Nordwall, B.D. 1993
+\textit{HUD with IR System extends Pilot Vision}.
+Aviation Week \& Space Technology, helmikuu 1993, s.~62--63.
+
+\bibitem[Prinzel ym. (2013)Prinzel, Lawrence J. III, Arthur, Jarvis J. , Kramer, Lynda J. ,  Norman, Robert M. , Bailey, Randall E. , Jones, Denise R. ,  Karwac, Jerry R. Jr. , Shelton, Kevin J. \& Ellis, Kyle K. E.]{prinzel2013}
+Prinzel, Lawrence J. III, Arthur, Jarvis J. , Kramer, Lynda J. ,  Norman, Robert M. , Bailey, Randall E. , Jones, Denise R. ,  Karwac, Jerry R. Jr. , Shelton, Kevin J. \& Ellis, Kyle K. E. 2013.
+\textit{Flight-Deck Technologies to Enable NextGen Low Visibility Surface Operations}.
+NASA Technical Reports Server (NTRS), toukokuu 2013.
+
+\bibitem[Prinzel ym. (2004)Prinzel, Lawrence J. III, Comstock, J. Raymond Jr. , Glaab, Louis J. , Kramer, Lynda J. , Arthur, Jarvis J. & Barry, John S.]{prinzel2004}
+Prinzel, Lawrence J. III, Comstock, J. Raymond Jr. , Glaab, Louis J. , Kramer, Lynda J. , Arthur, Jarvis J. \& Barry, John S. 2004.
+\textit{The Efficacy of Head-Down and Head-Up Synthetic Vision Display Concepts for Retro and Forward-Fit of Commercial Aircraft}
+The International Journal of Aviation Psychology, 14:1, s.~53--77.
+
+\bibitem[Schnell ym. (2004)Schnell, Thomas,  Kwon, Yongjin, Merchant, Sohel & Etherington, Timothy]{schnell2004}
+Schnell, Thomas,  Kwon, Yongjin, Merchant, Sohel \& Etherington, Timothy 2004.
+\textit{Improved Flight Technical Performance in Flight Decks Equipped With Synthetic Vision Information System Displays}
+The International Journal of Aviation Psychology, 14:1, s.~79--102.
+
+\bibitem[Ververs \& Wickens (2004)Ververs, Patricia May \& Wickens, Christopher D.]{ververs1998}
+Ververs, Patricia May \& Wickens, Christopher D. 1998.
+\textit{Head-Up Displays: Effect of Clutter, Display Intensity, and Display Location on Pilot Performance}
+The International Journal of Aviation Psychology, 8:4, s.~377--403.
+
+\bibitem[Wickens \& Alexander (2009)Wickens, Christopher D. \& Alexander, Amy L.]{wickens2009}
+Wickens, Christopher D. \& Alexander, Amy L. 2009.
+\textit{Attentional Tunneling and Task Management in Synthetic Vision Displays}
+The International Journal of Aviation Psychology, 19:2, s.~182--199.
+
+
+
+
+
+
+
+% Tehdään väliaikainen "Citation needed" -lainaus, jonka voi poistaa, kun tutkielman viitteet ovat kunnossa.
+\bibitem[(Lähdeviite puuttuu toistaiseksi)]{cn}
+
+
+
+\end{thebibliography}
+
+\end{document}

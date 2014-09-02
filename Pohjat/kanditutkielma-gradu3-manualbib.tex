@@ -1,0 +1,185 @@
+% !TeX encoding = utf8
+%
+% [ Tiedostossa käytetty merkistö on utf8, vaihtoehtoisesti voisi olla esim.]
+% [ ISO 8859-1 eli Latin 1. Ylläoleva rivi ]
+% [ tarvitaan, jos käyttää MiKTeX-paketin mukana tulevaa TeXworks-editoria. ]
+%
+% TIETOTEKNIIKAN KANDIDAATINTUTKIELMA
+%
+% Yksinkertainen LaTeX2e-mallipohja kandidaatintutkielmalle.
+% Käyttää Antti-Juhani Kaijanahon kirjoittamaa gradu3-dokumenttiluokkaa.
+%
+% Jos kirjoitat pro gradu -tutkielmaa, tee mallipohjaan seuraavat muutokset:
+%  - Poista dokumenttiluokasta optio bachelor .
+%  - Poista makro \type .
+%  - Lisää suuntautumisvaihtoehto makrolla \studyline .
+%  - Lisää tieto ohjaajasta makrolla \supervisor .
+
+\documentclass[utf8,bachelor,manualbib]{gradu3}
+
+\usepackage{palatino} % valitaan oletusfonttia hieman tyylikkäämpi fontti
+
+\usepackage{graphicx} % tarvitaan vain, jos halutaan mukaan kuvia
+\usepackage{amsmath}  % tarvitaan käytettäessä monimutkaisten matemaattisten kaavojen ja \eqref-kaavaviittauksen yhteydessä
+\usepackage{url} % tarvitaan \url-komentoa varten
+\usepackage{booktabs}
+
+% Otetaan käyttöön author-date-järjestelmän mukaiset lähdeviittaukset:
+\usepackage{natbib}
+% Vaihdetaan kirjoittajan nimen ja vuosiluvun väliseksi erottimeksi
+% välilyönti (oletuserottimena on pilkku):
+%\bibpunct{(}{)}{;}{a}{}{,}
+
+
+% HUOM! Tämän tulee olla viimeinen \usepackage koko dokumentissa!
+\usepackage[bookmarksopen,bookmarksnumbered,linktocpage]{hyperref}
+
+%\addbibresource{viite.bib}% Lähdetietokannan tiedostonimi
+%http://www.tex.ac.uk/tex-archive/macros/latex/exptl/biblatex-contrib/biblatex-chicago/latex/biblatex-chicago.sty
+%http://www.tex.ac.uk/tex-archive/macros/latex/contrib/etoolbox/etoolbox.sty
+%http://mirrors.med.harvard.edu/ctan/macros/latex/contrib/biblatex/latex/biblatex.sty
+%http://ctan.mackichan.com/macros/latex/contrib/biblatex/latex/biblatex2.sty
+%http://mirror.hmc.edu/ctan/macros/latex/contrib/logreq/logreq.sty
+%https://github.com/Martin-Rotter/qt-survival-guide/blob/master/logreq.def
+
+\begin{document}
+
+\title{Otsikko}
+
+\translatedtitle{Otsikko englanniksi}
+
+%\studyline{}
+\avainsanat{avain1, avain2, avain3}
+\keywords{avainsanat englanniksi}
+\tiivistelma{Tiivistelmä on tyypillisesti 5-10 riviä pitkä esitys työn pääkohdista (tausta, tavoite, tulokset, johtopäätökset).
+}
+\abstract{Englanninkielinen versio tiivistelmästä.
+}
+
+\author{Etunimi Sukunimi}
+\contactinformation{\texttt{sahkopostiosoite@jyu.fi}}
+% jos useita tekijöitä, anna useampi \author-komento
+%\supervisor{}
+% jos useita ohjaajia, anna useampi \supervisor-komento
+%\type{kandidaatintutkielma} % tämän makron oletus on "pro gradu -tutkielma" ja bachelor-optiolla kandidaatintutkielma
+
+\maketitle
+  
+\mainmatter
+
+\chapter{Johdanto}
+
+Ensimmäinen luku alkaa tästä. Johdannossa käsitellään koko työn sisältöä melko yleisellä tasolla. Johdannon pituus on yleensä 1-2 sivua. Johdannon viimeisessä kappaleessa on hyvä kertoa lyhyesti työn sisällöstä pääluvuittain.
+
+\chapter{Toinen luku} \label{lukuviite} % esimerkki sisäisestä viittauksesta
+
+Kandidaatintutkielmaa tekeville kirjallisuuskartoituksen tuloksena löytynyt lähdemateriaali muodostaa opinnäytetyön ytimen. Kandidaatintutkielma syntyy kirjallisuudesta löydettyjä asioita pohtimalla, eri lähteistä löydettyä tietoa yhdistelemällä ja luokittelemalla. Työn tarkoituksena on opetella tieteellisen tiedon jäsentämistä ja raportointia.
+
+Toisen luvun nimi on tyypillisesti työn otsikonkin kannalta oleellinen asia, joka kuvastaa käytetyn kirjallisuuden sisältöä.
+
+\section{Ensimmäinen alaluku}
+
+Tämä on toisen luvun ensimmäinen alaluku. Tässä alaluvussa mainitaan kaikkien
+tuntema kaava $E=mc^2$.
+
+\section{Toinen alaluku}
+
+Tämä puolestaan on toisen luvun toinen alaluku. Mukana on sama kuuluisa kaava
+\begin{equation}
+  E = m c^2 , \label{kaavaviite}
+\end{equation}
+mutta tällä kertaa ns. näyttömatematiikkamoodissa. Kaavaan~(\ref{kaavaviite})
+on helppo viitata tarvittaessa.
+
+Tässä alaluvussa on myös joitain esimerkkejä viittauksista lähdeluetteloon:
+tieteellinen lehtiartikkeli~\cite{kirj2001},
+artikkeli kokoomateoksessa~\cite[luku~3]{kirjtoin2002},
+kirja tai raportti~\cite[s.~13--15]{kirjtoinkolm2003},
+verkkodokumentti~\cite{teki2004}.Artikkeli voi olla ilmestynyt aikakausjulkaisuna tai kirjan osana~\cite{kirj2001,kirjtoin2002}.
+
+%tässä versiossa ei toimi \parencite
+
+\chapter{Kolmas luku}
+
+Luvussa~\ref{lukuviite} esitettyjen kaavojen lisäksi tarvitaan usein
+taulukoita ja kuvia.
+
+Taulukko~\ref{taulukkoviite} on hyvin yksinkertainen. Monimutkaisempiakin
+taulukoita voidaan tehdä, mutta sitä varten on syytä hankkia jokin
+\LaTeX{}-opas.
+
+Kuvia ja kuvaajia voi tehdä useilla ohjelmistolla. Esimerkiksi
+kuva~\ref{kuvaviite} on piirretty Unixin gnuplot-ohjelmalla. 
+
+\chapter{Neljäs luku}
+
+% HUOM: Tätä lukua ei ole tarkoitus lukea tästä lähdetiedostosta!
+% Tee LaTeX-käännös ja lue ruudulta tai paperilta.
+
+Huomaa myös seuraavat \LaTeX{}in ominaisuudet:
+
+\begin{itemize}
+
+\item ''Sitaatit merkitään aina kahdella heittomerkillä.'' Älä koskaan käytä
+"{}-merkkiä tähän tarkoitukseen!
+
+\item Yhdysviiva merkitään yhdellä miinus-merkillä (noita-akka), lukujen
+välit kahdella miinus-merkillä (sivut 5--10), ja ajatusviiva --- aivan oikein
+--- kolmella miinus-merkillä.
+
+\item Joillain merkeillä on \LaTeX{}issa erityismerkitys. Jos niitä haluaa
+käyttää tekstissä, ne täytyy kirjoittaa kenoviivan kanssa. Tällaisia merkkejä
+ovat \{, \}, \%, \$, \^{}, \_, \~{}, \# ja \&, jotka siis kirjoitetaan
+seuraavasti: \texttt{\textbackslash\{}, \texttt{\textbackslash\}},
+\texttt{\textbackslash\%}, \texttt{\textbackslash\$},
+\texttt{\textbackslash\^{}\{\}}, \texttt{\textbackslash\_},
+\texttt{\textbackslash\~{}\{\}}, \texttt{\textbackslash\#} ja
+\texttt{\textbackslash\&}. Kenoviiva puolestaan kirjoitetaan seuraavasti:
+\texttt{\textbackslash textbackslash}.
+
+\item Tarvittaessa \LaTeX{}ille voi antaa ta\-vu\-tus\-vih\-jei\-tä
+kirjoittamalla \texttt{\textbackslash-} sopiviin kohtiin.
+
+\end{itemize}
+
+\chapter{Yhteenveto}
+
+Yhteenvedossa kerrataan työn pääkohdat lyhyehkösti johtopäätöksiä tehden. Siinä voi myös esittää pohdintoja siitä, minkälaisia tutkimuksia aiheesta voisi jatkossa tehdä.
+
+%Lähdeluettelo
+
+
+\begin{thebibliography}{} 
+
+% Hakasulkeisiin tulee kirjoittajien sukunimet (siinä muodossa kuin
+% ne halutaan lähdeviittaukseen) ja julkaisun vuosiluku suluissa.
+% Huom: Älä laita välilyöntiä ennen vuosiluvun alkusulkua.
+
+\bibitem[Kirjoittaja(2001)]{kirj2001}
+Kirjoittaja, K. 2001. \textit{Artikkelin otsikko}. Lehden nimi, 11, s.~12--45.
+
+% Hakasulkeisiin voi laittaa myös kirjoittajien nimet vaihtoehtoisessa
+% muodossa, jonka saa viittauksessa käyttöön *-merkillä (katso yllä).
+% Huom: Älä laita välilyöntiä vuosiluvun loppusulun jälkeen.
+
+% Normaali viittaus &-merkillä, tekstuaalinen viittaus ja-sanalla:
+\bibitem[Kirjoittaja \& Toinenkirjoittaja(2002)Kirjoittaja ja Toinenkirjoittaja]{kirjtoin2002}
+Kirjoittaja, K. \& Toinenkirjoittaja, T. 2002.
+\textit{Artikkelin otsikko}. Teoksessa T. Toimittaja (toim.) Kirjan otsikko.
+Mahdollinen lisätieto. Paikkakunta: Kustantaja, s.~123--456.
+
+% Normaali viittaus ym.-sanalla, ensimmäisessä viittauksessa kaikki nimet:
+\bibitem[Kirjoittaja ym.(2003)Kirjoittaja, Toinenkirjoittaja \& Kolmaskirjoittaja]{kirjtoinkolm2003}
+Kirjoittaja, K., Toinenkirjoittaja, T. \& Kolmaskirjoittaja, K. 2003.
+\textit{Kirjan tai raportin otsikko}. Mahdollinen lisätieto.
+Paikkakunta: Kustantaja.
+
+% Normaali viittaus sukunimellä, vaihtoehtoisessa viittauksessa koko nimi:
+\bibitem[Tekijä(2004)Teppo Tekijä]{teki2004}
+Tekijä, T. 2004. \textit{Sivun tai sivuston otsikko}. Saatavilla WWW-muodossa
+<URL: \texttt{http://www.mit.jyu.fi/}>. Viitattu 1.1.2004.
+
+
+\end{thebibliography}
+
+\end{document}

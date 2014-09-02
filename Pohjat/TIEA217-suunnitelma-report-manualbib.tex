@@ -1,0 +1,200 @@
+% !TeX encoding = latin1
+%
+% [ Tiedostossa käytetty merkistö on ISO 8859-1 eli Latin 1. Ylläoleva rivi ]
+% [ tarvitaan, jos käyttää MiKTeX-paketin mukana tulevaa TeXworks-editoria. ]
+%
+% Tutkimussuunnitelmapohja, jossa käytetään LaTeX2e:n omaa report-dokumenttiluokkaa.
+%
+% Laatinut Sanna Mönkölä, lähdeviittauksiin liittyvät asiat kopioitu Timo Männikön vuoden 2011 mallitiedostosta
+%
+\documentclass[a4paper,12pt,final,twoside]{report}
+
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[finnish]{babel}
+
+\usepackage{url}
+
+% käytetään times-fonttia
+\usepackage{times} %muitat times-fontin paketteja: mathptmx, txfonts, txfontsb
+
+% riviväli 1.5 saadaan hieman harhaanjohtavasti komennolla \linespread{1.3} 
+\linespread{1.3}                      
+
+% marginaalit 2.5 cm
+\usepackage[margin=2.5cm]{geometry}
+
+% Otetaan käyttöön author-date-järjestelmän mukaiset lähdeviittaukset:
+\usepackage{natbib}
+% Vaihdetaan kirjoittajan nimen ja vuosiluvun väliseksi erottimeksi
+% välilyönti (oletuserottimena on pilkku):
+%\bibpunct{(}{)}{;}{a}{}{,}
+%\usepackage[authordate]{biblatex-chicago}
+
+\usepackage{graphicx} % kuvia varten
+
+% asetetaan otsikkotyylit
+\makeatletter
+\renewcommand\chapter{\@startsection{chapter}{1}{\z@}%
+                                   {-28pt}%
+                                   {28pt}%
+                                   {\fontsize{14pt}{14pt}\selectfont
+                                    }}
+\renewcommand\section{\@startsection{section}{2}{\z@}%
+                                     {-14 pt}
+                                     {14pt}
+                                     {\small\bfseries
+                                      }}
+
+\renewcommand\subsubsection{\@startsection{subsubsection}{2}{\z@}%
+                                     {-7pt}
+                                     {7pt}
+                                     {\small\it
+                                      }}
+
+
+\makeatother
+
+
+
+
+\begin{document}
+
+
+
+
+%*********************** 
+%     Kansilehti alkaa 
+%*********************** 
+
+
+\title{Otsikko}
+\date{\today}
+\author{Etunimi Sukunimi}
+\def\contactinformation{\texttt{sahkopostiosoite@jyu.fi}}
+\def\university{Jyv\"askyl\"an yliopisto}
+\def\department{Tietotekniikan laitos}
+\def\subject{Tietotekniikka}
+\def\type{TIEA217 Tietojenkäsittelyn alan tutkimusmenetelmät}
+\def\supervisor{Hannakaisa Isomäki}
+
+%Määritellään kansilehden rakenne
+\makeatletter
+\begin{titlepage}
+\thispagestyle{empty} 
+\vspace*{6truecm} 
+
+\centerline{\bf \@author} 
+ \centerline{\contactinformation}
+
+\vspace{2truecm} 
+ 
+\centerline{\Large\bf \@title}
+
+\vspace{4truecm} 
+ 
+{\parindent7truecm\parskip0pt 
+        \subject \par
+        \type \par 
+        \@date \par
+        Tentaattori: \supervisor
+} 
+ %
+\vfill 
+\centerline{\large\bf \university} 
+\centerline{\bf \department} 
+\end{titlepage}
+\makeatother
+
+%*********************** 
+%     Kansilehti loppuu 
+%***********************
+
+\pagebreak
+
+\setcounter{page}{1}
+
+%\begin{abstract}
+%Tähän tulee tiivistelmä.
+%\end{abstract}
+
+\chapter{Johdanto}
+
+
+\chapter{Kirjallisuuskartoitus} 
+
+Kandidaatintutkielmaa tekeville kirjallisuuskartoituksen tuloksena löytynyt lähdemateriaali muodostaa opinnäytetyön ytimen. Kandidaatintutkielma syntyy kirjallisuudesta löydettyjä asioita pohtimalla, eri lähteistä löydettyä tietoa yhdistelemällä ja luokittelemalla. Työn tarkoituksena on opetella tieteellisen tiedon jäsentämistä ja raportointia.
+
+Pro gradua tekevät muodostavat kirjallisuuskartoituksen avulla opinnäytetyönsä teoriataustan, johon pohjautuen työn loppuosassa esitetään empiiristä/konstruktiivista asian tarkastelua.
+
+
+\section{Esimerkkejä lähdeviittauksista}
+
+
+
+%natbib-pakettiin liittyviä ohjeita, eivät toimi biblatex-chicagon kanssa:
+Viittaukset tehdään author-date-järjestelmän mukaisesti \cite{kirj2001,kirjtoinkolm2003}. Kun viitataan uudelleen samaan lähteeseen, jossa on vähintään kolme kirjoittajaa, viite muuttuu automaattisesti muotoon, jossa kaikkia kirjoittajia ei enää mainita \cite{kirj2001,kirjtoinkolm2003}. 
+
+Tieteellinen lehtiartikkeli~\citep{kirj2001},
+artikkeli kokoomateoksessa~\citep[luku~3]{kirjtoin2002}, % makrolla \citep
+kirja tai raportti~\citep*[s.~13--15]{kirjtoinkolm2003}, % huomaa *-merkki
+verkkodokumentti~\citep{teki2004}.                       %  (selitys alempana)
+Esimerkkejä ns. tekstuaalisista viittauksista:              % makrolla \citet
+Kuten \citet{kirj2001} kertoo, \dots\
+\citet*[luku~3]{kirjtoin2002} mainitsevat, että \dots\      % huomaa *-merkki
+kuten \citet[s.~13--15]{kirjtoinkolm2003} esittävät, \dots\
+ja \citet*{teki2004} on samaa mieltä.                       % huomaa *-merkki
+
+%biblatex-chicagon kanssa käytettäviä tapoja:
+%Artikkeli voi olla ilmestynyt aikakausjulkaisuna tai kirjan osana~\parencites{kirj2001}{kirjtoin2002}. Esimerkiksi~\textcite{kirjtoin2002} ovat julkaisseet artikkelin kirjassa. Viitteenä voidaan esittää esimerkiksi tieteellinen lehtiartikkeli~\parencite{kirj2001}, artikkeli kokoomateoksessa~\parencite[luku~3]{kirjtoin2002}, kirja tai raportti~\parencite[ss.~13--15]{kirjtoinkolm2003} tai verkkodokumentti~\parencite{teki2004}.
+
+\chapter{Tutkimusaihe/tutkimuskysymys}
+
+\chapter{Tutkimusstrategia/metodi ja sen valinta}
+
+\chapter{Aineiston keruun suunnittelu ml. eettiset näkökohdat}
+
+\chapter{Tietojen keruu}
+
+\chapter{Tietojen analysointi}
+
+\chapter{Tulosten julkaiseminen}
+
+\chapter{Johtopäätökset}
+
+
+%Lähdeluettelo
+
+\begin{thebibliography}{}
+
+% Hakasulkeisiin tulee kirjoittajien sukunimet (siinä muodossa kuin
+% ne halutaan lähdeviittaukseen) ja julkaisun vuosiluku suluissa.
+% Huom: Älä laita välilyöntiä ennen vuosiluvun alkusulkua.
+
+\bibitem[Kirjoittaja(2001)]{kirj2001}
+Kirjoittaja, K. 2001. \textit{Artikkelin otsikko}. Lehden nimi, 11, s.~12--45.
+
+% Hakasulkeisiin voi laittaa myös kirjoittajien nimet vaihtoehtoisessa
+% muodossa, jonka saa viittauksessa käyttöön *-merkillä (katso yllä).
+% Huom: Älä laita välilyöntiä vuosiluvun loppusulun jälkeen.
+
+% Normaali viittaus &-merkillä, tekstuaalinen viittaus ja-sanalla:
+\bibitem[Kirjoittaja \& Toinenkirjoittaja(2002)Kirjoittaja ja Toinenkirjoittaja]{kirjtoin2002}
+Kirjoittaja, K. \& Toinenkirjoittaja, T. 2002.
+\textit{Artikkelin otsikko}. Teoksessa T. Toimittaja (toim.) Kirjan otsikko.
+Mahdollinen lisätieto. Paikkakunta: Kustantaja, s.~123--456.
+
+% Normaali viittaus ym.-sanalla, ensimmäisessä viittauksessa kaikki nimet:
+\bibitem[Kirjoittaja ym.(2003)Kirjoittaja, Toinenkirjoittaja \& Kolmaskirjoittaja]{kirjtoinkolm2003}
+Kirjoittaja, K., Toinenkirjoittaja, T. \& Kolmaskirjoittaja, K. 2003.
+\textit{Kirjan tai raportin otsikko}. Mahdollinen lisätieto.
+Paikkakunta: Kustantaja.
+
+% Normaali viittaus sukunimellä, vaihtoehtoisessa viittauksessa koko nimi:
+\bibitem[Tekijä(2004)Teppo Tekijä]{teki2004}
+Tekijä, T. 2004. \textit{Sivun tai sivuston otsikko}. Saatavilla WWW-muodossa
+<URL: \texttt{http://www.mit.jyu.fi/}>. Viitattu 1.1.2004.
+
+\end{thebibliography}
+
+\end{document}

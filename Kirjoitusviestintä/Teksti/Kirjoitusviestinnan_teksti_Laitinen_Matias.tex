@@ -1,0 +1,86 @@
+% !TeX encoding = utf8
+%
+% [ Tiedostossa käytetty merkistö on utf8, vaihtoehtoisesti voisi olla esim.]
+% [ ISO 8859-1 eli Latin 1. Ylläoleva rivi ]
+% [ tarvitaan, jos käyttää MiKTeX-paketin mukana tulevaa TeXworks-editoria. ]
+%
+% TIETOTEKNIIKAN KANDIDAATINTUTKIELMA
+%
+% Jos kirjoitat pro gradu -tutkielmaa, tee mallipohjaan seuraavat muutokset:
+%  - Poista dokumenttiluokasta optio bachelor .
+%  - Poista makro \type .
+%  - Lisää suuntautumisvaihtoehto makrolla \studyline .
+%  - Lisää tieto ohjaajasta makrolla \supervisor .
+
+\documentclass[utf8,bachelor,manualbib]{gradu3}
+
+\usepackage{palatino} % valitaan oletusfonttia hieman tyylikkäämpi fontti
+
+\usepackage{graphicx} % tarvitaan vain, jos halutaan mukaan kuvia
+\usepackage{amsmath}  % tarvitaan käytettäessä monimutkaisten matemaattisten kaavojen ja \eqref-kaavaviittauksen yhteydessä
+\usepackage{url} % tarvitaan \url-komentoa varten
+\usepackage{booktabs}
+
+% Otetaan käyttöön author-date-järjestelmän mukaiset lähdeviittaukset:
+\usepackage{natbib}
+% Vaihdetaan kirjoittajan nimen ja vuosiluvun väliseksi erottimeksi
+% välilyönti (oletuserottimena on pilkku):
+%\bibpunct{(}{)}{;}{a}{}{,}
+
+
+% HUOM! Tämän tulee olla viimeinen \usepackage koko dokumentissa!
+\usepackage[bookmarksopen,bookmarksnumbered,linktocpage]{hyperref}
+
+%\addbibresource{viite.bib}% Lähdetietokannan tiedostonimi
+%http://www.tex.ac.uk/tex-archive/macros/latex/exptl/biblatex-contrib/biblatex-chicago/latex/biblatex-chicago.sty
+%http://www.tex.ac.uk/tex-archive/macros/latex/contrib/etoolbox/etoolbox.sty
+%http://mirrors.med.harvard.edu/ctan/macros/latex/contrib/biblatex/latex/biblatex.sty
+%http://ctan.mackichan.com/macros/latex/contrib/biblatex/latex/biblatex2.sty
+%http://mirror.hmc.edu/ctan/macros/latex/contrib/logreq/logreq.sty
+%https://github.com/Martin-Rotter/qt-survival-guide/blob/master/logreq.def
+
+\begin{document}
+  
+\mainmatter
+
+\chapter{Ilmailu ja näkyvyys} \label{lukuviite} % esimerkki sisäisestä viittauksesta
+
+\section{Näkyvyyden vaikutus lennon aikana}
+
+Näkyvyys on lentokoneen ohjaajalle tärkeää lennettäessä lähellä maata, etenkin laskeutumisen aikana. Sen vuoksi huonot näkyvyysolosuhteet aiheuttavat suuria rajoitteita lentotoiminnalle. Pilotin lentonäkyvyyteen vaikuttavat monet meteorologiset olosuhteet, kuten pimeys, pöly, sumu, sade, jne.~\cite{mollersachs1994}
+
+Erityisesti sumuisissa olosuhteissa näkyvyys voi huonontua dramaattisesti ja ulkomaailman yksityiskohtia on miltei mahdotonta erottaa~\cite{beiergemperlein2004}.
+
+Kaikilla lentokentillä toimittaessa ovat voimassa tietyt näkyvyysrajoitukset. Kentillä, joilla on käytössä esimerkiksi ILS:n kaltaisia lähestymisapuja, on tietty minimi, josta tulee olla mahdollista jatkaa lähestymistä visuaalisesti. Vakavimmillaan rajoitukset vaikuttavat kentillä, joilla ei tällaisia järjestelmiä ole käytössä. Nämä säännöt ovat voimassa, vaikka lähestyvällä koneella olisi käytössään nykyaikaiset mittari- ja navigointilaitteet.~\cite{mollersachs1994}
+
+\section{Näkyvyyden vaikutus maatoimintaan}
+
+Prinzelin, ym. (2013) tutkimuksen ja kokemuksen perusteella huonon näkyvyyden aiheuttamat toiminnan hidastumiset ja viivästykset maatoiminnassa ovat kasvavasti vaikuttamassa myös ilmatilankäytön viiveisiin. Huonon näkyvyyden olosuhteissa ohjaajien ja ajoneuvonkuljettajien tulee säilyttää tilannetietoisuutensa varmistaakseen, että maatoiminta on turvallista ja tehokasta.
+
+FAA:n vuoden 2010 turvallisuusselvityksen mukaan 52 928 316 maatoimintaan liittyvän tapahtuman aikana tapahtui 951 kiitotiepoikkeamaa, joista 12 oli vakavia. Vaikka tämä luku on suhteessa pieni, kiitotiepoikkeamalla voi olla tuhoisat seuraukset. Suurimpana syynä näissä tapauksissa oli ohjaajan inhimillinen erehdys (63 \%). Tilannetietoisuutta parantamalla voitaisiin siis saada merkittävästi vähennettyä kiitotiepoikkeamien määrää.~\cite{prinzelym2013}
+
+%Lähdeluettelo
+
+\begin{thebibliography}{}
+
+% Hakasulkeisiin tulee kirjoittajien sukunimet (siinä muodossa kuin
+% ne halutaan lähdeviittaukseen) ja julkaisun vuosiluku suluissa.
+% Huom: Älä laita välilyöntiä ennen vuosiluvun alkusulkua.
+
+% Normaali viittaus ym.-sanalla, ensimmäisessä viittauksessa kaikki nimet:
+
+\bibitem[(Prinzel, Lawrence J., III ym. 2013.) Prinzel, Lawrence J., III, Arthur, Jarvis J., Kramer, Lynda J.,  Norman, Robert M., Bailey, Randall E., Jones, Denise R.,  Karwac, Jerry R., Jr., Shelton, Kevin J. \& Ellis, Kyle K. E.]{prinzelym2013}
+Prinzel, Lawrence J., III, Arthur, Jarvis J., Kramer, Lynda J.,  Norman, Robert M., Bailey, Randall E., Jones, Denise R.,  Karwac, Jerry R., Jr., Shelton, Kevin J. \& Ellis, Kyle K. E. 2013.
+\textit{Flight-Deck Technologies to Enable NextGen Low Visibility Surface Operations}. NASA Technical Reports Server, 6. toukokuuta 2013
+
+\bibitem[(Beier \& Gemperlein 2004.)Beier ja Gemperlein (1994)]{beiergemperlein2004}
+Beier, Kurt \& Gemperlein, Hans, 2004.
+\textit{Simulation of Infrared Detection Range at Fog Conditions for Enhanced Vision Systems in Civil Aviation}. Aerospace Science and Technology, tammikuu 2004, s.~63--71.
+
+\bibitem[(Möller \& Sachs 1994.)Möller ja Sachs]{mollersachs1994}
+Möller, H. \& Sachs, G, 1994.
+\textit{Synthetic Vision for Enhancing Poor Visibility Flight Operations}. IEEE AES Systems Magazine, maaliskuu 1994.
+
+\end{thebibliography}
+
+\end{document}

@@ -1,0 +1,218 @@
+% !TeX encoding =latin1
+%
+% [ Tiedostossa käytetty merkistö on ISO 8859-1 eli Latin 1. Ylläoleva rivi ]
+% [ tarvitaan, jos käyttää MiKTeX-paketin mukana tulevaa TeXworks-editoria. ]
+%
+% Tutkimussuunnitelmapohja, jossa käytetään LaTeX2e:n omaa report-dokumenttiluokkaa.
+%
+% Laatinut Sanna Mönkölä, lähdeviittauksiin liittyvät asiat kopioitu Timo Männikön vuoden 2011 mallitiedostosta
+%
+\documentclass[a4paper,12pt,final,twoside]{report}
+
+\usepackage[latin1]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[finnish]{babel}
+
+\usepackage{url}
+
+% käytetään times-fonttia
+\usepackage{times} %muitat times-fontin paketteja: mathptmx, txfonts, txfontsb
+
+% riviväli 1.5 saadaan hieman harhaanjohtavasti komennolla \linespread{1.3} 
+\linespread{1.3}                      
+
+% marginaalit 2.5 cm
+\usepackage[margin=2.5cm]{geometry}
+
+% Otetaan käyttöön author-date-järjestelmän mukaiset lähdeviittaukset:
+\usepackage{natbib}
+% Vaihdetaan kirjoittajan nimen ja vuosiluvun väliseksi erottimeksi
+% välilyönti (oletuserottimena on pilkku):
+%\bibpunct{(}{)}{;}{a}{}{,}
+%\usepackage[authordate]{biblatex-chicago}
+
+\usepackage{graphicx} % kuvia varten
+
+% asetetaan otsikkotyylit
+\makeatletter
+\renewcommand\chapter{\@startsection{chapter}{1}{\z@}%
+                                   {-28pt}%
+                                   {28pt}%
+                                   {\fontsize{14pt}{14pt}\selectfont
+                                    }}
+\renewcommand\section{\@startsection{section}{2}{\z@}%
+                                     {-14 pt}
+                                     {14pt}
+                                     {\small\bfseries
+                                      }}
+
+\renewcommand\subsubsection{\@startsection{subsubsection}{2}{\z@}%
+                                     {-7pt}
+                                     {7pt}
+                                     {\small\it
+                                      }}
+
+
+\makeatother
+
+
+
+
+\begin{document}
+
+
+
+
+%*********************** 
+%     Kansilehti alkaa 
+%*********************** 
+
+
+\title{Tutkimussuunnitelma}
+\date{\today}
+\author{Matias Laitinen}
+\def\contactinformation{\texttt{matias.laitinen@gmail.com}}
+\def\university{Jyv\"askyl\"an yliopisto}
+\def\department{Tietotekniikan laitos}
+\def\subject{Tietotekniikka}
+\def\type{TIEA217 Tietojenkäsittelyn alan tutkimusmenetelmät}
+\def\supervisor{Hannakaisa Isomäki}
+
+%Määritellään kansilehden rakenne
+\makeatletter
+\begin{titlepage}
+\thispagestyle{empty} 
+\vspace*{6truecm} 
+
+\centerline{\bf \@author} 
+ \centerline{\contactinformation}
+
+\vspace{2truecm} 
+ 
+\centerline{\Large\bf \@title}
+
+\vspace{4truecm} 
+ 
+{\parindent7truecm\parskip0pt 
+        \subject \par
+        \type \par 
+        \@date \par
+        Tentaattori: \supervisor
+} 
+ %
+\vfill 
+\centerline{\large\bf \university} 
+\centerline{\bf \department} 
+\end{titlepage}
+\makeatother
+
+%*********************** 
+%     Kansilehti loppuu 
+%***********************
+
+\pagebreak
+
+\setcounter{page}{1}
+
+\chapter{Johdanto}
+
+Viime aikoina lentoturvallisuus on noussut useasti esille medioissa, kun sekä harraste- että kaupallisen ilmailun puolella on tapahtunut monenlaisia lento-onnettomuuksia tai ilmailun vaaratilanteita. Nämä onnettomuudet aiheutuvat useimmiten inhimillisistä virheistä. Tutkimuksen tavoitteena on ottaa selvää, millä eri tavoin olisi keinotekoisia näköjärjestelmiä käyttämällä mahdollista ehkäistä lento-onnettomuuksia ja parantaa lentäjän tilannetietoisuutta, etenkin huonon näkyvyyden olosuhteissa. Tällaiset järjestelmät ovat olleet sotilaspuolen käytössä jo pitkän aikaa, mutta siviili-ilmailussa niitä hyödynnetään vasta melko vähän. Kartoittamalla näiden järjestelmien kustannuksia ja käytettävyyttä saadaan toivottavasti tehtyä jonkinlaisia johtopäätöksiä niiden soveltuvuudesta käytäntöön.
+
+\chapter{Kirjallisuuskartoitus} 
+
+Aiheeseen liittyvää kirjallisuutta haetaan ainakin seuraavilla hakusanoilla:
+\begin{itemize}
+\item aviation safety
+\item aircraft accidents
+\item air transportation
+\item display devices 
+\item enhanced vision
+\item synthetic vision
+\item guidance
+\item low visibility
+\item runway incursions
+\item all-weather
+\item air navigation
+\end{itemize}
+
+Pääasiallisena hakupalveluna toimii Google Scholar. Hakuja suoritetaan myös NASA Technical Reports Server (NTRS) kautta. Myös ICAOn arkistoista olisi hyvä löytää aineistoa, sillä NASA ja FAA käsittelevät lähinnä amerikkalaista tutkimusta aiheesta.
+
+Haussa löytyi seuraavanlaisia artikkeleita:
+
+Flight Deck Technologies to Enable NextGen Low Visibility Surface Operations; Prinzel, Lawrence (Lance) J., III; Arthur, Jarvis (Trey) J.; Kramer, Lynda J.; Norman, Robert M.; Bailey, Randall E.; Jones, Denise R.; Karwac, Jerry R., Jr.; Shelton, Kevin J.; Ellis, Kyle K. E.
+
+Teos kertoo NextGen -ilmakuljetusjärjestelmän avainominaisuuksista, kuten Equivalent Visual Operations (EVO), jonka tavoitteena on nykyisten näkölentosääntöjen tarjoaman kapasiteetin ja turvallisuuden mahdollistaminen kaikissa sääolosuhteissa. NASA kehittelee parhaillaan teknologioita ja saatavilla olevaa tietoa EVOn mahdollistamiseksi ja laajentamiseksi kohti enemmän-kuin-visuaalista toiminnallista konseptia. Konsepti mahdollistaisi elektronisilla laitteilla tuotetun tarpeeksi kattavan visuaalisen tiedon saannin ohjaajalle ulkomaailmasta, jottai voitaisiin operoida näkölentosääntöjen mukaisiestai kaikissa sääolosuhteissa. Tällöin voitaisiin myös käyttää kaikissa olosuhteissa turvallisempia ja tehokkaampia menetelmiä, jotka tällä hetkellä ovat käytössä ainoastaan näkösääolosuhteissa. Perustutkimusta ollaan jo hiljattain suoritettu Langley Research Center:ssa (LaRC) huonon näkyvyyden olosuhteita varten. Tästä tutkimuksesta on mahdollisesti hyötyä NextGen-järjestelmän käyttöönotossa.
+
+
+Fusion of Synthetic and Enhanced Vision for All-Weather Commercial Aviation Operations; Bailey, Randall E.; Kramer, Lynda J.; Prinzel, Lawrence J., III
+
+Teos kertoo simuloidusta kokeesta, jossa evaluoitiin keinonäkö- ja näönparannusjärjestelmien käyttöä huonon näkyvyyden lähestymis- ja laskuolosuhteissa. Erityishuomiota kiinnitettiin uuden teknologian yhdistämiseen ja integrointiin kahden hengen ohjaamossa. Koetulosten perusteella voitiin päätellä, että keinonäkö- ja näönparannusjärjestelmiä yhdistelemällä voidaan saavuttaa huomattavaa parannusta ohjaajan tilannetietoisuudessa, ilman että samalla kummankaan ohjaajan kuormittuminen nousisi huomattavasti. Kuitenkaan tällaisten järjestelmien käytöstä ei aiheutunut merkittävää haittaa miehistön kyvylle korjata merkittäviä navigointivirheitä tai havaita kiitotiepoikkeamia. Sitä vastoin näönparannusjärjestelmistä ei havaittu myöskään olevan lisäapua kiitotiepoikkeamien havaitsemisessa.
+
+
+Simulation of Infrared Detection Range at Fog Conditions for Enhanced Vision Systems in Civil Aviation; Beier, Kurt, Gemperlein, Hans
+
+
+Synthetic Vision for Enhancing Poor Visibility Flight Operations;
+H. Möller, G. Sachs
+
+
+\chapter{Tutkimusaihe}
+
+SVS- ja EVS-järjestelmien käyttö kaupallisessa ilmailussa
+
+\chapter{Tutkimusstrategia/metodi ja sen valinta}
+
+Haetaan aineistoa alan julkaisuista ja yritetään saada niistä aikaan jotain johtopäätöksiä ja hyödyllistä tulosta. Valitsin tämän metodin, sillä en ole syvällisesti perehtynyt tai harjaantunut käyttämään kehittyneitä tai järjestelmällisiä tiedonkeruumenetelmiä. Aineistoa kerätään google scholarista haemalla erilaisia lähteitä, mm. NASA, FAA, ICAO ovat julkaisseet useita artikkeleita aiheesta.
+
+\chapter{Aineiston keruun suunnittelu ml. eettiset näkökohdat}
+
+Kerään aineistoa hakemalla eri lähteistä ja hakemalla niistä edelleen samankaltaisia artikkeleita, analysoin, mitkä artikkeleista saattavat olla tutkimukseni kannalta hyödyllisiä, ja jätän loput käytettävän aineistoni ulkopuolelle.
+
+\chapter{Tietojen keruu}
+
+Kerään tietoa lueskelemalla alan artikkeleita läpi ja yirtän ymmärtää niiden pääkohdat, jotta voin selvittää kelpaavatko ne tutkimuksen aineistoksi.
+
+\chapter{Tietojen analysointi}
+
+Pohdin aineistojen sopivuutta, luotettavuutta, ja käytettävyyttä tutkimuksessani. Sen jälkeen hyväksyn tai hylkään aineiston sekä alan käyttämään siitä joitakin kohtia, jotka mielestäni ovat hyödyksi tutkimuksessani.
+
+\chapter{Tulosten julkaiseminen}
+
+Tutkimuksen tulokset raportoidaan kanditutkielmassa, kun se valmistuu.
+
+\chapter{Johtopäätökset}
+
+Tutkimustulosten perusteella voidaan tehdä johtopäätöksiä ainakin siitä, kuinka pian tulevaisuudessa voidaan keinonäkö- ja näönparannusjärjestelmiä ottaa käyttöön siviili-ilmailussa ja kuinka niiden kehittyminen esimerkiksi vaikuttaa ammattilentäjän tai ilmailuharrastajan toimintaan.
+
+%Lähdeluettelo
+
+\begin{thebibliography}{}
+
+% Hakasulkeisiin tulee kirjoittajien sukunimet (siinä muodossa kuin
+% ne halutaan lähdeviittaukseen) ja julkaisun vuosiluku suluissa.
+% Huom: Älä laita välilyöntiä ennen vuosiluvun alkusulkua.
+
+% Normaali viittaus ym.-sanalla, ensimmäisessä viittauksessa kaikki nimet:
+
+\bibitem[Prinzel, Lawrence J., III ym.(2013)Prinzel, Lawrence J., III, Arthur, Jarvis J., Kramer, Lynda J.,  Norman, Robert M., Bailey, Randall E., Jones, Denise R.,  Karwac, Jerry R., Jr., Shelton, Kevin J. \& Ellis, Kyle K. E.]{prinzelym2013}
+Prinzel, Lawrence J., III, Arthur, Jarvis J., Kramer, Lynda J.,  Norman, Robert M., Bailey, Randall E., Jones, Denise R.,  Karwac, Jerry R., Jr., Shelton, Kevin J. \& Ellis, Kyle K. E. 2013.
+\textit{Flight-Deck Technologies to Enable NextGen Low Visibility Surface Operations}.
+
+\bibitem[Bailey, Randall E. ym.(2007)Bailey, Randall E., Kramer, Lynda J. \& Prinzel, Lawrence, III]{baileyym2007}
+Bailey, Randall E., Kramer, Lynda J. \& Prinzel, Lawrence, III 2007.
+\textit{Fusion of Synthetic and Enhanced Vision for All-Weather Commercial Aviation Operations}.
+
+\bibitem[Beier \& Gemperlein(1994)Beier ja Gemperlein]{beiergemperlein2004}
+Beier, Kurt \& Gemperlein, Hans, 2004.
+\textit{Simulation of Infrared Detection Range at Fog Conditions for Enhanced Vision Systems in Civil Aviation}.
+Aerospace Science and Technology, tammikuu 2004, s.~63--71.
+
+\bibitem[Möller \& Sachs(1994)Möller ja Sachs]{mollersachs1994}
+Möller, H. \& Sachs, G, 1994.
+\textit{Synthetic Vision for Enhancing Poor Visibility Flight Operations}.
+IEEE AES Systems Magazine, maaliskuu 1994.
+
+
+\end{thebibliography}
+
+\end{document}

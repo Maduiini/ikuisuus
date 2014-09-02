@@ -1,0 +1,51 @@
+%Enhanced Vision Flight Deck Technology for Commercial Aircraft Low-Visibility Surface Operations; Norman, R. Michael; Harrison, Stephanie J.
+
+%Design and Evaluation of Nextgen Aircraft Separation Assurance Concepts; Johnson, Walter; Ho, Nhut; Arutyunov, Vladimir; Laue, John-Luke; Wilmoth, Ian
+
+%Latency Requirements for Head-Worn Display S/EVS Applications; Bailey, Randall E.; Trey Arthur, J. J., III; Williams, Steven P.
+
+
+
+
+
+
+Webster, J. \& Watson, R.
+T. (2002). Analyzing the past to prepare for the future: Writing a
+literature review.
+MIS Quarterly
+, 26(2), 13
+-
+23.
+(netistä)
+Levy, Y. \& Ellis, T.J. (2006).
+A systems approach to conduct an effective literature review in
+support of Information Systems resear
+ch.
+Informing Science Journal
+, 9, 181
+-
+212.
+(netistä)
+Brereton, P., Kitchenham, B., Budgen, D., Turner, M. \& Khalil, M. (2007). Lessons from
+applying the systematic literature review process within the software engineering
+domain.
+The Journal of Systems and
+Software
+80, 571
+-
+583.
+(netistä)
+TAI Kitchenham
+et al.
+2010 (Optimasta)
+Okoli, C., Schabram, K. (2010). "
+A Guide to Conducting a Systematic Literature Review of
+Information Systems Research
+," .
+Sprouts: Working Papers on Information Systems
+,
+10(26).
+http://
+sprouts.aisnet.org/10
+-
+26
