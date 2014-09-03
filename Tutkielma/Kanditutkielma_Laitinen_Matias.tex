@@ -79,6 +79,65 @@ Näkyvyys on lentokoneen ohjaajalle tärkeää lennettäessä lähellä maata, e
 
 Kaikilla lentokentillä toimittaessa ovat voimassa tietyt näkyvyysrajoitukset. Kentillä, joilla on käytössä esimerkiksi ILS:n kaltaisia lähestymisapuja, on tietty minimi, josta tulee olla mahdollista jatkaa lähestymistä visuaalisesti. Vakavimmillaan rajoitukset vaikuttavat kentillä, joilla ei tällaisia järjestelmiä ole käytössä. Nämä säännöt ovat voimassa, vaikka lähestyvällä koneella olisi käytössään nykyaikaiset mittari- ja navigointilaitteet.~\cite{mollersachs1994}
 
+Model calculations have been performed in the thermal
+infrared regions 3–5 [micro]m and 8–12 [micro]m to assess the use of IR
+cameras in low visibility conditions, especially fog, for air
+traffic during landing approaches. The investigations are carried
+out with the atmospheric radiative transfermodelMODTRAN
+version 4.0 and the thermal imaging model TTIM.
+The ICAO standard visual range categories CAT I, II, IIIa
+and IIIc are used as bench marks. The influence on visibility
+of various climatic and seasonal meteorological conditions,
+aerosol types and target parameters, such as temperature and
+size, is taken into account. The simulation uses sensor parameters
+of a standard uncooled IR camera type Thermovision
+570, which is utilized for flight measurement at DLR
+within the Enhanced Vision Project ADVISE. The instantaneous
+field of views are 0.65 mrad or 1.3 mrad respectively.
+The results can be summarized as follows: At CAT I
+conditionswith a visual range 1220m both IR spectral bands
+can achieve IR detection ranges, in terms of the defined
+NEDT = 0.15 K, from 3 to 10 km. The IR detection range
+is noticeable improved for all climatic zones, seasons and
+types of aerosols. The lowest IR detection range is met in
+the tropics at sea level with high absolute humidity. In the
+thermal IR 8–12 [micro]m the most favourable terms occur at
+subarctic winter with low humidity. The IR detection range
+referring to small targets with a size of 2–5 m is limited
+due to the sensor MTF. For large targets such as the runway
+the atmospheric influence is the limiting factor for the IR
+detection range.
+For CAT II conditions at moderate fog, with 610 m
+visual range, only the thermal IR region 8–12 [micro]m enables to
+improve of the detection range up to 1–2 km, which means
+CAT II conditions can be improved to CAT I. The selected
+spatial and radiometric resolution of the IR sensor has to
+fit to the size and temperature difference of the target to be
+detected. The supposed IR sensor requires for a target with
+dimensions 5 m x 5 m a minimum temperature difference
+of 1 K to the ambient background.
+For categories CAT IIIa and IIIc with dense fog and visual
+ranges of 300 m to 100 m and less, there is no improvement
+achievable utilizing IR cameras. The atmosphere is the
+limiting factor in all spectral bands from the visible to the
+IR. Even a large initial radiation temperature difference of
+100 K and more cannot improve the IR detection range
+significantly. At this atmospheric conditions an IR sensor
+even with a smaller NEDT, which means higher radiometric
+resolution, would only enhance the inhomogeneities of the
+atmospheric path radiance and not improve the IR detection
+range of the target. In this case an imaging radar system
+is necessary in order to improve the visibility for landing
+approaches. However for a taxiing aircraft on ground it
+makes sense to use IR cameras even at dense fog conditions
+to improve detection and recognition of obstacles such as
+persons, vehicles and ground installations within the range
+of the IR detection range.
+The validation of the simulation results with flight measurements
+is still in progress. A comparison of measured and
+simulated data will be presented in a succeeding paper and a
+final report. \citep{beiergemperlein2004}
+
 \section{Näkyvyyden vaikutus maatoimintaan}
 
 Prinzelin ym. (\citeyear{prinzel2013}) tutkimuksen ja kokemuksen perusteella huonon näkyvyyden aiheuttamat toiminnan hidastumiset ja viivästykset maatoiminnassa ovat kasvavasti vaikuttamassa myös ilmatilankäytön viiveisiin. Huonon näkyvyyden olosuhteissa ohjaajien ja ajoneuvonkuljettajien tulee säilyttää tilannetietoisuutensa varmistaakseen, että maatoiminta on turvallista ja tehokasta.
@@ -98,13 +157,28 @@ Tässä kerrotaan mahdollisista eduista, joita lennon eri vaiheissa voidaan saav
 
 \section{Käyttö maatoiminnassa}
 
+NASA is conducting research, development, test, and evaluation of flight deck display technologies that may significantly enhance the flight crew's situation awareness, enable new operating concepts, and reduce the potential for incidents/accidents for terminal area and surface operations. The technologies that form the backbone of the BTV operational concept include: surface and airport moving maps; head-up and head-worn displays; four dimensional trajectory (4DT) guidance algorithms; digital data-link communications; synthetic and enhanced vision technologies; and traffic conflict detection and alerting systems (Bailey, Prinzel, Young, and Kramer, 2011; Prinzel et al., 2011). Preliminary research is described assessing a subset of these technologies in comparison to current-day low visibility surface operations. \citep{prinzel2013}
+
 Maatoiminnassa lennonjohdon, koneiden ohjaajien sekä ajoneuvonkuljettajien tilannetietoisuutta pyritään pitämään yllä tarjoamalla visuaalisia merkkejä omasta sijainnista, kulkureiteistä ja tilasta kiito- ja rullausteillä, odotuspaikoilla ja asematasoilla. Tämä hoidetaan esimerkiksi valojen, merkintöjen ja opasteiden avulla. Tällaisia järjestelmiä kutsutaan nimellä Surface Movement Guidance and Control System (SMGCS). \citep{prinzel2013}
 
 Tilannetietoa ylläpitäviä järjestelmiä voitaisiin myös käyttää ohjaamoissa. Tällaisista järjestelmistä voisi Prinzelin ym. \citeyearpar{prinzel2013} mukaan olla hyötyä, varsinkin henkilöstön näkyvyyden parantamisessa keinotekoisesti sekä tilannetietoisuuden (paikka- ja reittitiedon ja mahdollisesti myös liikenne- ja estetiedon) parantamisessa erilaisten karttajärjestelmien avulla. Etenkin yöllä, tai savun tai pölyn haitatessa näkyvyyttä EV-järjestelmät voivat auttaa pilottia toimimaan turvallisemmin maassa \citep{prinzel2013}. Hooeyn \& Foylen \citeyearpar{hooey2007} tutkimuksen mukaan 17\% huonossa näkyvyydessä tai yöllä tapahtuneessa rullauskokeessa tuli esille navigointivirheitä, jotka saatiin korjattua liikkuvien lentokenttäkarttojen (Airport Moving Map, AMM) avulla.
 
 TODO muokkaa tätä
 The results demonstrated that an enhanced flight vision system may potentially enhance situation awareness and ameliorate problems witnessed when visibility drops requiring the use of LVO/SMGCS enhanced visual aids. However, the use of EV alone was not found to substantially enhance surface operations compared to baseline (i.e., no FLIR) without the addition of an AMM. Pilots consistently rated the AMM to be of significant value for these operations and, together, the EV and AMM was rated to be of tremendous benefit in maintaining SA and workload during 300 RVR approach and departures with simulated taxi-in and -out. The results also fully support the potential direction that EV with an AMM may provide an “operational credit” for SMGCS wherein an operator, with these requisite flight deck technologies, may be able to conduct lower than 500 RVR operations at airports that may only have a Level 1 LVO/SMGCS airport visual aids in place. Another option may be to enable under 1200 RVR surface operations at airports that do not have any LVO/SMGCS airport visual aids in place.
-The FAA has stated that, “taxiing on the airport surface is the most hazardous phase of flight” (Gerold, 2001). Almost a decade later, that statement still rings true, but LVO/SMGCS enhanced visual aids and other controls are significantly improving this situation. Emerging flight deck technologies offer a potential means to create an equivalent level of safety and performance. These flight deck technologies, such as the E-SMGCS -AMM display and EV, could assist in fully realizing the potential of NextGen by offering a more affordable path toward safe and efficient LVO/SMGCS operations through an “equivalent visual” paradigm.
+The FAA has stated that, “taxiing on the airport surface is the most hazardous phase of flight” (Gerold, 2001). Almost a decade later, that statement still rings true, but LVO/SMGCS enhanced visual aids and other controls are significantly improving this situation. Emerging flight deck technologies offer a potential means to create an equivalent level of safety and performance. These flight deck technologies, such as the E-SMGCS -AMM display and EV, could assist in fully realizing the potential of NextGen by offering a more affordable path toward safe and efficient LVO/SMGCS operations through an “equivalent visual” paradigm.\citep{prinzel2013}
+
+The use of AMMs to enhance situation awareness has long been established. However, little research exists that
+investigated their use under low visibility surface operations. To date, research has been limited to visibility
+conditions greater than 700 RVR and without the enhanced visual aids required under LVO/SMGCS operations.
+In this research, the AMM design was based on NASA “best practices” for AMMs, existing published standards,
+and an AMM information priority survey. The survey was collected on twenty commercial pilots, experienced with
+SMGCS and AMMs, based on established methods (Schveneveldt, et al., 2000; Yeh \& Chandra, 2003). The results
+evinced that pilots desired the following SMGCS elements be depicted under low visibility surface operations: Geographic Position Markers (GPMs), clear route, stop bars, and hold lines. These additional informational elements are added to the AMM to create an E-SMGCS display concept.
+The E-SMGCS concept is a display mode of the AMM that is invoked by the flight crews when known LVO/SMGCS conditions exists (i.e., under 1200 RVR). The AMM then shows specific LVO/SMGCS information elements based on information priority survey. The E-SMGCS mode retains all normal AMM functionality and also provides the pilots with specific symbology to enable the pilots to cognitively map task priority elements between the AMM, paper charts, and out-the-window visual cues.
+
+Conclusion
+The results demonstrated that an enhanced flight vision system may potentially enhance situation awareness and ameliorate problems witnessed when visibility drops requiring the use of LVO/SMGCS enhanced visual aids. However, the use of EV alone was not found to substantially enhance surface operations compared to baseline (i.e., no FLIR) without the addition of an AMM. Pilots consistently rated the AMM to be of significant value for these operations and, together, the EV and AMM was rated to be of tremendous benefit in maintaining SA and workload during 300 RVR approach and departures with simulated taxi-in and -out. The results also fully support the potential direction that EV with an AMM may provide an “operational credit” for SMGCS wherein an operator, with these requisite flight deck technologies, may be able to conduct lower than 500 RVR operations at airports that may only have a Level 1 LVO/SMGCS airport visual aids in place. Another option may be to enable under 1200 RVR surface operations at airports that do not have any LVO/SMGCS airport visual aids in place.
+The FAA has stated that, “taxiing on the airport surface is the most hazardous phase of flight” (Gerold, 2001). Almost a decade later, that statement still rings true, but LVO/SMGCS enhanced visual aids and other controls are significantly improving this situation. Emerging flight deck technologies offer a potential means to create an equivalent level of safety and performance. These flight deck technologies, such as the E-SMGCS -AMM display and EV, could assist in fully realizing the potential of NextGen by offering a more affordable path toward safe and efficient LVO/SMGCS operations through an “equivalent visual” paradigm. \citep{prinzel2013}
 
 \chapter{Järjestelmien käyttöön liittyviä haasteita}
 
@@ -130,6 +204,8 @@ Tässä pohditaan, minkälainen tulevaisuus SV- ja EV-järjestelmiä mahdollises
 Tässä osiossa kerrotaan NextGen-ilmailukonseptista sekä EVO-konseptista sekä näönparannusjärjestelmän vaatimuksista, joita näihin konsepteihin on visioitu.
 
 Tämä saattaa olla hyvä laittaa edellisen osion alle (tai sitten ei), katsottava muotoiluvaiheessa.
+
+NASA is striving to develop the technologies and knowledge to enable EVO and to extend EVO towards a “Better-Than-Visual” operational concept. This operational concept envisions an "equivalent visual" paradigm where an electronic means provides sufficient visual references of the external world and other required flight references on flight deck displays that enable Visual Flight Rules (VFR)-like operational tempos while maintaining and improving safety of VFR while using VFR-like procedures in all-weather conditions.\citep{prinzel2013}
 
 
 \chapter{Yhteenveto}
