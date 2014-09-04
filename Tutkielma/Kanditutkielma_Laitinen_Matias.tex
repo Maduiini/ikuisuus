@@ -46,11 +46,11 @@
 
 \title{SV- ja EV-järjestelmät kaupallisessa ilmailussa}
 
-\translatedtitle{SV and EV Systems in Commercial Aviation}
+\translatedtitle{Synthetic and Enhanced Vision Systems in Commercial Aviation}
 
 %\studyline{}
-\avainsanat{SVS, EVS, ilmailu, näkyvyys, HUD, HDD, lentäminen, lentoturvallisuus, IFR}
-\keywords{SVS, EVS, synthetic vision, enhanced vision, aviation, HUD, HDD, flying, safety, visibility, IFR}
+\avainsanat{SVS, EVS, ilmailu, näkyvyys, HUD, HDD, lentäminen, lentoturvallisuus, IFR, NextGen, NGATS, EVO}
+\keywords{SVS, EVS, synthetic vision, enhanced vision, aviation, HUD, HDD, flying, safety, visibility, IFR, NextGen, NGATS, EVO}
 \tiivistelma{Tähän tulee tiivistelmä (tausta, tavoite, tulokset, johtopäätökset).
 }
 \abstract{Tähän tulee englanninkielinen versio tiivistelmästä.
@@ -70,6 +70,16 @@
 \chapter{Johdanto}
 
 Viime aikoina lentoturvallisuus on noussut useasti esille medioissa, kun sekä harraste- että kaupallisen ilmailun puolella on tapahtunut monenlaisia lento-onnettomuuksia tai ilmailun vaaratilanteita. Nämä onnettomuudet aiheutuvat useimmiten inhimillisistä virheistä. Tutkimuksen tavoitteena on ottaa selvää, millä eri tavoin olisi keinotekoisia näköjärjestelmiä käyttämällä mahdollista ehkäistä lento-onnettomuuksia ja parantaa lentäjän tilannetietoisuutta, etenkin huonon näkyvyyden olosuhteissa. Tällaiset järjestelmät ovat olleet sotilaspuolen käytössä jo pitkän aikaa, mutta siviili-ilmailussa niitä hyödynnetään vasta melko vähän. Kartoittamalla näiden järjestelmien kustannuksia ja käytettävyyttä saadaan toivottavasti tehtyä jonkinlaisia johtopäätöksiä niiden soveltuvuudesta käytäntöön. TODO: Kerro paremmin ja laita viitteet kuntoon.
+
+The United States air transportation system is undergoing a transformation to accommodate a projected 3-fold
+increase in air operations by 2025.1 Technological and systemic changes are being developed to significantly
+increase the capacity, safety, efficiency, and security for this Next Generation Air Transportation System
+(NGATS). One of the key capabilities envisioned to achieve these goals is the concept of Equivalent Visual
+Operations (EVO), whereby Visual Flight Rules (VFR) operational tempos and also, perhaps, operating
+procedures (such as separation assurance) are maintained independent of the actual weather conditions. One
+methodology by which the goal EVO might be attainable is to create a virtual visual flight environment for
+the flight crew, independent of the actual outside weather and visibility conditions, through application of
+Enhanced Vision (EV) and Synthetic Vision (SV) technologies. \citep{baileyym2007}
 
 \chapter{Ilmailu ja näkyvyys}
 
@@ -153,7 +163,28 @@ Parannellun näön järjestelmillä (EVS, Enhanced Vision Systems tai EFVS, Enha
 
 \section{Käyttö lennon aikana}
 
-Tässä kerrotaan mahdollisista eduista, joita lennon eri vaiheissa voidaan saavuttaa.
+2.1 Integrated and Fused Synthetic and Enhanced Vision Systems Concepts
+The complementary capabilities of SV and EV have been well-recognized6 with the premise that7 “the
+strengths of enhanced system can compensate for the deficiencies in the synthetic system and that the
+strengths of synthetic system can compensate for the deficiencies in the enhanced vision system.” While
+these goals are obvious, optimal methods and capabilities are not on hand.
+2.2 Previous Research
+Several studies8-10 have shown that the optimal combination of SV and EV technology likely uses the direct
+display of SV to the flight crew without direct display of EV, but instead, using EV “behind the glass” for
+navigation error detection, database integrity monitoring, and real-time obstacle/object detection. Image
+processing performs these functions automatically without intervention by the flight crew. This arrangement
+provides a highly usable display presentation (i.e., SV) that is impervious to the actual weather and visibility
+conditions, yet if un-charted obstacles, database errors or navigation errors are detected by the EV running in
+the background, the situation is annunciated, and almost “perfect” decision-making by the pilot occurs.8-10 In
+fact, the study conclusion from Parrish8 – “SVS concepts should not be implemented without incorporating
+image-processing decision aides for the pilot” – launched a 5 year effort at NASA and elsewhere developing
+SV Systems (SVS) enabling technologies for database integrity monitoring and EV object detection. 11-15
+While degrees of success in developing these decision aids have been met, technology for “perfect” object
+detection and database/navigation error detection does not yet exist. Further, there may always be gaps which
+may still warrant flight deck procedures and human interventions for integrity and error checks.
+\citep{baileyym2007}
+
+\citep{baileyym2007}
 
 \section{Käyttö maatoiminnassa}
 
@@ -191,6 +222,109 @@ Tässä kerrotaan lähinnä teknisistä haasteita, joita voi esiintyä otettaess
 \section{Ohjaajan suorituskyky ja kognitiiviset haasteet}
 
 Tässä kappaleessa kerrotaan niistä monista haasteista, joita suurimmilta osin HUD-näyttöjen käyttö ja automatisoitu tekniikka ohjaamossa voi aiheuttaa.
+
+Research suggests that the optimal configuration of displays, controls, and formats depends upon the intended
+function of the system, the phase flight, and the role of the pilots16,17 involving a balance between:
+Fusion of Synthetic and Enhanced Vision
+RTO/HFM-141 11 - 3
+• Understanding – how the design promotes the perception of the SV and EV information, the
+comprehension of its meaning, and the projection of their status in the near future.18
+• Workload – how the design minimizes the physical (e.g., use of controls, visual scanning) and mental
+(e.g., amount of cognitive effort necessary to generate understanding) workload for effective use and
+understanding of the information.  \citep{baileyym2007}
+
+A key interconnection between the factors of understanding and workload is the concept of display clutter –
+i.e., an excessive number and/or variety of color and symbols, that obscures essential information, or presents
+distracting, disorganized and unnecessary information delaying visual detection.
+Clutter warrants special consideration for EV/SV as the designer is intentionally increasing the volume of data
+presented to the flight crew. For the HUD, in particular, FAA certification policy16 formalizes this conundrum
+in that “clutter should be minimized” yet, “essential or critical (HUD) data must always be displayed” such as
+that necessary for EFVS operational credit. Thus, task-critical or essential EV/SV imagery must be displayed
+but the information must not excessively interfere with pilots’ ability to see the actual runway environment
+through the display or impede their perception, understanding, and use of the information. Declutter control
+in present EFVS implementations allow the pilots to selectively add or remove symbology or raster (i.e., SV
+or EV) imagery, but declutter controls also introduce pilot workload during task- or time-critical situations
+and raise the possibility that critical information might be inappropriately removed. \citep{baileyym2007}
+
+A common method of combining SV/EV information is by use of an integrated single display format with
+simultaneous presentation of unadulterated SV and EV content. By visual proximity, this method minimizes
+the visual scan and cognitive effort in integrating the disparate information. Typically, “inset” displays of EV
+information have been used to take advantage of the “unlimited” field-of-regard in SV information to
+complement a limited field-of-regard EV sensor. Integration in this manner allows the user to retain
+comparison of the separate sources for improved understanding. However, careful design of the integration
+process must be made to prevent an unintended loss of understanding. Pilot-control of control of the inset
+“opaqueness” by averaging or “alpha-blending” has not been found to be optimal.10 Image degradation of the
+blended image was the primary factor.17,19 A pure pixel-averaging technique may create a situation where a
+poor quality (low content) sensor image obscures good synthetic data without adding any valued to the image;
+conversely, a good quality sensor image is obscured by uncorrelated synthetic data. More sophisticated
+blending methods are available to minimize this problem,17 but pilot control introduces the costs of workload
+for control, a higher potential for miss-setting of the controls, and the clutter primarily negates its utility.10
+Display clutter can be mitigated by not displaying both EV and SV on the same display simultaneously using:
+• Spatial separation – by locating SV and EV information on different displays. This process forces the
+pilot to look across displays and mentally perform the information integration. This methodology has
+been demonstrated under NASA flight test, wherein SV information was presented on a head-down
+primary flight display, and EV information was presented on the HUD. The pilots transitioned to the
+HUD at a specific height above the landing runway. This methodology was found to be acceptable
+although not necessarily without improvements being desired. Sufficient information must be on the
+HUD to restrict the need for the Pilot Flying (PF) to go “head-down” to acquire task critical
+information; otherwise, HUD usage can create “a loss of situation awareness” and additional
+workload from visual scanning. Designs utilizing visual momentum assist in the integration.19• Temporal separation – by displaying either SV or EV information on the same display, using
+Fusion of Synthetic and Enhanced Vision
+11 - 4 RTO/HFM-141
+automatic or manual selection for which source is displayed. An automatic transition has been tested
+and it felt “natural” to the pilot.20 Without retaining some elements of SV or EV display, however,
+“visual momentum” and the complementary benefits of both EV and SV may not be lost.
+Using a single display, image fusion can reduce clutter. Fusion, in this case, creates an image wherein the SV
+and EV sources are consolidated to the extent that the sources are indistinguishable. The drawback is the loss
+of understanding from source comparisons and contrasts. The specific fusion methodology significantly
+affects the utility of the resultant display.17 Feature-level fusion methods generally enabled higher image
+contrast while retaining the source information; however, it may also retain some undesirable noise content of
+the sensor inputs. Registration of the two image sources is of paramount importance for fusion.
+Another method of EV/SV fusion displays SV-derived information symbolically, using symbols, icons, and/or
+perspective shapes for conformal overlay with EV imagery. For instance, SV-derived symbology, in the form
+of runway outlines, with simulated EV imagery provided visual momentum yet didn’t create any perceptual
+confusion even when flying with significant navigational errors inserted into the SV-derived guidance.21-22 \citep{baileyym2007}
+
+EV imagery may provide an element of traffic detection above and beyond unaided natural vision, but several
+factors must be considered to realize this capability. First, imaging sensors are not a panacea. Detection and
+recognition is dependent upon the sensor resolution and its sensitivity to the environment and “target”, the
+size and contrast of the obstacle/object against the image background, and the display resolution.6,30-31 Second,
+if the PF display uses flight vector information, the flight path marker symbol and guidance symbol, if
+Fusion of Synthetic and Enhanced Vision
+RTO/HFM-141 11 - 5
+provided, may obscure an object.16 Finally, the pilot-flying’s attention is primarily focused on the landing
+task, and the PF may not have sufficient attentional resources for “unexpected” scenarios. This task has been
+rated as “unacceptable” and resulted in unacceptable workload.9 \citep{baileyym2007}
+
+While the pilot-flying is primarily focused on flying the aircraft, the pilot-not-flying (PNF) or pilotmonitoring
+in a two-crew operation does have the primary responsible for monitoring and verifying flight path
+performance, cross-checking guidance and raw data indicators, and identifying the visual runway environment
+and clearing the landing area.31 Unfortunately, like the PF data, the use of EV/SV information by the PNF to
+perform the navigation integrity, obstacle detection, and runway incursion detection is relatively mediocre.
+The results, again, appear to be influenced by the EV/SV integration and display methods employed.
+During low-visibility auto-landings10 where most included an “anomaly” consisting of SV database
+misalignment, runway incursions, and uncharted obstacle, piloted evaluations showed that:
+• Using an EV-only HUD, 57% of the obstacles were undetected and 50% of the runs with the database
+misalignment went undetected. 38% of the runway incursions went undetected. Despite this
+relatively poor performance, the pilots subjectively preferred the Head-up implementation.
+• A Primary Flight Display (PFD) concept, showing SV with a pilot-controllable EV inset image,
+exhibited the worst performance for anomaly detection. The PFD inset concept missed 100% of the
+uncharted obstacles - all leading to hazardous situations and a 33% rate of missed detections for the
+database misalignments. Detection of runway incursions showed a missed detection rate of 33%.
+The poor performance and low-acceptance of the head-down EVS insert concept was attributed to the
+clutter of the image, the small EV image size, and confusion between the SV/EV images.
+• With EV-only shown on a HDD, all uncharted obstacles were successfully detected (but 20% of runs
+continued into hazardous conditions because the evaluation pilots (EPs) didn’t recognize the severity
+of the threat) yet 33% of the runs missed the misalignment. A missed detection rate of 22% for
+runway incursions was found. This concept was well liked for its large image size and minimal
+display clutter, but disliked because of the workload in transitioning from head-down to head-up
+flight.
+Direct research into the effects of EV/SV usage on crew resource management and crew coordination, in a
+two-place cockpit, has not been studied extensively. Crew coordination in an EVS approach operation was
+the primary focus of one study,32 but sensor-unique (in this case, a millimeter wave radar) issues of
+range/azimuth versus elevation/azimuth imagery presentations predominated the work. Anecdotal evidence
+from a flight demonstration program suggests that “a centrally-located display of EVS imagery” may facilitate
+CRM and training.33 \citep{baileyym2007}
 
 
 \chapter{SV- ja EV-järjestelmien tulevaisuus}
