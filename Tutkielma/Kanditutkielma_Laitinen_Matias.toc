@@ -6,12 +6,12 @@
 \contentsline {section}{\numberline {2.2}N\IeC {\"a}kyvyyden vaikutus maatoimintaan}{4}{section.2.2}
 \contentsline {chapter}{\numberline {3}SV- ja EV-j\IeC {\"a}rjestelm\IeC {\"a}t}{6}{chapter.3}
 \contentsline {section}{\numberline {3.1}K\IeC {\"a}ytt\IeC {\"o} lennon aikana}{11}{section.3.1}
-\contentsline {section}{\numberline {3.2}K\IeC {\"a}ytt\IeC {\"o} maatoiminnassa}{12}{section.3.2}
-\contentsline {chapter}{\numberline {4}J\IeC {\"a}rjestelmien k\IeC {\"a}ytt\IeC {\"o}\IeC {\"o}n liittyvi\IeC {\"a} haasteita}{17}{chapter.4}
-\contentsline {section}{\numberline {4.1}J\IeC {\"a}rjestelmien k\IeC {\"a}ytt\IeC {\"o}\IeC {\"o}notto vanhoissa ja uusissa ohjaamoissa}{17}{section.4.1}
-\contentsline {section}{\numberline {4.2}Ohjaajan suorituskyky ja kognitiiviset haasteet}{18}{section.4.2}
-\contentsline {chapter}{\numberline {5}SV- ja EV-j\IeC {\"a}rjestelmien tulevaisuus}{45}{chapter.5}
-\contentsline {section}{\numberline {5.1}Tulevaisuuden sovelluksia}{45}{section.5.1}
-\contentsline {section}{\numberline {5.2}NextGen ja EVO-konseptit}{46}{section.5.2}
-\contentsline {chapter}{\numberline {6}Yhteenveto}{49}{chapter.6}
-\contentsline {chapter}{Kirjallisuutta}{54}{section*.2}
+\contentsline {section}{\numberline {3.2}K\IeC {\"a}ytt\IeC {\"o} maatoiminnassa}{13}{section.3.2}
+\contentsline {chapter}{\numberline {4}J\IeC {\"a}rjestelmien k\IeC {\"a}ytt\IeC {\"o}\IeC {\"o}n liittyvi\IeC {\"a} haasteita}{18}{chapter.4}
+\contentsline {section}{\numberline {4.1}J\IeC {\"a}rjestelmien k\IeC {\"a}ytt\IeC {\"o}\IeC {\"o}notto vanhoissa ja uusissa ohjaamoissa}{18}{section.4.1}
+\contentsline {section}{\numberline {4.2}Ohjaajan suorituskyky ja kognitiiviset haasteet}{19}{section.4.2}
+\contentsline {chapter}{\numberline {5}SV- ja EV-j\IeC {\"a}rjestelmien tulevaisuus}{68}{chapter.5}
+\contentsline {section}{\numberline {5.1}Tulevaisuuden sovelluksia}{68}{section.5.1}
+\contentsline {section}{\numberline {5.2}NextGen ja EVO-konseptit}{69}{section.5.2}
+\contentsline {chapter}{\numberline {6}Yhteenveto}{72}{chapter.6}
+\contentsline {chapter}{Kirjallisuutta}{77}{section*.2}
