@@ -81,51 +81,38 @@ methodology by which the goal EVO might be attainable is to create a virtual vis
 the flight crew, independent of the actual outside weather and visibility conditions, through application of
 Enhanced Vision (EV) and Synthetic Vision (SV) technologies. \citep{baileyym2007}
 
+The NASA SVS project is based on the premise that better pilot SA during
+low-visibility conditions can be achieved by reducing the steps required to build a
+mental model from disparate pieces of data through the presentation of how the
+outside world would look to pilots if their visibility was not restricted. \citep{prinzel2004}
+
 \chapter{Ilmailu ja näkyvyys}
 
 \section{Näkyvyyden vaikutus lennon aikana}
 
-Näkyvyys on lentokoneen ohjaajalle tärkeää lennettäessä lähellä maata, etenkin laskeutumisen aikana. Sen vuoksi huonot näkyvyysolosuhteet aiheuttavat suuria rajoitteita lentotoiminnalle. \cite{mollersachs1994} Pilotin lentonäkyvyyteen vaikuttavat monet meteorologiset olosuhteet, kuten pimeys, pöly, sumu ja sade \citep{wickens2009} Erityisesti sumuisissa olosuhteissa näkyvyys voi huonontua dramaattisesti ja ulkomaailman yksityiskohtia on miltei mahdotonta erottaa \citep{beiergemperlein2004}.
+Näkyvyys on lentokoneen ohjaajalle tärkeää lennettäessä lähellä maata, etenkin laskeutumisen aikana. Sen vuoksi huonot näkyvyysolosuhteet aiheuttavat suuria rajoitteita lentotoiminnalle \citep{mollersachs1994}. Ohjaajan lentonäkyvyyteen vaikuttavat monet meteorologiset olosuhteet, kuten pimeys, pöly, sumu ja sade \citep{wickens2009}. Erityisesti sumuisissa olosuhteissa näkyvyys voi huonontua voimakkaasti ja ulkomaailman yksityiskohtia on miltei mahdotonta erottaa \citep{beiergemperlein2004}.
 
-Kaikilla lentokentillä toimittaessa ovat voimassa tietyt näkyvyysrajoitukset. Kentillä, joilla on käytössä esimerkiksi ILS:n kaltaisia lähestymisapuja, on tietty minimi, josta tulee olla mahdollista jatkaa lähestymistä visuaalisesti. Vakavimmillaan rajoitukset vaikuttavat kentillä, joilla ei tällaisia järjestelmiä ole käytössä. Nämä säännöt ovat voimassa, vaikka lähestyvällä koneella olisi käytössään nykyaikaiset mittari- ja navigointilaitteet.~\cite{mollersachs1994}
+Kaikilla lentokentillä toimittaessa ovat voimassa tietyt näkyvyysrajoitukset. Kentillä, joilla on käytössä esimerkiksi ILS:n kaltaisia lähestymisapuja, on tietty minimi, josta tulee olla mahdollista jatkaa lähestymistä visuaalisesti. Vakavimmillaan rajoitukset vaikuttavat kentillä, joilla ei tällaisia järjestelmiä ole käytössä. Nämä säännöt ovat voimassa, vaikka lähestyvällä koneella olisikin käytössään nykyaikaiset mittari- ja navigointilaitteet. \cite{mollersachs1994}.
 
-Model calculations have been performed in the thermal
-infrared regions 3–5 [micro]m and 8–12 [micro]m to assess the use of IR
-cameras in low visibility conditions, especially fog, for air
-traffic during landing approaches. The investigations are carried
-out with the atmospheric radiative transfermodelMODTRAN
-version 4.0 and the thermal imaging model TTIM.
-The ICAO standard visual range categories CAT I, II, IIIa
-and IIIc are used as bench marks. The influence on visibility
-of various climatic and seasonal meteorological conditions,
-aerosol types and target parameters, such as temperature and
-size, is taken into account. The simulation uses sensor parameters
-of a standard uncooled IR camera type Thermovision
-570, which is utilized for flight measurement at DLR
-within the Enhanced Vision Project ADVISE. The instantaneous
-field of views are 0.65 mrad or 1.3 mrad respectively.
-The results can be summarized as follows: At CAT I
-conditionswith a visual range 1220m both IR spectral bands
-can achieve IR detection ranges, in terms of the defined
-NEDT = 0.15 K, from 3 to 10 km. The IR detection range
-is noticeable improved for all climatic zones, seasons and
-types of aerosols. The lowest IR detection range is met in
-the tropics at sea level with high absolute humidity. In the
-thermal IR 8–12 [micro]m the most favourable terms occur at
-subarctic winter with low humidity. The IR detection range
-referring to small targets with a size of 2–5 m is limited
-due to the sensor MTF. For large targets such as the runway
-the atmospheric influence is the limiting factor for the IR
-detection range.
-For CAT II conditions at moderate fog, with 610 m
-visual range, only the thermal IR region 8–12 [micro]m enables to
-improve of the detection range up to 1–2 km, which means
-CAT II conditions can be improved to CAT I. The selected
-spatial and radiometric resolution of the IR sensor has to
-fit to the size and temperature difference of the target to be
-detected. The supposed IR sensor requires for a target with
-dimensions 5 m x 5 m a minimum temperature difference
-of 1 K to the ambient background.
+Jo ilmailun alkuajoista asti on ilmailuteollisuus kehittänyt laitteita, joilla voittaa näitä huonon näkyvyyden rajoituksia. Tällaisia voivat olla esimerkiksi lentoasentojärjestelmät, navigointilaitteet, mittarilähestymislaitteet (Instrument Landing System, ILS), liikkuvat karttalaitteet sekä korkeasta maastosta varoittavat järjestelmät (Terrain Awareness and Warning System, TAWS). Näissä voidaan kuitenkin havaita se ongelma, että kaikki nykyaikaisetkin informaation esittämiseen tarkoitetut järjestelmät vaativat ohjaajilta jatkuvaa tiedonhakua ja -käsittelyä pysyäkseen selvillä ilma-aluksensa tulevista liikkeistä huonon näkyvyyden olosuhteissa \citep {prinzel2004}.
+
+FSFN:n(Flight Safety Foundation) mukaan miltei 60 \% kaupalliseen lentotoimintaan liittyvistä maahansyöksyonnettomuuksista on tapahtunut lähestymisen tai laskeutumisen aikana. Etheringtonin ym. (\citeyear{etherington2000}) mukaan ohjattavissa olevan ilma-aluksen törmäys maastoon (Controller Flight Into Terrain, CFIT) on vallitseva onnettomuustyyppi ja vastuussa yli puolesta kaupallisen ilmailun onnettomuuksista. CFIT- onnettomuudet liittyvät yleensä paikka- tai asentotiedon (Situational Awareness, SA) menetykseen lähestymis- ja laskuvaiheessa, kun ohjaajat menettävät käsityksensä suunnasta, korkeudesta ja suhteesta ympäristöön \cite{schnell2004}.
+
+\section{Näkyvyyden vaikutus maatoimintaan}
+
+Prinzelin ym. (\citeyear{prinzel2013}) mukaan huonon näkyvyyden aiheuttamat toiminnan hidastumiset ja viivästykset maatoiminnassa ovat kasvavasti vaikuttamassa myös ilmatilankäytön viiveisiin. Huonon näkyvyyden olosuhteissa ohjaajien ja ajoneuvonkuljettajien tulee säilyttää tilannetietoisuutensa varmistaakseen, että maatoiminta on turvallista ja tehokasta.
+
+Esimerkiksi FAA:n vuoden 2010 turvallisuusselvityksen mukaan 52 928 316 maatoimintaan liittyvän tapahtuman aikana tapahtui 951 kiitotiepoikkeamaa (Runway Incursion), joista 12 oli vakavia. Vaikka tämä luku on suhteessa pieni, kiitotiepoikkeamalla voi olla tuhoisat seuraukset. Suurimpana syynä näissä tapauksissa oli ohjaajan inhimillinen erehdys (63 \%). Tilannetietoisuutta parantamalla voitaisiin siis saada merkittävästi vähennettyä kiitotiepoikkeamien määrää. \citep{prinzel2013}
+
+Tilannetietoisuutta maatoiminnassa voitaisiin parantaa esimerkiksi käyttämällä infrapunakameroita jopa tiheän sumun olosuhteissa, jotta havaittaisiin paremmin esteitä, kuten henkilöstöä, ajoneuvoja ja laitteistoja. \citep{beiergemperlein2004}.
+
+\chapter{SV- ja EV-järjestelmät}
+
+Keinonäköjärjestelmillä (SVS, Synthetic Vision Systems) tarkoitetaan keinotekoisen ympäristökuvan luomista tietokoneella. Kuva luodaan yhdistäen lentoasento- ja tarkkuusnavigointijärjestelmiltä sekä maasto- ja estetietokannoista saatua lennon kannalta tärkeää tietoa. SV-järjestelmillä saadaan huomattavia parannuksia maastoestetietouteen ja se vähentää tahattomien maahantörmäysten (CFIT, Controlled Flight Into Terrain) riskiä nykyiseen ohjaamoissa käytettävään teknologiaan verrattuna. \citep{baileyym2007}
+
+Parannellun näön järjestelmillä (EVS, Enhanced Vision Systems tai EFVS, Enhanced Flight Vision Systems) tarkoitetaan elektronisen apuvälineen, kuten lämpökameran (FLIR, Forward-Looking Infrared) tai millimetritutkan (MMWR, Millimeter Wave Radar) avulla näytettyä kuvaa ulkomaailmasta \citep{baileyym2007}. Möller ja Sachs \citeyearpar{mollersachs1994} kertovat, optisten järjestelmien, kuten lämpökameran, olevan passiivinen laite, jolla voidaan muodostaa ympäristökuva ilman tietoa etäisyyksistä. Tutkalla sen sijaan saadaan aktiivisesti etäisyystietoa ympäristöstä, mutta tavallisen näköistä kuvaa on vaikea muodostaa.  Jo Nordwallin \citeyearpar{nordwall1993} mukaan heijastusnäyttö(HUD, Head-Up Display)-lämpökamera -yhdistelmällä saavutetaan esimerkiksi sumussa huomattavasti parempi kuva ynpäristöstä, kuin mitä paljaalla silmällä voitaisiin saavuttaa.
+
+IR
 For categories CAT IIIa and IIIc with dense fog and visual
 ranges of 300 m to 100 m and less, there is no improvement
 achievable utilizing IR cameras. The atmosphere is the
@@ -138,59 +125,7 @@ resolution, would only enhance the inhomogeneities of the
 atmospheric path radiance and not improve the IR detection
 range of the target. In this case an imaging radar system
 is necessary in order to improve the visibility for landing
-approaches. However for a taxiing aircraft on ground it
-makes sense to use IR cameras even at dense fog conditions
-to improve detection and recognition of obstacles such as
-persons, vehicles and ground installations within the range
-of the IR detection range.
-The validation of the simulation results with flight measurements
-is still in progress. A comparison of measured and
-simulated data will be presented in a succeeding paper and a
-final report. \citep{beiergemperlein2004}
-
-The ability of a pilot to ascertain critical information through visual perception
-of the outside environment can be limited by various weather phenomena, such as
-rain, fog, and snow. Since the beginning of flight, the aviation industry has developed
-various devices to overcome these low-visibility limitations. These include
-attitude indicators, navigation aids, instrument landing systems (ILS), moving
-map displays, and terrain awareness warning systems (TAWS). All of the aircraft
-information display concepts developed to date, however, still require pilots to
-continuously perform information acquisition and decoding to update and maintain
-their mental model to “stay ahead” of the aircraft when outside visibility is reduced.
-The NASA SVS project is based on the premise that better pilot SA during
-low-visibility conditions can be achieved by reducing the steps required to build a
-mental model from disparate pieces of data through the presentation of how the
-outside world would look to pilots if their visibility was not restricted. \citep{prinzel2004}
-
-The Flight Safety Foundation (FSF) data show that almost 60% of all commercial
-aircraft crashes occurred during the approach and landing phases of flight. Controlled
-flight into terrain (CFIT) is the dominant accident type and is responsible
-for more than half of all commercial aviation fatalities to date (Etherington, Vogl,
-Lapis, \& Razo, 2000). CFIT crashes are usually associated with a loss of position
-and situation awareness (SA) during the approach and landing phases of a flight, as
-pilots lose their perception of aircraft path, heading, altitude, and positions with relation
-to the surrounding environment. Synthetic vision information systems
-(SVIS) may well be a key technology in reducing CFIT crashes. SVIS may also be
-a potential solution to overcome airspace limitations. The present airway-based
-airspace system is nearing its capacity limits, especially in some terminal areas.
-The slightest imbalance in terms of weather conditions or equipment problems can
-bring the system to a near halt in crowded terminal areas. Air traffic is expected to
-double in the next decade, and if there are no additional technological advances to
-increase efficiency and provide methods to redesign the airspace system, there will
-be a major capacity problem in the future. \citep{schnell2004}
-
-\section{Näkyvyyden vaikutus maatoimintaan}
-
-Prinzelin ym. (\citeyear{prinzel2013}) tutkimuksen ja kokemuksen perusteella huonon näkyvyyden aiheuttamat toiminnan hidastumiset ja viivästykset maatoiminnassa ovat kasvavasti vaikuttamassa myös ilmatilankäytön viiveisiin. Huonon näkyvyyden olosuhteissa ohjaajien ja ajoneuvonkuljettajien tulee säilyttää tilannetietoisuutensa varmistaakseen, että maatoiminta on turvallista ja tehokasta.
-
-Esimerkiksi FAA:n vuoden 2010 turvallisuusselvityksen mukaan 52 928 316 maatoimintaan liittyvän tapahtuman aikana tapahtui 951 kiitotiepoikkeamaa, joista 12 oli vakavia. Vaikka tämä luku on suhteessa pieni, kiitotiepoikkeamalla voi olla tuhoisat seuraukset. Suurimpana syynä näissä tapauksissa oli ohjaajan inhimillinen erehdys (63 \%). Tilannetietoisuutta parantamalla voitaisiin siis saada merkittävästi vähennettyä kiitotiepoikkeamien määrää. \citep{prinzel2013}
-
-
-\chapter{SV- ja EV-järjestelmät}
-
-Keinonäköjärjestelmillä (SVS, Synthetic Vision Systems) tarkoitetaan keinotekoisen ympäristökuvan luomista tietokoneella. Kuva luodaan yhdistäen lentoasento- ja tarkkuusnavigointijärjestelmiltä sekä maasto- ja estetietokannoista saatua lennon kannalta tärkeää tietoa. SV-järjestelmillä saadaan huomattavia parannuksia maastoestetietouteen ja se vähentää tahattomien maahantörmäysten (CFIT, Controlled Flight Into Terrain) riskiä nykyiseen ohjaamoissa käytettävään teknologiaan verrattuna. \citep{baileyym2007}
-
-Parannellun näön järjestelmillä (EVS, Enhanced Vision Systems tai EFVS, Enhanced Flight Vision Systems) tarkoitetaan elektronisen apuvälineen, kuten lämpökameran (FLIR, Forward-Looking Infrared) tai millimetritutkan (MMWR, Millimeter Wave Radar) avulla näytettyä kuvaa ulkomaailmasta \citep{baileyym2007}. Möller ja Sachs \citeyearpar{mollersachs1994} kertovat, optisten järjestelmien, kuten lämpökameran, olevan passiivinen laite, jolla voidaan muodostaa ympäristökuva ilman tietoa etäisyyksistä. Tutkalla sen sijaan saadaan aktiivisesti etäisyystietoa ympäristöstä, mutta tavallisen näköistä kuvaa on vaikea muodostaa.  Jo Nordwallin \citeyearpar{nordwall1993} mukaan heijastusnäyttö(HUD, Head-Up Display)-lämpökamera -yhdistelmällä saavutetaan esimerkiksi sumussa huomattavasti parempi kuva ynpäristöstä, kuin mitä paljaalla silmällä voitaisiin saavuttaa. 
+approaches. \citep{beiergemperlein2004}
 
 SV-EV yhdistäminen, tähän kuva \citep{mollersachs1994}
 Distance Dependent Resolution
@@ -320,6 +255,16 @@ early problems relating to design appear to have been resolved, but there are a
 number of cognitive issues that are still a matter of debate and research. These include
 the effects of divided attention and cognitive tunneling, and spatial disorientation
 and unusual attitude recovery. These issues are reviewed in later sections. \citep{crawford2006}
+
+Synthetic vision information systems
+(SVIS) may well be a key technology in reducing CFIT crashes. SVIS may also be
+a potential solution to overcome airspace limitations. The present airway-based
+airspace system is nearing its capacity limits, especially in some terminal areas.
+The slightest imbalance in terms of weather conditions or equipment problems can
+bring the system to a near halt in crowded terminal areas. Air traffic is expected to
+double in the next decade, and if there are no additional technological advances to
+increase efficiency and provide methods to redesign the airspace system, there will
+be a major capacity problem in the future. \citep{schnell2004}
 
 EVS/SVS
 EVSs are designed to increase safety in low-visibility conditions. EVSs can be
@@ -2321,6 +2266,11 @@ Aerospace Science and Technology, 8, s.~63--71.
 Crawford, Jennifer \& Neal, Andrew 2006.
 \textit{A Review of the Perceptual and Cognitive Issues Associated With the Use of Head-Up Displays in Commercial Aviation}
 The International Journal of Aviation Psychology, 16:1, s.~1--19.
+
+\bibitem[Etherington ym. (2000)Etherington, T.J., Vogl, T.L., Lapis, M.B., \& Razo, J.G.]{etherington2000}
+Etherington, T.J., Vogl, T.L., Lapis, M.B., \& Razo, J.G. 2000.
+\textit{Synthetic vision information system}
+Proceedings of the 19th Digital Avionics Systems Conference, s.~2.A.4--2.A.8.
 
 \bibitem[Hooey \& Foyle(2007)Hooey, B.L. \& Foyle, D.C.]{hooey2007}
 Hooey, B.L. \& Foyle, D.C. 2007.
