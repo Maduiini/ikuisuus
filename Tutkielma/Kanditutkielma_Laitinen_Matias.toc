@@ -12,9 +12,9 @@
 \contentsline {section}{\numberline {3.5}Maatoiminnassa saavutettavia etuja}{11}{section.3.5}
 \contentsline {chapter}{\numberline {4}J\IeC {\"a}rjestelmien k\IeC {\"a}ytt\IeC {\"o}\IeC {\"o}n liittyvi\IeC {\"a} haasteita}{15}{chapter.4}
 \contentsline {section}{\numberline {4.1}J\IeC {\"a}rjestelmien k\IeC {\"a}ytt\IeC {\"o}\IeC {\"o}notto vanhoissa ja uusissa ohjaamoissa}{15}{section.4.1}
-\contentsline {section}{\numberline {4.2}Ohjaajan suorituskyky ja kognitiiviset haasteet}{16}{section.4.2}
-\contentsline {chapter}{\numberline {5}SV- ja EV-j\IeC {\"a}rjestelmien tulevaisuus}{17}{chapter.5}
-\contentsline {section}{\numberline {5.1}Tulevaisuuden sovelluksia}{17}{section.5.1}
-\contentsline {section}{\numberline {5.2}NextGen ja EVO-konseptit}{18}{section.5.2}
-\contentsline {chapter}{\numberline {6}Yhteenveto}{21}{chapter.6}
-\contentsline {chapter}{Kirjallisuutta}{26}{section*.2}
+\contentsline {section}{\numberline {4.2}Ohjaajan suorituskyky ja kognitiiviset haasteet}{17}{section.4.2}
+\contentsline {chapter}{\numberline {5}SV- ja EV-j\IeC {\"a}rjestelmien tulevaisuus}{18}{chapter.5}
+\contentsline {section}{\numberline {5.1}Tulevaisuuden sovelluksia}{18}{section.5.1}
+\contentsline {section}{\numberline {5.2}NextGen ja EVO-konseptit}{19}{section.5.2}
+\contentsline {chapter}{\numberline {6}Yhteenveto}{22}{chapter.6}
+\contentsline {chapter}{Kirjallisuutta}{27}{section*.2}
