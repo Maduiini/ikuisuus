@@ -44,9 +44,9 @@
 
 \begin{document}
 
-\title{SV- ja EV-järjestelmät kaupallisessa ilmailussa}
+\title{Keinonäkö- ja näönparannusjärjestelmien käyttöönotto uuden sukupolven ilmailussa}
 
-\translatedtitle{Synthetic and Enhanced Vision Systems in Commercial Aviation}
+\translatedtitle{Use of Synthetic and Enhanced Vision Systems in Next Generation Aviation}
 
 %\studyline{}
 \avainsanat{SVS, EVS, ilmailu, näkyvyys, HUD, HDD, lentäminen, lentoturvallisuus, IFR, NextGen, NGATS, EVO}
@@ -67,7 +67,7 @@
   
 \mainmatter
 
-\chapter{Johdanto}
+\chapter{TODO Johdanto}
 
 Viime aikoina lentoturvallisuus on noussut useasti esille medioissa, kun sekä harraste- että kaupallisen ilmailun puolella on tapahtunut monenlaisia lento-onnettomuuksia tai ilmailun vaaratilanteita. Nämä onnettomuudet aiheutuvat useimmiten inhimillisistä virheistä. Tutkimuksen tavoitteena on ottaa selvää, millä eri tavoin olisi keinotekoisia näköjärjestelmiä käyttämällä mahdollista ehkäistä lento-onnettomuuksia ja parantaa lentäjän tilannetietoisuutta, etenkin huonon näkyvyyden olosuhteissa. Tällaiset järjestelmät ovat olleet sotilaspuolen käytössä jo pitkän aikaa, mutta siviili-ilmailussa niitä hyödynnetään vasta melko vähän. Kartoittamalla näiden järjestelmien kustannuksia ja käytettävyyttä saadaan toivottavasti tehtyä jonkinlaisia johtopäätöksiä niiden soveltuvuudesta käytäntöön. TODO: Kerro paremmin ja laita viitteet kuntoon.
 
@@ -120,51 +120,21 @@ Tilannetietoisuutta maatoiminnassa voitaisiin parantaa esimerkiksi käyttämäll
 
 
 
-\chapter{SV- ja EV-järjestelmät}
+\chapter{TODO SV- ja EV-järjestelmät}
 
 \section{Synthetic Vision}
 
-Keinonäköjärjestelmillä (Synthetic Vision System, SVS, Synthetic Vision Information System, SVIS) tarkoitetaan keinotekoisen ympäristökuvan luomista tietokoneella \citep{baileyym2007} tai NASA:n Rockwell Collinsin kanssa kehittämää tällaista teknologiaa käyttävää järjestelmää, SVS \citep{crawford2006}. Prinzelin ym. \citeyearpar{prinzel2004} mukaan NASA:n ilmailuturvallisuusohjelman osana SVS:n tarkoituksena on eliminoida huono näkyvyys lento-onnettomuuksien aiheuttajana sekä parantaa yleis- liike- ja kaupallisen ilmailun operationaalisia valmiuksia.
+Keinonäköjärjestelmillä (Synthetic Vision System, SVS, Synthetic Vision Information System, SVIS) tarkoitetaan keinotekoisen ympäristökuvan luomista  tietokoneella \citep{baileyym2007} tai NASA:n Rockwell Collinsin kanssa kehittämää tällaista teknologiaa käyttävää järjestelmää, SVS \citep{crawfordneal2006}. Prinzelin ym. \citeyearpar{prinzel2004} mukaan NASA:n ilmailuturvallisuusohjelman osana SVS:n tarkoituksena on eliminoida huono näkyvyys lento-onnettomuuksien aiheuttajana sekä parantaa yleis- liike- ja kaupallisen ilmailun operationaalisia valmiuksia.
 
-Kuva luodaan yhdistäen lentoasento- ja tarkkuusnavigointijärjestelmiltä sekä maasto- ja estetietokannoista saatua lennon kannalta tärkeää tietoa. \cite{schnellym2004} kertovat SVIS -järjestelmien olevan uuden sukupolven ohjaamojärjestelmä, joka tulee olemaan tärkeässä osassa tulevaisuuden kaupallisten lentokoneiden ohjaamoissa.
+Kuva luodaan yhdistäen lentoasento- ja tarkkuusnavigointijärjestelmiltä sekä maasto- ja estetietokannoista saatua lennon kannalta tärkeää tietoa. \cite{schnellym2004} kertovat SVIS -järjestelmien olevan uuden sukupolven ohjaamojärjestelmä, joka tulee olemaan tärkeässä osassa tulevaisuuden kaupallisten lentokoneiden ohjaamoissa. Kuitenkin Crawford ja Neal \citeyearpar{crawfordneal2006} huomauttavat, että koska tieto on peräisin tietokannasta, ei se välttämättä ole aina täysin ajan tasalla. He mainitsevat myös tiedonkäsittelystä aiheutuvan viiveen voivan aiheuttaa hämmennystä, mikäli näkyvyyden palautuessa visuaalinen näkymä ei olekaan yhtenevä järjestelmän esittämän tiedon kanssa.
 
+\section{TODO Enhanced Vision}
 
+Näönparannusjärjestelmillä (Enhanced Vision System, EVS tai Enhanced Flight Vision System, EFVS) tarkoitetaan elektronisen apuvälineen, kuten lämpökameran (Forward-Looking Infrared, FLIR) tai millimetritutkan (Millimeter Wave Radar, MMWR) avulla näytettyä kuvaa ulkomaailmasta \citep{baileyym2007}. Möller ja Sachs \citeyearpar{mollersachs1994} kertovat optisten järjestelmien olevan passiivisia laitteita, joilla voidaan muodostaa ympäristökuva ilman tietoa etäisyyksistä. Tutkalla sen sijaan saadaan aktiivisesti etäisyystietoa ympäristöstä, mutta tavallisen näköistä kuvaa on vaikea muodostaa.
 
+Kuten Crawford ja Neal \citeyearpar{crawfordneal2006} mainitsevat, voidaan EV -järjestelmiä käyttää yhdessä sekä heijastusnäyttöjen (Head Up Display, HUD), että ohjauspaneelin näyttöjen (Head Down Display, HDD) kanssa, tarjoten lentäjälle lämpökamerakuvaa maastosta ja liikenteestä myös heikoissa valaistus- ja sääolosuhteissa ja madaltaen esimerkiksi CFIT-riskiä. Kuitenkaan lämpökamerasta ei ole apua olosuhteissa, joissa ympäristön lämpötilaerot eivät ole kovasta sateesta, sumusta, pölystä tai muista syistä helposti havaittavissa.
 
-
-
-
-
-\emph{TODO:}
-SVS is a different flight display system developed by Rockwell Collins and
-NASA. It provides a conformal view of the world outside using the EGPWS database
-to portray a picture of terrain, obstructions, and airports. SVS uses highway-
-in-the-sky software, giving pilots visual cues and flight path guidance. As the
-images provided are database derived, it is possible that important information is
-not available when needed, such as a new construction. Furthermore, processing
-latency or database integrity issues may lead to confusion when the pilot breaks
-through cloud cover and the image from the HUD is not the same as that provided
-by the SVS.\citep{crawford2006}
-
-
-
-\section{Enhanced Vision}
-
-Parannetun näön järjestelmillä (Enhanced Vision System, EVS tai Enhanced Flight Vision System, EFVS) tarkoitetaan elektronisen apuvälineen, kuten lämpökameran (Forward-Looking Infrared, FLIR) tai millimetritutkan (Millimeter Wave Radar, MMWR) avulla näytettyä kuvaa ulkomaailmasta \citep{baileyym2007}. Möller ja Sachs \citeyearpar{mollersachs1994} kertovat optisten järjestelmien olevan passiivisia laitteita, joilla voidaan muodostaa ympäristökuva ilman tietoa etäisyyksistä. Tutkalla sen sijaan saadaan aktiivisesti etäisyystietoa ympäristöstä, mutta tavallisen näköistä kuvaa on vaikea muodostaa.
-
-\emph{TODO:}
-EVSs are designed to increase safety in low-visibility conditions. EVSs can be
-added to both HUDs and HDDs, providing the pilot with infrared-derived visual
-cues of the external scene, including terrain and traffic. The pilot sees the
-real-world runway even when it is obscured by poor weather conditions. The
-EVS also enables views of surrounding terrain in poor lighting and weather conditions.
-This may help to prevent controlled flight into terrain.
-The use of EVS is limited during periods of heavy rain, fog, and dust. Furthermore,
-as infrared only shows thermal differences, the images can be confusing during
-certain conditions such as when objects within a scene are of an equal
-temperature.\citep{crawford2006}
-
-\section{Heijastusnäytöt} \emph{TODO:}
+\section{TODO Heijastusnäytöt}
 
 SVS/EVS-tietoa voidaan esittää esimerkiksi heijastusnäyttöjen (Head-Up Display, HUD) avulla.
 
@@ -212,9 +182,9 @@ savings for airlines. However, potential problems have also emerged. Some of the
 early problems relating to design appear to have been resolved, but there are a
 number of cognitive issues that are still a matter of debate and research. These include
 the effects of divided attention and cognitive tunneling, and spatial disorientation
-and unusual attitude recovery. These issues are reviewed in later sections. \citep{crawford2006}
+and unusual attitude recovery. These issues are reviewed in later sections. \citep{crawfordneal2006}
 
-\section{Lentotoiminnassa saavutettavia etuja}
+\section{TODO Lentotoiminnassa saavutettavia etuja}
 
 Bennet ja Flach \citeyearpar{bennetflach1994} väittävät tiedon näyttämisen ohjaamoissa dynaamisten ja graafisten esitysten avulla johtavan ihmiskeskeisempään malliin, jossa jatkuva tiedonsaanti näyttäisi luonnollisen kaltaiset rajat turvalliselle toiminnalle. Tällöin korostuisi ihmisen joustavuus käyttää luonnollista ja koodattua informaatiota parhaiten hyväkseen.
 
@@ -244,7 +214,7 @@ produce an enhanced synthetic vision system. With both systems used in combinati
 the images, which will include possible hazardous traffic, will give the pilot the
 sameinformation aswouldbe available for a daylight, clear weather visual flight.As
 both systems can be presented on anHUDtogether, human factor design principles,
-pilot performance, problems, and safety concerns will need to be investigated. \citep{crawford2006}
+pilot performance, problems, and safety concerns will need to be investigated. \citep{crawfordneal2006}
 
 
 Nordwallin \citeyearpar{nordwall1993} mukaan heijastusnäyttö (Head-Up Display, HUD)-lämpökamera -yhdistelmällä saavutetaan esimerkiksi sumussa huomattavasti parempi kuva ynpäristöstä, kuin mitä paljaalla silmällä voitaisiin saavuttaa. Beierin ja Gemperleinin \citeyearpar{beiergemperlein2004} tutkimuksen perusteella aivan tiheässä sumussa, jossa näkyvyydet ovat 300m, 100m tai vähemmän, ei lämpökameroita käyttämällä kuitenkaan saada parannusta näkyvyyteen. Tässä tapauksessa lähestymisessä tarvittaisiin esimerkiksi tutkajärjestelmä ympäristökuvaa luomaan.
@@ -350,11 +320,11 @@ NASA is conducting research, development, test, and evaluation of flight deck di
 
 
 
-\section{Maatoiminnassa saavutettavia etuja}
+\section{TODO Maatoiminnassa saavutettavia etuja}
 
 Maatoiminnassa lennonjohdon, koneiden ohjaajien sekä ajoneuvonkuljettajien tilannetietoisuutta pyritään pitämään yllä tarjoamalla visuaalisia merkkejä omasta sijainnista, kulkureiteistä ja tilasta kiito- ja rullausteillä, odotuspaikoilla ja asematasoilla. Tämä hoidetaan esimerkiksi valojen, merkintöjen ja opasteiden avulla. Tällaisia järjestelmiä kutsutaan nimellä Surface Movement Guidance and Control System (SMGCS). \citep{prinzel2013}.
 
-Tilannetietoa ylläpitäviä järjestelmiä voitaisiin myös käyttää ohjaamoissa. Tällaisista järjestelmistä voisi Prinzelin ym. \citeyearpar{prinzel2013} mukaan olla hyötyä, varsinkin henkilöstön näkyvyyden parantamisessa keinotekoisesti sekä tilannetietoisuuden (paikka- ja reittitiedon ja mahdollisesti myös liikenne- ja estetiedon) parantamisessa erilaisten karttajärjestelmien avulla. Etenkin yöllä, tai savun tai pölyn haitatessa näkyvyyttä EV-järjestelmät voivat auttaa pilottia toimimaan turvallisemmin maassa \citep{prinzel2013}. Hooeyn \& Foylen \citeyearpar{hooey2007} tutkimuksen mukaan 17\% yö- tai huonon näkyvyyden olosuhteissa tapahtuneessa rullauskokeessa tuli esille navigointivirheitä, jotka saatiin korjattua liikkuvien lentokenttäkarttojen (Airport Moving Map, AMM) avulla.
+Tilannetietoa ylläpitäviä järjestelmiä voitaisiin myös käyttää ohjaamoissa. Tällaisista järjestelmistä voisi Prinzelin ym. \citeyearpar{prinzel2013} mukaan olla hyötyä, varsinkin miehistön näkyvyyden parantamisessa keinotekoisesti sekä tilannetietoisuuden (paikka- ja reittitiedon ja mahdollisesti myös liikenne- ja estetiedon) parantamisessa erilaisten karttajärjestelmien avulla. Etenkin yöllä, tai savun tai pölyn haitatessa näkyvyyttä EV-järjestelmät voivat auttaa ohjaajia toimimaan turvallisemmin maassa \citep{prinzel2013}. Hooeyn \& Foylen \citeyearpar{hooey2007} tutkimuksen mukaan 17\% yö- tai huonon näkyvyyden olosuhteissa tapahtuneessa rullauskokeessa tuli esille navigointivirheitä, jotka saatiin korjattua liikkuvien lentokenttäkarttojen (Airport Moving Map, AMM) avulla.
 
 \emph{TODO:}
 Synthetic Vision information provides also a menas for enhancing poor visibility operations of aircraft when moving on the ground. There are only simple or marginal optical aids for surface movement.
@@ -412,7 +382,7 @@ low-visibility conditions, poor taxi performance is dangerous, increases fuel co
 to airlines, and affects passenger schedules. McCann, Andre, Begault, Foyle, and
 Wenzel (1997) examined taxi performance when pilots were using T–NASA’s
 “Scene-Linked” HUDs and 3–D moving maps. The HUDs substantially improved
-taxi performance over performance seen with 3–D moving maps. \citep{crawford2006}
+taxi performance over performance seen with 3–D moving maps. \citep{crawfordneal2006}
 
 
 
@@ -516,11 +486,11 @@ taxi performance over performance seen with 3–D moving maps. \citep{crawford20
 
 
 
-\chapter{Järjestelmien käyttöön liittyviä haasteita} \emph{TODO:}
+\chapter{TODO Järjestelmien käyttöön liittyviä haasteita}
 
 Tässä kappaleessa kerrotaan erilaisista ongelmista, joita järjestelmien käyttöönotossa on otettava huomioon.
 
-\section{Järjestelmien käyttöönotto vanhoissa ja uusissa ohjaamoissa} \emph{TODO:}
+\section{TODO Järjestelmien käyttöönotto vanhoissa ja uusissa ohjaamoissa}
 
 One point concerns the number of displayable objects. This
 number is confined because of limitations in graphic hardware
@@ -575,13 +545,13 @@ wide-angle lens effect of increasing FOV, however, interacts with display size a
 can lead to perceptual distortions as the minification factor (MF) is increased (e.g.,
 virtual space effect; McGreevy \& Ellis, 1986). \citep{prinzel2004}
 
-\section{Ohjaajan suorituskyky ja kognitiiviset haasteet}
+\section{TODO Ohjaajan suorituskyky ja kognitiiviset haasteet}
 
 \emph{TODO:} PROTO 
 
-\chapter{SV- ja EV-järjestelmien tulevaisuus}
+\chapter{TODO SV- ja EV-järjestelmien tulevaisuus}
 
-\section{Tulevaisuuden sovelluksia}
+\section{TODO Tulevaisuuden sovelluksia}
 
 Tässä pohditaan, minkälainen tulevaisuus SV- ja EV-järjestelmiä mahdollisesti odottaa kaupallisen ilmailun näkökulmasta.
 
@@ -628,11 +598,11 @@ pilots who were truly naive to the study (in this case a runway incursion), the 
 was detected more slowly in the HUD condition than in the HDD condition. It
 should be noted that this finding was not statistically significant, possibly due to
 the insufficient power of the study. Nevertheless, the results are consistent with the
-cognitive tunneling effects reported previously, without pathway displays. \citep{crawford2006}
+cognitive tunneling effects reported previously, without pathway displays. \citep{crawfordneal2006}
 
 
 
-\section{NextGen ja EVO-konseptit}
+\section{TODO NextGen ja EVO-konseptit}
 
 \emph{TODO:}
 Tässä osiossa kerrotaan NextGen-ilmailukonseptista sekä EVO-konseptista sekä näönparannusjärjestelmän vaatimuksista, joita näihin konsepteihin on visioitu.
@@ -691,7 +661,7 @@ and to “double the capacity of the aviation system,” both with 10 years (NAS
 2001, p. 2). \citep{prinzel2004}
 
 
-\chapter{Yhteenveto} \emph{TODO:}
+\chapter{TODO Yhteenveto}
 
 Synthetic vision has the potential to provide significant safety and economic benefits,
 particularly if the system is effective as both a retrofit and forward-fit solution
@@ -740,7 +710,7 @@ not find any studies in the public domain that have addressed this issue. Other 
 that need to be examined include the use of HUDs in multicrew operations, and the
 effects of fatigue and experience on performance when using an HUD. Although
 HUDsoffer significant benefits to airlines in both productivity and safety, an extensive
-program of research is needed to ensure that these gains are realized. \citep{crawford2006}
+program of research is needed to ensure that these gains are realized. \citep{crawfordneal2006}
 
 Results of this study suggest that automation bias is a significant factor in pilot
 interaction with automated aids, and that pilots are not utilizing all available
@@ -863,7 +833,7 @@ Boeing 1994.
 1959–1995}.
 Seattle, WA: Airplane Safety Engineering, Boeing Commercial Airplane Group.
 
-\bibitem[Crawford \& Neal(2006)Crawford, Jennifer \& Neal, Andrew]{crawford2006}
+\bibitem[Crawford \& Neal(2006)Crawford, Jennifer \& Neal, Andrew]{crawfordneal2006}
 Crawford, Jennifer \& Neal, Andrew 2006.
 \textit{A Review of the Perceptual and Cognitive Issues Associated With the Use of Head-Up Displays in Commercial Aviation}
 The International Journal of Aviation Psychology, 16:1, s.~1--19.

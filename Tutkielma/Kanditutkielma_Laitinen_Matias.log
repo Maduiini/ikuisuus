@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.12)  12 OCT 2014 18:03
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.12)  15 OCT 2014 12:12
 entering extended mode
 **Kanditutkielma_Laitinen_Matias.tex
 
@@ -769,32 +769,32 @@ Overfull \hbox (0.74414pt too wide) detected at line 14
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 15
- []\T1/ppl/m/n/12 16[]
+ []\T1/ppl/m/n/12 17[]
  []
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 16
- []\T1/ppl/m/n/12 17[]
- []
-
-
-Overfull \hbox (0.74414pt too wide) detected at line 17
- []\T1/ppl/m/n/12 17[]
- []
-
-
-Overfull \hbox (0.74414pt too wide) detected at line 18
  []\T1/ppl/m/n/12 18[]
  []
 
 
+Overfull \hbox (0.74414pt too wide) detected at line 17
+ []\T1/ppl/m/n/12 18[]
+ []
+
+
+Overfull \hbox (0.74414pt too wide) detected at line 18
+ []\T1/ppl/m/n/12 19[]
+ []
+
+
 Overfull \hbox (0.74414pt too wide) detected at line 19
- []\T1/ppl/m/n/12 21[]
+ []\T1/ppl/m/n/12 22[]
  []
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 20
- []\T1/ppl/m/n/12 26[]
+ []\T1/ppl/m/n/12 27[]
  []
 
 )
@@ -827,7 +827,7 @@ Overfull \hbox (8.65317pt too wide) in paragraph at lines 129--130
  []
 
 
-Overfull \hbox (23.29451pt too wide) in paragraph at lines 153--154
+Overfull \hbox (23.29451pt too wide) in paragraph at lines 133--134
 \T1/ppl/m/n/12 (Forward-Looking In-fra-red, FLIR) tai mil-li-met-ri-tut-kan (Mi
 l-li-me-ter Wa-ve Ra-dar, MMWR)
  []
@@ -835,38 +835,38 @@ l-li-me-ter Wa-ve Ra-dar, MMWR)
 [4
 
 ] [5] [6]
-Overfull \hbox (0.24197pt too wide) in paragraph at lines 221--222
+Overfull \hbox (0.24197pt too wide) in paragraph at lines 191--192
 \T1/ppl/m/n/12 in-for-maa-tio-ta kor-keus-mit-ta-rin näyt-tä-mä. ([]Prinzel ym.
  [], []2004[]). SV -järjestelmien avul-
  []
 
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 228.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 198.
 
 ("C:\Program Files (x86)\MiKTeX\tex\latex\psnfss\omsppl.fd"
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 228.
- [7]
-Overfull \hbox (0.7809pt too wide) in paragraph at lines 232--233
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 198.
+
+Overfull \hbox (0.7809pt too wide) in paragraph at lines 202--203
 []\T1/ppl/m/n/12 Toisistaan riip-pu-mat-to-man toi-min-nan mah-dol-lis-ta-mi-ne
 n rin-nak-kai-sil-la, lä-hek-
  []
 
-
-Overfull \hbox (0.78493pt too wide) in paragraph at lines 235--236
+[7]
+Overfull \hbox (0.78493pt too wide) in paragraph at lines 205--206
 \T1/ppl/m/n/12 ongelmat len-to-ken-täl-lä voi ai-heut-taa lii-ken-teen ruuh-kau
 -tu-mi-sen. SVIS-järjestelmistä
  []
 
 
-Overfull \hbox (9.09038pt too wide) in paragraph at lines 237--238
+Overfull \hbox (9.09038pt too wide) in paragraph at lines 207--208
 [][]\T1/ppl/m/n/12 Bailey ym. [] ([]2007[]) väit-tä-vät SV-järjestelmillä saa-t
 a-van huo-mat-ta-via pa-ran-nuk-sia maas-
  []
 
 [8] [9]
-Overfull \hbox (0.91786pt too wide) in paragraph at lines 308--310
+Overfull \hbox (0.91786pt too wide) in paragraph at lines 278--280
 \T1/ppl/m/n/12 dents/accidents for ter-mi-nal area and sur-face ope-ra-tions. T
 he tech-no-lo-gies that form
  []
@@ -874,7 +874,7 @@ he tech-no-lo-gies that form
 [10] [11] [12] [13] [14]
 Luku 4.
 
-Overfull \hbox (2.40608pt too wide) in paragraph at lines 525--533
+Overfull \hbox (2.40608pt too wide) in paragraph at lines 495--503
 \T1/ppl/m/n/12 because of li-mi-ta-tions in grap-hic hardwa-re per-for-mance an
 d me-mo-ry ca-paci-ty. Anot-
  []
@@ -888,7 +888,7 @@ Luku 5.
 ] [19] [20] [21]
 Luku 6.
 
-Overfull \hbox (1.3352pt too wide) in paragraph at lines 718--744
+Overfull \hbox (1.3352pt too wide) in paragraph at lines 688--714
 []\T1/ppl/m/n/12 In sum-ma-ry, re-search sug-gests that the-re are a num-ber of
  ad-van-ta-ges in using HUDs.
  []
@@ -898,21 +898,21 @@ Overfull \hbox (1.3352pt too wide) in paragraph at lines 718--744
 ] [23] [24] [25] [26] [27
 
 ] [28]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 934.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 934.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 904.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 904.
 
 (C:\Users\Matias\OneDrive\Asiakirjat\kandi\Tutkielma\Kanditutkielma_Laitinen_Ma
 tias.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 934.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 934.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 904.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 904.
 Package rerunfilecheck Info: File `Kanditutkielma_Laitinen_Matias.out' has not 
 changed.
-(rerunfilecheck)             Checksum: 3105AD8A288B6EF32AFF8CACBE5091D9;1355.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 934.
+(rerunfilecheck)             Checksum: 402E77C2D2EF2BAE94AC7109B149D084;1420.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 904.
  ) 
 Here is how much of TeX's memory you used:
  7652 strings out of 493921
- 108842 string characters out of 3146476
+ 108858 string characters out of 3146476
  215368 words of memory out of 3000000
  10737 multiletter control sequences out of 15000+200000
  27567 words of font info for 60 fonts, out of 3000000 for 9000
@@ -924,9 +924,9 @@ les (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x
 nts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTeX/fonts/type1/ur
 w/palatino/uplr8a.pfb><C:/Program Files (x86)/MiKTeX/fonts/type1/urw/palatino/u
 plri8a.pfb>
-Output written on Kanditutkielma_Laitinen_Matias.pdf (31 pages, 184023 bytes).
+Output written on Kanditutkielma_Laitinen_Matias.pdf (31 pages, 183563 bytes).
 PDF statistics:
- 405 PDF objects out of 1000 (max. 8388607)
+ 403 PDF objects out of 1000 (max. 8388607)
  68 named destinations out of 1000 (max. 500000)
  145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
