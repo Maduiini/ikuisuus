@@ -7,9 +7,9 @@
 \contentsline {chapter}{\numberline {3}TODO SV- ja EV-j\IeC {\"a}rjestelm\IeC {\"a}t}{4}{chapter.3}
 \contentsline {section}{\numberline {3.1}Synthetic Vision}{4}{section.3.1}
 \contentsline {section}{\numberline {3.2}Enhanced Vision}{4}{section.3.2}
-\contentsline {section}{\numberline {3.3}TODO Heijastusn\IeC {\"a}yt\IeC {\"o}t}{5}{section.3.3}
-\contentsline {section}{\numberline {3.4}TODO Lentotoiminnassa saavutettavia etuja}{7}{section.3.4}
-\contentsline {section}{\numberline {3.5}TODO Maatoiminnassa saavutettavia etuja}{11}{section.3.5}
+\contentsline {section}{\numberline {3.3}Heijastusn\IeC {\"a}yt\IeC {\"o}t}{5}{section.3.3}
+\contentsline {section}{\numberline {3.4}TODO Lentotoiminnassa saavutettavia etuja}{6}{section.3.4}
+\contentsline {section}{\numberline {3.5}TODO Maatoiminnassa saavutettavia etuja}{10}{section.3.5}
 \contentsline {chapter}{\numberline {4}TODO J\IeC {\"a}rjestelmien k\IeC {\"a}ytt\IeC {\"o}\IeC {\"o}n liittyvi\IeC {\"a} haasteita}{15}{chapter.4}
 \contentsline {section}{\numberline {4.1}TODO J\IeC {\"a}rjestelmien k\IeC {\"a}ytt\IeC {\"o}\IeC {\"o}notto vanhoissa ja uusissa ohjaamoissa}{15}{section.4.1}
 \contentsline {section}{\numberline {4.2}TODO Ohjaajan suorituskyky ja kognitiiviset haasteet}{17}{section.4.2}
