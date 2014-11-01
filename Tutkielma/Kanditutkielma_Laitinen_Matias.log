@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.12)  24 OCT 2014 16:25
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.12)  1 NOV 2014 17:39
 entering extended mode
 **Kanditutkielma_Laitinen_Matias.tex
 
@@ -753,43 +753,48 @@ File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
  [1]
 (C:\Users\Matias\OneDrive\Asiakirjat\kandi\Tutkielma\Kanditutkielma_Laitinen_Ma
 tias.toc
+Overfull \hbox (0.74414pt too wide) detected at line 12
+ []\T1/ppl/m/n/12 10[]
+ []
+
+
 Overfull \hbox (0.74414pt too wide) detected at line 13
- []\T1/ppl/m/n/12 14[]
+ []\T1/ppl/m/n/12 11[]
  []
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 14
- []\T1/ppl/m/n/12 14[]
+ []\T1/ppl/m/n/12 11[]
  []
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 15
- []\T1/ppl/m/n/12 16[]
+ []\T1/ppl/m/n/12 13[]
  []
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 16
- []\T1/ppl/m/n/12 17[]
+ []\T1/ppl/m/n/12 61[]
  []
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 17
- []\T1/ppl/m/n/12 17[]
+ []\T1/ppl/m/n/12 61[]
  []
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 18
- []\T1/ppl/m/n/12 18[]
+ []\T1/ppl/m/n/12 62[]
  []
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 19
- []\T1/ppl/m/n/12 21[]
+ []\T1/ppl/m/n/12 65[]
  []
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 20
- []\T1/ppl/m/n/12 26[]
+ []\T1/ppl/m/n/12 70[]
  []
 
 )
@@ -856,9 +861,9 @@ Overfull \hbox (26.31532pt too wide) in paragraph at lines 157--158
  []
 
 
-Overfull \hbox (29.49779pt too wide) in paragraph at lines 165--166
-[]\T1/ppl/m/n/12 Luonnollisella in-for-maa-tiol-la kä-si-te-tään tie-to, jo-ta 
-saa-daan sa-mal-la ta-voin kuin näkölento-
+Overfull \hbox (0.24197pt too wide) in paragraph at lines 165--166
+\T1/ppl/m/n/12 in-for-maa-tio-ta kor-keus-mit-ta-rin näyt-tä-mä. ([]Prinzel ym.
+ [], []2004[]). SV -järjestelmien avul-
  []
 
 [7]
@@ -891,70 +896,202 @@ Overfull \hbox (37.76607pt too wide) in paragraph at lines 189--190
 än in-for-maa-tio-ta, mut-ta EV-järjestelmä
  []
 
-[9] [10] [11] [12] [13]
+[9] [10]
 Luku 4.
+[11
 
-Overfull \hbox (2.40608pt too wide) in paragraph at lines 372--380
-\T1/ppl/m/n/12 because of li-mi-ta-tions in grap-hic hardwa-re per-for-mance an
-d me-mo-ry ca-paci-ty. Anot-
+] [12]
+Overfull \hbox (0.12256pt too wide) in paragraph at lines 266--268
+[]\T1/ppl/m/it/12 TODO: \T1/ppl/m/n/12 Täs-sä kap-pa-lees-sa ker-ro-taan niis-t
+ä mo-nis-ta haas-teis-ta, joi-ta suu-rim-mil-ta osin
  []
 
-[14
+[13] [14] [15] [16] [17] [18] [19]
+Overfull \hbox (5.28146pt too wide) in paragraph at lines 499--550
+[]\T1/ppl/m/n/12 Omission Er-ror Events Desc-rip-ti-ve ana-ly-ses re-vea-led ov
+e-rall omis-sion ra-tes for flight-
+ []
 
-] [15] [16]
+[20]
+
+Package natbib Warning: Citation `crawford2006' on page 21 undefined on input l
+ine 567.
+
+[21]
+
+Package natbib Warning: Citation `crawford2006' on page 22 undefined on input l
+ine 589.
+
+[22]
+
+Package natbib Warning: Citation `crawford2006' on page 23 undefined on input l
+ine 619.
+
+
+Overfull \hbox (10.33348pt too wide) in paragraph at lines 591--620
+\T1/ppl/m/n/12 to op-tical in-fi-ni-ty, or that col-li-ma-ted HUDs may even exa
+cer-ba-te HEAD-UP DISPLAYS
+ []
+
+
+Package natbib Warning: Citation `crawford2006' on page 23 undefined on input l
+ine 651.
+
+[23]
+
+Package natbib Warning: Citation `crawford2006' on page 24 undefined on input l
+ine 715.
+
+[24] [25]
+
+Package natbib Warning: Citation `schnell2004' on page 26 undefined on input li
+ne 734.
+
+[26]
+
+Package natbib Warning: Citation `schnell2004' on page 27 undefined on input li
+ne 740.
+
+
+Overfull \hbox (6.6971pt too wide) in paragraph at lines 736--741
+[]\T1/ppl/m/n/12 A num-ber of war-ning sys-tems cur-rent-ly avai-lable on mo-de
+rn airc-raftwarn the creww-
+ []
+
+[27] [28] [29] [30] [31]
+
+Package natbib Warning: Citation `schnell2004' on page 32 undefined on input li
+ne 888.
+
+
+Package natbib Warning: Citation `crawford2006' on page 32 undefined on input l
+ine 914.
+
+
+Overfull \hbox (21.2433pt too wide) in paragraph at lines 890--915
+\T1/ppl/m/n/12 sym-bo-lo-gy al-le-via-tes the cog-ni-ti-ve tun-ne-ling ef-fect 
+(Fo-y-le, McCann, San-ford, & Schwirz-
+ []
+
+[32]
+
+Package natbib Warning: Citation `crawford2006' on page 33 undefined on input l
+ine 939.
+
+[33]
+
+Package natbib Warning: Citation `crawford2006' on page 34 undefined on input l
+ine 981.
+
+[34]
+
+Package natbib Warning: Citation `crawford2006' on page 35 undefined on input l
+ine 1023.
+
+[35] [36] [37]
+
+Package natbib Warning: Citation `crawford2006' on page 38 undefined on input l
+ine 1105.
+
+[38]
+
+Package natbib Warning: Citation `ververs1998' on page 39 undefined on input li
+ne 1211.
+
+[39] [40] [41]
+
+Package natbib Warning: Citation `ververs1998' on page 42 undefined on input li
+ne 1248.
+
+[42]
+
+Package natbib Warning: Citation `ververs1998' on page 43 undefined on input li
+ne 1341.
+
+[43] [44] [45]
+
+Package natbib Warning: Citation `ververs1998' on page 46 undefined on input li
+ne 1399.
+
+[46] [47]
+Overfull \hbox (5.57446pt too wide) in paragraph at lines 1401--1556
+\T1/ppl/m/n/12 1991). Aclas-sic example he-re is the crash of an Eas-tern Air-l
+i-nes L1011 in-to the Evergla-
+ []
+
+[48] [49] [50] [51] [52] [53] [54] [55] [56] [57] [58] [59] [60]
 Luku 5.
-[17
+[61
 
-] [18] [19] [20]
+] [62] [63] [64]
 Luku 6.
 
-Overfull \hbox (1.3352pt too wide) in paragraph at lines 572--598
+Overfull \hbox (1.3352pt too wide) in paragraph at lines 1952--1978
 []\T1/ppl/m/n/12 In sum-ma-ry, re-search sug-gests that the-re are a num-ber of
  ad-van-ta-ges in using HUDs.
  []
 
-[21
+[65
 
-] [22] [23] [24] [25] [26
+] [66] [67] [68] [69]
+Underfull \hbox (badness 10000) in paragraph at lines 2121--2126
+[]\T1/ppl/m/n/12 Gerold, A. 2001. \T1/ppl/m/it/12 Runway Incur-sions: The Th-re
+at on the
+ []
 
-] [27] [28]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 837.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 837.
+
+Underfull \hbox (badness 10000) in paragraph at lines 2121--2126
+\T1/ppl/m/it/12 Ground\T1/ppl/m/n/12 . Avio-nics To-day. Saa-ta-vil-la WWW-muod
+ossa
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2121--2126
+\T1/ppl/m/n/12 <http://www.aviationtoday.com/av/commercial/Runway-Incursions-Th
+e-
+ []
+
+[70
+
+] [71] [72]
+
+Package natbib Warning: There were undefined citations.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 2218.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 2218.
 
 (C:\Users\Matias\OneDrive\Asiakirjat\kandi\Tutkielma\Kanditutkielma_Laitinen_Ma
-tias.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 837.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 837.
+tias.aux
 
+Package natbib Warning: Citation(s) may have changed.
+(natbib)                Rerun to get citations correct.
 
-Package rerunfilecheck Warning: File `Kanditutkielma_Laitinen_Matias.out' has c
-hanged.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
+)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 2218.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 2218.
 
-Package rerunfilecheck Info: Checksums for `Kanditutkielma_Laitinen_Matias.out'
-:
-(rerunfilecheck)             Before: B382D3D22819DCAA0A73FAA9BFAF19C8;1410
-(rerunfilecheck)             After:  04FCD02CE53D4471A2D46B12FD0E27E7;1405.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 837.
+Package rerunfilecheck Info: File `Kanditutkielma_Laitinen_Matias.out' has not 
+changed.
+(rerunfilecheck)             Checksum: CA13FB41800EDCFB9C7D2A5A27570BB0;1412.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 2218.
  ) 
 Here is how much of TeX's memory you used:
- 7688 strings out of 493921
- 109655 string characters out of 3146476
- 215956 words of memory out of 3000000
- 10764 multiletter control sequences out of 15000+200000
+ 7753 strings out of 493921
+ 110282 string characters out of 3146476
+ 233993 words of memory out of 3000000
+ 10784 multiletter control sequences out of 15000+200000
  27567 words of font info for 60 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 33i,6n,28p,1148b,502s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 33i,6n,28p,1022b,498s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files (x86)/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/Program Fi
 les (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x
 86)/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX/fo
 nts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTeX/fonts/type1/ur
 w/palatino/uplr8a.pfb><C:/Program Files (x86)/MiKTeX/fonts/type1/urw/palatino/u
 plri8a.pfb>
-Output written on Kanditutkielma_Laitinen_Matias.pdf (31 pages, 191106 bytes).
+Output written on Kanditutkielma_Laitinen_Matias.pdf (75 pages, 310268 bytes).
 PDF statistics:
- 452 PDF objects out of 1000 (max. 8388607)
- 77 named destinations out of 1000 (max. 500000)
+ 674 PDF objects out of 1000 (max. 8388607)
+ 122 named destinations out of 1000 (max. 500000)
  145 words of extra memory for PDF output out of 10000 (max. 10000000)
 
