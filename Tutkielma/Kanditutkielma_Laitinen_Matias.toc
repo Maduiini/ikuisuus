@@ -4,17 +4,17 @@
 \contentsline {chapter}{\numberline {2}Ilmailu ja n\IeC {\"a}kyvyys}{3}{chapter.2}
 \contentsline {section}{\numberline {2.1}N\IeC {\"a}kyvyyden vaikutus lennon aikana}{3}{section.2.1}
 \contentsline {section}{\numberline {2.2}N\IeC {\"a}kyvyyden vaikutus maatoimintaan}{4}{section.2.2}
-\contentsline {chapter}{\numberline {3}TODO SV- ja EV-j\IeC {\"a}rjestelm\IeC {\"a}t}{5}{chapter.3}
+\contentsline {chapter}{\numberline {3}SV- ja EV-j\IeC {\"a}rjestelm\IeC {\"a}t}{5}{chapter.3}
 \contentsline {section}{\numberline {3.1}Synthetic Vision}{5}{section.3.1}
 \contentsline {section}{\numberline {3.2}Enhanced Vision}{5}{section.3.2}
 \contentsline {section}{\numberline {3.3}Heijastusn\IeC {\"a}yt\IeC {\"o}t}{6}{section.3.3}
 \contentsline {section}{\numberline {3.4}Lentotoiminnassa saavutettavia etuja}{7}{section.3.4}
 \contentsline {section}{\numberline {3.5}Maatoiminnassa saavutettavia etuja}{10}{section.3.5}
-\contentsline {chapter}{\numberline {4}TODO J\IeC {\"a}rjestelmien k\IeC {\"a}ytt\IeC {\"o}\IeC {\"o}n liittyvi\IeC {\"a} haasteita}{11}{chapter.4}
-\contentsline {section}{\numberline {4.1}TODO J\IeC {\"a}rjestelmien k\IeC {\"a}ytt\IeC {\"o}\IeC {\"o}notto vanhoissa ja uusissa ohjaamoissa}{11}{section.4.1}
-\contentsline {section}{\numberline {4.2}TODO Ohjaajan suorituskyky ja kognitiiviset haasteet}{13}{section.4.2}
-\contentsline {chapter}{\numberline {5}TODO SV- ja EV-j\IeC {\"a}rjestelmien tulevaisuus}{61}{chapter.5}
-\contentsline {section}{\numberline {5.1}TODO Tulevaisuuden sovelluksia}{61}{section.5.1}
-\contentsline {section}{\numberline {5.2}TODO NextGen ja EVO-konseptit}{62}{section.5.2}
-\contentsline {chapter}{\numberline {6}TODO Tulokset ja Yhteenveto}{65}{chapter.6}
-\contentsline {chapter}{Kirjallisuutta}{70}{section*.2}
+\contentsline {chapter}{\numberline {4}---J\IeC {\"a}rjestelmien k\IeC {\"a}ytt\IeC {\"o}\IeC {\"o}n liittyvi\IeC {\"a} haasteita}{11}{chapter.4}
+\contentsline {section}{\numberline {4.1}J\IeC {\"a}rjestelmien k\IeC {\"a}ytt\IeC {\"o}\IeC {\"o}notto ohjaamoissa}{11}{section.4.1}
+\contentsline {section}{\numberline {4.2}TODO Ohjaajan suorituskyky ja kognitiiviset haasteet}{11}{section.4.2}
+\contentsline {chapter}{\numberline {5}TODO SV- ja EV-j\IeC {\"a}rjestelmien tulevaisuus}{59}{chapter.5}
+\contentsline {section}{\numberline {5.1}TODO Tulevaisuuden sovelluksia}{59}{section.5.1}
+\contentsline {section}{\numberline {5.2}TODO NextGen ja EVO-konseptit}{60}{section.5.2}
+\contentsline {chapter}{\numberline {6}TODO Tulokset ja Yhteenveto}{63}{chapter.6}
+\contentsline {chapter}{Kirjallisuutta}{68}{section*.2}

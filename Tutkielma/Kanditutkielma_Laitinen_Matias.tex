@@ -44,7 +44,7 @@
 
 \begin{document}
 
-\title{Keinonäkö- ja näönparannusjärjestelmien käyttöönotto uuden sukupolven ilmailussa}
+\title{Keinonäkö- ja parannellun näön järjestelmien käyttöönotto uuden sukupolven ilmailussa}
 
 \translatedtitle{Use of Synthetic and Enhanced Vision Systems in Next Generation Aviation}
 
@@ -135,7 +135,7 @@ Kuva luodaan yhdistäen lentoasento- ja tarkkuusnavigointijärjestelmiltä sekä
 
 \section{Enhanced Vision}
 
-Näönparannusjärjestelmillä (Enhanced Vision System, EVS tai Enhanced Flight Vision System, EFVS) tarkoitetaan elektronisen apuvälineen, kuten lämpökameran (Forward-Looking Infrared, FLIR) tai millimetritutkan (Millimeter Wave Radar, MMWR) avulla näytettyä kuvaa ulkomaailmasta \citep{baileyym2007}. Möller ja Sachs \citeyearpar{mollersachs1994} kertovat optisten järjestelmien olevan passiivisia laitteita, joilla voidaan muodostaa ympäristökuva ilman etäisyystietoa. Sitä vastoin esimerkiksi tutkalla saadaan aktiivisesti etäisyystietoa ympäristöstä, mutta tavallisen näköistä kuvaa on vaikea muodostaa.
+Parannetun näön järjestelmillä (Enhanced Vision System, EVS tai Enhanced Flight Vision System, EFVS) tarkoitetaan elektronisen apuvälineen, kuten lämpökameran (Forward-Looking Infrared, FLIR) tai millimetritutkan (Millimeter Wave Radar, MMWR) avulla näytettyä kuvaa ulkomaailmasta \citep{baileyym2007}. Möller ja Sachs \citeyearpar{mollersachs1994} kertovat optisten järjestelmien olevan passiivisia laitteita, joilla voidaan muodostaa ympäristökuva ilman etäisyystietoa. Sitä vastoin esimerkiksi tutkalla saadaan aktiivisesti etäisyystietoa ympäristöstä, mutta tavallisen näköistä kuvaa on vaikea muodostaa.
 
 Kuten Crawford ja Neal \citeyearpar{crawfordneal2006} mainitsevat, voidaan EV -järjestelmiä käyttää yhdessä sekä heijastusnäyttöjen (Head Up Display, HUD), että ohjauspaneelin näyttöjen (Head Down Display, HDD) kanssa, tarjoten lentäjälle lämpökamerakuvaa maastosta ja liikenteestä myös heikoissa valaistus- ja sääolosuhteissa.
 
@@ -200,61 +200,163 @@ Maatoiminnan tilannetietoa ylläpitäviä järjestelmiä voitaisiin myös käytt
 
 Prinzelin ym. \citeyearpar{prinzel2013} tutkimuksen perusteella pelkkä EV-järjestelmien käyttö ilman karttaa ei merkittävästi paranna toimintaa maassa. Myös ohjaajat arvioivat AMM -karttojen olevan olennaisessa osassa maatoimintaa ja yhdessä EV sekä AMM toivat huomattavia etuja, esimerkiksi mahdollistamalla toiminnan entistä huonomman näkyvyyden olosuhteissa kentillä, joilla on vain vähän tai ei lainkaan rullausapuja käytössä. \citep{prinzel2013}.
 
-\chapter{TODO Järjestelmien käyttöön liittyviä haasteita}
+\chapter{Järjestelmien käyttöönotto ohjaamoissa}
 
-Tässä kappaleessa kerrotaan erilaisista ongelmista, joita järjestelmien käyttöönotossa on otettava huomioon.
+Suunnitellessa uusia ohjaamoita voidaan ottaa luonnollisesti huomioon SV-näyttöjen tarpeet (forward fit), mutta oman haasteensa asettaa se, miten käytännölliset ja toimivat näyttölaitteet voidaan asentaa vanhempiin ohjaamoihin, tai ohjaamoihin, joissa tilaa on rajallisesti (retrofit). \citep{prinzel2004}.
 
-\section{TODO Järjestelmien käyttöönotto vanhoissa ja uusissa ohjaamoissa}
+Eräs ratkaisu tilankäyttöön olisi näyttää SVS heijastusnäytöllä, jolloin voitaisiin keskittyä siihen, kuinka parhaiten esittää keinotekoista kuvaa maastosta sen rajoitettujen grafiikkaominaisuuksien vuoksi. Toinen tapa olisi poistaa perinteiset mittarit ja asentaa tilalle keinonäkönäytöt, jolloin puolestaan jäisi selvitettäväksi, millaiset näyttöesitykset toimivat parhaiten miehistön näkökulmasta. \citep{prinzel2004}.
 
-Tässä kerrotaan lähinnä teknisistä haasteita, joita voi esiintyä otettaessa järjestelmiä käyttöön vanhoissa sekä uusissa ohjaamoissa. Luonnollisesti uusissa ohjaamoissa voidaan ottaa SVS huomioon jo niitä suunniteltaessa.
+\chapter{TODO Ohjaajan suorituskyky ja kognitiiviset haasteet}
 
-While degrees of success in developing these decision aids have been met, technology for “perfect” object detection and database/navigation error detection does not yet exist. Further, there may always be gaps which may still warrant flight deck procedures and human interventions for integrity and error checks.
-\citep{baileyym2007}
+Ihmisen suorituskyky aiheuttaa paljon haasteita, kun kehitetään uusia tapoja 
+esittää tietoa ohjaamomiehistölle. Esimerkiksi keinotekoista maastokuvaa luodesssa voidaan käyttää joko yleisiä maastotekstuureja tai fotorealistista esitystapaa, jossa ilmakuvista otetaan värit tietokoneella luotuun maastomalliin. Näistä jälkimmäinen vaatii luonnollisesti enemmän varastointitilaa ja laskentatehoa, mutta kysymys kuuluukin, kummalla tavalla esitettynä informaatio on ohjaajalle enemmän hyödyksi informaation saannin ja tilannetietoisuuden kannalta \citep{prinzel2004}. Seuraavaksi käsitellään yleisimpiä ihmisen suorituskyvystä aiheutuvia haasteita, joita keinonäkö- ja parannellun näön järjestelmiä kehiteltäessä tulee ottaa huomioon.
+
+\section{TODO Akkommodaatiovääristymä}
+
+Misaccommodation
+Misaccommodation of the eye occurs when the focus is drawn inward by something
+close. This is considered to be a problem because it impairs pilots’ ability
+to detect targets and to judge their distance and size (Weintraub \& Ensing,
+1992). HUDs are collimated to appear at optical infinity to overcome the problem
+of misaccommodation. Collimation is intended to put the HUD symbology
+at the same optical depth as the external world, which in principle should assist
+with accommodation and reduce the time necessary to refocus (Naish, 1964).
+The effectiveness of collimation and whether HUDs should be collimated has
+been extensively debated. This debate has been covered in previous reviews
+(Newman, 1995; Weintraub \& Ensing, 1992). Given that no new studies have
+addressed this issue in the past 10 years, we provide only a relatively brief summary
+of the issues here.\citep{crawford2006}
+
+A number of studies suggest that collimation does not pull the pilot’s focus outward
+to optical infinity, or that collimated HUDs may even exacerbate
+misaccommodation (Hull, Gill, \& Roscoe, 1982; Iavecchia, Iavecchia, \& Roscoe,
+1988; Norman \& Ehrlich, 1986). Weintraub and Ensing (1992), on the other hand,
+argued that the bulk of evidence suggests that collimated HUDs do pull the pilot’s
+focus outward, even if it is not always to optical infinity. They argued that the earlier
+results were an artefact of the optical quality of the HUD image and the external
+scenes used in these studies. High-quality images, whether generated by the
+HUD or from the external environment, draw focus outward. Iavecchia et al.
+(1988) used a relatively poor-quality HUD image superimposed over a
+high-quality image of terrain, causing focus to be drawn inward. In contrast,
+Weintraub and Ensing (1992) argued that if the external image is of poor quality
+(e.g., because of fog or rain) high-quality HUD images will actually pull the pilots’
+focus outward, partially offsetting the tendency for the resting point of accommodation
+to be closer than the objects in the external environment. Similar arguments
+were made by Newman (1987), who argued on the basis of subjective experience
+that HUDs give the pilot a clearer view when flying through rain. To our knowledge,
+the question of whether collimated HUDs produce misaccommodation or
+whether they reduce it has not been resolved.
+Another issue of concern is whether the HUD combiner glass itself, including
+its frame and lack of movement compared with the external world, are a source of
+misaccommodation. These items may provide perceptual clues that the HUD is
+closer than the outside scene (Larish \& Wickens, 1991; Roscoe, 1987). However,
+the same is true of dirt, rain, and glare on the windshield (Weintraub, 1987). There
+is currently no strong evidence available to assess whether the HUD combiner
+glass significantly increases the risk of misaccommodation, over the risk posed by
+the contaminated windscreen itself. \citep{crawford2006}
+
+Intuitively, one might expect that HUDs would enhance a pilot’s ability to detect
+events in the external world because the pilot does not have to switch attention
+back and forth between an HDD and the external environment. However, there
+is strong evidence to suggest that HUD symbology can capture a pilot’s attention,
+and impair the pilot’s ability to detect events in the external environment.
+This effect is referred to as cognitive tunneling. In the following sections, we
+briefly examine the nature of attention, and review available studies that have
+assessed the issue of cognitive tunneling and the reasons why it may occur.
+
+Attention
+Information processing is critically dependent on attention. Research has demonstrated
+that, in general, people are much better at detecting events in the envi-
+ronment if their attention is focused on the area in which those events occur
+(Wickens \& Hollands, 2000). However, attention is a resource with limited capacity.
+Under some circumstances, a single task or aspect of the environment
+will capture all of the individual’s attention. If the individual focuses attention in
+this way then he or she will filter out unattended information and may not detect
+task-critical information. In other situations, people can divide attention across
+tasks or aspects of the environment. Factors that influence an individual’s ability
+to divide attention include the nature of the tasks (e.g., whether the information
+is perceived via visual or auditory channels, and encoded verbally or spatially),
+and the nature of the display (Ververs \& Wickens, 1998).
+Display features that encourage divided attention may inhibit people’s ability to
+focus attention on specific aspects of the display and vice versa (Ververs \&
+Wickens, 1998). For example, putting similar objects together may support divided
+attention, but make it difficult to focus attention on one particular object
+within the display. Similarly, an element of a domain that has dynamic properties,
+such as motion, may capture attention and be so compelling that it consumes the
+majority of the attentional resource, so that there is not sufficient attentional capacity
+to view other visual elements concurrently. \citep{crawford2006}
+
+Perceptual aspects of the visual field such as motion, color, and frame of reference
+distinguish the HUD from the external world. For this reason, the HUD and
+external world may not be processed or visually attended to at the same time. This
+results in aspects of the unattended domain being perceived only after some delay.
+If the HUD is the more salient of the two domains, these elements of the external
+world, especially those that are unexpected, may be more difficult to detect
+(McCann, Lynch, Foyle, \& Johnston, 1993; Moodi, 1995). For example McCann
+et al. found that response times for events occurring within the domain to which
+the pilot was currently attending were faster than response times to events that occurred
+outside that domain. It was suggested that the HUD may act as an
+attentional trap and that the ability to concentrate attention on the HUD was more
+robust than the ability to concentrate attention on the outside world, interfering
+with the ability to focus externally.
+Detection of Expected and Unexpected Events
+Most research addressing the effects of cognitive tunneling has focused on the
+detection of unexpected events. An initial study comparing HUDs with HDDs
+found that landings were more accurate using HUDs for commercial airline pilots
+flying a fixed-based simulator. However, there was a longer response time
+to an aircraft that was located on the duty runway that was being approached
+(Fischer et al., 1980). A similar study was conducted by Weintraub, Haines, and
+Randle (1985), who found, in the final trial of their study, that there was a runway
+incursion that was only noted by 2 of the 8 participants. Naturally, this wascause for concern and many studies have subsequently addressed this issue and
+the reasons behind it.
+Larish and Wickens (1991) examined instrument-rated pilots’ ability to detect
+expected and unexpected events on the flight display and in the external scene,
+when using an HUD and an HDD. Both display formats contained the same instrumentation
+and were collimated to optical infinity to ensure that any observed differences
+could be attributed to display position. Many of the early HUD studies
+had confounded instrumentation, collimation, and display position. Therefore it is
+possible that the superior flight performance that had previously been observed
+with HUDs could be attributable to the quality of instrumentation, or the fact that
+the image was collimated, rather than the position of the image. The key outcome
+measure was the response time to the detection of expected and unexpected events
+in the external scene and on the display. General flight performance, in terms of
+vertical and lateral tracking ability and speed and heading control, was also measured.
+The results showed that pilots took longer to detect unexpected events in the
+near and far domain when the HUD was used. On the other hand, the pilots did detect
+expected events on their display more quickly when the HUD was used. Unlike
+many earlier studies, there was no advantage for the HUD in terms of flight
+performance. Larish and Wickens concluded that the advantages observed for
+HUDs may be due to the symbology that is used, and the collimation of the image,
+rather than the physical location (head up or head down) of the image.
+A recent study conducted at Boeing’s Integrated Airplane Systems Laboratory
+investigated attention switching between anHUDand the far domain, and anHDD
+and the far domain (Hofer, Braune, Boucek, \& Pfaff, 2001). Twelve pilots flew
+four takeoffs and four approach and landings in each of the HUD and HDD conditions,
+resulting in 16 runs for each pilot. Each run included an expected event.
+These were display events (a frozen instrument), scene events (truck or aircraft incursion),
+or a combination of display and scene events. Six events per pilot (three
+HUD and three HDD) were serious enough that an accident could result without an
+appropriate response. The symbology set for the HUD in this study was reduced.
+The intention was to ensure that there was no hindrance of event detection due to
+symbology obstruction. Furthermore, the HUD and the far domain information
+were presented at the same visual distance, reducing accommodation bias. The
+workload was considered realistic, but not excessively high. The pilots were informed
+that there would be an event during each run in either the symbology layer
+or the outside scene to reduce learning effects and increase detection. The pilots
+were not informed what the particular events would be. However even knowing
+there would be an event, 36.5\% of the events were missed in the HUD condition
+and 26\% in the HDD condition. Across all pilots, 9 out of 36 accident events were
+missed in the HUD condition and these were all in the approach and landing phase.
+None of the accident events were missed in the HDD condition. These differences
+were statistically significant. \citep{crawford2006}
+
+\section{TODO Automaatiovinouma}
+
+Automated aids and decision support tools are rapidly becoming indispensable tools
+in high-technology cockpits and are assuming increasing control of "cognitive" flight tasks, such as calculating fuel-efficient routes, navigating, or detecting and diagnosing system malfunctions and abnormalities. automation bias, a recently documented factor in the use of automated aids and decision support systems. The term refers to omission and commission errors resulting from the use of automated cues as a heuristic replacement for vigilant information seeking and processing. Glass-cockpit pilots flew flight scenarios involving automation events or opportunities for automation-related omission and commission errors. Although experimentally manipulated accountability demands did not significantly impact performance, post hoc analyses revealed that those pilots who reported an internalized perception of "accountability" for their performance and strategies of interaction with the automation were significantly more likely to double-check
+automated functioning against other cues and less likely to commit errors than those who did not share this perception. Pilots were also likely to erroneously "remember" the presence of expected cues when describing their decision-making processes. \citep{mosierym1998}
 
 
-The retrofit question concerns whether useful and effective synthetic vision displays
-are usable in aircraft that have limited-size display spaces. Two experiments were
-conducted to examine the efficacy of these displays and develop field-of-view and
-terrain texture recommendations for design. The first experiment examined issues of
-field of view and display size using an Asheville, North Carolina, synthetic vision database
-and fixed-based simulator. The second experiment was conducted on the
-NASA B-757 aircraft at Dallas/FortWorth International Airport and investigated the
-efficacy of both head-down and head-up displays and generic and photorealistic terrain
-texture. Both experiments confirmed the retrofit capability and that all sizes and
-texturing methods were found to be viable candidates for synthetic vision displays.
-These results, future directions, and implications for meeting national aeronautic
-safety and capacity goals are discussed. \citep{prinzel2004}
-
-Although the safety and economic advantages and payoff to pursuing SVS are
-great, there are significant research challenges to be addressed before SVS can be
-considered viable as a technological alternative. To provide a better definition of
-the concept of operations (CONOPS) of synthetic vision technology for commercial
-and business aircraft, a workshop resulting in a CONOPS document was held
-at the NASA Langley Research Center (Williams et al., 2001). The focus of this
-event was to obtain wide-ranging input from the aviation community on the benefits
-and features that synthetic vision might incorporate. The outcome of the workshop
-and subsequent activities has been the identification of numerous challenges
-and research issues that need to be explored in developing SVS display concepts.
-Many of these issues can be classified as human perceptual, such as display size
-and field-of-view (FOV) issues.
-The issue of display size is driven largely by the need for displays compatible in
-size with current aircraft displays (the retrofit issue) and potential next-generation
-larger display surfaces (forward fit issue). Because current aircraft have either
-electromechanical instruments (e.g., 737–200) or small “glass” displays (e.g.,
-757–200), there are concerns about the efficacy of these cockpits to support SVS
-because of the physically smaller instrument spaces. One option to address the retrofit
-issue would be to present SVS on a head-up display (HUD), and research
-questions turn to how best to display synthetic terrain on a HUD that has limited
-graphical capabilities. Another option is to simply remove the traditional instruments
-and replace them with synthetic vision displays, and research issues then
-turn to whether the space constraints will allow SVS presentations to be usable by the flight crew. Because these displays have a small unity geometric FOV, the scale
-factor might need to be increased (i.e., minified) to allow more of the visual scene
-to be presented to make the SVS display effective (e.g., Roscoe, 1948). The
-wide-angle lens effect of increasing FOV, however, interacts with display size and
-can lead to perceptual distortions as the minification factor (MF) is increased (e.g.,
-virtual space effect; McGreevy \& Ellis, 1986). \citep{prinzel2004}
-
-\section{TODO Ohjaajan suorituskyky ja kognitiiviset haasteet}
 
 HUD
 Some of the
@@ -263,63 +365,33 @@ number of cognitive issues that are still a matter of debate and research. These
 the effects of divided attention and cognitive tunneling, and spatial disorientation
 and unusual attitude recovery. These issues are reviewed in later sections. \citep{crawfordneal2006}
 
-\emph{TODO:}
-Tässä kappaleessa kerrotaan niistä monista haasteista, joita suurimmilta osin HUD-näyttöjen käyttö ja automatisoitu tekniikka ohjaamossa voi aiheuttaa.
 
-There are other perceptual issues concerning the content and type of information
-in the pictorial scene that also need to be addressed. SVS display scenes can
-be constructed from terrain elevation data and smoothed with generic terrain algorithms,
-or they can be created by adding color and photo-realistic texture content
-information from aerial photographs. A research question that needs to be
-answered is which method provides the best information and SA gain to the pilot.
-Are the additional data cost and computing requirements for photorealistic
-terrain worthwhile in terms of enhancements to pilot performance and SA? \citep{prinzel2004}
 
-Automated aids and decision support tools are rapidly becoming indispensable tools
-in high-technology cockpits and are assuming increasing control of "cognitive" flight
-tasks, such as calculating fuel-efficient routes, navigating, or detecting and diagnosing
-system malfunctions and abnormalities. This study was designed to investigate
-automation bias, a recently documented factor in the use of automated aids and
-decision support systems. The term refers to omission and commission errors resulting
-from the use of automated cues as a heuristic replacement for vigilant information
-seeking and processing. Glass-cockpit pilots flew flight scenarios involving automation
-events or opportunities for automation-related omission and commission errors.
-Although experimentally manipulated accountability demands did not significantly
-impact performance, post hoc analyses revealed that those pilots who reported an
-internalized perception of "accountability" for their performance and strategies of
-interaction with the automation were significantly more likely to double-check
-automated functioning against other cues and less likely to commit errors than those
-who did not share this perception. Pilots were also likely to erroneously "remember"
-the presence of expected cues when describing their decision-making processes. \citep{mosier1998}
 
-In the "glass cockpit," as well as in domains as diverse as medical diagnosis, nuclear
-power plants, manufacturing and process control, and Air Traffic Control (ATC),
-human decision-makers are being exposed to and are required to utilize automated
-aids to perform their jobs and make decisions. As these and other environments
-become more complex and data-intensive, the use of automated aids and decision
-support tools is likely to become even more commonplace and critical to performance.
-Aircraft flight management systems, for example, are designed not only to
-keep the aircraft on course, but also to assume increasing control of cognitive flight
-tasks, such as calculating fuel-efficient routes, navigating, or detecting and diagnosing
-system malfunctions and abnormalities. An inescapable facet of these
-automated aids is that they change the way pilots perform tasks and make decisions.
+In the "glass cockpit," as well as in domains as diverse as medical diagnosis, nuclear power plants, manufacturing and process control, and Air Traffic Control (ATC), human decision-makers are being exposed to and are required to utilize automated aids to perform their jobs and make decisions.
+
+As these and other environments become more complex and data-intensive, the use of automated aids and decision support tools is likely to become even more commonplace and critical to performance.
+
+Aircraft flight management systems, for example, are designed not only to keep the aircraft on course, but also to assume increasing control of cognitive flight tasks, such as calculating fuel-efficient routes, navigating, or detecting and diagnosing system malfunctions and abnormalities.
+
+An inescapable facet of these automated aids is that they change the way pilots perform tasks and make decisions.
+
 Most of the changes have proven to be beneficial. The advantages these systems
 offer in terms of increased efficiency and data storage and manipulation, for
 example, is self-evident-computers can assimilate more information and process
 it faster than humans.
+
 Other repercussions of automated aids, however, are less positive. Several
 researchers have documented problems in the use of advanced automated systems
-in aviation, including mode misunderstandings and mode errors, failures to understand
-automation behavior, confusion or lack of awareness concerning what automated
-systems are doing and why, and difficulty tracing the functioning or
+in aviation, including mode misunderstandings and mode errors, failures to understand automation behavior, confusion or lack of awareness concerning what automated systems are doing and why, and difficulty tracing the functioning or
 reasoning processes of automated agents (e.g., Billings, 1996; Sarter \& Woods,
-1993). Additionally, automated systems introduce opportunities for new decisionmaking
-heuristics and associated biases. Automation bias, a recently documented
+1993).
+
+Additionally, automated systems introduce opportunities for new decisionmaking heuristics and associated biases. Automation bias, a recently documented
 factor in the use of automated aids and decision support systems, refers to errors
 resulting from the use of automated cues as a heuristic replacement for vigilant
 information seeking and processing. This article describes research examining the
-nature and implications of automation bias in the cockpit, its correlates, and possible
-countermeasures. \citep{mosier1998}
+nature and implications of automation bias in the cockpit, its correlates, and possible countermeasures. \citep{mosierym1998}
 
 Automation as Heuristic
 The availability of automation and automated decision aids feeds into the general
@@ -462,7 +534,7 @@ making pilots less susceptible to automation bias and more likely to check all
 relevant information before making decisions or taking actions. We examined
 patterns of errors associated with automation bias and the relation between errors
 and accountability, and we gathered preliminary information on cognitive processes
-associated with this phenomenon.\citep{mosier1998}
+associated with this phenomenon.\citep{mosierym1998}
 
 Pilots regularly rely upon probabilistic information to evaluate what they cannot
 access directly (Wickens \& Flach, 1988). In traditional aircraft, crewmembers are
@@ -494,7 +566,7 @@ generate a decision, particularly if time is short (Gigerenzer, Hoffrage, \&
 Kleinbolting, 1991). In combination, these factors contribute to the perception that
 automated aids do not provide "just another cue," but rather are more important,
 more diagnostic, and more reliable than previously utilized, conventional information
-sources. \citep{mosier1998}
+sources. \citep{mosierym1998}
 
 Omission Error Events
 Descriptive analyses revealed overall omission rates for flight-related events of
@@ -519,16 +591,7 @@ and those who missed none or only one event were placed into the "low-bias" grou
 (n = 10). Analyses of variance were conducted using bias group as the independent
 variable and responses on the debriefing questionnaire (1-7 scale) as dependent
 variables.
-Bias groups were statistically equivalent on items such as comfort with the
-experiment, confidence in their strategies, and confidence in computers. Low-bias
-participants, however, reported more nervousness, F(1, 19) = 7.08, p < .015, a
-higher sense of being evaluated on their performance, F(1, 19) = 2.21, p < .001, a
-higher sense of being evaluated on strategies in use of the automation, F(1, 19) =
-9.63, p < ,006, and a stronger need to justify their interaction with the automation,
-F(l, 19) = 6.24, p < .02. Results indicated that those subjects who felt more
-accountable (whether they were in the accountable condition or not) were less likely
-to make omission errors than those who did not feel as accountable for their
-performance. Commission Errors
+
 All of the pilots (N = 21) who experienced the false engine fire message did
 ultimately shut down the engine. This was contrary to responses on the debriefing
 questionnaire indicating that an EICAS message without other cues would not be
@@ -546,173 +609,25 @@ shutdown. Specifically, the faster pilots initiated and completed the shutdown
 process, the greater the number of indicators they recalled. Number of indicators
 recalled accounted for approximately 20% of the variance in the speed of the
 shutdown process, including bringing the engine fire checklist to the view screen,
-hitting the engine stop switch, and pulling the engine fire handle, r = -.45, p < .05. \citep{mosier1998}
+hitting the engine stop switch, and pulling the engine fire handle, r = -.45, p < .05. \citep{mosierym1998}
 
-HUD
-A head-up display (HUD) is a projection of symbology into the pilot’s forward field
-of view that enables the pilot to monitor the instrumentation while, theoretically, also
-viewing the external domain. Although the HUD has been shown to improve flight
+Although the HUD has been shown to improve flight
 performance, there are perceptual and cognitive issues that need to be addressed. This
 article reviews selected literature that investigates these issues and the possible solutions
 posed and identifies areas that remain in doubt.
-A major review of head-up display (HUD) literature is timely and necessary as it
-has been 10 years since HUDs have been closely examined as a whole
-(Newman, 1995). Many airlines around the world now use HUDs. In some cases
+
+Many airlines around the world now use HUDs. In some cases
 their use for the most critical phase of flight, approach, and landing, is mandatory.
 However, there are still issues that have been investigated but for which
-tested solutions have not been provided. This article examines the perceptual
-and cognitive issues associated with HUDs based on the studies that have been
-performed to date. It also looks at the advantages and disadvantages of HUDs.
-Finally, emerging issues and applications are identified in brief.
+tested solutions have not been provided. 
 \citep{crawford2006}
 
-Themajority ofHUDresearch in the last decade has dealt with perceptual and cognitive
-issues. One of the main areas of interest is whether pilots can view theHUDand
-the external scene concurrently. It would appear that this is not the case (for reasons
-outlined in the sections that follow) and that pilots need to switch attention back and
-forth between the HUD and the external scene. Attempts have been made to overcome
-these problems by using new forms of technology, such as conformal
-symbology. However, there is still debate regarding the effectiveness of these measures.
-These issues are described in the following sections.
-Misaccommodation
-Misaccommodation of the eye occurs when the focus is drawn inward by something
-close. This is considered to be a problem because it impairs pilots’ ability
-to detect targets and to judge their distance and size (Weintraub \& Ensing,
-1992). HUDs are collimated to appear at optical infinity to overcome the problem
-of misaccommodation. Collimation is intended to put the HUD symbology
-at the same optical depth as the external world, which in principle should assist
-with accommodation and reduce the time necessary to refocus (Naish, 1964).
-The effectiveness of collimation and whether HUDs should be collimated has
-been extensively debated. This debate has been covered in previous reviews
-(Newman, 1995; Weintraub \& Ensing, 1992). Given that no new studies have
-addressed this issue in the past 10 years, we provide only a relatively brief summary
-of the issues here.\citep{crawford2006}
 
-A number of studies suggest that collimation does not pull the pilot’s focus outward
-to optical infinity, or that collimated HUDs may even exacerbate
-HEAD-UP DISPLAYS 3
-Downloaded by [Jyvaskylan Yliopisto] at 07:02 22 December 2013
-misaccommodation (Hull, Gill, \& Roscoe, 1982; Iavecchia, Iavecchia, \& Roscoe,
-1988; Norman \& Ehrlich, 1986). Weintraub and Ensing (1992), on the other hand,
-argued that the bulk of evidence suggests that collimated HUDs do pull the pilot’s
-focus outward, even if it is not always to optical infinity. They argued that the earlier
-results were an artefact of the optical quality of the HUD image and the external
-scenes used in these studies. High-quality images, whether generated by the
-HUD or from the external environment, draw focus outward. Iavecchia et al.
-(1988) used a relatively poor-quality HUD image superimposed over a
-high-quality image of terrain, causing focus to be drawn inward. In contrast,
-Weintraub and Ensing (1992) argued that if the external image is of poor quality
-(e.g., because of fog or rain) high-quality HUD images will actually pull the pilots’
-focus outward, partially offsetting the tendency for the resting point of accommodation
-to be closer than the objects in the external environment. Similar arguments
-were made by Newman (1987), who argued on the basis of subjective experience
-that HUDs give the pilot a clearer view when flying through rain. To our knowledge,
-the question of whether collimated HUDs produce misaccommodation or
-whether they reduce it has not been resolved.
-Another issue of concern is whether the HUD combiner glass itself, including
-its frame and lack of movement compared with the external world, are a source of
-misaccommodation. These items may provide perceptual clues that the HUD is
-closer than the outside scene (Larish \& Wickens, 1991; Roscoe, 1987). However,
-the same is true of dirt, rain, and glare on the windshield (Weintraub, 1987). There
-is currently no strong evidence available to assess whether the HUD combiner
-glass significantly increases the risk of misaccommodation, over the risk posed by
-the contaminated windscreen itself. \citep{crawford2006}
 
-Intuitively, one might expect that HUDs would enhance a pilot’s ability to detect
-events in the external world because the pilot does not have to switch attention
-back and forth between an HDD and the external environment. However, there
-is strong evidence to suggest that HUD symbology can capture a pilot’s attention,
-and impair the pilot’s ability to detect events in the external environment.
-This effect is referred to as cognitive tunneling. In the following sections, we
-briefly examine the nature of attention, and review available studies that have
-assessed the issue of cognitive tunneling and the reasons why it may occur.
-Attention
-Information processing is critically dependent on attention. Research has demonstrated
-that, in general, people are much better at detecting events in the envi-
-4 CRAWFORD AND NEAL
-Downloaded by [Jyvaskylan Yliopisto] at 07:02 22 December 2013
-ronment if their attention is focused on the area in which those events occur
-(Wickens \& Hollands, 2000). However, attention is a resource with limited capacity.
-Under some circumstances, a single task or aspect of the environment
-will capture all of the individual’s attention. If the individual focuses attention in
-this way then he or she will filter out unattended information and may not detect
-task-critical information. In other situations, people can divide attention across
-tasks or aspects of the environment. Factors that influence an individual’s ability
-to divide attention include the nature of the tasks (e.g., whether the information
-is perceived via visual or auditory channels, and encoded verbally or spatially),
-and the nature of the display (Ververs \& Wickens, 1998).
-Display features that encourage divided attention may inhibit people’s ability to
-focus attention on specific aspects of the display and vice versa (Ververs \&
-Wickens, 1998). For example, putting similar objects together may support divided
-attention, but make it difficult to focus attention on one particular object
-within the display. Similarly, an element of a domain that has dynamic properties,
-such as motion, may capture attention and be so compelling that it consumes the
-majority of the attentional resource, so that there is not sufficient attentional capacity
-to view other visual elements concurrently. \citep{crawford2006}
 
-Perceptual aspects of the visual field such as motion, color, and frame of reference
-distinguish the HUD from the external world. For this reason, the HUD and
-external world may not be processed or visually attended to at the same time. This
-results in aspects of the unattended domain being perceived only after some delay.
-If the HUD is the more salient of the two domains, these elements of the external
-world, especially those that are unexpected, may be more difficult to detect
-(McCann, Lynch, Foyle, \& Johnston, 1993; Moodi, 1995). For example McCann
-et al. found that response times for events occurring within the domain to which
-the pilot was currently attending were faster than response times to events that occurred
-outside that domain. It was suggested that the HUD may act as an
-attentional trap and that the ability to concentrate attention on the HUD was more
-robust than the ability to concentrate attention on the outside world, interfering
-with the ability to focus externally.
-Detection of Expected and Unexpected Events
-Most research addressing the effects of cognitive tunneling has focused on the
-detection of unexpected events. An initial study comparing HUDs with HDDs
-found that landings were more accurate using HUDs for commercial airline pilots
-flying a fixed-based simulator. However, there was a longer response time
-to an aircraft that was located on the duty runway that was being approached
-(Fischer et al., 1980). A similar study was conducted by Weintraub, Haines, and
-Randle (1985), who found, in the final trial of their study, that there was a runway
-incursion that was only noted by 2 of the 8 participants. Naturally, this wascause for concern and many studies have subsequently addressed this issue and
-the reasons behind it.
-Larish and Wickens (1991) examined instrument-rated pilots’ ability to detect
-expected and unexpected events on the flight display and in the external scene,
-when using an HUD and an HDD. Both display formats contained the same instrumentation
-and were collimated to optical infinity to ensure that any observed differences
-could be attributed to display position. Many of the early HUD studies
-had confounded instrumentation, collimation, and display position. Therefore it is
-possible that the superior flight performance that had previously been observed
-with HUDs could be attributable to the quality of instrumentation, or the fact that
-the image was collimated, rather than the position of the image. The key outcome
-measure was the response time to the detection of expected and unexpected events
-in the external scene and on the display. General flight performance, in terms of
-vertical and lateral tracking ability and speed and heading control, was also measured.
-The results showed that pilots took longer to detect unexpected events in the
-near and far domain when the HUD was used. On the other hand, the pilots did detect
-expected events on their display more quickly when the HUD was used. Unlike
-many earlier studies, there was no advantage for the HUD in terms of flight
-performance. Larish and Wickens concluded that the advantages observed for
-HUDs may be due to the symbology that is used, and the collimation of the image,
-rather than the physical location (head up or head down) of the image.
-A recent study conducted at Boeing’s Integrated Airplane Systems Laboratory
-investigated attention switching between anHUDand the far domain, and anHDD
-and the far domain (Hofer, Braune, Boucek, \& Pfaff, 2001). Twelve pilots flew
-four takeoffs and four approach and landings in each of the HUD and HDD conditions,
-resulting in 16 runs for each pilot. Each run included an expected event.
-These were display events (a frozen instrument), scene events (truck or aircraft incursion),
-or a combination of display and scene events. Six events per pilot (three
-HUD and three HDD) were serious enough that an accident could result without an
-appropriate response. The symbology set for the HUD in this study was reduced.
-The intention was to ensure that there was no hindrance of event detection due to
-symbology obstruction. Furthermore, the HUD and the far domain information
-were presented at the same visual distance, reducing accommodation bias. The
-workload was considered realistic, but not excessively high. The pilots were informed
-that there would be an event during each run in either the symbology layer
-or the outside scene to reduce learning effects and increase detection. The pilots
-were not informed what the particular events would be. However even knowing
-there would be an event, 36.5\% of the events were missed in the HUD condition
-and 26\% in the HDD condition. Across all pilots, 9 out of 36 accident events were
-missed in the HUD condition and these were all in the approach and landing phase.
-None of the accident events were missed in the HDD condition. These differences
-were statistically significant. \citep{crawford2006}
+
+
+\section{TODO Tilannetietoisuus}
 
 SA
 Maintaining SA on flight decks is essential for safe flight. SA is lost if the pilot or
@@ -732,295 +647,6 @@ instrument approaches,SAcan also be assessed at the level of chronological aware
 involving the crew’s understanding of the sequence of activities going on
 around them at all times. SA is not necessarily acquired instantaneously, but is built
 up over time. \citep{schnell2004}
-
-A number of
-warning systems currently available on modern aircraftwarn the crewwhen the aircraft
-encounters a dangerous situation, yet one characteristic of SVIS displays is
-their ability to provide information to avoid dangerous situations in a proactive
-rather than a reactive manner. \citep{schnell2004}
-
-Research suggests that the optimal configuration of displays, controls, and formats depends upon the intended
-function of the system, the phase flight, and the role of the pilots16,17 involving a balance between:
-Fusion of Synthetic and Enhanced Vision
-RTO/HFM-141 11 - 3
-• Understanding – how the design promotes the perception of the SV and EV information, the
-comprehension of its meaning, and the projection of their status in the near future.18
-• Workload – how the design minimizes the physical (e.g., use of controls, visual scanning) and mental
-(e.g., amount of cognitive effort necessary to generate understanding) workload for effective use and
-understanding of the information.  \citep{baileyym2007}
-
-A key interconnection between the factors of understanding and workload is the concept of display clutter –
-i.e., an excessive number and/or variety of color and symbols, that obscures essential information, or presents
-distracting, disorganized and unnecessary information delaying visual detection.
-Clutter warrants special consideration for EV/SV as the designer is intentionally increasing the volume of data
-presented to the flight crew. For the HUD, in particular, FAA certification policy16 formalizes this conundrum
-in that “clutter should be minimized” yet, “essential or critical (HUD) data must always be displayed” such as
-that necessary for EFVS operational credit. Thus, task-critical or essential EV/SV imagery must be displayed
-but the information must not excessively interfere with pilots’ ability to see the actual runway environment
-through the display or impede their perception, understanding, and use of the information. Declutter control
-in present EFVS implementations allow the pilots to selectively add or remove symbology or raster (i.e., SV
-or EV) imagery, but declutter controls also introduce pilot workload during task- or time-critical situations
-and raise the possibility that critical information might be inappropriately removed. \citep{baileyym2007}
-
-A common method of combining SV/EV information is by use of an integrated single display format with
-simultaneous presentation of unadulterated SV and EV content. By visual proximity, this method minimizes
-the visual scan and cognitive effort in integrating the disparate information. Typically, “inset” displays of EV
-information have been used to take advantage of the “unlimited” field-of-regard in SV information to
-complement a limited field-of-regard EV sensor. Integration in this manner allows the user to retain
-comparison of the separate sources for improved understanding. However, careful design of the integration
-process must be made to prevent an unintended loss of understanding. Pilot-control of control of the inset
-“opaqueness” by averaging or “alpha-blending” has not been found to be optimal.10 Image degradation of the
-blended image was the primary factor.17,19 A pure pixel-averaging technique may create a situation where a
-poor quality (low content) sensor image obscures good synthetic data without adding any valued to the image;
-conversely, a good quality sensor image is obscured by uncorrelated synthetic data. More sophisticated
-blending methods are available to minimize this problem,17 but pilot control introduces the costs of workload
-for control, a higher potential for miss-setting of the controls, and the clutter primarily negates its utility.10
-Display clutter can be mitigated by not displaying both EV and SV on the same display simultaneously using:
-• Spatial separation – by locating SV and EV information on different displays. This process forces the
-pilot to look across displays and mentally perform the information integration. This methodology has
-been demonstrated under NASA flight test, wherein SV information was presented on a head-down
-primary flight display, and EV information was presented on the HUD. The pilots transitioned to the
-HUD at a specific height above the landing runway. This methodology was found to be acceptable
-although not necessarily without improvements being desired. Sufficient information must be on the
-HUD to restrict the need for the Pilot Flying (PF) to go “head-down” to acquire task critical
-information; otherwise, HUD usage can create “a loss of situation awareness” and additional
-workload from visual scanning. Designs utilizing visual momentum assist in the integration.19• Temporal separation – by displaying either SV or EV information on the same display, using
-Fusion of Synthetic and Enhanced Vision
-11 - 4 RTO/HFM-141
-automatic or manual selection for which source is displayed. An automatic transition has been tested
-and it felt “natural” to the pilot.20 Without retaining some elements of SV or EV display, however,
-“visual momentum” and the complementary benefits of both EV and SV may not be lost.
-Using a single display, image fusion can reduce clutter. Fusion, in this case, creates an image wherein the SV
-and EV sources are consolidated to the extent that the sources are indistinguishable. The drawback is the loss
-of understanding from source comparisons and contrasts. The specific fusion methodology significantly
-affects the utility of the resultant display.17 Feature-level fusion methods generally enabled higher image
-contrast while retaining the source information; however, it may also retain some undesirable noise content of
-the sensor inputs. Registration of the two image sources is of paramount importance for fusion.
-Another method of EV/SV fusion displays SV-derived information symbolically, using symbols, icons, and/or
-perspective shapes for conformal overlay with EV imagery. For instance, SV-derived symbology, in the form
-of runway outlines, with simulated EV imagery provided visual momentum yet didn’t create any perceptual
-confusion even when flying with significant navigational errors inserted into the SV-derived guidance.21-22 \citep{baileyym2007}
-
-EV imagery may provide an element of traffic detection above and beyond unaided natural vision, but several
-factors must be considered to realize this capability. First, imaging sensors are not a panacea. Detection and
-recognition is dependent upon the sensor resolution and its sensitivity to the environment and “target”, the
-size and contrast of the obstacle/object against the image background, and the display resolution.6,30-31 Second,
-if the PF display uses flight vector information, the flight path marker symbol and guidance symbol, if
-Fusion of Synthetic and Enhanced Vision
-RTO/HFM-141 11 - 5
-provided, may obscure an object.16 Finally, the pilot-flying’s attention is primarily focused on the landing
-task, and the PF may not have sufficient attentional resources for “unexpected” scenarios. This task has been
-rated as “unacceptable” and resulted in unacceptable workload.9 \citep{baileyym2007}
-
-While the pilot-flying is primarily focused on flying the aircraft, the pilot-not-flying (PNF) or pilotmonitoring
-in a two-crew operation does have the primary responsible for monitoring and verifying flight path
-performance, cross-checking guidance and raw data indicators, and identifying the visual runway environment
-and clearing the landing area.31 Unfortunately, like the PF data, the use of EV/SV information by the PNF to
-perform the navigation integrity, obstacle detection, and runway incursion detection is relatively mediocre.
-The results, again, appear to be influenced by the EV/SV integration and display methods employed.
-During low-visibility auto-landings10 where most included an “anomaly” consisting of SV database
-misalignment, runway incursions, and uncharted obstacle, piloted evaluations showed that:
-• Using an EV-only HUD, 57% of the obstacles were undetected and 50% of the runs with the database
-misalignment went undetected. 38% of the runway incursions went undetected. Despite this
-relatively poor performance, the pilots subjectively preferred the Head-up implementation.
-• A Primary Flight Display (PFD) concept, showing SV with a pilot-controllable EV inset image,
-exhibited the worst performance for anomaly detection. The PFD inset concept missed 100\% of the
-uncharted obstacles - all leading to hazardous situations and a 33\% rate of missed detections for the
-database misalignments. Detection of runway incursions showed a missed detection rate of 33%.
-The poor performance and low-acceptance of the head-down EVS insert concept was attributed to the
-clutter of the image, the small EV image size, and confusion between the SV/EV images.
-• With EV-only shown on a HDD, all uncharted obstacles were successfully detected (but 20\% of runs
-continued into hazardous conditions because the evaluation pilots (EPs) didn’t recognize the severity
-of the threat) yet 33\% of the runs missed the misalignment. A missed detection rate of 22\% for
-runway incursions was found. This concept was well liked for its large image size and minimal
-display clutter, but disliked because of the workload in transitioning from head-down to head-up
-flight.
-Direct research into the effects of EV/SV usage on crew resource management and crew coordination, in a
-two-place cockpit, has not been studied extensively. Crew coordination in an EVS approach operation was
-the primary focus of one study,32 but sensor-unique (in this case, a millimeter wave radar) issues of
-range/azimuth versus elevation/azimuth imagery presentations predominated the work. Anecdotal evidence
-from a flight demonstration program suggests that “a centrally-located display of EVS imagery” may facilitate
-CRM and training.33 \citep{baileyym2007}
-
-The majority of flight crews verbally noted the presence of the 50 foot offset (15/24) and 75 foot offset
-(22/24) during the approach. None of the pilots executed a go-around with this anomaly. Each performed a
-lateral correction and landed near the runway centerline. Video analysis showed that navigation errors were
-predominately noted by the PF (~85\%) when they noticed that the pitch/roll guidance symbol was leading
-them to the left or right of the runway. One person (flying as the PNF) noted the non-zero localizer deviation
-on the PFD presentation while tracking the path centerline.
-The flight crews were not instructed on the course of action to take when confronted with a navigation error,
-and the pilots had relatively little training and experience with the system. Despite this, the study showed that
-lateral navigation errors were verbally acknowledged a significant percentage of time and, even when
-unrecognized (i.e., not explicitly verbalized), all flight crews landed safely and accurately on the runway.
-These results suggest that dissociations between raw data, sensor, and/or database presentation should be
-easily recognized and managed by experienced pilots. Pilot training to recognize these discrepancies could
-further improve operations in the event of this anomaly. \citep{baileyym2007}
-
-The ability of the flight crew to handle a substantial navigational solution error was not impacted by the
-display concepts. In all display concepts, the navigation error was detected or ignored. The pilots landed
-safely. Further analyses are on-going to tease out statistical correlations.
-The ability of the flight crew to handle a runway incursion was neither impacted nor significantly aided by the
-display concepts tested. Although the increase in near-domain symbology information (runway outline) did
-not degrade pilot response to the Fire Truck runway incursion event, there was also not an observed
-enhancement in incursion detection as hypothesized for the FLIR. The display concepts and scenarios tested
-in this experiment – typical of current and future PF HUD and PNF-AD displays - did not show adequate
-incursion detection functionality. All but one of the runway incursion scenarios were detected without the use
-Fusion of Synthetic and Enhanced Vision
-11 - 24 RTO/HFM-141
-of the cockpit displays. Sensor and display design must be tailored to this function and corresponding crew
-procedures and interfaces developed to support RI detection.
-Numerous suggested improvements have been identified and are being worked. For instance, the PNFs
-strongly suggested that a declutter capability on the PNF-AD should be developed. Symbology on the PNFAD
-was strongly preferred and rated highly, but the presence of symbology degraded the readability of the
-raster, particularly of the runway and touchdown point. \citep{baileyym2007}
-
-WORKLOAD
-Anders (2001) conducted flight trials with airline pilots using the A330 Full Flight
-Simulator at the University of Berlin. Anders found that the PFD is the most important
-display and it draws increasingly more attention during approach and landing
-from the time the airplane is in the clouds to the time the runway is visible. Anders
-also found that the PFD was looked at or fixated about 40\% of the time as the
-primary source of information during flight.Within the fixation, about 11\% of the
-time was spent on saccades, during which no information is acquired. Thus, the
-true percentage of fixation time is about 35\% on the PFD. The ND received a true
-fixation percentage of about 18\% and all other true fixation percentages together
-amounted to about 35\%. Most of the fixation time within the PFD was on the flight
-parameters presented on the speed band, artificial horizon, and the altitude band. \citep{schnell2004}
-
-A few studies have investigated whether changing the location of nonconformal
-symbology alleviates the cognitive tunneling effect (Foyle, McCann, Sanford, \&
-Schwirzke, 1993; Martin-Emerson \& Wickens, 1992). In an assessment of the
-effect of positioning altitude information in three locations on the HUD, Foyle et
-al. investigated ground path performance, altitude maintenance, and the concurrent
-processing of the display and external scene. The results indicated that
-when altitude and path information were superimposed, participants were unable
-to attend to both the HUD and the outside world. Furthermore, when the altitude
-information was over the path, there was a trade-off between altitude and path
-performance, with an increase in altitude performance and a decrease in path
-performance. Foyle et al. suggested that the results may have been due to attention
-being focused on the altitude information and hence, the inefficient processing
-of the path information. When the altitude information was placed higher up
-in the HUD, away from the ground path, the trade-off was not apparent.
-Foyle, Dowell, and Hooey (2001) found that when HUD altitude symbology
-was placed at least 8 degrees above the external ground path, the cognitive tunneling reported
-by Foyle et al. (1993) was eliminated. When the symbology was displaced
-in this manner, ground path performance was unaffected. A subsequent
-study carried out by Dowell, Foyle, Hooey, and Williams (2002) demonstrated
-that moving the altitude information in this way not only eliminated cognitive
-tunneling, but improved tracking performance and enhanced the processing of
-the HUD symbology and the external scene. It was suggested when the
-nonconformal altitude symbology was superimposed on the ground path, the
-compellingness of the altimeter was responsible for the tunneling, regardless of
-the relevance to the task. \citep{crawford2006}
-
-A conformal display is defined as one “in which the symbols appear to overlie
-the objects they represent” (Newman, 1995, p. 234). An example of conformal
-symbology is shown in Figure 2. It is thought that by overlaying the images,
-they can be viewed concurrently, thereby overcoming the cognitive tunneling effect
-(Naish, 1964; Wickens, 1997).
-A number of studies have shown that the use of conformal symbology produces
-benefits such as a reduction in scanning (Martin-Emerson \& Wickens, 1993;
-Ververs \& Wickens, 2000; Wickens \& Long, 1994). In addition, conformal displays
-have been found to be less distracting and require less effort to attend to the
-environment (Boston \& Braun, 1996). When investigating flight path tracking and
-event detection, benefits of a conformal HUD were shown to be faster detection of
-changes in symbology and traffic and an increase in flight path tracking accuracy(Fadden, Ververs, \& Wickens, 1998). However, when unexpected events were introduced,
-the probability of detection was still degraded when using the HUD.
-Wickens and Long (1995) examined flight performance and event detection using
-conformal and nonconformal symbology sets in either anHUDor anHDDcondition.
-The flight performance measures included flight path control and airspeed
-tracking. Benefits for flight path control were found for the HUD condition when
-conformal symbologywasused. These results suggest that the performance benefits
-from HUDs stem not only from the reduction in scanning that is required when the
-image is positioned head-up, but also from the use of conformal imagery. However,
-a slower response to the unexpected event in the far domain occurred withHUDuse.
-The cognitive tunneling effect was attenuated by the use of conformal imagery. The
-authors cautioned against cluttering theHUDwith toomuchnonconformal imagery
-as this may lead to slow detection rates for unexpected events. \citep{crawford2006}
-
-Clutter and Intensity
-It has been suggested that some of the benefits associated with the use of HUDs
-may be canceled out by clutter (Ververs \& Wickens, 1996). Clutter is thought to
-be one of the causes of cognitive tunneling and may interfere with the processing
-of information in both the near and far domains. A number of incident reports
-have highlighted the problem of clutter. For example, May and Wickens
-(1995) described a military incident in which a pilot failed to detect a barrier on
-a runway. It appears that the level of brightness of the HUD and the amount of
-symbology led the pilot to fixate on the display and, hence, miss the barrier. In
-the case of a similar incident, the United Kingdom’s Air Accidents Investigations
-Branch (2000) concluded that the pilot of a Tornado that collided midair
-with a Cessna 152 may not have seen the Cessna due to the clutter of the Tornado’s
-HUD. It was reported that “it is possible that the effects of clutter in the
-HUD reduced the probability of detection at a critical moment” (Air Accidents
-Investigation Branch, 2000, pp. 4–5).
-Some studies have shown that conformal displays can help reduce the effects of
-clutter. For example, Boston and Braun (1996) found that in high-clutter situations,
-a conformal display reduces the time it takes for a pilot to detect an obstacle
-in the far domain.
-Another way to decrease clutter may be to highlight salient information and reduce
-the luminance of information that may be less important and distracting (May
-\& Wickens, 1995). Ververs and Wickens (1996) found that an increase in contrast
-ratio assisted pilots in cruise flight in responding faster to changes in heading, airspeed,
-and altitude indicators in the HUD condition. Furthermore, when the contrast
-ratio of the HUD was the same as that of the HDD, the detection of events in
-both the near and far domain was superior in the HUD condition. Including additional
-information in the display hindered event detection. Lowlighting the additional
-information, however, provided pilots with a sense of what was important
-on the display and distraction from far domain elements was less likely. The results
-from this study suggest that putting symbology into an appropriate location
-on the HUD, and ensuring an appropriate level of symbology intensity and contrast
-with the environment, improve HUD performance. However, both of the
-studies just described were conducted to reflect cruise flight and not the landing
-phase. Therefore, these results may not generalize to other phases of flight.
-In a study examining HUDs and HDDs, Wickens (1997) found that clutter effects
-appeared to be mediated more by the number of elements than by the overlapping
-of symbology on the far domain. Furthermore, the benefits of a reduction in
-scanning in the HUD condition outweighed the costs of clutter, even though the
-high-clutter displays did result in a delay in the detection of events in the near and
-far domains. The poor detection of events with high clutter was found in both the
-HUD and HDD conditions. \citep{crawford2006}
-
-Workload
-High workload seems to be associated with an increase in cognitive tunneling. If
-cognitive tunneling is caused by limitations in attentional capacity, increasing
-workload should further reduce a pilot’s available capacity, thereby exacerbating
-the tunneling effect. However, there are very few studies comparing the workload
-of HUD and HDD in the civilian domain. Although there have been some
-recent studies investigating pilot workload while taxiing, high-fidelity investigations
-into workload during commercial flight operations need to be conducted.
-The results from military studies cannot easily be applied to the commercial aviation
-sector because of the differing nature of equipment and flight situations.
-For example, there are differences in currency and recency, the number of airport
-movements, fatigue levels, and schedules. These factors are likely to confound
-comparisons across the two sectors.
-Some evidence to support the assumption that workload will exacerbate cognitive
-tunneling was provided by Larish and Wickens (1991). Two levels of turbulence
-(high and low) were used to vary the workload for instrument-rated
-pilots in a flight simulator. The differences in response latency to unexpected
-events between the HUD and HDD conditions were greater under high levels of
-workload, suggesting that workload does increase cognitive tunneling. Interestingly,
-the opposite effect was found for the detection of expected events. Pilots
-using the HUD were faster at detecting expected events in the near domain than
-pilots using HDD, and this difference was stronger under high-workload conditions.
-The authors argued that in a high-workload situation, the HUD may induce
-a narrowing of attention to avoid distraction from the superimposed
-images, or a change to the pilot’s scan pattern, due to the superimposed images.
-They concluded that dividing attention between the two overlapping sources is a
-difficult and unnatural cognitive task that may exhaust resources in
-high-workload situations (Larish \& Wickens, 1991).
-Pilots, on the other hand, appear to believe that HUDs reduce their workload.
-In the Boeing study described earlier, the pilots reported that the HUD reduced
-their workload. Furthermore, the pilots reported that they found it easier to
-switch attention from the HUD to the external scene, compared with the HDD,
-and that the HUD was easier to use. The positive evaluations of the HUD provided
-by the pilots occurred despite the fact that the HUD produced an increased
-number of missed events. These results suggest that the cognitive tunneling effect
-is counterintuitive, and that many pilots are not aware of its existence. Hofer
-et al. (2001) concluded that “Pilots think they are seeing everything because all
-the information is being presented in their visual field when in fact they are not
-attending and processing everything” (p. 2). Additional studies into the effects
-of workload on cognitive tunneling, and pilots’ awareness of these effects, need
-to be carried out. \citep{crawford2006}
 
 Spatial Disorientation and Unusual Attitude Recovery
 The use of HUDs in instrument meteorological conditions has raised concerns
@@ -1073,36 +699,330 @@ during upsets or unusual attitudes. Cues must be designed to prevent them from
 being mistaken as flight control input commands. For example, “a cue for left stick
 input should not be confused with a cue indicating direction to the nearest horizon.
 Guidance should be removed if cues become invalid at extreme attitudes, such as
-zenith, nadir, or inverted” (FAA, 2001, p. 31).
+zenith, nadir, or inverted” (FAA, 2001, p. 31).\citep{crawfordneal2006}
 
-Additional Areas of Research
-There are a number of outstanding issues that require further research. For example,
-there does not appear to have been any research conducted into the use of
-vision aids and correction in pilots that may use HUDs. In addition, research is
-warranted into the use of HUDs in single and multicrew environments; the effects
-of pilot qualifications, training, and experience; and the training practices
-and experience of operators.
-Research is currently being conducted at the FAA/Volpe National Transportation
-Safety Center to provide the FAA with guidelines for certifying HUDs for civilian
-use (FAA, 2002). Twenty-two HUD design issues have been identified by
-FAA experts while certifying HUDs. Further research is being conducted to determine
-how pilot performance is affected by each of the design issues. The 22 issues
-are broken down into the following categories: location and format design of flight
-information, display effectiveness to support the intended task,HUDeffectiveness
-in displaying and guiding recovery from unusual attitudes, consistency, and
-discriminability ofHUDsymbology, and pilot physiological stress associated with
-HUD optical design.
-A further area of investigation might include HUDs and the proximity principle,
-which is a principle of perception that was first identified by the Gestalt psychologists.
-The central idea of this principle is that the smaller the gap between
-stimuli, the more likely those stimuli are to be seen as belonging together. The gap
-can be in terms of space or in terms of time. Although this principle has been investigated
-by putting similar items together in the HUD visual field to ease processing,
-the HUD could also break down the external field stimuli, making them hard
-to interpret. Flight Lieutenant Robert Woodbury at RAAF Richmond demonstrated
-this effect to the first author by showing a photographic image of an HUD
-plus three lights visible in the external domain. It was not until the HUD was removed from the field of view that it was easy to see that the three lights were part of
-a preceding aircraft. To our knowledge, no studies have investigated this issue. \citep{crawford2006}
+
+A number of
+warning systems currently available on modern aircraftwarn the crewwhen the aircraft
+encounters a dangerous situation, yet one characteristic of SVIS displays is
+their ability to provide information to avoid dangerous situations in a proactive
+rather than a reactive manner. \citep{schnell2004}
+
+
+
+
+Research suggests that the optimal configuration of displays, controls, and formats depends upon the intended
+function of the system, the phase flight, and the role of the pilots16,17 involving a balance between:
+Fusion of Synthetic and Enhanced Vision
+RTO/HFM-141 11 - 3
+• Understanding – how the design promotes the perception of the SV and EV information, the
+comprehension of its meaning, and the projection of their status in the near future.18
+• Workload – how the design minimizes the physical (e.g., use of controls, visual scanning) and mental
+(e.g., amount of cognitive effort necessary to generate understanding) workload for effective use and
+understanding of the information.  \citep{baileyym2007}
+
+\section{TODO Työkuorma}
+
+
+A key interconnection between the factors of understanding and workload is the concept of display clutter –
+i.e., an excessive number and/or variety of color and symbols, that obscures essential information, or presents
+distracting, disorganized and unnecessary information delaying visual detection.
+Clutter warrants special consideration for EV/SV as the designer is intentionally increasing the volume of data
+presented to the flight crew. For the HUD, in particular, FAA certification policy16 formalizes this conundrum
+in that “clutter should be minimized” yet, “essential or critical (HUD) data must always be displayed” such as
+that necessary for EFVS operational credit. Thus, task-critical or essential EV/SV imagery must be displayed
+but the information must not excessively interfere with pilots’ ability to see the actual runway environment
+through the display or impede their perception, understanding, and use of the information. Declutter control
+in present EFVS implementations allow the pilots to selectively add or remove symbology or raster (i.e., SV
+or EV) imagery, but declutter controls also introduce pilot workload during task- or time-critical situations
+and raise the possibility that critical information might be inappropriately removed. \citep{baileyym2007}
+
+
+
+
+A common method of combining SV/EV information is by use of an integrated single display format with
+simultaneous presentation of unadulterated SV and EV content. By visual proximity, this method minimizes
+the visual scan and cognitive effort in integrating the disparate information. Typically, “inset” displays of EV
+information have been used to take advantage of the “unlimited” field-of-regard in SV information to
+complement a limited field-of-regard EV sensor. Integration in this manner allows the user to retain
+comparison of the separate sources for improved understanding. However, careful design of the integration
+process must be made to prevent an unintended loss of understanding. Pilot-control of control of the inset
+“opaqueness” by averaging or “alpha-blending” has not been found to be optimal.10 Image degradation of the
+blended image was the primary factor.17,19 A pure pixel-averaging technique may create a situation where a
+poor quality (low content) sensor image obscures good synthetic data without adding any valued to the image;
+conversely, a good quality sensor image is obscured by uncorrelated synthetic data. More sophisticated
+blending methods are available to minimize this problem,17 but pilot control introduces the costs of workload
+for control, a higher potential for miss-setting of the controls, and the clutter primarily negates its utility.10
+Display clutter can be mitigated by not displaying both EV and SV on the same display simultaneously using:
+• Spatial separation – by locating SV and EV information on different displays. This process forces the
+pilot to look across displays and mentally perform the information integration. This methodology has
+been demonstrated under NASA flight test, wherein SV information was presented on a head-down
+primary flight display, and EV information was presented on the HUD. The pilots transitioned to the
+HUD at a specific height above the landing runway. This methodology was found to be acceptable
+although not necessarily without improvements being desired. Sufficient information must be on the
+HUD to restrict the need for the Pilot Flying (PF) to go “head-down” to acquire task critical
+information; otherwise, HUD usage can create “a loss of situation awareness” and additional
+workload from visual scanning. Designs utilizing visual momentum assist in the integration.19• Temporal separation – by displaying either SV or EV information on the same display, using
+Fusion of Synthetic and Enhanced Vision
+11 - 4 RTO/HFM-141
+automatic or manual selection for which source is displayed. An automatic transition has been tested
+and it felt “natural” to the pilot.20 Without retaining some elements of SV or EV display, however,
+“visual momentum” and the complementary benefits of both EV and SV may not be lost.
+Using a single display, image fusion can reduce clutter. Fusion, in this case, creates an image wherein the SV
+and EV sources are consolidated to the extent that the sources are indistinguishable. The drawback is the loss
+of understanding from source comparisons and contrasts. The specific fusion methodology significantly
+affects the utility of the resultant display.17 Feature-level fusion methods generally enabled higher image
+contrast while retaining the source information; however, it may also retain some undesirable noise content of
+the sensor inputs. Registration of the two image sources is of paramount importance for fusion.
+Another method of EV/SV fusion displays SV-derived information symbolically, using symbols, icons, and/or
+perspective shapes for conformal overlay with EV imagery. For instance, SV-derived symbology, in the form
+of runway outlines, with simulated EV imagery provided visual momentum yet didn’t create any perceptual
+confusion even when flying with significant navigational errors inserted into the SV-derived guidance.21-22 \citep{baileyym2007}
+
+
+
+
+EV imagery may provide an element of traffic detection above and beyond unaided natural vision, but several
+factors must be considered to realize this capability. First, imaging sensors are not a panacea. Detection and
+recognition is dependent upon the sensor resolution and its sensitivity to the environment and “target”, the
+size and contrast of the obstacle/object against the image background, and the display resolution.6,30-31 Second,
+if the PF display uses flight vector information, the flight path marker symbol and guidance symbol, if
+Fusion of Synthetic and Enhanced Vision
+RTO/HFM-141 11 - 5
+provided, may obscure an object.16 Finally, the pilot-flying’s attention is primarily focused on the landing
+task, and the PF may not have sufficient attentional resources for “unexpected” scenarios. This task has been
+rated as “unacceptable” and resulted in unacceptable workload.9 \citep{baileyym2007}
+
+
+
+
+While the pilot-flying is primarily focused on flying the aircraft, the pilot-not-flying (PNF) or pilotmonitoring
+in a two-crew operation does have the primary responsible for monitoring and verifying flight path
+performance, cross-checking guidance and raw data indicators, and identifying the visual runway environment
+and clearing the landing area.31 Unfortunately, like the PF data, the use of EV/SV information by the PNF to
+perform the navigation integrity, obstacle detection, and runway incursion detection is relatively mediocre.
+The results, again, appear to be influenced by the EV/SV integration and display methods employed.
+During low-visibility auto-landings10 where most included an “anomaly” consisting of SV database
+misalignment, runway incursions, and uncharted obstacle, piloted evaluations showed that:
+• Using an EV-only HUD, 57% of the obstacles were undetected and 50% of the runs with the database
+misalignment went undetected. 38% of the runway incursions went undetected. Despite this
+relatively poor performance, the pilots subjectively preferred the Head-up implementation.
+• A Primary Flight Display (PFD) concept, showing SV with a pilot-controllable EV inset image,
+exhibited the worst performance for anomaly detection. The PFD inset concept missed 100\% of the
+uncharted obstacles - all leading to hazardous situations and a 33\% rate of missed detections for the
+database misalignments. Detection of runway incursions showed a missed detection rate of 33%.
+The poor performance and low-acceptance of the head-down EVS insert concept was attributed to the
+clutter of the image, the small EV image size, and confusion between the SV/EV images.
+• With EV-only shown on a HDD, all uncharted obstacles were successfully detected (but 20\% of runs
+continued into hazardous conditions because the evaluation pilots (EPs) didn’t recognize the severity
+of the threat) yet 33\% of the runs missed the misalignment. A missed detection rate of 22\% for
+runway incursions was found. This concept was well liked for its large image size and minimal
+display clutter, but disliked because of the workload in transitioning from head-down to head-up
+flight.
+Direct research into the effects of EV/SV usage on crew resource management and crew coordination, in a
+two-place cockpit, has not been studied extensively. Crew coordination in an EVS approach operation was
+the primary focus of one study,32 but sensor-unique (in this case, a millimeter wave radar) issues of
+range/azimuth versus elevation/azimuth imagery presentations predominated the work. Anecdotal evidence
+from a flight demonstration program suggests that “a centrally-located display of EVS imagery” may facilitate
+CRM and training.33 \citep{baileyym2007}
+
+
+
+
+
+These results suggest that dissociations between raw data, sensor, and/or database presentation should be
+easily recognized and managed by experienced pilots. Pilot training to recognize these discrepancies could
+further improve operations in the event of this anomaly. \citep{baileyym2007}
+
+
+
+The ability of the flight crew to handle a substantial navigational solution error was not impacted by the
+display concepts. In all display concepts, the navigation error was detected or ignored. The pilots landed
+safely. Further analyses are on-going to tease out statistical correlations.
+The ability of the flight crew to handle a runway incursion was neither impacted nor significantly aided by the
+display concepts tested. Although the increase in near-domain symbology information (runway outline) did
+not degrade pilot response to the Fire Truck runway incursion event, there was also not an observed
+enhancement in incursion detection as hypothesized for the FLIR. The display concepts and scenarios tested
+in this experiment – typical of current and future PF HUD and PNF-AD displays - did not show adequate
+incursion detection functionality. All but one of the runway incursion scenarios were detected without the use of the cockpit displays. Sensor and display design must be tailored to this function and corresponding crew
+procedures and interfaces developed to support RI detection.
+Numerous suggested improvements have been identified and are being worked. For instance, the PNFs
+strongly suggested that a declutter capability on the PNF-AD should be developed. Symbology on the PNFAD
+was strongly preferred and rated highly, but the presence of symbology degraded the readability of the
+raster, particularly of the runway and touchdown point. \citep{baileyym2007}
+
+
+
+WORKLOAD
+Anders (2001) conducted flight trials with airline pilots using the A330 Full Flight
+Simulator at the University of Berlin. Anders found that the PFD is the most important
+display and it draws increasingly more attention during approach and landing
+from the time the airplane is in the clouds to the time the runway is visible. Anders
+also found that the PFD was looked at or fixated about 40\% of the time as the
+primary source of information during flight.Within the fixation, about 11\% of the
+time was spent on saccades, during which no information is acquired. Thus, the
+true percentage of fixation time is about 35\% on the PFD. The ND received a true
+fixation percentage of about 18\% and all other true fixation percentages together
+amounted to about 35\%. Most of the fixation time within the PFD was on the flight
+parameters presented on the speed band, artificial horizon, and the altitude band. \citep{schnell2004}
+
+
+
+
+A few studies have investigated whether changing the location of nonconformal
+symbology alleviates the cognitive tunneling effect (Foyle, McCann, Sanford, \&
+Schwirzke, 1993; Martin-Emerson \& Wickens, 1992). In an assessment of the
+effect of positioning altitude information in three locations on the HUD, Foyle et
+al. investigated ground path performance, altitude maintenance, and the concurrent
+processing of the display and external scene. The results indicated that
+when altitude and path information were superimposed, participants were unable
+to attend to both the HUD and the outside world. Furthermore, when the altitude
+information was over the path, there was a trade-off between altitude and path
+performance, with an increase in altitude performance and a decrease in path
+performance. Foyle et al. suggested that the results may have been due to attention
+being focused on the altitude information and hence, the inefficient processing
+of the path information. When the altitude information was placed higher up
+in the HUD, away from the ground path, the trade-off was not apparent.
+Foyle, Dowell, and Hooey (2001) found that when HUD altitude symbology
+was placed at least 8 degrees above the external ground path, the cognitive tunneling reported
+by Foyle et al. (1993) was eliminated. When the symbology was displaced
+in this manner, ground path performance was unaffected. A subsequent
+study carried out by Dowell, Foyle, Hooey, and Williams (2002) demonstrated
+that moving the altitude information in this way not only eliminated cognitive
+tunneling, but improved tracking performance and enhanced the processing of
+the HUD symbology and the external scene. It was suggested when the
+nonconformal altitude symbology was superimposed on the ground path, the
+compellingness of the altimeter was responsible for the tunneling, regardless of
+the relevance to the task. \citep{crawford2006}
+
+
+
+
+A conformal display is defined as one “in which the symbols appear to overlie
+the objects they represent” (Newman, 1995, p. 234). An example of conformal
+symbology is shown in Figure 2. It is thought that by overlaying the images,
+they can be viewed concurrently, thereby overcoming the cognitive tunneling effect
+(Naish, 1964; Wickens, 1997).
+A number of studies have shown that the use of conformal symbology produces
+benefits such as a reduction in scanning (Martin-Emerson \& Wickens, 1993;
+Ververs \& Wickens, 2000; Wickens \& Long, 1994). In addition, conformal displays
+have been found to be less distracting and require less effort to attend to the
+environment (Boston \& Braun, 1996). When investigating flight path tracking and
+event detection, benefits of a conformal HUD were shown to be faster detection of
+changes in symbology and traffic and an increase in flight path tracking accuracy(Fadden, Ververs, \& Wickens, 1998). However, when unexpected events were introduced,
+the probability of detection was still degraded when using the HUD.
+Wickens and Long (1995) examined flight performance and event detection using
+conformal and nonconformal symbology sets in either anHUDor anHDDcondition.
+The flight performance measures included flight path control and airspeed
+tracking. Benefits for flight path control were found for the HUD condition when
+conformal symbologywasused. These results suggest that the performance benefits
+from HUDs stem not only from the reduction in scanning that is required when the
+image is positioned head-up, but also from the use of conformal imagery. However,
+a slower response to the unexpected event in the far domain occurred withHUDuse.
+The cognitive tunneling effect was attenuated by the use of conformal imagery. The
+authors cautioned against cluttering theHUDwith toomuchnonconformal imagery
+as this may lead to slow detection rates for unexpected events. \citep{crawford2006}
+
+
+
+
+Clutter and Intensity
+It has been suggested that some of the benefits associated with the use of HUDs
+may be canceled out by clutter (Ververs \& Wickens, 1996). Clutter is thought to
+be one of the causes of cognitive tunneling and may interfere with the processing
+of information in both the near and far domains. A number of incident reports
+have highlighted the problem of clutter. For example, May and Wickens
+(1995) described a military incident in which a pilot failed to detect a barrier on
+a runway. It appears that the level of brightness of the HUD and the amount of
+symbology led the pilot to fixate on the display and, hence, miss the barrier. In
+the case of a similar incident, the United Kingdom’s Air Accidents Investigations
+Branch (2000) concluded that the pilot of a Tornado that collided midair
+with a Cessna 152 may not have seen the Cessna due to the clutter of the Tornado’s
+HUD. It was reported that “it is possible that the effects of clutter in the
+HUD reduced the probability of detection at a critical moment” (Air Accidents
+Investigation Branch, 2000, pp. 4–5).
+Some studies have shown that conformal displays can help reduce the effects of
+clutter. For example, Boston and Braun (1996) found that in high-clutter situations,
+a conformal display reduces the time it takes for a pilot to detect an obstacle
+in the far domain.
+Another way to decrease clutter may be to highlight salient information and reduce
+the luminance of information that may be less important and distracting (May
+\& Wickens, 1995). Ververs and Wickens (1996) found that an increase in contrast
+ratio assisted pilots in cruise flight in responding faster to changes in heading, airspeed,
+and altitude indicators in the HUD condition. Furthermore, when the contrast
+ratio of the HUD was the same as that of the HDD, the detection of events in
+both the near and far domain was superior in the HUD condition. Including additional
+information in the display hindered event detection. Lowlighting the additional
+information, however, provided pilots with a sense of what was important
+on the display and distraction from far domain elements was less likely. The results
+from this study suggest that putting symbology into an appropriate location
+on the HUD, and ensuring an appropriate level of symbology intensity and contrast
+with the environment, improve HUD performance. However, both of the
+studies just described were conducted to reflect cruise flight and not the landing
+phase. Therefore, these results may not generalize to other phases of flight.
+In a study examining HUDs and HDDs, Wickens (1997) found that clutter effects
+appeared to be mediated more by the number of elements than by the overlapping
+of symbology on the far domain. Furthermore, the benefits of a reduction in
+scanning in the HUD condition outweighed the costs of clutter, even though the
+high-clutter displays did result in a delay in the detection of events in the near and
+far domains. The poor detection of events with high clutter was found in both the
+HUD and HDD conditions. \citep{crawford2006}
+
+
+
+
+Workload
+High workload seems to be associated with an increase in cognitive tunneling. If
+cognitive tunneling is caused by limitations in attentional capacity, increasing
+workload should further reduce a pilot’s available capacity, thereby exacerbating
+the tunneling effect. However, there are very few studies comparing the workload
+of HUD and HDD in the civilian domain. Although there have been some
+recent studies investigating pilot workload while taxiing, high-fidelity investigations
+into workload during commercial flight operations need to be conducted.
+The results from military studies cannot easily be applied to the commercial aviation
+sector because of the differing nature of equipment and flight situations.
+For example, there are differences in currency and recency, the number of airport
+movements, fatigue levels, and schedules. These factors are likely to confound
+comparisons across the two sectors.
+Some evidence to support the assumption that workload will exacerbate cognitive
+tunneling was provided by Larish and Wickens (1991). Two levels of turbulence
+(high and low) were used to vary the workload for instrument-rated
+pilots in a flight simulator. The differences in response latency to unexpected
+events between the HUD and HDD conditions were greater under high levels of
+workload, suggesting that workload does increase cognitive tunneling. Interestingly,
+the opposite effect was found for the detection of expected events. Pilots
+using the HUD were faster at detecting expected events in the near domain than
+pilots using HDD, and this difference was stronger under high-workload conditions.
+The authors argued that in a high-workload situation, the HUD may induce
+a narrowing of attention to avoid distraction from the superimposed
+images, or a change to the pilot’s scan pattern, due to the superimposed images.
+They concluded that dividing attention between the two overlapping sources is a
+difficult and unnatural cognitive task that may exhaust resources in
+high-workload situations (Larish \& Wickens, 1991).
+Pilots, on the other hand, appear to believe that HUDs reduce their workload.
+In the Boeing study described earlier, the pilots reported that the HUD reduced
+their workload. Furthermore, the pilots reported that they found it easier to
+switch attention from the HUD to the external scene, compared with the HDD,
+and that the HUD was easier to use. The positive evaluations of the HUD provided
+by the pilots occurred despite the fact that the HUD produced an increased
+number of missed events. These results suggest that the cognitive tunneling effect
+is counterintuitive, and that many pilots are not aware of its existence. Hofer
+et al. (2001) concluded that “Pilots think they are seeing everything because all
+the information is being presented in their visual field when in fact they are not
+attending and processing everything” (p. 2). Additional studies into the effects
+of workload on cognitive tunneling, and pilots’ awareness of these effects, need
+to be carried out. \citep{crawford2006}
+
+
+
+
+
+
+
+
+
+
+
 
 However, there have been some problems that have arisen from the use of HUDs.
 Prefaced by Fischer et al., a phenomenon known as cognitive tunneling has
@@ -1210,6 +1130,9 @@ three key respects: (a) Experiment 1 is a low-fidelity simulation, and Experimen
 conformality; and (c) Experiment 2 varies the amount of information presented on
 the symbology \citep{ververs1998}
 
+
+
+
 Repeated measures analyses of variance (ANOVAs) were used to analyze the data
 in this experiment. Two precautionary measures were taken to provide an unbiased
 examination of the results of this study. First, in an attempt to minimize the
@@ -1246,6 +1169,9 @@ condition. One objective of Experiment 2 was to eliminate the confound between
 location and contrast observed in Experiment 1. A second objective was to examine
 in greater detail the role of clutter, and a third objective was to examine all of these
 issues in a higher fidelity simulation. \citep{ververs1998}
+
+
+
 
 Most prominent in the general conclusions is a clear advantage for the head-up over
 the head-down location in the detection of events both on the symbology and in the
@@ -1340,6 +1266,9 @@ basic studies (Andersen\& Kramer, 1993; Downing \& Pinker, 1985; McCann et al.,
 rnight have been dorniriated here by the overwhelming effect of vertical location
 of the display. \citep{ververs1998}
 
+
+
+
 The collective results of both experiments have shown that when ample contrast is
 provided between the symbology and the background, the ability to track the control
 axes is similar in the HUD and HDD locations. More importantly, it was found that
@@ -1398,6 +1327,9 @@ scenario in the cruise phase of flight. Continued testing of HUD-related clutter
 effects is advised befare HUDs can make a safe and smooth transition into the
 general aviation cockpit. \citep{ververs1998}
 
+
+
+
 Breakdowns in task management and task prioritization have been well documented
 to contribute to mishaps in aviation (Chou, Madhavan, \& Funk, 1996; Funk, 1991).
 Aclassic example here is the crash of an Eastern Airlines L1011 into the Everglades,
@@ -1447,6 +1379,8 @@ on aviation displays. We briefly review the evidence for head-up displays
 (HUDs) in inducing such tunneling, and then integrate empirical evidence for the
 contributing role of the highway in the sky (HITS) embedded within a synthetic vision
 (SV) display suite, to attentional tunneling.
+
+
 HUD-INDUCED TUNNELING
 A now-classic flight simulation experiment by Fischer, Haines, and Price (1980)
 set the stage for subsequent concerns about display-induced attentional tunneling. The authors observed that pilots flying with an HUD were less likely to detect an
@@ -1750,6 +1684,17 @@ undertaken. Naturally, such training needs to reinforce the FAA guidelines for a
 greater percentage of gaze to be head out than head down during visual meteorological
 conditions. \citep{wickens2009}
 
+\section{TODO Tarkkaavaisuuden tunneloituminen}
+
+Themajority ofHUDresearch in the last decade has dealt with perceptual and cognitive
+issues. One of the main areas of interest is whether pilots can view theHUDand
+the external scene concurrently. It would appear that this is not the case (for reasons
+outlined in the sections that follow) and that pilots need to switch attention back and
+forth between the HUD and the external scene. Attempts have been made to overcome
+these problems by using new forms of technology, such as conformal
+symbology. However, there is still debate regarding the effectiveness of these measures.
+These issues are described in the following sections.
+
 Constraints and Limitations
 This analysis, based as it is entirely on simulator studies, clearly has constraints
 and limitations in its ability to generalize to understanding the causes and frequency
@@ -1789,6 +1734,31 @@ simulations and flight tests, as planners of the Next Generation Air Transportat
 System have pointed out (Joint Planning and Development Office, 2007), and
 hence it is gratifying to see this examination in two of the studies reported in this
 special issue (Arthur et al., this issue; Kramer et al., this issue). \citep{wickens2009}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 \chapter{TODO SV- ja EV-järjestelmien tulevaisuus}
 
@@ -1841,6 +1811,33 @@ should be noted that this finding was not statistically significant, possibly du
 the insufficient power of the study. Nevertheless, the results are consistent with the
 cognitive tunneling effects reported previously, without pathway displays. \citep{crawfordneal2006}
 
+
+
+In addition, research is
+warranted into the use of HUDs in single and multicrew environments; the effects
+of pilot qualifications, training, and experience; and the training practices
+and experience of operators.
+Research is currently being conducted at the FAA/Volpe National Transportation
+Safety Center to provide the FAA with guidelines for certifying HUDs for civilian
+use (FAA, 2002). Twenty-two HUD design issues have been identified by
+FAA experts while certifying HUDs. Further research is being conducted to determine
+how pilot performance is affected by each of the design issues. The 22 issues
+are broken down into the following categories: location and format design of flight
+information, display effectiveness to support the intended task,HUDeffectiveness
+in displaying and guiding recovery from unusual attitudes, consistency, and
+discriminability ofHUDsymbology, and pilot physiological stress associated with
+HUD optical design.
+A further area of investigation might include HUDs and the proximity principle,
+which is a principle of perception that was first identified by the Gestalt psychologists.
+The central idea of this principle is that the smaller the gap between
+stimuli, the more likely those stimuli are to be seen as belonging together. The gap
+can be in terms of space or in terms of time. Although this principle has been investigated
+by putting similar items together in the HUD visual field to ease processing,
+the HUD could also break down the external field stimuli, making them hard
+to interpret. Flight Lieutenant Robert Woodbury at RAAF Richmond demonstrated
+this effect to the first author by showing a photographic image of an HUD
+plus three lights visible in the external domain. It was not until the HUD was removed from the field of view that it was easy to see that the three lights were part of
+a preceding aircraft. To our knowledge, no studies have investigated this issue. \citep{crawford2006}
 
 
 \section{TODO NextGen ja EVO-konseptit}
@@ -2057,7 +2054,7 @@ illuminated fire handle (n = 2), which they had to manually press during engine
 shutdown (and would have been forced to observe directly) than a master warning
 light (n = 8), which was not directly manipulated as part of the shutdown procedure.
 Explicit manipulation of a control made it more salient, and less likely to be
-incorrectly remembered. \citep{mosier1998}
+incorrectly remembered. \citep{mosierym1998}
 
 CONCLUSIONS
 In conclusion, this study has documented the existence of attentional tunneling as a
@@ -2145,7 +2142,7 @@ May, P. A. \& Wickens, C. D. 1995.
 for varying symbol intensity}.
 In Proceedings of the Human Factors and Ergonomics Society, 39. vuosikokous, s.~50--54. Santa Monica, CA: HFES.
 
-\bibitem[Mosier ym.(1998)Mosier, Kathleen L. , Skitka, Linda J. , Heers, Susan, \& Burdick, Mark]{mosier1998}
+\bibitem[Mosier ym.(1998)Mosier, Kathleen L. , Skitka, Linda J. , Heers, Susan, \& Burdick, Mark]{mosierym1998}
 Mosier, Kathleen L. , Skitka, Linda J. , Heers, Susan, \& Burdick, Mark 1998.
 \textit{Automation Bias: Decision Making and Performance in High-Tech Cockpits}.
 The International Journal of Aviation Psychology, 8:1, s.~47--63.
