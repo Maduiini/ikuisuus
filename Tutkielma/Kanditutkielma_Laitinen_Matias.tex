@@ -113,33 +113,23 @@ Esimerkiksi FAA:n vuoden 2010 turvallisuusselvityksen mukaan 52 928 316 maatoimi
 
 Tilannetietoisuutta maatoiminnassa voitaisiin parantaa esimerkiksi käyttämällä infrapunakameroita jopa tiheän sumun olosuhteissa, jotta havaittaisiin paremmin esteitä, kuten henkilöstöä, ajoneuvoja ja laitteistoja. \citep{beiergemperlein2004}.
 
+\chapter{Järjestelmät}
 
-
-
-
-
-
-
-
-
-
-
-
-\chapter{SV- ja EV-järjestelmät}
-
-\section{Synthetic Vision}
+\section{Keinonäköjärjestelmät (Synthetic Vision)}
 
 Keinonäköjärjestelmillä (Synthetic Vision System, SVS, Synthetic Vision Information System, SVIS) tarkoitetaan keinotekoisen ympäristökuvan luomista  tietokoneella \citep{baileyym2007} tai NASA:n Rockwell Collinsin kanssa kehittämää tällaista teknologiaa käyttävää järjestelmää, SVS \citep{crawfordneal2006}. Prinzelin ym. \citeyearpar{prinzel2004} mukaan NASA:n ilmailuturvallisuusohjelman osana SVS:n tarkoituksena on eliminoida huono näkyvyys lento-onnettomuuksien aiheuttajana sekä parantaa yleis- liike- ja kaupallisen ilmailun operationaalisia valmiuksia.
 
 Kuva luodaan yhdistäen lentoasento- ja tarkkuusnavigointijärjestelmiltä sekä maasto- ja estetietokannoista saatua lennon kannalta tärkeää tietoa. \cite{schnellym2004} kertovat SVIS -järjestelmien olevan uuden sukupolven ohjaamojärjestelmä, joka tulee olemaan tärkeässä osassa tulevaisuuden kaupallisten lentokoneiden ohjaamoissa. Kuitenkin Crawford ja Neal \citeyearpar{crawfordneal2006} huomauttavat, että koska tieto on peräisin tietokannasta, ei se välttämättä ole aina täysin ajan tasalla. He mainitsevat myös tiedonkäsittelystä aiheutuvan viiveen voivan aiheuttaa hämmennystä, mikäli näkyvyyden palautuessa visuaalinen näkymä ei olekaan yhtenevä järjestelmän esittämän tiedon kanssa.
 
-\section{Enhanced Vision}
+Suunnitellessa uusia ohjaamoita voidaan ottaa luonnollisesti huomioon SV-näyttöjen tarpeet (forward fit), mutta oman haasteensa asettaa se, miten käytännölliset ja toimivat näyttölaitteet voidaan asentaa vanhempiin ohjaamoihin, tai ohjaamoihin, joissa tilaa on rajallisesti (retrofit). \citep{prinzel2004}. Eräs ratkaisu tilankäyttöön olisi näyttää SVS heijastusnäytöllä, jolloin voitaisiin keskittyä siihen, kuinka parhaiten esittää keinotekoista kuvaa maastosta sen rajoitettujen grafiikkaominaisuuksien vuoksi. Toinen tapa olisi poistaa perinteiset mittarit ja asentaa tilalle keinonäkönäytöt, jolloin puolestaan jäisi selvitettäväksi, millaiset näyttöesitykset toimivat parhaiten miehistön näkökulmasta. \citep{prinzel2004}.
 
-Parannetun näön järjestelmillä (Enhanced Vision System, EVS tai Enhanced Flight Vision System, EFVS) tarkoitetaan elektronisen apuvälineen, kuten lämpökameran (Forward-Looking Infrared, FLIR) tai millimetritutkan (Millimeter Wave Radar, MMWR) avulla näytettyä kuvaa ulkomaailmasta \citep{baileyym2007}. Möller ja Sachs \citeyearpar{mollersachs1994} kertovat optisten järjestelmien olevan passiivisia laitteita, joilla voidaan muodostaa ympäristökuva ilman etäisyystietoa. Sitä vastoin esimerkiksi tutkalla saadaan aktiivisesti etäisyystietoa ympäristöstä, mutta tavallisen näköistä kuvaa on vaikea muodostaa.
+\section{Parannellun näön järjestelmät (Enhanced Vision)}
+
+Parannellun näön järjestelmillä (Enhanced Vision System, EVS tai Enhanced Flight Vision System, EFVS) tarkoitetaan elektronisen apuvälineen, kuten lämpökameran (Forward-Looking Infrared, FLIR) tai millimetritutkan (Millimeter Wave Radar, MMWR) avulla näytettyä kuvaa ulkomaailmasta \citep{baileyym2007}. Möller ja Sachs \citeyearpar{mollersachs1994} kertovat optisten järjestelmien olevan passiivisia laitteita, joilla voidaan muodostaa ympäristökuva ilman etäisyystietoa. Sitä vastoin esimerkiksi tutkalla saadaan aktiivisesti etäisyystietoa ympäristöstä, mutta tavallisen näköistä kuvaa on vaikea muodostaa.
 
 Kuten Crawford ja Neal \citeyearpar{crawfordneal2006} mainitsevat, voidaan EV -järjestelmiä käyttää yhdessä sekä heijastusnäyttöjen (Head Up Display, HUD), että ohjauspaneelin näyttöjen (Head Down Display, HDD) kanssa, tarjoten lentäjälle lämpökamerakuvaa maastosta ja liikenteestä myös heikoissa valaistus- ja sääolosuhteissa.
 
-\section{Heijastusnäytöt}
+\section{Heijastusnäytöt (Head-Up Displays}
 
 SVS/EVS-tietoa voidaan esittää esimerkiksi heijastusnäyttöjen (Head-Up Display, HUD) avulla. HUD-näytöissä haluttu informaatio ja symbolit heijastetaan läpinäyvälle näytölle, josta ohjaaja katsoo läpi. Tällöin on mahdollista nähdä yhtä aikaa näytöllä oleva tieto sekä ulkona oleva näkymä, mikä mahdollistaa vähemmän aikaa käytettävän mittaritaulun tarkkailuun ja ympäristön seuraaminen on helpompaa. \citep{crawfordneal2006}
 
@@ -200,198 +190,24 @@ Maatoiminnan tilannetietoa ylläpitäviä järjestelmiä voitaisiin myös käytt
 
 Prinzelin ym. \citeyearpar{prinzel2013} tutkimuksen perusteella pelkkä EV-järjestelmien käyttö ilman karttaa ei merkittävästi paranna toimintaa maassa. Myös ohjaajat arvioivat AMM -karttojen olevan olennaisessa osassa maatoimintaa ja yhdessä EV sekä AMM toivat huomattavia etuja, esimerkiksi mahdollistamalla toiminnan entistä huonomman näkyvyyden olosuhteissa kentillä, joilla on vain vähän tai ei lainkaan rullausapuja käytössä. \citep{prinzel2013}.
 
-\chapter{Järjestelmien käyttöönotto ohjaamoissa}
-
-Suunnitellessa uusia ohjaamoita voidaan ottaa luonnollisesti huomioon SV-näyttöjen tarpeet (forward fit), mutta oman haasteensa asettaa se, miten käytännölliset ja toimivat näyttölaitteet voidaan asentaa vanhempiin ohjaamoihin, tai ohjaamoihin, joissa tilaa on rajallisesti (retrofit). \citep{prinzel2004}.
-
-Eräs ratkaisu tilankäyttöön olisi näyttää SVS heijastusnäytöllä, jolloin voitaisiin keskittyä siihen, kuinka parhaiten esittää keinotekoista kuvaa maastosta sen rajoitettujen grafiikkaominaisuuksien vuoksi. Toinen tapa olisi poistaa perinteiset mittarit ja asentaa tilalle keinonäkönäytöt, jolloin puolestaan jäisi selvitettäväksi, millaiset näyttöesitykset toimivat parhaiten miehistön näkökulmasta. \citep{prinzel2004}.
-
-\chapter{TODO Ohjaajan suorituskyky ja kognitiiviset haasteet}
+\chapter{DO Ohjaajan suorituskyky ja kognitiiviset haasteet}
 
 Ihmisen suorituskyky aiheuttaa paljon haasteita, kun kehitetään uusia tapoja 
-esittää tietoa ohjaamomiehistölle. Esimerkiksi keinotekoista maastokuvaa luodesssa voidaan käyttää joko yleisiä maastotekstuureja tai fotorealistista esitystapaa, jossa ilmakuvista otetaan värit tietokoneella luotuun maastomalliin. Näistä jälkimmäinen vaatii luonnollisesti enemmän varastointitilaa ja laskentatehoa, mutta kysymys kuuluukin, kummalla tavalla esitettynä informaatio on ohjaajalle enemmän hyödyksi informaation saannin ja tilannetietoisuuden kannalta \citep{prinzel2004}. Seuraavaksi käsitellään yleisimpiä ihmisen suorituskyvystä aiheutuvia haasteita, joita keinonäkö- ja parannellun näön järjestelmiä kehiteltäessä tulee ottaa huomioon.
+esittää tietoa ohjaamomiehistölle. Esimerkiksi keinotekoista maastokuvaa luodesssa voidaan käyttää joko yleisiä maastotekstuureja tai fotorealistista esitystapaa, jossa ilmakuvista otetaan värit tietokoneella luotuun maastomalliin. Näistä jälkimmäinen vaatii luonnollisesti enemmän muistitilaa ja laskentatehoa, mutta tärkeämpää onkin, kummalla tavalla esitettynä informaatio on ohjaajalle enemmän hyödyksi informaation saannin ja tilannetietoisuuden kannalta \citep{prinzel2004}. Seuraavaksi käsitellään yleisimpiä ihmisen suorituskyvystä aiheutuvia haasteita, joita keinonäkö- ja parannellun näön järjestelmiä kehiteltäessä tulisi ottaa huomioon.
 
-\section{TODO Akkommodaatiovääristymä}
+\section{Akkommodaatiovääristymä (Misaccommodation)}
 
-Misaccommodation
-Misaccommodation of the eye occurs when the focus is drawn inward by something
-close. This is considered to be a problem because it impairs pilots’ ability
-to detect targets and to judge their distance and size (Weintraub \& Ensing,
-1992). HUDs are collimated to appear at optical infinity to overcome the problem
-of misaccommodation. Collimation is intended to put the HUD symbology
-at the same optical depth as the external world, which in principle should assist
-with accommodation and reduce the time necessary to refocus (Naish, 1964).
-The effectiveness of collimation and whether HUDs should be collimated has
-been extensively debated. This debate has been covered in previous reviews
-(Newman, 1995; Weintraub \& Ensing, 1992). Given that no new studies have
-addressed this issue in the past 10 years, we provide only a relatively brief summary
-of the issues here.\citep{crawford2006}
+Silmän akkommodaatiovääristymäksi kutsutaan tilannetta, jossa katse ja katsojan huomio tarkentuu jokin lähietäisuudellä sijaitsevaan kohteeseen ja vaikeuttaa muiden kohteiden huomiointia sekä koon ja etäisyyden arviointia. Tämän välttämiseksi heijastusnäytöt kohdistetaan usein optiseen äärettömyyteen, jotta näyttäisi, että näytön symbologia sijaitsisi samalla etäisyydellä ulkomaailman kanssa ja näin ollen vähentäisi katseen uudelleentarkentamisen tarvetta \citep{naish1964}.
 
-A number of studies suggest that collimation does not pull the pilot’s focus outward
-to optical infinity, or that collimated HUDs may even exacerbate
-misaccommodation (Hull, Gill, \& Roscoe, 1982; Iavecchia, Iavecchia, \& Roscoe,
-1988; Norman \& Ehrlich, 1986). Weintraub and Ensing (1992), on the other hand,
-argued that the bulk of evidence suggests that collimated HUDs do pull the pilot’s
-focus outward, even if it is not always to optical infinity. They argued that the earlier
-results were an artefact of the optical quality of the HUD image and the external
-scenes used in these studies. High-quality images, whether generated by the
-HUD or from the external environment, draw focus outward. Iavecchia et al.
-(1988) used a relatively poor-quality HUD image superimposed over a
-high-quality image of terrain, causing focus to be drawn inward. In contrast,
-Weintraub and Ensing (1992) argued that if the external image is of poor quality
-(e.g., because of fog or rain) high-quality HUD images will actually pull the pilots’
-focus outward, partially offsetting the tendency for the resting point of accommodation
-to be closer than the objects in the external environment. Similar arguments
-were made by Newman (1987), who argued on the basis of subjective experience
-that HUDs give the pilot a clearer view when flying through rain. To our knowledge,
-the question of whether collimated HUDs produce misaccommodation or
-whether they reduce it has not been resolved.
-Another issue of concern is whether the HUD combiner glass itself, including
-its frame and lack of movement compared with the external world, are a source of
-misaccommodation. These items may provide perceptual clues that the HUD is
-closer than the outside scene (Larish \& Wickens, 1991; Roscoe, 1987). However,
-the same is true of dirt, rain, and glare on the windshield (Weintraub, 1987). There
-is currently no strong evidence available to assess whether the HUD combiner
-glass significantly increases the risk of misaccommodation, over the risk posed by
-the contaminated windscreen itself. \citep{crawford2006}
+Heijastusnäyttöjen kohdistamisen tehokkuudesta ja tärkeydestä vat väitelleet esimerkiksi Newman \citeyearpar{newman1995} sekä Weintraub ja Ensing \citeyearpar{weintraubensing1992}. Koska erilaiset sääolosuhteet ja heijastusnäytön tarkkuuden taso vaikuttavat huomion kohdistumiseen, ei ole vielä täysin varmaa, vähentävätkö kauas kohdistetut heijastusnäytöt akkommodaatiovääristymiä, vai lisäävätkö ne niitä \citep{crawfordneal2006}.
 
-Intuitively, one might expect that HUDs would enhance a pilot’s ability to detect
-events in the external world because the pilot does not have to switch attention
-back and forth between an HDD and the external environment. However, there
-is strong evidence to suggest that HUD symbology can capture a pilot’s attention,
-and impair the pilot’s ability to detect events in the external environment.
-This effect is referred to as cognitive tunneling. In the following sections, we
-briefly examine the nature of attention, and review available studies that have
-assessed the issue of cognitive tunneling and the reasons why it may occur.
+\section{DO Automaatiovinouma (Automation bias)}
 
-Attention
-Information processing is critically dependent on attention. Research has demonstrated
-that, in general, people are much better at detecting events in the envi-
-ronment if their attention is focused on the area in which those events occur
-(Wickens \& Hollands, 2000). However, attention is a resource with limited capacity.
-Under some circumstances, a single task or aspect of the environment
-will capture all of the individual’s attention. If the individual focuses attention in
-this way then he or she will filter out unattended information and may not detect
-task-critical information. In other situations, people can divide attention across
-tasks or aspects of the environment. Factors that influence an individual’s ability
-to divide attention include the nature of the tasks (e.g., whether the information
-is perceived via visual or auditory channels, and encoded verbally or spatially),
-and the nature of the display (Ververs \& Wickens, 1998).
-Display features that encourage divided attention may inhibit people’s ability to
-focus attention on specific aspects of the display and vice versa (Ververs \&
-Wickens, 1998). For example, putting similar objects together may support divided
-attention, but make it difficult to focus attention on one particular object
-within the display. Similarly, an element of a domain that has dynamic properties,
-such as motion, may capture attention and be so compelling that it consumes the
-majority of the attentional resource, so that there is not sufficient attentional capacity
-to view other visual elements concurrently. \citep{crawford2006}
+Osa kognitiivisista lennonaikaisista tehtävistä (polttoainetehokas reitinlaskenta, navigointi, järjestelmien vikailmoitukset) voidaan hoitaa automatiikan avulla tai päätöksentekoa helpottavien työkalujen avustuksella. Koska ohjaamoympäristössä käsitellään entistä enemmän ja monimutkaisempaa tietoa, on odotettavissa, että ohjaamoautomatiikan määrä lisääntyy nopeasti uuden sukupolven ohjaamoissa. Vaikka tiedon käsittelyn ja varastoinnin tehostuminen onkin hyödyksi, automatiikkaan tottuminen muuttaa käyttäjäkokemusta ja toimintaa sekä nostaa esiin uudenlaisen käyttäjäongelman, automaatiovinouman (automation bias). Automaatiovinoumalla tarkoitetaan virheitä, jotka aiheutuvat siitä, että käyttäjä luottaa liikaa automaatioon ja korvaa automaattisten järjestelmien luomilla merkeillä muun aktiivisen tiedonhakunsa ja -käsittelynsä. \citep{mosierym1998}.
 
-Perceptual aspects of the visual field such as motion, color, and frame of reference
-distinguish the HUD from the external world. For this reason, the HUD and
-external world may not be processed or visually attended to at the same time. This
-results in aspects of the unattended domain being perceived only after some delay.
-If the HUD is the more salient of the two domains, these elements of the external
-world, especially those that are unexpected, may be more difficult to detect
-(McCann, Lynch, Foyle, \& Johnston, 1993; Moodi, 1995). For example McCann
-et al. found that response times for events occurring within the domain to which
-the pilot was currently attending were faster than response times to events that occurred
-outside that domain. It was suggested that the HUD may act as an
-attentional trap and that the ability to concentrate attention on the HUD was more
-robust than the ability to concentrate attention on the outside world, interfering
-with the ability to focus externally.
-Detection of Expected and Unexpected Events
-Most research addressing the effects of cognitive tunneling has focused on the
-detection of unexpected events. An initial study comparing HUDs with HDDs
-found that landings were more accurate using HUDs for commercial airline pilots
-flying a fixed-based simulator. However, there was a longer response time
-to an aircraft that was located on the duty runway that was being approached
-(Fischer et al., 1980). A similar study was conducted by Weintraub, Haines, and
-Randle (1985), who found, in the final trial of their study, that there was a runway
-incursion that was only noted by 2 of the 8 participants. Naturally, this wascause for concern and many studies have subsequently addressed this issue and
-the reasons behind it.
-Larish and Wickens (1991) examined instrument-rated pilots’ ability to detect
-expected and unexpected events on the flight display and in the external scene,
-when using an HUD and an HDD. Both display formats contained the same instrumentation
-and were collimated to optical infinity to ensure that any observed differences
-could be attributed to display position. Many of the early HUD studies
-had confounded instrumentation, collimation, and display position. Therefore it is
-possible that the superior flight performance that had previously been observed
-with HUDs could be attributable to the quality of instrumentation, or the fact that
-the image was collimated, rather than the position of the image. The key outcome
-measure was the response time to the detection of expected and unexpected events
-in the external scene and on the display. General flight performance, in terms of
-vertical and lateral tracking ability and speed and heading control, was also measured.
-The results showed that pilots took longer to detect unexpected events in the
-near and far domain when the HUD was used. On the other hand, the pilots did detect
-expected events on their display more quickly when the HUD was used. Unlike
-many earlier studies, there was no advantage for the HUD in terms of flight
-performance. Larish and Wickens concluded that the advantages observed for
-HUDs may be due to the symbology that is used, and the collimation of the image,
-rather than the physical location (head up or head down) of the image.
-A recent study conducted at Boeing’s Integrated Airplane Systems Laboratory
-investigated attention switching between anHUDand the far domain, and anHDD
-and the far domain (Hofer, Braune, Boucek, \& Pfaff, 2001). Twelve pilots flew
-four takeoffs and four approach and landings in each of the HUD and HDD conditions,
-resulting in 16 runs for each pilot. Each run included an expected event.
-These were display events (a frozen instrument), scene events (truck or aircraft incursion),
-or a combination of display and scene events. Six events per pilot (three
-HUD and three HDD) were serious enough that an accident could result without an
-appropriate response. The symbology set for the HUD in this study was reduced.
-The intention was to ensure that there was no hindrance of event detection due to
-symbology obstruction. Furthermore, the HUD and the far domain information
-were presented at the same visual distance, reducing accommodation bias. The
-workload was considered realistic, but not excessively high. The pilots were informed
-that there would be an event during each run in either the symbology layer
-or the outside scene to reduce learning effects and increase detection. The pilots
-were not informed what the particular events would be. However even knowing
-there would be an event, 36.5\% of the events were missed in the HUD condition
-and 26\% in the HDD condition. Across all pilots, 9 out of 36 accident events were
-missed in the HUD condition and these were all in the approach and landing phase.
-None of the accident events were missed in the HDD condition. These differences
-were statistically significant. \citep{crawford2006}
-
-\section{TODO Automaatiovinouma}
-
-Automated aids and decision support tools are rapidly becoming indispensable tools
-in high-technology cockpits and are assuming increasing control of "cognitive" flight tasks, such as calculating fuel-efficient routes, navigating, or detecting and diagnosing system malfunctions and abnormalities. automation bias, a recently documented factor in the use of automated aids and decision support systems. The term refers to omission and commission errors resulting from the use of automated cues as a heuristic replacement for vigilant information seeking and processing. Glass-cockpit pilots flew flight scenarios involving automation events or opportunities for automation-related omission and commission errors. Although experimentally manipulated accountability demands did not significantly impact performance, post hoc analyses revealed that those pilots who reported an internalized perception of "accountability" for their performance and strategies of interaction with the automation were significantly more likely to double-check
-automated functioning against other cues and less likely to commit errors than those who did not share this perception. Pilots were also likely to erroneously "remember" the presence of expected cues when describing their decision-making processes. \citep{mosierym1998}
+Käyttäjän vastuuntuntoisuus vaikuttaa huomattavasti siihen, tarkistaako hän automatiikan antamien merkkien oikeellisuuden muita menetelmiä käyttäen, vai jättääkö ne huomiotta. 
 
 
-
-HUD
-Some of the
-early problems relating to design appear to have been resolved, but there are a
-number of cognitive issues that are still a matter of debate and research. These include
-the effects of divided attention and cognitive tunneling, and spatial disorientation
-and unusual attitude recovery. These issues are reviewed in later sections. \citep{crawfordneal2006}
-
-
-
-
-In the "glass cockpit," as well as in domains as diverse as medical diagnosis, nuclear power plants, manufacturing and process control, and Air Traffic Control (ATC), human decision-makers are being exposed to and are required to utilize automated aids to perform their jobs and make decisions.
-
-As these and other environments become more complex and data-intensive, the use of automated aids and decision support tools is likely to become even more commonplace and critical to performance.
-
-Aircraft flight management systems, for example, are designed not only to keep the aircraft on course, but also to assume increasing control of cognitive flight tasks, such as calculating fuel-efficient routes, navigating, or detecting and diagnosing system malfunctions and abnormalities.
-
-An inescapable facet of these automated aids is that they change the way pilots perform tasks and make decisions.
-
-Most of the changes have proven to be beneficial. The advantages these systems
-offer in terms of increased efficiency and data storage and manipulation, for
-example, is self-evident-computers can assimilate more information and process
-it faster than humans.
-
-Other repercussions of automated aids, however, are less positive. Several
-researchers have documented problems in the use of advanced automated systems
-in aviation, including mode misunderstandings and mode errors, failures to understand automation behavior, confusion or lack of awareness concerning what automated systems are doing and why, and difficulty tracing the functioning or
-reasoning processes of automated agents (e.g., Billings, 1996; Sarter \& Woods,
-1993).
-
-Additionally, automated systems introduce opportunities for new decisionmaking heuristics and associated biases. Automation bias, a recently documented
-factor in the use of automated aids and decision support systems, refers to errors
-resulting from the use of automated cues as a heuristic replacement for vigilant
-information seeking and processing. This article describes research examining the
-nature and implications of automation bias in the cockpit, its correlates, and possible countermeasures. \citep{mosierym1998}
 
 Automation as Heuristic
 The availability of automation and automated decision aids feeds into the general
@@ -413,19 +229,9 @@ effort to seek other diagnostic information or process all available information
 cognitively complex ways. Parasuraman and Riley (1997) describe this tendency
 toward overreliance as "automation misuse." In addition, automated cues increase
 the probability that decision makers will cut off situation assessment prematurely
-when prompted to take a course of action by a computer or automated aid. For
-example, Layton, Smith, and McCoy (1994) examined pilot use of a graphical flight
-planning tool and found that computer generation of a suggestion or recommendation
-early in the course of problem evaluation significantly impacted decision
-processes and biased pilots towards the computer's suggestion, even when the
-computer's brittleness (e.g., in terms of an inadequate model of the "world")
-resulted in a poor recommendation with potential adverse consequences.
-To the extent that other available information besides automation is processed,
-decision makers may show either assimilation or discounting biases. Other indicators
-may be interpreted as being more consistent with the automated information
-than they really are (assimilation), especially if other cues in the environment are
-ambiguous (e.g., Darley \& Gross, 1983; Glick, Zion, \&Nelson, 1988). Conversely,
-cues that are completely inconsistent with automated information may be discounted.
+when prompted to take a course of action by a computer or automated aid. 
+
+
 Additionally, confirmational biases lead information processors to overattend
 to consistent information and ignore other data or to process new information
 in a manner that confirms one's preexisting belief and avoids recognition of the
@@ -434,6 +240,8 @@ decision makers are prompted toward a particular problem or diagnosis when
 automated aids bring it to their attention, other information is less likely to be used
 to create a new impression or to modify the impression of the problem created by
 the automation.
+
+
 Because automated aids and decision support tools, when used correctly, are
 extremely consistent and provide cues that are highly correlated with other information,
 using them heuristically will generally be effective. Diagnoses are made
@@ -462,24 +270,15 @@ sample of 166 events, they found that the most likely flight phase for omission
 errors to occur was the cruise phase. In many of the incidents, the crews set up a
 system (not always correctly) to perform a task and then trusted the system to do
 it. Once the crews delegated a task to the automation, they did not check other cues
-to catch inconsistencies or mistakes in task performance. The 1983 incident in
-which a Korean Airlines B-747 was shot down by Soviet fighters included a similar
-causal chain. In this case, the crew selected a magnetic heading and followed it
-throughout the flight rather than coupling the navigational system's inertial reference
-system to the autopilot. The flight did not follow its originally planned flight
-path but rather maintained the selected heading until it was shot down. The crew
-relied on automation that had been inappropriately set up, and they never checked
-their progress manually, allowing the flight to stray well into Soviet airspace
-("Analysis of flight data," 1993).
+to catch inconsistencies or mistakes in task performance.
+
+
 Automation commission errors are errors made when decision makers inappropriately
 follow automated information or directives (e.g., when other information
 in the environment contradicts or is inconsistent with the automated cue) that have
-begun surfacing recently as by-products of automated systems. Some airlines, for
-example, are dealing with automation-induced commission errors in pilots' responses
-to an overly-sensitive warning system that often indicated a cargo compartment
-fire when in fact there was none. Even though the presence or absence of
-the fire was verifiable on other cockpit indicators, many pilots consistently followed
-the warning directive and flooded their cargo bays with fire retardant.The implementation of automated aids in the aircraft cockpit, then, carries the
+begun surfacing recently as by-products of automated systems. 
+
+The implementation of automated aids in the aircraft cockpit, then, carries the
 potential for possible adverse influence, in that the situation assessment process
 may get short-circuited by automated cues; that is, operators may stop short at the
 automated display or not double-check the operation of the automated system via
@@ -491,33 +290,14 @@ information from automated decision aids? Are there internal or individual varia
 that affect susceptibility to or resistance against automation bias? What kinds
 of interventions will be successful in ameliorating automation bias and eliminating
 resultant errors?
-A wide body of social psychological research has found that many cognitive biases
-and resultant errors can be ameliorated by imposing predecisional accountability,
-which sensitizes decision makers to the need to construct compelling justifications
-for their choices and how they make them. Increasing accountability can successfully
-mitigate decision-making biases such as primacy effects (Tetlock, 1983), the
-fundamental attribution error (Tetlock, 1985), over-confidence effects (Tetlock \&
-Kim, 1987), and the "sunk cost7' effect (Simonson \& Nye, 1992). Accountability
-demands cause decision makers to employ more multidimensional, self-critical,
-and vigilant information seeking, as well as more complex data processing; it has
-also been shown to reduce cognitive "freezing" or premature closure on judgmental
-problems (Kruglanski \& Freund, 1983) and to lead decision makers to employ more
-consistent patterns of cue utilization (Hagafors \& Brehmer, 1983). In sum, accountability
+
+
+In sum, accountability
 increases vigilance in decision making and increases the tendency to use all
 available information for situation assessment.
 The extent to which these effects generalize to human performance situations
-has only begun to be empirically explored. In a recent study intended to parallel
-and serve as an analog to the present investigation, Skitka, Mosier, and Burdick
-(1996) reported overall omission-commission error rates of approximately 55\% in
-a sample of students performing a complex, low-fidelity flight task. In this study, the imposition of accountability demands significantly improved performance.
-Specifically, making participants accountable--either for the accuracy of responses
-or for overall performance-reduced omission and commission errors. Because
-improved performance entailed the verification of automated information against
-other cues, differences in performance could be directly traced to increased vigilance
-and attention to dl available information. It was apparent, therefore, that
-imposed accountability had the effect of making operators more likely to verify the
-accuracy of automated information and less likely to rely heuristically on automated
-cues.
+has only begun to be empirically explored. 
+
 The use of automated cues as a shortcut in decision making may result in
 omission or commission errors (automation bias). The imposition of predecisional
 accountability demands has been found to successfully ameliorate biased decision
@@ -526,15 +306,7 @@ increase vigilance and reduce automation-related errors for students in a low-fi
 flight task. It is not clear, however, that these results would generalize to a
 population of experienced pilots using automation in the cockpit. In this study,
 investigations were extended to glass-cockpit pilots in a part-task flight environment,
-We hypothesized that (a) the rate of occurrence of automation-related errors
-among pilots would be comparable to that found with students, and (b) accountability
-demands in the aircraft cockpit environment would promote more careful,
-data-based decision-making strategies and increased vigilance in decision making,
-making pilots less susceptible to automation bias and more likely to check all
-relevant information before making decisions or taking actions. We examined
-patterns of errors associated with automation bias and the relation between errors
-and accountability, and we gathered preliminary information on cognitive processes
-associated with this phenomenon.\citep{mosierym1998}
+\citep{mosierym1998}
 
 Pilots regularly rely upon probabilistic information to evaluate what they cannot
 access directly (Wickens \& Flach, 1988). In traditional aircraft, crewmembers are
@@ -568,66 +340,7 @@ automated aids do not provide "just another cue," but rather are more important,
 more diagnostic, and more reliable than previously utilized, conventional information
 sources. \citep{mosierym1998}
 
-Omission Error Events
-Descriptive analyses revealed overall omission rates for flight-related events of
-approximately 55\%,' as predicted, replicating the patterns exhibited by students in
-the Skitka et al. (1996) analog study. The altitude load failure and the headingcapture failure, the two events arguably most critical to aircraft operation safety,
-remained undetected by 44% and 48% of the participants respectively. The frequency
-misload was undetected by 71% of pilot participants. Only three pilots
-detected all three flight-related events; five pilots failed to detect any of the three
-flight-related events. The tracking task automation failure, which was completely
-irrelevant to flight functioning, was detected by all of the participants, with reaction
-times ranging up to 4 min.
-Contrary to predictions, the number of omission errors did not vary significantly
-as a function of experimentally-manipulated accountability. Omission errors were
-correlated with total flight hours, r(20) = .49, p < .05, and with years of flight
-experience, r(20) = .46,p < .05, suggesting that increased experience decreased the
-likelihood of catching the automation failures. To ascertain other underlying factors
-discriminating participants who were more likely to verify automated tasks (and
-thus catch errors) from those less likely to do so, pilots were classified according
-to the number of omission errors they committed. Those who missed two or three
-of three flight-related events were categorized as "high-bias" participants (n = 1 I),
-and those who missed none or only one event were placed into the "low-bias" group
-(n = 10). Analyses of variance were conducted using bias group as the independent
-variable and responses on the debriefing questionnaire (1-7 scale) as dependent
-variables.
-
-All of the pilots (N = 21) who experienced the false engine fire message did
-ultimately shut down the engine. This was contrary to responses on the debriefing
-questionnaire indicating that an EICAS message without other cues would not be
-sufficient to diagnose "definitely a fire," and that it would be safer, in the presence
-of only an EICAS message, to retard the throttle of the indicated engine and
-complete the go-around procedure with the engine running rather than to shut down
-the suspect engine. Further analyses of the debriefing questionnaires, however,
-revealed that unanticipated factors may have entered into the shutdown decision.
-As part of the debriefing process, pilots were asked which cues were present duringthe go-around at SFO. All of the pilots correctly remembered that an engine fire
-EICAS message was present. Unexpectedly, however, 67% of them also "remembered"
-at least one additional cue that was not actually present, and most of these
-"remembered" more than one phantom indicator.' Additionally, the number of
-phantom cues that pilots recalled was related to their strategy in handling the engine
-shutdown. Specifically, the faster pilots initiated and completed the shutdown
-process, the greater the number of indicators they recalled. Number of indicators
-recalled accounted for approximately 20% of the variance in the speed of the
-shutdown process, including bringing the engine fire checklist to the view screen,
-hitting the engine stop switch, and pulling the engine fire handle, r = -.45, p < .05. \citep{mosierym1998}
-
-Although the HUD has been shown to improve flight
-performance, there are perceptual and cognitive issues that need to be addressed. This
-article reviews selected literature that investigates these issues and the possible solutions
-posed and identifies areas that remain in doubt.
-
-Many airlines around the world now use HUDs. In some cases
-their use for the most critical phase of flight, approach, and landing, is mandatory.
-However, there are still issues that have been investigated but for which
-tested solutions have not been provided. 
-\citep{crawford2006}
-
-
-
-
-
-
-\section{TODO Tilannetietoisuus}
+\section{DO Tilannetietoisuus (Situational awareness)}
 
 SA
 Maintaining SA on flight decks is essential for safe flight. SA is lost if the pilot or
@@ -721,7 +434,7 @@ comprehension of its meaning, and the projection of their status in the near fut
 (e.g., amount of cognitive effort necessary to generate understanding) workload for effective use and
 understanding of the information.  \citep{baileyym2007}
 
-\section{TODO Työkuorma}
+\section{TODO Työkuormitus (Workload)}
 
 
 A key interconnection between the factors of understanding and workload is the concept of display clutter –
@@ -1684,7 +1397,7 @@ undertaken. Naturally, such training needs to reinforce the FAA guidelines for a
 greater percentage of gaze to be head out than head down during visual meteorological
 conditions. \citep{wickens2009}
 
-\section{TODO Tarkkaavaisuuden tunneloituminen}
+\section{TODO Huomiokyvyn keskittyminen (Attentional tunneling)}
 
 Themajority ofHUDresearch in the last decade has dealt with perceptual and cognitive
 issues. One of the main areas of interest is whether pilots can view theHUDand
@@ -1694,6 +1407,15 @@ forth between the HUD and the external scene. Attempts have been made to overcom
 these problems by using new forms of technology, such as conformal
 symbology. However, there is still debate regarding the effectiveness of these measures.
 These issues are described in the following sections.
+
+Intuitively, one might expect that HUDs would enhance a pilot’s ability to detect
+events in the external world because the pilot does not have to switch attention
+back and forth between an HDD and the external environment. However, there
+is strong evidence to suggest that HUD symbology can capture a pilot’s attention,
+and impair the pilot’s ability to detect events in the external environment.
+This effect is referred to as cognitive tunneling. In the following sections, we
+briefly examine the nature of attention, and review available studies that have
+assessed the issue of cognitive tunneling and the reasons why it may occur.
 
 Constraints and Limitations
 This analysis, based as it is entirely on simulator studies, clearly has constraints
@@ -1736,7 +1458,91 @@ hence it is gratifying to see this examination in two of the studies reported in
 special issue (Arthur et al., this issue; Kramer et al., this issue). \citep{wickens2009}
 
 
+Attention
+Information processing is critically dependent on attention. Research has demonstrated
+that, in general, people are much better at detecting events in the envi-
+ronment if their attention is focused on the area in which those events occur
+(Wickens \& Hollands, 2000). However, attention is a resource with limited capacity.
+Under some circumstances, a single task or aspect of the environment
+will capture all of the individual’s attention. If the individual focuses attention in
+this way then he or she will filter out unattended information and may not detect
+task-critical information. In other situations, people can divide attention across
+tasks or aspects of the environment. Factors that influence an individual’s ability
+to divide attention include the nature of the tasks (e.g., whether the information
+is perceived via visual or auditory channels, and encoded verbally or spatially),
+and the nature of the display (Ververs \& Wickens, 1998).
+Display features that encourage divided attention may inhibit people’s ability to
+focus attention on specific aspects of the display and vice versa (Ververs \&
+Wickens, 1998). For example, putting similar objects together may support divided
+attention, but make it difficult to focus attention on one particular object
+within the display. Similarly, an element of a domain that has dynamic properties,
+such as motion, may capture attention and be so compelling that it consumes the
+majority of the attentional resource, so that there is not sufficient attentional capacity
+to view other visual elements concurrently. \citep{crawford2006}
 
+Perceptual aspects of the visual field such as motion, color, and frame of reference
+distinguish the HUD from the external world. For this reason, the HUD and
+external world may not be processed or visually attended to at the same time. This
+results in aspects of the unattended domain being perceived only after some delay.
+If the HUD is the more salient of the two domains, these elements of the external
+world, especially those that are unexpected, may be more difficult to detect
+(McCann, Lynch, Foyle, \& Johnston, 1993; Moodi, 1995). For example McCann
+et al. found that response times for events occurring within the domain to which
+the pilot was currently attending were faster than response times to events that occurred
+outside that domain. It was suggested that the HUD may act as an
+attentional trap and that the ability to concentrate attention on the HUD was more
+robust than the ability to concentrate attention on the outside world, interfering
+with the ability to focus externally.
+Detection of Expected and Unexpected Events
+Most research addressing the effects of cognitive tunneling has focused on the
+detection of unexpected events. An initial study comparing HUDs with HDDs
+found that landings were more accurate using HUDs for commercial airline pilots
+flying a fixed-based simulator. However, there was a longer response time
+to an aircraft that was located on the duty runway that was being approached
+(Fischer et al., 1980). A similar study was conducted by Weintraub, Haines, and
+Randle (1985), who found, in the final trial of their study, that there was a runway
+incursion that was only noted by 2 of the 8 participants. Naturally, this wascause for concern and many studies have subsequently addressed this issue and
+the reasons behind it.
+Larish and Wickens (1991) examined instrument-rated pilots’ ability to detect
+expected and unexpected events on the flight display and in the external scene,
+when using an HUD and an HDD. Both display formats contained the same instrumentation
+and were collimated to optical infinity to ensure that any observed differences
+could be attributed to display position. Many of the early HUD studies
+had confounded instrumentation, collimation, and display position. Therefore it is
+possible that the superior flight performance that had previously been observed
+with HUDs could be attributable to the quality of instrumentation, or the fact that
+the image was collimated, rather than the position of the image. The key outcome
+measure was the response time to the detection of expected and unexpected events
+in the external scene and on the display. General flight performance, in terms of
+vertical and lateral tracking ability and speed and heading control, was also measured.
+The results showed that pilots took longer to detect unexpected events in the
+near and far domain when the HUD was used. On the other hand, the pilots did detect
+expected events on their display more quickly when the HUD was used. Unlike
+many earlier studies, there was no advantage for the HUD in terms of flight
+performance. Larish and Wickens concluded that the advantages observed for
+HUDs may be due to the symbology that is used, and the collimation of the image,
+rather than the physical location (head up or head down) of the image.
+A recent study conducted at Boeing’s Integrated Airplane Systems Laboratory
+investigated attention switching between anHUDand the far domain, and anHDD
+and the far domain (Hofer, Braune, Boucek, \& Pfaff, 2001). Twelve pilots flew
+four takeoffs and four approach and landings in each of the HUD and HDD conditions,
+resulting in 16 runs for each pilot. Each run included an expected event.
+These were display events (a frozen instrument), scene events (truck or aircraft incursion),
+or a combination of display and scene events. Six events per pilot (three
+HUD and three HDD) were serious enough that an accident could result without an
+appropriate response. The symbology set for the HUD in this study was reduced.
+The intention was to ensure that there was no hindrance of event detection due to
+symbology obstruction. Furthermore, the HUD and the far domain information
+were presented at the same visual distance, reducing accommodation bias. The
+workload was considered realistic, but not excessively high. The pilots were informed
+that there would be an event during each run in either the symbology layer
+or the outside scene to reduce learning effects and increase detection. The pilots
+were not informed what the particular events would be. However even knowing
+there would be an event, 36.5\% of the events were missed in the HUD condition
+and 26\% in the HDD condition. Across all pilots, 9 out of 36 accident events were
+missed in the HUD condition and these were all in the approach and landing phase.
+None of the accident events were missed in the HDD condition. These differences
+were statistically significant. \citep{crawford2006}
 
 
 
@@ -2152,10 +1958,15 @@ Möller, H. \& Sachs, G. 1994.
 \textit{Synthetic Vision for Enhancing Poor Visibility Flight Operations}.
 IEEE AES Systems Magazine, maaliskuu 1994, s.~27--33.
 
-\bibitem[Naish (1964)Naish, J. M.]{naish1964}
+\bibitem[Naish(1964)Naish, J. M.]{naish1964}
 Naish, J. M. 1964.
 \textit{Combination of information in superimposed visual fields}.
 Nature, 202, s.~641--646.
+
+\bibitem[Newman(1995)Newman, R. L.]{newman1995}
+Newman, R. L. 1995.
+\textit{Head-up displays: Designing the way ahead}.
+Aldershot, England: Ashgate.
 
 \bibitem[Nordwall(1993)Nordwall, B.D.]{nordwall1993}
 Nordwall, B.D. 1993.
