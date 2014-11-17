@@ -12,12 +12,12 @@
 \contentsline {section}{\numberline {3.5}Maatoiminnassa saavutettavia etuja}{10}{section.3.5}
 \contentsline {chapter}{\numberline {4}DO Ohjaajan suorituskyky ja kognitiiviset haasteet}{12}{chapter.4}
 \contentsline {section}{\numberline {4.1}Akkommodaatiov\IeC {\"a}\IeC {\"a}ristym\IeC {\"a} (Misaccommodation)}{12}{section.4.1}
-\contentsline {section}{\numberline {4.2}TODO Automaatiovinouma (Automation bias)}{12}{section.4.2}
-\contentsline {section}{\numberline {4.3}DO Tilannetietoisuus (Situational awareness)}{20}{section.4.3}
-\contentsline {section}{\numberline {4.4}TODO Ty\IeC {\"o}kuormitus (Workload)}{23}{section.4.4}
-\contentsline {section}{\numberline {4.5}TODO Huomiokyvyn keskittyminen (Attentional tunneling)}{52}{section.4.5}
-\contentsline {chapter}{\numberline {5}TODO SV- ja EV-j\IeC {\"a}rjestelmien tulevaisuus}{57}{chapter.5}
-\contentsline {section}{\numberline {5.1}TODO Tulevaisuuden sovelluksia}{57}{section.5.1}
-\contentsline {section}{\numberline {5.2}TODO NextGen ja EVO-konseptit}{59}{section.5.2}
-\contentsline {chapter}{\numberline {6}TODO Tulokset ja Yhteenveto}{62}{chapter.6}
-\contentsline {chapter}{Kirjallisuutta}{67}{section*.2}
+\contentsline {section}{\numberline {4.2}DO Automaatiovinouma (Automation bias)}{12}{section.4.2}
+\contentsline {section}{\numberline {4.3}DO Tilannetietoisuus (Situational awareness)}{17}{section.4.3}
+\contentsline {section}{\numberline {4.4}TODO Ty\IeC {\"o}kuormitus (Workload)}{19}{section.4.4}
+\contentsline {section}{\numberline {4.5}TODO Huomiokyvyn keskittyminen (Attentional tunneling)}{48}{section.4.5}
+\contentsline {chapter}{\numberline {5}TODO SV- ja EV-j\IeC {\"a}rjestelmien tulevaisuus}{53}{chapter.5}
+\contentsline {section}{\numberline {5.1}TODO Tulevaisuuden sovelluksia}{53}{section.5.1}
+\contentsline {section}{\numberline {5.2}TODO NextGen ja EVO-konseptit}{55}{section.5.2}
+\contentsline {chapter}{\numberline {6}TODO Tulokset ja Yhteenveto}{58}{chapter.6}
+\contentsline {chapter}{Kirjallisuutta}{63}{section*.2}
