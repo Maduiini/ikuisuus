@@ -12,12 +12,12 @@
 \contentsline {section}{\numberline {3.5}Lentotoiminnassa saavutettavia etuja}{8}{section.3.5}
 \contentsline {chapter}{\numberline {4}Ohjaajan suorituskyky ja kognitiiviset haasteet}{12}{chapter.4}
 \contentsline {section}{\numberline {4.1}Tilannetietoisuus (Situational awareness)}{12}{section.4.1}
-\contentsline {section}{\numberline {4.2}Huomiokyvyn kaventuminen (Attentional tunneling)}{14}{section.4.2}
+\contentsline {section}{\numberline {4.2}TODO LOPPU Huomiokyvyn kaventuminen (Attentional tunneling)}{14}{section.4.2}
 \contentsline {section}{\numberline {4.3}Automaatiovinouma (Automation bias)}{16}{section.4.3}
 \contentsline {section}{\numberline {4.4}N\IeC {\"a}ytt\IeC {\"o}jen sekavuus (Display clutter)}{16}{section.4.4}
 \contentsline {section}{\numberline {4.5}Akkommodaatiov\IeC {\"a}\IeC {\"a}ristym\IeC {\"a} (Misaccommodation)}{18}{section.4.5}
 \contentsline {chapter}{\numberline {5}DO SV- ja EV-j\IeC {\"a}rjestelmien tulevaisuus}{19}{chapter.5}
-\contentsline {section}{\numberline {5.1}DO Tulevaisuuden sovelluksia}{19}{section.5.1}
-\contentsline {section}{\numberline {5.2}TODO NextGen ja EVO-konseptit}{22}{section.5.2}
-\contentsline {chapter}{\numberline {6}TODO Tulokset ja Yhteenveto}{24}{chapter.6}
-\contentsline {chapter}{Kirjallisuutta}{29}{section*.2}
+\contentsline {section}{\numberline {5.1}Tulevaisuuden sovelluksia}{19}{section.5.1}
+\contentsline {section}{\numberline {5.2}DO NextGen ja EVO-konseptit}{19}{section.5.2}
+\contentsline {chapter}{\numberline {6}TODO Tulokset ja Yhteenveto}{22}{chapter.6}
+\contentsline {chapter}{Kirjallisuutta}{27}{section*.2}
