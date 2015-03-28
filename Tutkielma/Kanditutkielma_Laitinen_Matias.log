@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.12)  27 MAR 2015 18:25
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.12)  28 MAR 2015 14:14
 entering extended mode
 **Kanditutkielma_Laitinen_Matias.tex
 
@@ -799,12 +799,12 @@ Overfull \hbox (0.74414pt too wide) detected at line 21
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 22
- []\T1/ppl/m/n/12 22[]
+ []\T1/ppl/m/n/12 21[]
  []
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 23
- []\T1/ppl/m/n/12 27[]
+ []\T1/ppl/m/n/12 25[]
  []
 
 )
@@ -813,187 +813,156 @@ Overfull \hbox (0.74414pt too wide) detected at line 23
 
 ]
 Luku 1.
-
-Overfull \hbox (10.03375pt too wide) in paragraph at lines 72--73
-\T1/ppl/m/n/12 Viime ai-koi-na len-to-tur-val-li-suus on nous-sut useas-ti esil
--le me-diois-sa, kun se-kä harraste-
- []
-
-
-Overfull \hbox (0.91786pt too wide) in paragraph at lines 92--94
-\T1/ppl/m/n/12 dents/accidents for ter-mi-nal area and sur-face ope-ra-tions. T
-he tech-no-lo-gies that form
- []
-
 [1
 
 
-] [2]
+]
 Luku 2.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 98.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 94.
 
-Package natbib Warning: Citation `wickens2009' on page 3 undefined on input lin
-e 100.
+Package natbib Warning: Citation `wickens2009' on page 2 undefined on input lin
+e 96.
 
-[3
+[2
 
-] [4]
+] [3]
 Luku 3.
 
-Overfull \hbox (8.65317pt too wide) in paragraph at lines 122--123
+Overfull \hbox (8.65317pt too wide) in paragraph at lines 118--119
 []\T1/ppl/m/n/12 Kuva luo-daan yh-dis-täen lentoasento- ja tark-kuus-na-vi-goin
 -ti-jär-jes-tel-mil-tä se-kä maasto-
  []
 
 
-Overfull \hbox (3.39713pt too wide) in paragraph at lines 124--125
+Overfull \hbox (3.39713pt too wide) in paragraph at lines 120--121
 []\T1/ppl/m/n/12 Suunnitellessa uusia oh-jaa-moi-ta voi-daan ot-taa luon-nol-li
 -ses-ti huo-mioon SV-näyttöjen
  []
 
-[5
+[4
 
 ]
-Overfull \hbox (23.29451pt too wide) in paragraph at lines 128--129
+Overfull \hbox (23.29451pt too wide) in paragraph at lines 124--125
 \T1/ppl/m/n/12 (Forward-Looking In-fra-red, FLIR) tai mil-li-met-ri-tut-kan (Mi
 l-li-me-ter Wa-ve Ra-dar, MMWR)
  []
 
-[6]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 141.
+[5]
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 137.
 
  ("C:\Program Files (x86)\MiKTeX\tex\latex\psnfss\omsppl.fd"
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 141.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 137.
 
-Overfull \hbox (26.31532pt too wide) in paragraph at lines 145--146
+Overfull \hbox (26.31532pt too wide) in paragraph at lines 141--142
 []\T1/ppl/m/n/12 Paremmat nousu- ja las-keu-tu-mis-mi-ni-mit joil-la-kin len-to
 -ken-til-lä ja ilma-alustyypeillä
  []
 
-[7] [8]
-Overfull \hbox (0.7809pt too wide) in paragraph at lines 172--173
+[6] [7]
+Overfull \hbox (0.7809pt too wide) in paragraph at lines 168--169
 []\T1/ppl/m/n/12 Toisistaan riip-pu-mat-to-man toi-min-nan mah-dol-lis-ta-mi-ne
 n rin-nak-kai-sil-la, lä-hek-
  []
 
 
-Overfull \hbox (17.47667pt too wide) in paragraph at lines 175--176
+Overfull \hbox (17.47667pt too wide) in paragraph at lines 171--172
 \T1/ppl/m/n/12 ongelmat len-to-ken-täl-lä voi-vat ai-heut-taa lii-ken-teen ruuh
 -kau-tu-mi-sen. SVIS-järjestelmistä
  []
 
-[9]
-Overfull \hbox (6.80605pt too wide) in paragraph at lines 177--178
+[8]
+Overfull \hbox (6.80605pt too wide) in paragraph at lines 173--174
 [][]\T1/ppl/m/n/12 Bailey ym.[] ([]2007[]) väit-tä-vät SV-järjestelmillä saa-ta
 -van huo-mat-ta-via pa-ran-nuk-sia maas-
  []
 
 
-Overfull \hbox (4.71758pt too wide) in paragraph at lines 185--186
+Overfull \hbox (4.71758pt too wide) in paragraph at lines 181--182
 []\T1/ppl/m/n/12 Baileyn ym.([]2007[]) mu-kaan näi-den tek-no-lo-gioi-den op-ti
 -maa-li-sin yh-dis-tel-mä oli-si näyt-
  []
 
 
-Overfull \hbox (37.76607pt too wide) in paragraph at lines 185--186
+Overfull \hbox (37.76607pt too wide) in paragraph at lines 181--182
 \T1/ppl/m/n/12 tää oh-jaa-mo-mie-his-töl-le suo-raan kei-no-nä-kö-jär-jes-tel-m
 än in-for-maa-tio-ta, mut-ta EV-järjestelmä
  []
 
-[10] [11]
+[9] [10]
 Luku 4.
-[12
+[11
 
-] [13] [14]
-Overfull \hbox (5.95358pt too wide) in paragraph at lines 237--238
+] [12] [13]
+Overfull \hbox (5.95358pt too wide) in paragraph at lines 233--234
 \T1/ppl/m/n/12 dis-tet-ty-jen SV- ja EV-järjestelmien ke-hit-tyes-sä yhä luo-te
 t-ta-vam-mik-si ([]Korn ym.[], []2009[]).
  []
 
-[15] [16] [17]
-Overfull \hbox (4.78914pt too wide) in paragraph at lines 268--269
+[14] [15] [16]
+Overfull \hbox (4.78914pt too wide) in paragraph at lines 264--265
 []\T1/ppl/m/n/12 HUD:en koh-dis-ta-mi-sen te-hok-kuu-des-ta ja tär-key-des-tä v
 at väi-tel-leet esi-mer-kik-si New-
  []
 
-[18]
+[17]
 Luku 5.
 
-Overfull \hbox (22.53725pt too wide) in paragraph at lines 276--277
+Overfull \hbox (22.53725pt too wide) in paragraph at lines 272--273
 \T1/ppl/m/n/12 suh-teis-sa näön-pa-ran-nus-jär-jes-tel-mil-lä, ken-täl-lä-liik-
 ku-mis-kar-toil-la (Air-port Mo-ving Maps)
  []
 
-[19
+[18
 
-] [20]
+] [19]
 Luku 6.
+[20
 
-Overfull \hbox (1.3352pt too wide) in paragraph at lines 308--334
-[]\T1/ppl/m/n/12 In sum-ma-ry, re-search sug-gests that the-re are a num-ber of
- ad-van-ta-ges in using HUDs.
- []
-
-[21
-
-] [22] [23] [24]
-
-Package natbib Warning: Citation `wickens2009' on page 25 undefined on input li
-ne 423.
-
-[25] [26
+] [21
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 493--498
+Underfull \hbox (badness 10000) in paragraph at lines 380--385
 []\T1/ppl/m/n/12 Gerold, A. 2001. \T1/ppl/m/it/12 Runway Incur-sions: The Th-re
 at on the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 493--498
+Underfull \hbox (badness 10000) in paragraph at lines 380--385
 \T1/ppl/m/it/12 Ground\T1/ppl/m/n/12 . Avio-nics To-day. Saa-ta-vil-la WWW-muod
 ossa
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 493--498
+Underfull \hbox (badness 10000) in paragraph at lines 380--385
 \T1/ppl/m/n/12 <http://www.aviationtoday.com/av/commercial/Runway-Incursions-Th
 e-
  []
 
-[27] [28] [29] [30]
+[22] [23] [24] [25]
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 665.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 665.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 552.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 552.
 
 (C:\Users\Matias\OneDrive\Asiakirjat\kandi\Tutkielma\Kanditutkielma_Laitinen_Ma
 tias.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 665.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 665.
-
-
-Package rerunfilecheck Warning: File `Kanditutkielma_Laitinen_Matias.out' has c
-hanged.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `Kanditutkielma_Laitinen_Matias.out'
-:
-(rerunfilecheck)             Before: 5D54D05D1AFF7583461AA603459B2A23;1741
-(rerunfilecheck)             After:  1DF232FDDF5AC3200F8CA4E9A5DE6116;1736.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 665.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 552.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 552.
+Package rerunfilecheck Info: File `Kanditutkielma_Laitinen_Matias.out' has not 
+changed.
+(rerunfilecheck)             Checksum: E7186EB71118C74EB336C2E943E1D362;1735.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 552.
  ) 
 Here is how much of TeX's memory you used:
- 7773 strings out of 493921
- 111414 string characters out of 3146476
- 217194 words of memory out of 3000000
- 10825 multiletter control sequences out of 15000+200000
+ 7761 strings out of 493921
+ 111274 string characters out of 3146476
+ 205194 words of memory out of 3000000
+ 10818 multiletter control sequences out of 15000+200000
  27567 words of font info for 60 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  33i,6n,28p,1305b,546s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -1003,9 +972,9 @@ les (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x
 nts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTeX/fonts/type1/ur
 w/palatino/uplr8a.pfb><C:/Program Files (x86)/MiKTeX/fonts/type1/urw/palatino/u
 plri8a.pfb>
-Output written on Kanditutkielma_Laitinen_Matias.pdf (33 pages, 210672 bytes).
+Output written on Kanditutkielma_Laitinen_Matias.pdf (28 pages, 200974 bytes).
 PDF statistics:
- 556 PDF objects out of 1000 (max. 8388607)
- 101 named destinations out of 1000 (max. 500000)
+ 542 PDF objects out of 1000 (max. 8388607)
+ 96 named destinations out of 1000 (max. 500000)
  169 words of extra memory for PDF output out of 10000 (max. 10000000)
 
