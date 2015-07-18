@@ -1,24 +1,21 @@
 \select@language {english}
 \select@language {finnish}
 \contentsline {chapter}{\numberline {1}Johdanto}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}TODO UPOTA MUIHIN Ilmailu ja n\IeC {\"a}kyvyys}{2}{chapter.2}
-\contentsline {section}{\numberline {2.1}TODO UPOTA MUIHIN N\IeC {\"a}kyvyyden vaikutus lennon aikana}{2}{section.2.1}
-\contentsline {section}{\numberline {2.2}TODO UPOTA MUIHIN N\IeC {\"a}kyvyyden vaikutus maatoimintaan}{3}{section.2.2}
-\contentsline {chapter}{\numberline {3}J\IeC {\"a}rjestelm\IeC {\"a}t}{4}{chapter.3}
-\contentsline {section}{\numberline {3.1}TODO YHDISTELE SAMANKALTAISET TIEDOT Keinon\IeC {\"a}k\IeC {\"o}j\IeC {\"a}rjestelm\IeC {\"a}t (Synthetic Vision)}{4}{section.3.1}
-\contentsline {section}{\numberline {3.2}Parannellun n\IeC {\"a}\IeC {\"o}n j\IeC {\"a}rjestelm\IeC {\"a}t (Enhanced Vision)}{5}{section.3.2}
-\contentsline {section}{\numberline {3.3}Lasiohjaamot (Primary Flight Displays, Head-Down Displays)}{5}{section.3.3}
-\contentsline {section}{\numberline {3.4}Heijastusn\IeC {\"a}yt\IeC {\"o}t (Head-Up Displays)}{6}{section.3.4}
-\contentsline {section}{\numberline {3.5}TODO UPOTA MUIHIN Maatoiminnassa saavutettavia etuja}{7}{section.3.5}
-\contentsline {section}{\numberline {3.6}TODO UPOTA MUIHIN Lentotoiminnassa saavutettavia etuja}{8}{section.3.6}
-\contentsline {chapter}{\numberline {4}Ohjaajan suorituskyky ja kognitiiviset haasteet}{11}{chapter.4}
-\contentsline {section}{\numberline {4.1}Tilannetietoisuus (Situational awareness)}{11}{section.4.1}
-\contentsline {section}{\numberline {4.2}? Huomiokyvyn kaventuminen (Attentional tunneling)}{13}{section.4.2}
-\contentsline {section}{\numberline {4.3}Automaatiovinouma (Automation bias)}{15}{section.4.3}
-\contentsline {section}{\numberline {4.4}N\IeC {\"a}ytt\IeC {\"o}jen sekavuus (Display clutter)}{15}{section.4.4}
-\contentsline {section}{\numberline {4.5}Akkommodaatiov\IeC {\"a}\IeC {\"a}ristym\IeC {\"a} (Misaccommodation)}{17}{section.4.5}
-\contentsline {chapter}{\numberline {5}TODO UPOTA MUIHIN SV- ja EV-j\IeC {\"a}rjestelmien tulevaisuus}{18}{chapter.5}
-\contentsline {section}{\numberline {5.1}Tulevaisuuden sovelluksia}{18}{section.5.1}
-\contentsline {section}{\numberline {5.2}NextGen ja EVO-konseptit}{18}{section.5.2}
-\contentsline {chapter}{\numberline {6}TODO Tulokset ja Yhteenveto}{20}{chapter.6}
+\contentsline {chapter}{\numberline {2}J\IeC {\"a}rjestelm\IeC {\"a}t}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}TODO YHDISTELE SAMANKALTAISET TIEDOT Keinon\IeC {\"a}k\IeC {\"o}j\IeC {\"a}rjestelm\IeC {\"a}t (Synthetic Vision)}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Parannellun n\IeC {\"a}\IeC {\"o}n j\IeC {\"a}rjestelm\IeC {\"a}t (Enhanced Vision)}{4}{section.2.2}
+\contentsline {section}{\numberline {2.3}Lasiohjaamot (Primary Flight Displays, Head-Down Displays)}{4}{section.2.3}
+\contentsline {section}{\numberline {2.4}Heijastusn\IeC {\"a}yt\IeC {\"o}t (Head-Up Displays)}{5}{section.2.4}
+\contentsline {section}{\numberline {2.5}TODO UPOTA MUIHIN Maatoiminnassa saavutettavia etuja}{6}{section.2.5}
+\contentsline {section}{\numberline {2.6}TODO UPOTA MUIHIN Lentotoiminnassa saavutettavia etuja}{7}{section.2.6}
+\contentsline {chapter}{\numberline {3}Ohjaajan suorituskyky ja kognitiiviset haasteet}{11}{chapter.3}
+\contentsline {section}{\numberline {3.1}Tilannetietoisuus (Situational awareness)}{11}{section.3.1}
+\contentsline {section}{\numberline {3.2}? Huomiokyvyn kaventuminen (Attentional tunneling)}{13}{section.3.2}
+\contentsline {section}{\numberline {3.3}Automaatiovinouma (Automation bias)}{15}{section.3.3}
+\contentsline {section}{\numberline {3.4}N\IeC {\"a}ytt\IeC {\"o}jen sekavuus (Display clutter)}{15}{section.3.4}
+\contentsline {section}{\numberline {3.5}Akkommodaatiov\IeC {\"a}\IeC {\"a}ristym\IeC {\"a} (Misaccommodation)}{17}{section.3.5}
+\contentsline {chapter}{\numberline {4}TODO UPOTA MUIHIN SV- ja EV-j\IeC {\"a}rjestelmien tulevaisuus}{18}{chapter.4}
+\contentsline {section}{\numberline {4.1}Tulevaisuuden sovelluksia}{18}{section.4.1}
+\contentsline {section}{\numberline {4.2}NextGen ja EVO-konseptit}{18}{section.4.2}
+\contentsline {chapter}{\numberline {5}TODO Tulokset ja Yhteenveto}{20}{chapter.5}
 \contentsline {chapter}{Kirjallisuutta}{21}{section*.2}
