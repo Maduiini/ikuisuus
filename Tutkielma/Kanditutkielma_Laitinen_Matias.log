@@ -1,8 +1,8 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.12)  28 MAR 2015 14:14
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.12)  24 JUN 2015 18:46
 entering extended mode
 **Kanditutkielma_Laitinen_Matias.tex
 
-(C:\Users\Matias\OneDrive\Asiakirjat\kandi\Tutkielma\Kanditutkielma_Laitinen_Ma
+(C:\Users\Matsku\OneDrive\Asiakirjat\kandi\Tutkielma\Kanditutkielma_Laitinen_Ma
 tias.tex
 LaTeX2e <2011/06/27>
 Babel <v3.8m> and hyphenation patterns for english, afrikaans, ancientgreek, ar
@@ -15,12 +15,12 @@ german-x-2012-05-30, nynorsk, oriya, panjabi, pinyin, polish, portuguese, roman
 ian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swissgerm
 an, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, usengl
 ishmax, welsh, loaded.
-(C:\Users\Matias\OneDrive\Asiakirjat\kandi\Tutkielma\gradu3.cls
+(C:\Users\Matsku\OneDrive\Asiakirjat\kandi\Tutkielma\gradu3.cls
 Document Class: gradu3 2012/12/03 3.3 JY MIT Gradut
 gradu3 <2012/12/03:3.3> - Tietotekniikan laitoksen graduille
-("C:\Program Files (x86)\MiKTeX\tex\latex\base\report.cls"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\report.cls"
 Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-("C:\Program Files (x86)\MiKTeX\tex\latex\base\size12.clo"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\size12.clo"
 File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
@@ -36,32 +36,32 @@ File: size12.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
-("C:\Program Files (x86)\MiKTeX\tex\latex\base\fixltx2e.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fixltx2e.sty"
 Package: fixltx2e 2006/09/13 v1.1m fixes to LaTeX
 LaTeX Info: Redefining \em on input line 420.
 )
-("C:\Program Files (x86)\MiKTeX\tex\latex\base\ifthen.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ifthen.sty"
 Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
 )
-("C:\Program Files (x86)\MiKTeX\tex\latex\chngcntr\chngcntr.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\chngcntr\chngcntr.sty"
 Package: chngcntr 2009/09/02 v1.0a change counter resetting
 )
-("C:\Program Files (x86)\MiKTeX\tex\latex\ms\everyshi.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ms\everyshi.sty"
 Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
 )
-("C:\Program Files (x86)\MiKTeX\tex\latex\base\inputenc.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\inputenc.sty"
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks14
 \inpenc@posthook=\toks15
 
-("C:\Program Files (x86)\MiKTeX\tex\latex\base\utf8.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\utf8.def"
 File: utf8.def 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OML ...
 ... no UTF-8 mapping file for font encoding OML
 Now handling font encoding T1 ...
 ... processing UTF-8 mapping file for font encoding T1
 
-("C:\Program Files (x86)\MiKTeX\tex\latex\base\t1enc.dfu"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.dfu"
 File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -211,7 +211,7 @@ File: t1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OT1 ...
 ... processing UTF-8 mapping file for font encoding OT1
 
-("C:\Program Files (x86)\MiKTeX\tex\latex\base\ot1enc.dfu"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\ot1enc.dfu"
 File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A1 (decimal 161)
    defining Unicode char U+00A3 (decimal 163)
@@ -242,7 +242,7 @@ File: ot1enc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
 Now handling font encoding OMS ...
 ... processing UTF-8 mapping file for font encoding OMS
 
-("C:\Program Files (x86)\MiKTeX\tex\latex\base\omsenc.dfu"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\omsenc.dfu"
 File: omsenc.dfu 2008/04/05 v1.1m UTF-8 support for inputenc
    defining Unicode char U+00A7 (decimal 167)
    defining Unicode char U+00B6 (decimal 182)
@@ -266,29 +266,29 @@ Now handling font encoding U ...
    defining Unicode char U+2122 (decimal 8482)
    defining Unicode char U+2423 (decimal 9251)
 ))
-("C:\Program Files (x86)\MiKTeX\tex\latex\base\fontenc.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\fontenc.sty"
 Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
 
-("C:\Program Files (x86)\MiKTeX\tex\latex\base\t1enc.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\base\t1enc.def"
 File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
 LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
-("C:\Program Files (x86)\MiKTeX\tex\latex\geometry\geometry.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
-("C:\Program Files (x86)\MiKTeX\tex\latex\graphics\keyval.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
 \KV@toks@=\toks16
 )
-("C:\Program Files (x86)\MiKTeX\tex\generic\oberdiek\ifpdf.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
 Package: ifpdf 2011/01/30 v2.3 Provides the ifpdf switch (HO)
 Package ifpdf Info: pdfTeX in PDF mode is detected.
 )
-("C:\Program Files (x86)\MiKTeX\tex\generic\oberdiek\ifvtex.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2010/03/01 v1.5 Detect VTeX and its facilities (HO)
 Package ifvtex Info: VTeX not detected.
 )
-("C:\Program Files (x86)\MiKTeX\tex\generic\ifxetex\ifxetex.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
 \Gm@cnth=\count88
@@ -304,33 +304,33 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen110
 \Gm@dimlist=\toks17
 
-("C:\Program Files (x86)\MiKTeX\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files (x86)\MiKTeX\tex\generic\babel\babel.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.sty"
 Package: babel 2008/07/08 v3.8m The Babel package
 
 *************************************
 * Local config file bblopts.cfg used
 *
-("C:\Program Files (x86)\MiKTeX\tex\latex\00miktex\bblopts.cfg"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
 File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
 )
-("C:\Program Files (x86)\MiKTeX\tex\generic\babel\finnish.ldf"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\finnish.ldf"
 Language: finnish 2007/10/20 v1.3q Finnish support from the babel system
 
-("C:\Program Files (x86)\MiKTeX\tex\generic\babel\babel.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\babel.def"
 File: babel.def 2008/07/08 v3.8m Babel common definitions
 \babel@savecnt=\count91
 \U@D=\dimen111
 )
 Package babel Info: Making " an active character on input line 89.
 )
-("C:\Program Files (x86)\MiKTeX\tex\generic\babel\english.ldf"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\babel\english.ldf"
 Language: english 2005/03/30 v3.3o English support from the babel system
 \l@canadian = a dialect from \language\l@american 
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
-("C:\Program Files (x86)\MiKTeX\tex\latex\psnfss\mathptmx.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\mathptmx.sty"
 Package: mathptmx 2005/04/12 PSNFSS-v9.2a Times w/ Math, improved (SPQR, WaS) 
 LaTeX Font Info:    Redeclaring symbol font `operators' on input line 28.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
@@ -366,10 +366,10 @@ LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
 (Font)                  OT1/cmr/bx/it --> OT1/ptm/m/it on input line 35.
 LaTeX Info: Redefining \hbar on input line 50.
 )
-("C:\Program Files (x86)\MiKTeX\tex\latex\psnfss\helvet.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\helvet.sty"
 Package: helvet 2005/04/12 PSNFSS-v9.2a (WaS) 
 )
-("C:\Program Files (x86)\MiKTeX\tex\latex\psnfss\courier.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\courier.sty"
 Package: courier 2005/04/12 PSNFSS-v9.2a (WaS) 
 )
 \c@gradu@listrender@count=\count92
@@ -379,30 +379,30 @@ Package: courier 2005/04/12 PSNFSS-v9.2a (WaS)
 \c@gradu@pagecount@main=\count96
 \c@gradu@pagecount@app=\count97
 )
-("C:\Program Files (x86)\MiKTeX\tex\latex\psnfss\palatino.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\palatino.sty"
 Package: palatino 2005/04/12 PSNFSS-v9.2a (SPQR) 
 )
-("C:\Program Files (x86)\MiKTeX\tex\latex\graphics\graphicx.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX\tex\latex\graphics\graphics.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
 Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
 
-("C:\Program Files (x86)\MiKTeX\tex\latex\graphics\trig.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
 )
-("C:\Program Files (x86)\MiKTeX\tex\latex\00miktex\graphics.cfg"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
 File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
 )
 Package graphics Info: Driver file: pdftex.def on input line 91.
 
-("C:\Program Files (x86)\MiKTeX\tex\latex\pdftex-def\pdftex.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\pdftex-def\pdftex.def"
 File: pdftex.def 2011/05/27 v0.06d Graphics/color for pdfTeX
 
-("C:\Program Files (x86)\MiKTeX\tex\generic\oberdiek\infwarerr.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
 Package: infwarerr 2010/04/08 v1.3 Providing info/warning/error messages (HO)
 )
-("C:\Program Files (x86)\MiKTeX\tex\generic\oberdiek\ltxcmds.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 )
 \Gread@gobject=\count98
@@ -410,24 +410,24 @@ Package: ltxcmds 2011/11/09 v1.22 LaTeX kernel commands for general use (HO)
 \Gin@req@height=\dimen112
 \Gin@req@width=\dimen113
 )
-("C:\Program Files (x86)\MiKTeX\tex\latex\amsmath\amsmath.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsmath.sty"
 Package: amsmath 2013/01/14 v2.14 AMS math features
 \@mathmargin=\skip43
 
 For additional information on amsmath, use the `?' option.
-("C:\Program Files (x86)\MiKTeX\tex\latex\amsmath\amstext.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amstext.sty"
 Package: amstext 2000/06/29 v2.01
 
-("C:\Program Files (x86)\MiKTeX\tex\latex\amsmath\amsgen.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsgen.sty"
 File: amsgen.sty 1999/11/30 v2.0
 \@emptytoks=\toks18
 \ex@=\dimen114
 ))
-("C:\Program Files (x86)\MiKTeX\tex\latex\amsmath\amsbsy.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsbsy.sty"
 Package: amsbsy 1999/11/29 v1.2d
 \pmbraise@=\dimen115
 )
-("C:\Program Files (x86)\MiKTeX\tex\latex\amsmath\amsopn.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\amsmath\amsopn.sty"
 Package: amsopn 1999/12/14 v2.01 operator names
 )
 \inf@bad=\count99
@@ -468,11 +468,11 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
-("C:\Program Files (x86)\MiKTeX\tex\latex\ltxmisc\url.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
 \Urlmuskip=\muskip11
 Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
 )
-("C:\Program Files (x86)\MiKTeX\tex\latex\booktabs\booktabs.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
 Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \heavyrulewidth=\dimen123
 \lightrulewidth=\dimen124
@@ -492,21 +492,21 @@ Package: booktabs 2005/04/14 v1.61803 publication quality tables
 \@lastruleclass=\count114
 \@thisrulewidth=\dimen135
 )
-("C:\Program Files (x86)\MiKTeX\tex\latex\natbib\natbib.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\natbib\natbib.sty"
 Package: natbib 2010/09/13 8.31b (PWD, AO)
 \bibhang=\skip46
 \bibsep=\skip47
 LaTeX Info: Redefining \cite on input line 694.
 \c@NAT@ctr=\count115
 )
-("C:\Program Files (x86)\MiKTeX\tex\latex\hyperref\hyperref.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
 Package: hyperref 2012/11/06 v6.83m Hypertext links for LaTeX
 
-("C:\Program Files (x86)\MiKTeX\tex\generic\oberdiek\hobsub-hyperref.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-hyperref.sty"
 Package: hobsub-hyperref 2012/04/25 v1.12 Bundle oberdiek, subset hyperref (HO)
 
 
-("C:\Program Files (x86)\MiKTeX\tex\generic\oberdiek\hobsub-generic.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\hobsub-generic.sty"
 Package: hobsub-generic 2012/04/25 v1.12 Bundle oberdiek, subset generic (HO)
 Package: hobsub 2012/04/25 v1.12 Construct package bundles (HO)
 Package hobsub Info: Skipping package `infwarerr' (already loaded).
@@ -545,24 +545,24 @@ Package: atbegshi 2011/10/05 v1.16 At begin shipout hook (HO)
 Package: refcount 2011/10/16 v3.4 Data extraction from label references (HO)
 Package: hycolor 2011/01/30 v1.7 Color options for hyperref/bookmark (HO)
 )
-("C:\Program Files (x86)\MiKTeX\tex\latex\oberdiek\auxhook.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\auxhook.sty"
 Package: auxhook 2011/03/04 v1.3 Hooks for auxiliary files (HO)
 )
-("C:\Program Files (x86)\MiKTeX\tex\latex\oberdiek\kvoptions.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
 Package: kvoptions 2011/06/30 v3.11 Key value format for package options (HO)
 )
 \@linkdim=\dimen136
 \Hy@linkcounter=\count116
 \Hy@pagecounter=\count117
 
-("C:\Program Files (x86)\MiKTeX\tex\latex\hyperref\pd1enc.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
 File: pd1enc.def 2012/11/06 v6.83m Hyperref: PDFDocEncoding definition (HO)
 Now handling font encoding PD1 ...
 ... no UTF-8 mapping file for font encoding PD1
 )
 \Hy@SavedSpaceFactor=\count118
 
-("C:\Program Files (x86)\MiKTeX\tex\latex\00miktex\hyperref.cfg"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
 File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
 )
 Package hyperref Info: Option `bookmarksopen' set `true' on input line 4319.
@@ -598,19 +598,19 @@ LaTeX Info: Redefining \pageref on input line 6369.
 
 Package hyperref Message: Driver (autodetected): hpdftex.
 
-("C:\Program Files (x86)\MiKTeX\tex\latex\hyperref\hpdftex.def"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\hpdftex.def"
 File: hpdftex.def 2012/11/06 v6.83m Hyperref driver for pdfTeX
 \Fld@listcount=\count124
 \c@bookmark@seq@number=\count125
 
-("C:\Program Files (x86)\MiKTeX\tex\latex\oberdiek\rerunfilecheck.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
 Package: rerunfilecheck 2011/04/15 v1.7 Rerun checks for auxiliary files (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 82.
 )
 \Hy@SectionHShift=\skip48
 )
-(C:\Users\Matias\OneDrive\Asiakirjat\kandi\Tutkielma\Kanditutkielma_Laitinen_Ma
+(C:\Users\Matsku\OneDrive\Asiakirjat\kandi\Tutkielma\Kanditutkielma_Laitinen_Ma
 tias.aux)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
@@ -627,7 +627,7 @@ LaTeX Font Info:    ... okay on input line 45.
 LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 45.
 LaTeX Font Info:    ... okay on input line 45.
 LaTeX Font Info:    Try loading font information for T1+ppl on input line 45.
- ("C:\Program Files (x86)\MiKTeX\tex\latex\psnfss\t1ppl.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1ppl.fd"
 File: t1ppl.fd 2001/06/04 font definitions for T1/ppl.
 )
 ABD: EveryShipout initializing macros
@@ -665,7 +665,7 @@ ABD: EveryShipout initializing macros
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-("C:\Program Files (x86)\MiKTeX\tex\context\base\supp-pdf.mkii"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count126
 \scratchdimen=\dimen140
@@ -681,10 +681,10 @@ ABD: EveryShipout initializing macros
 )
 \AtBeginShipoutBox=\box29
 Package hyperref Info: Link coloring OFF on input line 45.
- ("C:\Program Files (x86)\MiKTeX\tex\latex\hyperref\nameref.sty"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
-("C:\Program Files (x86)\MiKTeX\tex\generic\oberdiek\gettitlestring.sty"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count132
@@ -693,9 +693,9 @@ LaTeX Info: Redefining \ref on input line 45.
 LaTeX Info: Redefining \pageref on input line 45.
 LaTeX Info: Redefining \nameref on input line 45.
 
-(C:\Users\Matias\OneDrive\Asiakirjat\kandi\Tutkielma\Kanditutkielma_Laitinen_Ma
+(C:\Users\Matsku\OneDrive\Asiakirjat\kandi\Tutkielma\Kanditutkielma_Laitinen_Ma
 tias.out)
-(C:\Users\Matias\OneDrive\Asiakirjat\kandi\Tutkielma\Kanditutkielma_Laitinen_Ma
+(C:\Users\Matsku\OneDrive\Asiakirjat\kandi\Tutkielma\Kanditutkielma_Laitinen_Ma
 tias.out)
 \@outlinefile=\write3
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
@@ -704,30 +704,30 @@ LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
 (Font)              Font shape `T1/ppl/b/n' tried instead on input line 67.
 LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 67
 .
- ("C:\Program Files (x86)\MiKTeX\tex\latex\psnfss\ot1ztmcm.fd"
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ztmcm.fd"
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 67
 .
 
-("C:\Program Files (x86)\MiKTeX\tex\latex\psnfss\omlztmcm.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlztmcm.fd"
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 67
 .
 
-("C:\Program Files (x86)\MiKTeX\tex\latex\psnfss\omsztmcm.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsztmcm.fd"
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 67
 .
 
-("C:\Program Files (x86)\MiKTeX\tex\latex\psnfss\omxztmcm.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omxztmcm.fd"
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
 LaTeX Font Info:    Try loading font information for OT1+ptm on input line 67.
 
-("C:\Program Files (x86)\MiKTeX\tex\latex\psnfss\ot1ptm.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
@@ -745,66 +745,66 @@ LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Try loading font information for T1+pcr on input line 67.
 
-("C:\Program Files (x86)\MiKTeX\tex\latex\psnfss\t1pcr.fd"
+("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
 \tf@lof=\write4
 \tf@lot=\write5
  [1]
-(C:\Users\Matias\OneDrive\Asiakirjat\kandi\Tutkielma\Kanditutkielma_Laitinen_Ma
+(C:\Users\Matsku\OneDrive\Asiakirjat\kandi\Tutkielma\Kanditutkielma_Laitinen_Ma
 tias.toc
-Overfull \hbox (0.74414pt too wide) detected at line 13
- []\T1/ppl/m/n/12 12[]
- []
-
-
 Overfull \hbox (0.74414pt too wide) detected at line 14
- []\T1/ppl/m/n/12 12[]
+ []\T1/ppl/m/n/12 11[]
  []
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 15
- []\T1/ppl/m/n/12 14[]
+ []\T1/ppl/m/n/12 11[]
  []
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 16
- []\T1/ppl/m/n/12 16[]
+ []\T1/ppl/m/n/12 13[]
  []
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 17
- []\T1/ppl/m/n/12 16[]
+ []\T1/ppl/m/n/12 15[]
  []
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 18
- []\T1/ppl/m/n/12 18[]
+ []\T1/ppl/m/n/12 15[]
  []
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 19
- []\T1/ppl/m/n/12 19[]
+ []\T1/ppl/m/n/12 17[]
  []
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 20
- []\T1/ppl/m/n/12 19[]
+ []\T1/ppl/m/n/12 18[]
  []
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 21
- []\T1/ppl/m/n/12 19[]
+ []\T1/ppl/m/n/12 18[]
  []
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 22
- []\T1/ppl/m/n/12 21[]
+ []\T1/ppl/m/n/12 18[]
  []
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 23
- []\T1/ppl/m/n/12 25[]
+ []\T1/ppl/m/n/12 20[]
+ []
+
+
+Overfull \hbox (0.74414pt too wide) detected at line 24
+ []\T1/ppl/m/n/12 21[]
  []
 
 )
@@ -813,29 +813,37 @@ Overfull \hbox (0.74414pt too wide) detected at line 23
 
 ]
 Luku 1.
+
+Overfull \hbox (3.84152pt too wide) in paragraph at lines 76--77
+[]\T1/ppl/m/n/12 Toisessa lu-vus-sa kä-si-tel-lään nä-ky-vyy-den vai-ku-tus-ta 
+il-mai-lus-sa se-kä len-non et-tä maa-
+ []
+
 [1
 
 
 ]
 Luku 2.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 94.
-
-Package natbib Warning: Citation `wickens2009' on page 2 undefined on input lin
-e 96.
-
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 80.
 [2
 
-] [3]
+]
+Overfull \hbox (4.51279pt too wide) in paragraph at lines 90--90
+[]\T1/ppl/b/n/14.4 TODO UPO-TA MUI-HIN Nä-ky-vyy-den vai-ku-tus maa-toi-min-taa
+n 
+ []
+
+[3]
 Luku 3.
 
-Overfull \hbox (8.65317pt too wide) in paragraph at lines 118--119
+Overfull \hbox (8.65317pt too wide) in paragraph at lines 104--105
 []\T1/ppl/m/n/12 Kuva luo-daan yh-dis-täen lentoasento- ja tark-kuus-na-vi-goin
 -ti-jär-jes-tel-mil-tä se-kä maasto-
  []
 
 
-Overfull \hbox (3.39713pt too wide) in paragraph at lines 120--121
+Overfull \hbox (3.39713pt too wide) in paragraph at lines 106--107
 []\T1/ppl/m/n/12 Suunnitellessa uusia oh-jaa-moi-ta voi-daan ot-taa luon-nol-li
 -ses-ti huo-mioon SV-näyttöjen
  []
@@ -843,67 +851,73 @@ Overfull \hbox (3.39713pt too wide) in paragraph at lines 120--121
 [4
 
 ]
-Overfull \hbox (23.29451pt too wide) in paragraph at lines 124--125
+Overfull \hbox (23.29451pt too wide) in paragraph at lines 110--111
 \T1/ppl/m/n/12 (Forward-Looking In-fra-red, FLIR) tai mil-li-met-ri-tut-kan (Mi
 l-li-me-ter Wa-ve Ra-dar, MMWR)
  []
 
-[5]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 137.
 
- ("C:\Program Files (x86)\MiKTeX\tex\latex\psnfss\omsppl.fd"
+Overfull \hbox (3.6415pt too wide) in paragraph at lines 120--121
+\T1/ppl/m/n/12 avul-la. HUD-näytöissä ha-lut-tu in-for-maa-tio ja sym-bo-lit he
+i-jas-te-taan lä-pi-näy-väl-le näy-
+ []
+
+[5]
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 127.
+
+ ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsppl.fd"
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 137.
-
-Overfull \hbox (26.31532pt too wide) in paragraph at lines 141--142
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 127.
+ [6]
+Overfull \hbox (26.31532pt too wide) in paragraph at lines 131--132
 []\T1/ppl/m/n/12 Paremmat nousu- ja las-keu-tu-mis-mi-ni-mit joil-la-kin len-to
 -ken-til-lä ja ilma-alustyypeillä
  []
 
-[6] [7]
-Overfull \hbox (0.7809pt too wide) in paragraph at lines 168--169
+[7] [8]
+Overfull \hbox (0.7809pt too wide) in paragraph at lines 158--159
 []\T1/ppl/m/n/12 Toisistaan riip-pu-mat-to-man toi-min-nan mah-dol-lis-ta-mi-ne
 n rin-nak-kai-sil-la, lä-hek-
  []
 
 
-Overfull \hbox (17.47667pt too wide) in paragraph at lines 171--172
+Overfull \hbox (17.47667pt too wide) in paragraph at lines 161--162
 \T1/ppl/m/n/12 ongelmat len-to-ken-täl-lä voi-vat ai-heut-taa lii-ken-teen ruuh
 -kau-tu-mi-sen. SVIS-järjestelmistä
  []
 
-[8]
-Overfull \hbox (6.80605pt too wide) in paragraph at lines 173--174
+
+Overfull \hbox (6.80605pt too wide) in paragraph at lines 163--164
 [][]\T1/ppl/m/n/12 Bailey ym.[] ([]2007[]) väit-tä-vät SV-järjestelmillä saa-ta
 -van huo-mat-ta-via pa-ran-nuk-sia maas-
  []
 
-
-Overfull \hbox (4.71758pt too wide) in paragraph at lines 181--182
+[9]
+Overfull \hbox (4.71758pt too wide) in paragraph at lines 171--172
 []\T1/ppl/m/n/12 Baileyn ym.([]2007[]) mu-kaan näi-den tek-no-lo-gioi-den op-ti
 -maa-li-sin yh-dis-tel-mä oli-si näyt-
  []
 
 
-Overfull \hbox (37.76607pt too wide) in paragraph at lines 181--182
+Overfull \hbox (37.76607pt too wide) in paragraph at lines 171--172
 \T1/ppl/m/n/12 tää oh-jaa-mo-mie-his-töl-le suo-raan kei-no-nä-kö-jär-jes-tel-m
 än in-for-maa-tio-ta, mut-ta EV-järjestelmä
  []
 
-[9] [10]
+[10]
 Luku 4.
 [11
 
 ] [12] [13]
-Overfull \hbox (5.95358pt too wide) in paragraph at lines 233--234
+Overfull \hbox (5.95358pt too wide) in paragraph at lines 223--224
 \T1/ppl/m/n/12 dis-tet-ty-jen SV- ja EV-järjestelmien ke-hit-tyes-sä yhä luo-te
 t-ta-vam-mik-si ([]Korn ym.[], []2009[]).
  []
 
 [14] [15] [16]
-Overfull \hbox (4.78914pt too wide) in paragraph at lines 264--265
+Overfull \hbox (4.78914pt too wide) in paragraph at lines 254--255
 []\T1/ppl/m/n/12 HUD:en koh-dis-ta-mi-sen te-hok-kuu-des-ta ja tär-key-des-tä v
 at väi-tel-leet esi-mer-kik-si New-
  []
@@ -911,7 +925,7 @@ at väi-tel-leet esi-mer-kik-si New-
 [17]
 Luku 5.
 
-Overfull \hbox (22.53725pt too wide) in paragraph at lines 272--273
+Overfull \hbox (22.53725pt too wide) in paragraph at lines 262--263
 \T1/ppl/m/n/12 suh-teis-sa näön-pa-ran-nus-jär-jes-tel-mil-lä, ken-täl-lä-liik-
 ku-mis-kar-toil-la (Air-port Mo-ving Maps)
  []
@@ -925,56 +939,53 @@ Luku 6.
 ] [21
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 380--385
+Underfull \hbox (badness 10000) in paragraph at lines 370--375
 []\T1/ppl/m/n/12 Gerold, A. 2001. \T1/ppl/m/it/12 Runway Incur-sions: The Th-re
 at on the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--385
+Underfull \hbox (badness 10000) in paragraph at lines 370--375
 \T1/ppl/m/it/12 Ground\T1/ppl/m/n/12 . Avio-nics To-day. Saa-ta-vil-la WWW-muod
 ossa
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 380--385
+Underfull \hbox (badness 10000) in paragraph at lines 370--375
 \T1/ppl/m/n/12 <http://www.aviationtoday.com/av/commercial/Runway-Incursions-Th
 e-
  []
 
 [22] [23] [24] [25]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 557.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 557.
 
-Package natbib Warning: There were undefined citations.
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 552.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 552.
-
-(C:\Users\Matias\OneDrive\Asiakirjat\kandi\Tutkielma\Kanditutkielma_Laitinen_Ma
+(C:\Users\Matsku\OneDrive\Asiakirjat\kandi\Tutkielma\Kanditutkielma_Laitinen_Ma
 tias.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 552.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 552.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 557.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 557.
 Package rerunfilecheck Info: File `Kanditutkielma_Laitinen_Matias.out' has not 
 changed.
-(rerunfilecheck)             Checksum: E7186EB71118C74EB336C2E943E1D362;1735.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 552.
+(rerunfilecheck)             Checksum: E5C06F892B203780D502406485C4ADE0;1977.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 557.
  ) 
 Here is how much of TeX's memory you used:
- 7761 strings out of 493921
- 111274 string characters out of 3146476
- 205194 words of memory out of 3000000
- 10818 multiletter control sequences out of 15000+200000
+ 7777 strings out of 493921
+ 112218 string characters out of 3146476
+ 205449 words of memory out of 3000000
+ 10827 multiletter control sequences out of 15000+200000
  27567 words of font info for 60 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
  33i,6n,28p,1305b,546s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX/fonts/enc/dvips/fontname/8r.enc}<C:/Program Fi
-les (x86)/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Files (x
-86)/MiKTeX/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/MiKTeX/fo
-nts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTeX/fonts/type1/ur
-w/palatino/uplr8a.pfb><C:/Program Files (x86)/MiKTeX/fonts/type1/urw/palatino/u
-plri8a.pfb>
-Output written on Kanditutkielma_Laitinen_Matias.pdf (28 pages, 200974 bytes).
+{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
+m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
+Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x8
+6)/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTe
+X 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
+nts/type1/urw/palatino/uplri8a.pfb>
+Output written on Kanditutkielma_Laitinen_Matias.pdf (28 pages, 204442 bytes).
 PDF statistics:
- 542 PDF objects out of 1000 (max. 8388607)
- 96 named destinations out of 1000 (max. 500000)
- 169 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 552 PDF objects out of 1000 (max. 8388607)
+ 100 named destinations out of 1000 (max. 500000)
+ 177 words of extra memory for PDF output out of 10000 (max. 10000000)
 
