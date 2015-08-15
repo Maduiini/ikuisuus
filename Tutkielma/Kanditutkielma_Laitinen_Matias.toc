@@ -1,15 +1,17 @@
 \select@language {english}
 \select@language {finnish}
-\contentsline {chapter}{\numberline {1}TODO L\IeC {\"A}HTEET Johdanto}{1}{chapter.1}
-\contentsline {chapter}{\numberline {2}TODO L\IeC {\"A}HTEET N\IeC {\"a}ytt\IeC {\"o}laitteet}{2}{chapter.2}
-\contentsline {chapter}{\numberline {3}TODO Lentotoiminnassa esiintyvi\IeC {\"a} haasteita}{4}{chapter.3}
-\contentsline {section}{\numberline {3.1}TODO N\IeC {\"a}kyvyys ja EVS}{4}{section.3.1}
+\contentsline {chapter}{\numberline {1}Johdanto}{1}{chapter.1}
+\contentsline {chapter}{\numberline {2}TODO L\IeC {\"A}HTEET N\IeC {\"a}ytt\IeC {\"o}laitteet}{3}{chapter.2}
+\contentsline {section}{\numberline {2.1}Lasiohjaamo}{3}{section.2.1}
+\contentsline {section}{\numberline {2.2}Heijastysn\IeC {\"a}yt\IeC {\"o}t}{3}{section.2.2}
+\contentsline {chapter}{\numberline {3}TODO Lentotoiminnassa esiintyvi\IeC {\"a} haasteita}{5}{chapter.3}
+\contentsline {section}{\numberline {3.1}TODO N\IeC {\"a}kyvyys ja EVS}{5}{section.3.1}
 \contentsline {section}{\numberline {3.2}TODO Tilannetietoisuus ja SVS}{6}{section.3.2}
-\contentsline {chapter}{\numberline {4}TODO Lentotieto\IeC {\"a}rjestelmien k\IeC {\"a}yt\IeC {\"o}n haasteita}{12}{chapter.4}
-\contentsline {section}{\numberline {4.1}? TODO Huomiokyvyn kaventuminen (Attentional tunneling)}{12}{section.4.1}
-\contentsline {section}{\numberline {4.2}TODO Automaatiovinouma (Automation bias)}{14}{section.4.2}
-\contentsline {section}{\numberline {4.3}TODO N\IeC {\"a}ytt\IeC {\"o}jen sekavuus (Display clutter)}{15}{section.4.3}
-\contentsline {section}{\numberline {4.4}TODO Akkommodaatiov\IeC {\"a}\IeC {\"a}ristym\IeC {\"a} (Misaccommodation)}{16}{section.4.4}
-\contentsline {chapter}{\numberline {5}TODO Tulokset ja Yhteenveto}{17}{chapter.5}
-\contentsline {section}{\numberline {5.1}TODO NextGen ja EVO-konseptit}{17}{section.5.1}
-\contentsline {chapter}{Kirjallisuutta}{19}{section*.2}
+\contentsline {chapter}{\numberline {4}TODO Lentotieto\IeC {\"a}rjestelmien k\IeC {\"a}yt\IeC {\"o}n haasteita}{13}{chapter.4}
+\contentsline {section}{\numberline {4.1}? TODO Huomiokyvyn kaventuminen (Attentional tunneling)}{13}{section.4.1}
+\contentsline {section}{\numberline {4.2}TODO Automaatiovinouma (Automation bias)}{15}{section.4.2}
+\contentsline {section}{\numberline {4.3}TODO N\IeC {\"a}ytt\IeC {\"o}jen sekavuus (Display clutter)}{16}{section.4.3}
+\contentsline {section}{\numberline {4.4}TODO Akkommodaatiov\IeC {\"a}\IeC {\"a}ristym\IeC {\"a} (Misaccommodation)}{17}{section.4.4}
+\contentsline {chapter}{\numberline {5}TODO Tulokset ja Yhteenveto}{18}{chapter.5}
+\contentsline {section}{\numberline {5.1}TODO NextGen ja EVO-konseptit}{18}{section.5.1}
+\contentsline {chapter}{Kirjallisuutta}{20}{section*.2}
