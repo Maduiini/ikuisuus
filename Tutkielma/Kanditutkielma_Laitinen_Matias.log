@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.12)  23 AUG 2015 13:29
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.12)  5 SEP 2015 13:15
 entering extended mode
 **Kanditutkielma_Laitinen_Matias.tex
 
@@ -779,17 +779,17 @@ Overfull \hbox (0.74414pt too wide) detected at line 14
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 15
- []\T1/ppl/m/n/12 19[]
+ []\T1/ppl/m/n/12 18[]
  []
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 16
- []\T1/ppl/m/n/12 19[]
+ []\T1/ppl/m/n/12 18[]
  []
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 17
- []\T1/ppl/m/n/12 21[]
+ []\T1/ppl/m/n/12 20[]
  []
 
 )
@@ -826,15 +826,15 @@ isplay, HUD) avul-la. Hei-
 [3
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 102.
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 104.
 
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsppl.fd"
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 102.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 104.
 
-Overfull \hbox (26.31532pt too wide) in paragraph at lines 106--107
+Overfull \hbox (26.31532pt too wide) in paragraph at lines 108--109
 []\T1/ppl/m/n/12 Paremmat nousu- ja las-keu-tu-mis-mi-ni-mit joil-la-kin len-to
 -ken-til-lä ja ilma-alustyypeillä
  []
@@ -842,17 +842,17 @@ Overfull \hbox (26.31532pt too wide) in paragraph at lines 106--107
 [4]
 Luku 3.
 
-Overfull \hbox (4.4294pt too wide) in paragraph at lines 116--117
+Overfull \hbox (4.4294pt too wide) in paragraph at lines 118--119
 \T1/ppl/m/n/12 heut-ta-vat suu-ria ra-joit-tei-ta len-to-toi-min-nal-le ([]Möl-
 ler & Sachs[], []1994[]; []Prinzel ym.[], []2013[]).
  []
 
 
 Package natbib Warning: Citation `prinzel2004' on page 5 undefined on input lin
-e 120.
+e 122.
 
 
-Overfull \hbox (23.29451pt too wide) in paragraph at lines 122--123
+Overfull \hbox (23.29451pt too wide) in paragraph at lines 124--125
 \T1/ppl/m/n/12 (Forward-Looking In-fra-red, FLIR) tai mil-li-met-ri-tut-kan (Mi
 l-li-me-ter Wa-ve Ra-dar, MMWR)
  []
@@ -862,47 +862,47 @@ l-li-me-ter Wa-ve Ra-dar, MMWR)
 ]
 
 Package natbib Warning: Citation `prinzel2013' on page 6 undefined on input lin
-e 124.
+e 126.
 
 [6]
 
 Package natbib Warning: Citation `prinzel2013' on page 7 undefined on input lin
-e 138.
+e 140.
 
 
-Overfull \hbox (0.80627pt too wide) in paragraph at lines 138--139
+Overfull \hbox (0.80627pt too wide) in paragraph at lines 140--141
 \T1/ppl/m/n/12 ty-vän ta-pah-tu-man ai-ka-na ta-pah-tui 951 kii-to-tie-poik-kea
 -maa (Runway Incur-sion), jois-
  []
 
 
 Package natbib Warning: Citation `prinzel2013' on page 7 undefined on input lin
-e 140.
-
-
-Package natbib Warning: Citation `prinzel2013' on page 7 undefined on input lin
 e 142.
 
 
 Package natbib Warning: Citation `prinzel2013' on page 7 undefined on input lin
-e 142.
+e 144.
 
 
-Overfull \hbox (0.19904pt too wide) in paragraph at lines 142--143
+Package natbib Warning: Citation `prinzel2013' on page 7 undefined on input lin
+e 144.
+
+
+Overfull \hbox (0.19904pt too wide) in paragraph at lines 144--145
 \T1/ppl/m/n/12 mien avul-la. Eten-kin yöl-lä, tai sa-vun tai pö-lyn hai-ta-tes-
 sa nä-ky-vyyt-tä, EV-järjestelmät
  []
 
 
 Package natbib Warning: Citation `prinzel2013' on page 7 undefined on input lin
-e 144.
+e 146.
 
 
 Package natbib Warning: Citation `prinzel2013' on page 7 undefined on input lin
-e 144.
+e 146.
 
 
-Overfull \hbox (3.6854pt too wide) in paragraph at lines 146--147
+Overfull \hbox (3.6854pt too wide) in paragraph at lines 148--149
 \T1/ppl/m/n/12 mo-nok-ro-maat-ti-set hei-jas-tus-näy-töt vai-keut-ta-vat oi-kai
 -sua, kun len-ne-tään mittarilento-
  []
@@ -910,20 +910,20 @@ Overfull \hbox (3.6854pt too wide) in paragraph at lines 146--147
 [7]
 
 Package natbib Warning: Citation `prinzel2004' on page 8 undefined on input lin
-e 148.
+e 150.
 
 
-Overfull \hbox (8.65317pt too wide) in paragraph at lines 150--151
+Overfull \hbox (8.65317pt too wide) in paragraph at lines 152--153
 []\T1/ppl/m/n/12 Kuva luo-daan yh-dis-täen lentoasento- ja tark-kuus-na-vi-goin
 -ti-jär-jes-tel-mil-tä se-kä maasto-
  []
 
 
 Package natbib Warning: Citation `prinzel2004' on page 8 undefined on input lin
-e 152.
+e 154.
 
 
-Overfull \hbox (3.39713pt too wide) in paragraph at lines 152--153
+Overfull \hbox (3.39713pt too wide) in paragraph at lines 154--155
 []\T1/ppl/m/n/12 Suunnitellessa uusia oh-jaa-moi-ta voi-daan ot-taa luon-nol-li
 -ses-ti huo-mioon SV-näyttöjen
  []
@@ -931,42 +931,42 @@ Overfull \hbox (3.39713pt too wide) in paragraph at lines 152--153
 [8] [9]
 
 Package natbib Warning: Citation `prinzel2004' on page 10 undefined on input li
-ne 171.
-
-
-Package natbib Warning: Citation `prinzel2004' on page 10 undefined on input li
 ne 173.
 
 
 Package natbib Warning: Citation `prinzel2004' on page 10 undefined on input li
-ne 173.
+ne 175.
 
 
-Overfull \hbox (43.0568pt too wide) in paragraph at lines 173--174
+Package natbib Warning: Citation `prinzel2004' on page 10 undefined on input li
+ne 175.
+
+
+Overfull \hbox (43.0568pt too wide) in paragraph at lines 175--176
 \T1/ppl/m/n/12 joit-tu-nut nä-ky-vyys on suu-rim-pa-na te-ki-jä-nä mo-nis-sa ko
 h-ta-lok-kais-sa lento-onnettomuuksissa
  []
 
 [10]
-Overfull \hbox (0.7809pt too wide) in paragraph at lines 182--183
+Overfull \hbox (0.7809pt too wide) in paragraph at lines 184--185
 []\T1/ppl/m/n/12 Toisistaan riip-pu-mat-to-man toi-min-nan mah-dol-lis-ta-mi-ne
 n rin-nak-kai-sil-la, lä-hek-
  []
 
 
-Overfull \hbox (34.21333pt too wide) in paragraph at lines 187--188
+Overfull \hbox (34.21333pt too wide) in paragraph at lines 189--190
 []\T1/ppl/m/n/12 Sch-nell ym.[] ([]2004[]) to-de-tes-saan, et-tä SVIS voi-si ol
 -la avain-tek-no-lo-gia CFIT-onnettomuuksien
  []
 
 [11]
-Overfull \hbox (4.71758pt too wide) in paragraph at lines 195--196
+Overfull \hbox (4.71758pt too wide) in paragraph at lines 197--198
 []\T1/ppl/m/n/12 Baileyn ym.([]2007[]) mu-kaan näi-den tek-no-lo-gioi-den op-ti
 -maa-li-sin yh-dis-tel-mä oli-si näyt-
  []
 
 
-Overfull \hbox (21.5425pt too wide) in paragraph at lines 195--196
+Overfull \hbox (21.5425pt too wide) in paragraph at lines 197--198
 \T1/ppl/m/n/12 tää oh-jaa-mo-mie-his-töl-le suo-raan SVS-järjestelmän in-for-ma
 a-tio-ta, mut-ta EVS-järjestelmän
  []
@@ -976,69 +976,63 @@ Luku 4.
 [13
 
 ]
-Overfull \hbox (5.95358pt too wide) in paragraph at lines 215--216
+Overfull \hbox (5.95358pt too wide) in paragraph at lines 217--218
 \T1/ppl/m/n/12 dis-tet-ty-jen SV- ja EV-järjestelmien ke-hit-tyes-sä yhä luo-te
 t-ta-vam-mik-si ([]Korn ym.[], []2009[]).
  []
 
-[14] [15] [16]
-Overfull \hbox (4.78914pt too wide) in paragraph at lines 248--249
-[]\T1/ppl/m/n/12 HUD:en koh-dis-ta-mi-sen te-hok-kuu-des-ta ja tär-key-des-tä v
-at väi-tel-leet esi-mer-kik-si New-
- []
-
-[17] [18]
+[14] [15] [16] [17]
 Luku 5.
 
-Package natbib Warning: Citation `prinzel2013' on page 19 undefined on input li
-ne 258.
+Package natbib Warning: Citation `prinzel2013' on page 18 undefined on input li
+ne 254.
 
-[19
-
-]
-
-Package natbib Warning: Citation `prinzel2004' on page 20 undefined on input li
-ne 280.
-
-[20] [21
+[18
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 360--365
+
+Package natbib Warning: Citation `prinzel2004' on page 19 undefined on input li
+ne 276.
+
+[19] [20
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 356--361
 []\T1/ppl/m/n/12 Gerold, A. 2001. \T1/ppl/m/it/12 Runway Incur-sions: The Th-re
 at on the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--365
+Underfull \hbox (badness 10000) in paragraph at lines 356--361
 \T1/ppl/m/it/12 Ground\T1/ppl/m/n/12 . Avio-nics To-day. Saa-ta-vil-la WWW-muod
 ossa
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 360--365
+Underfull \hbox (badness 10000) in paragraph at lines 356--361
 \T1/ppl/m/n/12 <http://www.aviationtoday.com/av/commercial/Runway-Incursions-Th
 e-
  []
 
-[22] [23] [24] [25]
+[21] [22] [23] [24]
 
 Package natbib Warning: There were undefined citations.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 547.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 547.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 543.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 543.
 
 (C:\Users\Matsku\OneDrive\Asiakirjat\kandi\Tutkielma\Kanditutkielma_Laitinen_Ma
 tias.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 547.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 547.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 543.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 543.
 Package rerunfilecheck Info: File `Kanditutkielma_Laitinen_Matias.out' has not 
 changed.
-(rerunfilecheck)             Checksum: D2E5B812D44861E57DFC4ABA8CE55884;1136.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 547.
+(rerunfilecheck)             Checksum: 5B07D2D75343B3504F1B0190F3F852CE;1111.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 543.
  ) 
 Here is how much of TeX's memory you used:
- 7765 strings out of 493921
- 112096 string characters out of 3146476
+ 7764 strings out of 493921
+ 112089 string characters out of 3146476
  205449 words of memory out of 3000000
  10822 multiletter control sequences out of 15000+200000
  27567 words of font info for 60 fonts, out of 3000000 for 9000
@@ -1050,9 +1044,9 @@ Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTe
 X 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
 nts/type1/urw/palatino/uplri8a.pfb>
-Output written on Kanditutkielma_Laitinen_Matias.pdf (28 pages, 197630 bytes).
+Output written on Kanditutkielma_Laitinen_Matias.pdf (27 pages, 196481 bytes).
 PDF statistics:
- 512 PDF objects out of 1000 (max. 8388607)
- 93 named destinations out of 1000 (max. 500000)
+ 507 PDF objects out of 1000 (max. 8388607)
+ 92 named destinations out of 1000 (max. 500000)
  121 words of extra memory for PDF output out of 10000 (max. 10000000)
 
