@@ -51,14 +51,14 @@
 %\studyline{}
 \avainsanat{SVS, EVS, ilmailu, näkyvyys, HUD, HDD, lentäminen, lentoturvallisuus, IFR, NextGen, NGATS, EVO}
 \keywords{SVS, EVS, synthetic vision, enhanced vision, aviation, HUD, HDD, flying, safety, visibility, IFR, NextGen, NGATS, EVO}
-\tiivistelma{Tähän tulee tiivistelmä (tausta, tavoite, tulokset, johtopäätökset).
-}
-\abstract{Tähän tulee englanninkielinen versio tiivistelmästä.
-}
+\tiivistelma{Tähän tulee tiivistelmä (tausta, tavoite, tulokset, johtopäätökset).}
+
+\abstract{Tähän tulee englanninkielinen versio tiivistelmästä.}
 
 \author{Matias Laitinen}
 \contactinformation{\texttt{matias.laitinen@gmail.com}}
 % jos useita tekijöitä, anna useampi \author-komento
+
 \supervisor{Vesa Lappalainen}
 \supervisor{Kirsi Valjus}
 % jos useita ohjaajia, anna useampi \supervisor-komento
@@ -70,11 +70,11 @@
 
 \chapter{Johdanto}
 
-Lentoturvallisuusasiat nousevat usein esille medioissa, kun ilmailussa tapahtuu lento-onnettomuuksia tai vaaratilanteita, sillä niissä on osallisena enemmän ihmisiä kuin esimerkiksi tieliikenneonnettomuuksissa. Nämä onnettomuudet aiheutuvat usein inhimillisistä virheistä huonon näkyvyyden olosuhteissa, kun tilannetietoisuuden menetyksen riski on suuri \citep{kimkaber2014, prinzelym2013, schnellym2004, vygolov2013}.
+Lentoturvallisuusasiat nousevat usein esille medioissa, kun ilmailussa tapahtuu lento-onnettomuuksia tai vaaratilanteita, sillä niissä on osallisena enemmän ihmisiä kuin esimerkiksi tieliikenneonnettomuuksissa. Nämä onnettomuudet aiheutuvat usein inhimillisistä virheistä huonon näkyvyyden olosuhteissa, kun tilannetietoisuuden (Situational Awareness, SA) menetyksen riski on suuri \citep{kimkaber2014, prinzelym2013, schnellym2004, vygolov2013}.
 
-FSF:n (Flight Safety Foundation) mukaan miltei 60\% kaupalliseen lentotoimintaan liittyvistä maahansyöksyonnettomuuksista on tapahtunut lähestymisen tai laskeutumisen aikana \cite{schnellym2004, kimkaber2014}. Ohjattavissa olevan ilma-aluksen tahaton törmäys maahan, veteen tai esteeseen (Controller Flight Into Terrain, CFIT) on vallitseva onnettomuustyyppi ja vastuussa yli puolesta kaupallisen ilmailun onnettomuuksista \citep{etherington2000}. Myös lentokonevalmistaja Boeingin \citeyearpar{boeing1996} tilastot tukevat tätä. CFIT- onnettomuudet liittyvät yleensä paikka- tai asentotiedon (Situational Awareness, SA) menetykseen lähestymis- ja laskuvaiheessa, kun ohjaajat menettävät käsityksensä suunnasta, korkeudesta ja suhteesta ympäristöön \cite{schnellym2004}.
+FSF:n (Flight Safety Foundation) mukaan miltei 60\% kaupalliseen lentotoimintaan liittyvistä maahansyöksyonnettomuuksista on tapahtunut lähestymisen tai laskeutumisen aikana \cite{schnellym2004, kimkaber2014}. Ohjattavissa olevan ilma-aluksen tahaton törmäys maahan, veteen tai esteeseen (Controller Flight Into Terrain, CFIT) on vallitseva onnettomuustyyppi ja vastuussa yli puolesta kaupallisen ilmailun onnettomuuksista \citep{etherington2000}. CFIT- onnettomuudet liittyvät yleensä paikka- tai asentotiedon menetykseen lähestymis- ja laskuvaiheessa \cite{schnellym2004}.
 
-Tämän tutkimuksen tavoitteena on kirjallisuuskatsauksen keinoin ottaa selvää, millä eri tavoin keinonäköjärjestelmiä (Synthetic Vision Systems, SVS) ja parannellun näön järjestelmiä (Enhanced Vision Systems, EVS) käyttämällä on mahdollista parantaa lentäjän tilannetietoisuutta ja mahdollistaa turvallinen ja tehokas lentotoiminta jopa huonon näkyvyyden olosuhteissa. Tällaisia järjestelmiä on ollut sotilasilmailun käytössä jo pitkän aikaa, mutta siviili-ilmailussa niiden hyödyntäminen on vielä vähäistä. Kartoittamalla tällaisten järjestelmien käytettävyyttä ja soveltuvuutta eri tilanteisiin pyritään tekemään johtopäätöksiä niiden turvallisesta käyttöönotosta uuden sukupolven ilmailussa.
+Tämän tutkimuksen tavoitteena on kirjallisuuskatsauksen keinoin ottaa selvää, millä eri tavoin keinonäköjärjestelmiä (Synthetic Vision Systems, SVS) ja parannellun näön järjestelmiä (Enhanced Vision Systems, EVS) käyttämällä on mahdollista parantaa lentäjän tilannetietoisuutta ja mahdollistaa turvallinen ja tehokas lentotoiminta jopa huonon näkyvyyden olosuhteissa. Tällaisia järjestelmiä on ollut sotilasilmailun käytössä jo pitkän aikaa, mutta siviili-ilmailussa niiden hyödyntäminen on vielä tuloillaan. Kartoittamalla tällaisten järjestelmien käytettävyyttä ja soveltuvuutta eri tilanteisiin pyritään tekemään johtopäätöksiä niiden turvallisesta käyttöönotosta uuden sukupolven ilmailussa.
 
 Keinonäkö- ja parannellun näön järjestelmien toiminnan kannalta on oleellista, miten järjestelmien tarjoama tieto esitetään ohjaajalle \citep{kimkaber2014}. Toisessa luvussa perehdytään ohjaamoissa käytössä oleviin näyttölaitteisiin. 
 
@@ -111,7 +111,7 @@ Verrattuna saman informaation näyttämiseen näkökentän alapuolella sijaitsev
 
 Tutkielman seuraavassa luvussa käsitellään lentotoiminnassa esiintyviä haasteita sekä keinonäkö- ja parannellun näön järjestelmien niihin mahdollisesti tuomia helpotuksia.
 
-\chapter{Näkyvyys ja tilannetietoisuus}
+\chapter{Lento-olosuhteet ja tilannetietoisuus}
 
 \section{Näkyvyys}
 
@@ -135,7 +135,14 @@ Hyvän tilannetietoisuuden ylläpitäminen on erittäin olennaista turvallisen l
 \item Mitä tehdä, kun päästään sinne?
 \end{itemize}
 
-Lennettessä mittarilähestymisiä haastavissa olosuhteissa on tärkeintä tietää oman tilankäytön vaatimukset ja maaston niille asettamat rajoitukset. Lisäksi Schnell ym. \citeyearpar{schnellym2004} mainitsevat tilannetietoisuuden liittyvän tilankäytön lisäksi myös ajankäyttöön, sillä ohjaamomiehistön tulisi olla jatkuvasti selvillä siitä, mitä tehtäviä on suoritettava missäkin vaiheessa lentoa.
+Lennettessä mittarilähestymisiä haastavissa olosuhteissa on tärkeintä tietää oman tilankäytön vaatimukset ja maaston niille asettamat rajoitukset. Lisäksi Schnell ym. \citeyearpar{schnellym2004} mainitsevat tilannetietoisuuden liittyvän tilankäytön lisäksi myös ajankäyttöön, sillä ohjaamomiehistön tulisi olla jatkuvasti selvillä siitä, mitä tehtäviä on suoritettava missäkin vaiheessa lentoa. 
+
+Varsinkin suurta tarkkuutta vaativissa lähestymisissä voisi keinonäkö- ja parannellun näön järjestelmien käyttäminen mahdollistaa \citep{schnellym2004}:
+
+\begin{itemize}
+\item Pienemmän erotuksen, lähestyttäessä vierekkäisille kiitoteille
+\item Turvallisemman estevarakorkeuden säilyttämisen, käytettäessä kaartolähestymisiä haastavilla kentillä, joille suorat lähestymiset eivät onnistu
+\end{itemize}
 
 FAA:n vuoden 2010 turvallisuusselvityksen mukaan 52 928 316 maatoimintaan liittyvän tapahtuman aikana tapahtui 951 kiitotiepoikkeamaa (Runway Incursion), joista 12 oli vakavia. Vaikka tämä luku on suhteessa pieni, kiitotiepoikkeamalla voi olla tuhoisat seuraukset. Suurimpana syynä näissä tapauksissa oli ohjaajan inhimillinen erehdys (63 \%). Tilannetietoisuutta parantamalla voitaisiin siis saada merkittävästi vähennettyä kiitotiepoikkeamien määrää. \citep{prinzel2013}.
 
@@ -200,6 +207,10 @@ Schnell ym. \citeyearpar{schnellym2004} lisäävät, että SVIS:n käyttö yhdes
 
 TODO EVSVSKUVA Ehkä kuvia tähän vielä \citep{schnellym2004} \emph{TODO:}
 
+\section{NGATS ja EVO}
+
+NASA on kehittämässä ns. uuden sukupolven ilmakuljetusjärjestelmä (Next Generation Air Transport System, NGATS), jossa keskeisenä on uutta avioniikkateknologiaa hyödyntävä EVO-konsepti (Equivalent Visual Operations) \citep{baileyym2007}. Siinä keinonäkö- ja näönparannusjärjestelmiä käyttäen saataisiin tarpeeksi tietoa ympäristöstä, jotta voitaisiin ulkoisista näkyvyysolosuhteista riippumatta toimia aina näkölentosääntöjen mukaisesti. Tällainen menettely mahdollistaisi näkölento-olosuhteiden mukaisen operatiivisen toimintatahdin huonommalla säällä ja parantaisi turvallisuutta ennestään myös hyvän näkyvyyden olosuhteissa \citep{prinzel2013}.
+
 \chapter{Lentotietoärjestelmien käytön haasteita}
 
 \section{Huomiokyvyn kaventuminen (Attentional tunneling)}
@@ -245,37 +256,34 @@ Silmän akkommodaatiovääristymässä katse ja katsojan huomio tarkentuu jokin 
 
 \chapter{TODO Tulokset ja Yhteenveto}
 
-Keinonäkö- ja parannellun näön järjestelmien käyttöönotosta on hyötyä varsinkin suurta tarkkuutta vaativissa lähestymisissä. Se voi mahdollistaa pienemmän erotuksen lähestyttäessä vierekkäisille kiitoteille tai turvallisemman estevarakorkeuden käytettäessä kaartolähestymisiä haastavilla kentillä, joille suorat lähestymiset eivät onnistu. \citep{schnellym2004}.
+Ilmatilan käytön kasvaessa tarvitaan keinoja 
 
-Avioniikan kehittyessä jatkuvasti opastusjärjestelmät (HITS, highway-in-the-sky), estevaroitusjärjestelmät (EGPWS, Enhanced Ground Proximity Warning System). ja infrapunatunnistimet, sekä näiden yhdistäminen ja näyttäminen käyttäen apuna HUD:a todennäköisesti yleistyvät. SV- ja EV -järjestelmien tarjoamaa tietoa voidaan näyttää sekä HUD- että HDD-näytöissä ja luoda ohjaajalle aidontuntuinen kuva kiitotiestä huonoissakin sääolosuhteissa, mikä ehkäisee etenkin CFIT-onnettomuuksia. Maatoiminnassa ohjaajat joutuvat luottamaan visuaalisiin merkkeihin ja huonon näkyvyyden olosuhteissa näönparannusjärjestelmillä, kentälläliikkumiskartoilla (Airport Moving Maps) ja kiitotiepoikkeaman ehkäisyjärjestelmillä (Runway Incursion Prevention System) voidaan ehkäistä rullauksen aikana aiheutuvia vaaratilanteita. \citep{crawfordneal2006}.
+Avioniikan kehittyessä jatkuvasti opastusjärjestelmät (HITS, highway-in-the-sky), estevaroitusjärjestelmät (EGPWS, Enhanced Ground Proximity Warning System). ja infrapunatunnistimet, sekä näiden yhdistäminen todennäköisesti yleistyvät. SV- ja EV -järjestelmien tarjoamaa tietoa voidaan näyttää sekä HUD- että HDD-näytöissä ja luoda ohjaajalle aidontuntuinen kuva kiitotiestä huonoissakin sääolosuhteissa, mikä ehkäisee etenkin CFIT -onnettomuuksia.
 
-\section{TODO NextGen ja EVO-konseptit}
+\emph{TODO:}
 
-Eräs tapa hyödyntää EVS/SVS-järjestelmiä uuden sukupolven ilmailussa on EVO-konsepti (Equivalent Visual Operations), jossa keinonäkö- ja näönparannusjärjestelmiä käyttäen saataisiin tarpeeksi tieta ympäristössä, jotta voitaisiin ulkoisista näkyvyysolosuhteista riippumatta toimia näkölentosääntöjen mukaisesti. Tällainen menettely mahdollistaisi näkölento-olosuhteiden mukaisen operatiivisen toimintatahdin huonommissakin olosuhteissa ja parantaisi turvallisuutta näkölentosäännöillä toimittaessa myös hyvällä näkyvyydellä toimittaessa. \citep{prinzel2013}.
+Maatoiminnassa rullauksen aikana aiheutuvia vaaratilanteita voidaan ehkäistä entistä paremmin näönparannusjärjestelmillä, lentokenttäkartoilla ja kiitotiepoikkeaman ehkäisyjärjestelmillä (Runway Incursion Prevention System).
 
-whereby Visual Flight Rules (VFR) operational tempos and also, perhaps, operating
-procedures (such as separation assurance) are maintained independent of the actual weather conditions. One
-methodology by which the goal EVO might be attainable is to create a virtual visual flight environment for
-the flight crew, independent of the actual outside weather and visibility conditions, through application of
-Enhanced Vision (EV) and Synthetic Vision (SV) technologies. \citep{baileyym2007}
-
-TODO Lisää NextGen -settiä ja viimeistele tuo edellinen.
-
-- HUDeista hyötyä:
-	- flight path, paitsi cruise; event detection, paitsi app ja landing ja unexpected
-	- huomion siirto sisään ja ulos sekä unexpected events vaikeaa , mutta ei todisteita että HUD:n käyttö lisää onnettomuusriskiä
-	- lähestyminen ja lasku huonommassa näkyvyydessä
-	- tarkemmat lähestyminen ja lasku
-	- vähemmän head-down time
-	- vähemmän aikaa vaihdossa mittareista ulos
-	- overlaid symbolien käyttöpotentiaali -> SA nousee
-	- lisää tutkimusta tarvitaan, HUD:ien käyttö kasvussa
-	-  \citep{crawfordneal2006}
 - SV potentiaalia turvallisuuteen, taloudellisuuteen, erityisesti jos toimii retro \& forward fit
 - näyttöjn kasvaessa SV toimivuus paranee
 - SVS viable retrofit \citep{prinzel2004}
 - SVS parempi kuin perinteiset näytöt \citep{schnellym2004}
+
+ ja näyttäminen heijastusnäyttöjen avulla 
+ 
+ - HUDeista hyötyä:
+ 	- flight path, paitsi cruise; event detection, paitsi app ja landing ja unexpected
+ 	- huomion siirto sisään ja ulos sekä unexpected events vaikeaa , mutta ei todisteita että HUD:n käyttö lisää onnettomuusriskiä
+ 	- lähestyminen ja lasku huonommassa näkyvyydessä
+ 	- tarkemmat lähestyminen ja lasku
+ 	- vähemmän head-down time
+ 	- vähemmän aikaa vaihdossa mittareista ulos
+ 	- overlaid symbolien käyttöpotentiaali -> SA nousee
+ 	- lisää tutkimusta tarvitaan, HUD:ien käyttö kasvussa
+ 	-  \citep{crawfordneal2006}
 - HUD:ien käyttö multicrew, väsymys, \citep{crawfordneal2006}
+
+
 
 - automation bias tärkeää huomioida, kokeneemmat käyttävät jopa enemmän, koska illuusio luotettavuudesta ja cross checking delegoidaan perämiehille
 - vastuullisuudentunne vaikuttaa automation biasiin \citep{mosierym1998}
@@ -284,6 +292,9 @@ TODO Lisää NextGen -settiä ja viimeistele tuo edellinen.
 - palautteen lisääminen automaatisoituihin järjestelmiin voisi olla avainasemassa biasin välttämiseksi
 - saattaa aiheuttaa myös vääriä muistikuvia  \citep{mosierym1998}
 - attentional tunnelling legitimate concern \& attentional training tärkeää \citep{wickensalexander2009}
+
+
+Tarvitaan vielä tutkimusta, tämä kirjallisuuskatsaus hyvin pinnallinen
 
 %Lähdeluettelo
 
