@@ -14,4 +14,4 @@
 \contentsline {section}{\numberline {4.3}N\IeC {\"a}ytt\IeC {\"o}jen sekavuus (Display clutter)}{16}{section.4.3}
 \contentsline {section}{\numberline {4.4}Akkommodaatiov\IeC {\"a}\IeC {\"a}ristym\IeC {\"a} (Misaccommodation)}{17}{section.4.4}
 \contentsline {chapter}{\numberline {5}TODO Tulokset ja Yhteenveto}{18}{chapter.5}
-\contentsline {chapter}{Kirjallisuutta}{20}{section*.2}
+\contentsline {chapter}{Kirjallisuutta}{19}{section*.2}
