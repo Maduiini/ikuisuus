@@ -8,10 +8,10 @@
 \contentsline {section}{\numberline {3.1}N\IeC {\"a}kyvyys}{4}{section.3.1}
 \contentsline {section}{\numberline {3.2}Tilannetietoisuus}{5}{section.3.2}
 \contentsline {section}{\numberline {3.3}NGATS ja EVO}{11}{section.3.3}
-\contentsline {chapter}{\numberline {4}Lentotieto\IeC {\"a}rjestelmien k\IeC {\"a}yt\IeC {\"o}n haasteita}{13}{chapter.4}
+\contentsline {chapter}{\numberline {4}Lentotietoj\IeC {\"a}rjestelmien k\IeC {\"a}yt\IeC {\"o}n haasteita}{13}{chapter.4}
 \contentsline {section}{\numberline {4.1}Huomiokyvyn kaventuminen (Attentional tunneling)}{13}{section.4.1}
 \contentsline {section}{\numberline {4.2}Automaatiovinouma (Automation bias)}{15}{section.4.2}
 \contentsline {section}{\numberline {4.3}N\IeC {\"a}ytt\IeC {\"o}jen sekavuus (Display clutter)}{16}{section.4.3}
 \contentsline {section}{\numberline {4.4}Akkommodaatiov\IeC {\"a}\IeC {\"a}ristym\IeC {\"a} (Misaccommodation)}{17}{section.4.4}
-\contentsline {chapter}{\numberline {5}TODO Tulokset ja Yhteenveto}{18}{chapter.5}
-\contentsline {chapter}{Kirjallisuutta}{19}{section*.2}
+\contentsline {chapter}{\numberline {5}Tulokset ja Yhteenveto}{18}{chapter.5}
+\contentsline {chapter}{Kirjallisuutta}{20}{section*.2}
