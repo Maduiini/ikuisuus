@@ -91,18 +91,11 @@ Ns. lasiohjaamossa ainakin päälentomittarit on korvattu suurehkolla päänäyt
 
 \section{Heijastysnäytöt}
 
-\begin{figure}[t]
-\centering
-\includegraphics[width=12cm]{HUD.png}
-\caption{\itshape Rockwell Collins Flight Dynamics -heijastusnäyttö (Royal Australian Air Force TODO).}
-\label{F:Rockwell Collins Flight Dynamics -heijastusnäyttö}
-\end{figure}
-
 Tietoa voidaan esittää myös heijastusnäyttöjen (Head-up Display, HUD) avulla. Heijastusnäytössä haluttu informaatio ja symbolit heijastetaan läpinäkyvälle näytölle ohjaajan eteen. Tällöin on mahdollista nähdä yhtä aikaa näytöllä oleva mittaritieto sekä ulkona koneen edessä oleva näkymä, mikä mahdollistaa vähemmän aikaa käytettävän mittaritaulun tarkkailuun ja ympäristön seuraaminen on helpompaa \citep{crawfordneal2006}. Verversin ja Wickensin \citeyearpar{ververswickens1998} mukaan tähän vaikuttavat myös HUD:n symboleita selkeyttävät paremmat kontrastierot, HDD:n visuaalisen tiedon mukauttamisen tarpeesta aiheutuva viive.
 
 Tiedon näyttötapa tulisi valita siten, ettei se vie liikaa ohjaajan huomiota pois ulkona olevasta näkymästä. Huomiokyvyn kaventumisesta kerrotaan tarkemmin tämän tutkielman neljännessä luvussa.
 
-Ensimmäiset HUD:t olivat käytössä 1950-luvulla ja niitä käytettiin pääasiallisesti tähtäiminä, eikä lentomittaristona \citep{crawfordneal2006}. Ensimmäistä kertaa heijastusnäyttö oli käytössä koneen lentomittaritiedon näyttämiseen tarkoitettuna välineenä Hawker Siddeley Buccaneer -koneessa vuonna 1960 \citep{weintraubensing1992}. Tämä näyttö koostui keinohorisontista sekä lentokoneen asentoa esittävästä symbolista. Korkeus ja nopeus näytettiin digitaalisesti ja ohjaintietokone tuotti karkeaa opastustietoa. Vielä nykyäänkin heijastusnäytöissä käytetään samankaltaista symbologiaa. Näytöstä on hyötyä visuaalisena apuna varsinkin kahdessa päätehtävässä: näkölähestymisessä sekä siirryttäessä mittarilento-olosuhteista visuaaliseen laskeutumiseen. \citep{crawfordneal2006}
+Ensimmäiset HUD:t olivat käytössä 1950-luvulla ja niitä käytettiin pääasiallisesti tähtäiminä, eikä lentomittaristona \citep{crawfordneal2006}. Ensimmäistä kertaa heijastusnäyttö oli käytössä koneen lentomittaritiedon näyttämiseen tarkoitettuna välineenä Hawker Siddeley Buccaneer -koneessa vuonna 1960 \citep{weintraubensing1992}. Tämä näyttö koostui keinohorisontista sekä lentokoneen asentoa esittävästä symbolista. Korkeus ja nopeus näytettiin digitaalisesti ja ohjaintietokone tuotti karkeaa opastustietoa. Vielä nykyäänkin heijastusnäytöissä käytetään samankaltaisia symboleja (kuvio \ref{F:HUD}). Näytöstä on hyötyä visuaalisena apuna varsinkin kahdessa päätehtävässä: näkölähestymisessä sekä siirryttäessä mittarilento-olosuhteista visuaaliseen laskeutumiseen. \citep{crawfordneal2006}
 
 HUD:t ovat tulossa käyttöön myös yleisilmailun käyttöön osaltaan sotilas- ja siviili-ilmailussa havaittujen etujen ansiosta \citep{ververswickens1998}. Crawford ja Neal \citeyearpar{crawfordneal2006} toteavat, ettei sotilaspuolen tutkimustuloksia voida helposti soveltaa sellaisenaan kaupalliselle sektorille erilaisen varustuksen ja lentotilanteiden vuoksi.
 
@@ -118,6 +111,13 @@ Verrattuna saman informaation näyttämiseen näkökentän alapuolella sijaitsev
 \end{itemize}
 
 Tutkielman seuraavassa luvussa käsitellään lentotoiminnassa esiintyviä haasteita sekä keinonäkö- ja parannellun näön järjestelmien niihin mahdollisesti tuomia helpotuksia.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=12cm]{HUD.png}
+\caption{\itshape Rockwell Collins Flight Dynamics -heijastusnäyttö \citep{crawfordneal2006}.}
+\label{F:HUD}
+\end{figure}
 
 \chapter{Lento-olosuhteet ja tilannetietoisuus}
 
@@ -154,18 +154,18 @@ Varsinkin suurta tarkkuutta vaativissa lähestymisissä voisi keinonäkö- ja pa
 
 FAA:n vuoden 2010 turvallisuusselvityksen mukaan 52 928 316 maatoimintaan liittyvän tapahtuman aikana tapahtui 951 kiitotiepoikkeamaa (Runway Incursion), joista 12 oli vakavia. Vaikka tämä luku on suhteessa pieni, kiitotiepoikkeamalla voi olla tuhoisat seuraukset. Suurimpana syynä näissä tapauksissa oli ohjaajan inhimillinen erehdys (63 \%). Tilannetietoisuutta parantamalla voitaisiin siis saada merkittävästi vähennettyä kiitotiepoikkeamien määrää. \citep{prinzelym2013}.
 
-\begin{figure}[t]
-\centering
-\includegraphics[width=12cm]{E-SMGCS.png}
-\caption{\itshape E-SMGCS (TODO).}
-\label{F:E-SMGCS}
-\end{figure}
-
 Maatoiminnassa lennonjohdon, koneiden ohjaajien sekä ajoneuvonkuljettajien tilannetietoisuutta pyritään pitämään yllä tarjoamalla visuaalisia merkkejä omasta sijainnista, kulkureiteistä ja tilasta kiito- ja rullausteillä, odotuspaikoilla ja asematasoilla. Tämä hoidetaan valojen, merkintöjen ja opasteiden avulla. Tällaisia järjestelmiä kutsutaan yhteisnimellä Surface Movement Guidance and Control System (SMGCS). \citep{prinzelym2013}.
 
 Maatoiminnan tilannetietoa ylläpitäviä järjestelmiä voitaisiin myös käyttää ohjaamoissa. Tällaisista järjestelmistä voisi Prinzelin ym. \citeyearpar{prinzelym2013} mukaan olla hyötyä, varsinkin miehistön näkyvyyden parantamisessa keinotekoisesti sekä paikka- ja reitti-,  mahdollisesti myös liikenne- ja estetiedon parantamisessa erilaisten karttajärjestelmien avulla. Etenkin yöllä, tai savun tai pölyn haitatessa näkyvyyttä, EV-järjestelmät voivat auttaa ohjaajia toimimaan turvallisemmin maassa \citep{prinzelym2013}. Käyttämällä infrapunakameroita, jopa tiheän sumun olosuhteissa havaittaisiin paremmin esteitä, kuten henkilöstöä, ajoneuvoja ja laitteistoja \citep{beiergemperlein2004}.
 
-Pelkkä EVS-järjestelmien käyttö ilman karttaa ei merkittävästi paranna toimintaa maassa. Myös ohjaajat arvioivat AMM -karttojen olevan olennaisessa osassa maatoimintaa ja yhdessä EVS sekä AMM toivat huomattavia etuja. Toiminta olisi näin mahdollista entistä huonomman näkyvyyden olosuhteissa kentillä, joilla on vain vähän tai ei lainkaan rullausta avustavia järjestelmiä käytössä. \citep{prinzelym2013}.
+Pelkkä EVS-järjestelmien käyttö ilman karttaa ei merkittävästi paranna toimintaa maassa. Myös ohjaajat arvioivat AMM -karttojen helpottavan olennaisesti maatoimintaa. Parannellun näön järjestelmiä ja lentokenttäkarttoja yhdistävä E-SMGCS (kuvio \ref{F:E-SMGCS}) voisi parantaa tilannetietoisuutta olennaisesti. Toiminta olisi näin mahdollista entistä huonomman näkyvyyden olosuhteissa kentillä, joilla on vain vähän tai ei lainkaan rullausta avustavia järjestelmiä käytössä. \citep{prinzelym2013}.
+
+\begin{figure}
+\centering
+\includegraphics[width=12cm]{E-SMGCS.png}
+\caption{\itshape E-SMGCS \citep{prinzelym2013}.}
+\label{F:E-SMGCS}
+\end{figure}
 
 Tilannetietoisuuden kadotessa hetkellisesti lennolla, voidaan joutua epätavalliseen lentotilaan. Tällöin on olennaista, kuinka nopeasti tilannetietoisuus saadaan palautettua ja virheellinen lentoasento tehokkaasti oikaistua. Käytettäessä perinteisiä mittareita tai ohjainpaneelissa sijaitsevaa näyttölaitetta, voidaan helposti värien avulla kertoa ohjaajalle, missä päin maa ja taivas sijaitsevat. Sen sijaan ainakin nykyiset monokromaattiset heijastusnäytöt vaikeuttavat oikaisua, kun lennetään mittarilento-olosuhteissa ja joudutaan yllättäen epätavalliseen lentotilaan \citep{crawfordneal2006}.
 
@@ -210,15 +210,15 @@ Schnellin ym. \citeyearpar{schnellym2004} mukaan SVIS-järjestelmät antavat ohj
 
 \cite{baileyym2007} väittävät SVS-järjestelmillä saatavan huomattavia parannuksia maastoestetietouteen ja voitavan vähentää CFIT-onnettomuuksien riskiä nykyiseen ohjaamoissa käytettävään teknologiaan verrattuna. Tästä samaa mieltä ovat myös \cite{schnellym2004} todetessaan, että SVIS voisi olla avainteknologia CFIT-onnettomuuksien vähentämisessä.
 
-Tutkijat selvittävät EVS- ja SVS-järjestelmien yhdistämismahdollisuuksia (Enhanced Synthetic Vision System). Tällainen järjestelmä voisi antaa ohjaajalle liikennetietoa samalla tavoin kuin lennettäessä selkeässä säässä päivänvalossa. Esitettäessä paljon tietoa eri järjestelmistä samalla näytöllä on otettava huomioon inhimilliset tekijät, lentäjän suorituskyky, mahdolliset ongelmat ja turvallisuusnäkökohdat. \citep{crawfordneal2006}
+Tutkijat selvittävät EVS- ja SVS-järjestelmien yhdistämismahdollisuuksia (Enhanced Synthetic Vision System). Tällainen järjestelmä voisi antaa ohjaajalle liikennetietoa samalla tavoin kuin lennettäessä selkeässä säässä päivänvalossa (kuvio \ref{F:ESVS}). Esitettäessä paljon tietoa eri järjestelmistä samalla näytöllä on otettava huomioon inhimilliset tekijät, lentäjän suorituskyky, mahdolliset ongelmat ja turvallisuusnäkökohdat. \citep{crawfordneal2006}
 
 Nordwallin \citeyearpar{nordwall1993} mukaan heijastusnäytön ja lämpökameran yhdistelmällä saavutetaan sumussa huomattavasti parempi kuva ynpäristöstä, kuin mitä paljaalla silmällä voitaisiin. Beierin ja Gemperleinin \citeyearpar{beiergemperlein2004} tutkimuksen perusteella aivan tiheässä sumussa, jossa näkyvyydet ovat 300 m tai vähemmän, ei edes lämpökameroita käyttämällä kuitenkaan saada parannusta näkyvyyteen. Myös Crawford ja Neal \citeyearpar{crawfordneal2006} toteavat kovan sumun, sateen tai pölyn heikentävän lämpökameralla saavutettavia etuja. Tällaisissa tapauksissa lähestymisessä tarvittaisiin esimerkiksi tutkajärjestelmä luomaan ympäristökuvaa.
 
 \begin{figure}[t]
 \centering
 \includegraphics[width=12cm]{HUD_Fused.png}
-\caption{\itshape Yhdistetty SVS/EVS heijastusnäytöllä (TODO).}
-\label{F:Yhdistetty SVS/EVS heijastusnäytöllä}
+\caption{\itshape Yhdistetty ESVS heijastusnäytöllä \citep{baileyym2007}.}
+\label{F:ESVS}
 \end{figure}
 
 Baileyn ym.\citeyearpar{baileyym2007} mukaan näiden teknologioiden optimaalisin yhdistelmä olisi näyttää ohjaamomiehistölle suoraan SVS-järjestelmän informaatiota, mutta EVS-järjestelmän kuvanprosessointi toimisi taustalla, suorittaen navigaatiovirheiden korjausta, tietokannan eheyden valvontaa sekä reaaliaikaista esteentunnistusta.
@@ -270,13 +270,13 @@ Näytettäessä keinonäkö- ja parannellun näön järjestelmien tuottamaa tiet
 
 \section{Akkommodaatiovääristymä (Misaccommodation)}
 
-Silmän akkommodaatiovääristymässä katse ja katsojan huomio tarkentuu jokin lähietäisuudellä sijaitsevaan kohteeseen ja vaikeuttaa muiden kohteiden huomiointia sekä koon ja etäisyyden arviointia. Tämän välttämiseksi heijastusnäytöt kohdistetaan optiseen äärettömyyteen, jotta näyttäisi, että näytön symbologia sijaitsisi samalla etäisyydellä ulkomaailman kanssa ja näin ollen vähentäisi katseen uudelleentarkentamisen tarvetta \citep{naish1964}. Koska myös erilaiset sääolosuhteet ja HUD:n tarkkuuden taso vaikuttavat huomion kohdistumiseen, ei ole vielä täysin varmaa, vähentävätkö kauas kohdistetut heijastusnäytöt akkommodaatiovääristymiä, vai lisäävätkö ne niitä \citep{crawfordneal2006}.
+Silmän akkommodaatiovääristymässä katse ja katsojan huomio tarkentuu jokin lähietäisuudellä sijaitsevaan kohteeseen ja vaikeuttaa muiden kohteiden huomiointia sekä koon ja etäisyyden arviointia. Tämän välttämiseksi heijastusnäytöt kohdistetaan optiseen äärettömyyteen, jotta näyttäisi, että näytön symbolit sijaitsisivat samalla etäisyydellä katsojaan ulkomaailman kanssa ja näin ollen vähentäisi katseen uudelleentarkentamisen tarvetta \citep{naish1964}. Koska myös erilaiset sääolosuhteet ja HUD:n tarkkuuden taso vaikuttavat huomion kohdistumiseen, ei ole vielä täysin varmaa, vähentävätkö kauas kohdistetut heijastusnäytöt akkommodaatiovääristymiä, vai lisäävätkö ne niitä \citep{crawfordneal2006}.
 
 \chapter{Tulokset ja Yhteenveto}
 
 Kirjallisuuskatsauksessa tarkasteltiin lyhyesti keinonäkö- ja parannellun näön järjestelmien sovelluksia uuden sukupolven ilmailussa sekä niiden mahdollista vaikutusta lentoturvallisuuteen. Ilmatilan käytön kasvaessa tarvitaan keinoja hyödyntää ilmatilaa turvallisesti myös huonomman sään olosuhteissa, ja tämänkaltaiset järjestelmät ovat eräs potentiaalinen ratkaisu. Keinonäkö- ja parannellun näön järjestelmien tarjoamaa tietoa voidaan näyttää sekä HUD- että HDD-näytöissä ja luoda ohjaajalle aidontuntuinen kuva kiitotiestä lähestyttäessä huonoissakin sääolosuhteissa. Maatoiminnassa rullauksen aikana aiheutuvia vaaratilanteita puolestaan voidaan tulevaisuudessa ehkäistä entistä paremmin näönparannusjärjestelmillä, lentokenttäkartoilla ja kiitotiepoikkeaman ehkäisyjärjestelmillä (Runway Incursion Prevention System).
 
-Heijastusnäyttöjen käytössä on monia etuja HDD-näyttöihin verrattuna ja niiden käyttö kaupallisessa ilmailussa on lisääntymässä. Etenkin lentoradan säilyttämisen ja odotettavissa olevien tapahtumien huomionnin on havaittu olevan helpompaa, kun heijastusnäyttöä voidaan käyttää apuna. Myös lähestyminen on tarkempaa, se voidaan suorittaa huonommassa näkyvyydessä, ja käytettäessä ympäristön kanssa päällekkäistä symbologiaa siirtyminen mittarilennosta visuaalilähestymiseen on helpompaa. 
+Heijastusnäyttöjen käytössä on monia etuja HDD-näyttöihin verrattuna ja niiden käyttö kaupallisessa ilmailussa on lisääntymässä. Etenkin lentoradan säilyttämisen ja odotettavissa olevien tapahtumien huomionnin on havaittu olevan helpompaa, kun heijastusnäyttöä voidaan käyttää apuna. Myös lähestyminen on tarkempaa, se voidaan suorittaa huonommassa näkyvyydessä ja käytettäessä ympäristön kanssa päällekkäisiä symboleja siirtyminen mittarilennosta visuaalilähestymiseen on helpompaa. 
 
 Vaikka monet keinonäkö- ja parannellun näön järjestelmien sovellukset voivatkin parantaa ilmailuturvallisuutta ja lentoliikenteen tehokkuutta, on niiden käyttöönotossa otettava huomioon järjestelmien tarjoaman tiedon hyödyntämiseen liittyvät kognitiiviset rajoitukset. Ohjaajalla tulisi koko ajan olla saatavilla kussakin lennon vaiheessa tehtävän kannalta kriittinen tieto, ja tarvittaessa miehistön on voitava reagoida ohjaamossa tai sen ulkopuolella esiintyviin odottamattomiinkin tilanteisiin. Tehtävän kannalta epäolennaisen tiedon esittämisen on havaittu vaikeuttavan odottamattomien tapahtumien huomiointia, joten järjestelmien tarjoamaa tietoa tulisi yhdistellä, käsitellä ja esittää siten, että se on helposti ymmärrettävissä eikä häiritse muualta, kuten ulkoa, saadun tiedon ymmärtämistä.
 
