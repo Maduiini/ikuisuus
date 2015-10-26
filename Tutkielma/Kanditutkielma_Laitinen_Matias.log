@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.12)  8 OCT 2015 20:38
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.12)  26 OCT 2015 17:21
 entering extended mode
 **Kanditutkielma_Laitinen_Matias.tex
 
@@ -699,56 +699,56 @@ tias.out)
 tias.out)
 \@outlinefile=\write3
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <12> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 72.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 69.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 72.
-LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 72
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 69.
+LaTeX Font Info:    Try loading font information for OT1+ztmcm on input line 69
 .
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ztmcm.fd"
 File: ot1ztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OT1/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 72
+LaTeX Font Info:    Try loading font information for OML+ztmcm on input line 69
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omlztmcm.fd"
 File: omlztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OML/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 72
+LaTeX Font Info:    Try loading font information for OMS+ztmcm on input line 69
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsztmcm.fd"
 File: omsztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMS/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 72
+LaTeX Font Info:    Try loading font information for OMX+ztmcm on input line 69
 .
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omxztmcm.fd"
 File: omxztmcm.fd 2000/01/03 Fontinst v1.801 font definitions for OMX/ztmcm.
 )
-LaTeX Font Info:    Try loading font information for OT1+ptm on input line 72.
+LaTeX Font Info:    Try loading font information for OT1+ptm on input line 69.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\ot1ptm.fd"
 File: ot1ptm.fd 2001/06/04 font definitions for OT1/ptm.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <9> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <7> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 72.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 69.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for T1+pcr on input line 72.
+LaTeX Font Info:    Try loading font information for T1+pcr on input line 69.
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\t1pcr.fd"
 File: t1pcr.fd 2001/06/04 font definitions for T1/pcr.
 )
-Overfull \hbox (3.1009pt too wide) in paragraph at lines 72--72
+Overfull \hbox (3.1009pt too wide) in paragraph at lines 69--69
 \T1/ppl/m/n/12 tel-mien käyt-töön-ot-toa uu-den su-ku-pol-ven il-mai-lus-sa. En
 -sik-si esi-tel-lään eri-lai-sia näyt-
  []
@@ -756,18 +756,13 @@ Overfull \hbox (3.1009pt too wide) in paragraph at lines 72--72
 [1]
 (C:\Users\Matsku\OneDrive\Asiakirjat\kandi\Tutkielma\Kanditutkielma_Laitinen_Ma
 tias.lof
-Overfull \hbox (0.74414pt too wide) detected at line 7
- []\T1/ppl/m/n/12 10[]
- []
-
-
 Overfull \hbox (0.74414pt too wide) detected at line 8
- []\T1/ppl/m/n/12 15[]
+ []\T1/ppl/m/n/12 14[]
  []
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 10
- []\T1/ppl/m/n/12 17[]
+ []\T1/ppl/m/n/12 16[]
  []
 
 )
@@ -779,37 +774,37 @@ Overfull \hbox (0.74414pt too wide) detected at line 10
 (C:\Users\Matsku\OneDrive\Asiakirjat\kandi\Tutkielma\Kanditutkielma_Laitinen_Ma
 tias.toc
 Overfull \hbox (0.74414pt too wide) detected at line 10
- []\T1/ppl/m/n/12 16[]
+ []\T1/ppl/m/n/12 15[]
  []
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 11
- []\T1/ppl/m/n/12 16[]
+ []\T1/ppl/m/n/12 15[]
  []
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 12
- []\T1/ppl/m/n/12 18[]
+ []\T1/ppl/m/n/12 17[]
  []
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 13
- []\T1/ppl/m/n/12 19[]
+ []\T1/ppl/m/n/12 18[]
  []
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 14
- []\T1/ppl/m/n/12 21[]
+ []\T1/ppl/m/n/12 20[]
  []
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 15
- []\T1/ppl/m/n/12 22[]
+ []\T1/ppl/m/n/12 21[]
  []
 
 
 Overfull \hbox (0.74414pt too wide) detected at line 16
- []\T1/ppl/m/n/12 24[]
+ []\T1/ppl/m/n/12 23[]
  []
 
 )
@@ -819,13 +814,13 @@ Overfull \hbox (0.74414pt too wide) detected at line 16
 ]
 Luku 1.
 
-Overfull \hbox (8.83269pt too wide) in paragraph at lines 77--78
+Overfull \hbox (8.83269pt too wide) in paragraph at lines 74--75
 \T1/ppl/m/n/12 kaan mil-tei 60% kau-pal-li-seen len-to-toi-min-taan liit-ty-vis
 -tä maa-han-syök-sy-on-net-to-muuk-
  []
 
 
-Overfull \hbox (4.52974pt too wide) in paragraph at lines 81--82
+Overfull \hbox (4.52974pt too wide) in paragraph at lines 78--79
 []\T1/ppl/m/n/12 Seuraavassa lu-vus-sa pe-reh-dy-tään oh-jaa-mois-sa käy-tös-sä
  ole-viin näyt-tö-lait-tei-siin. Kol-
  []
@@ -833,175 +828,174 @@ Overfull \hbox (4.52974pt too wide) in paragraph at lines 81--82
 [1
 
 
-] [2]
+]
 Luku 2.
 LaTeX Font Info:    Font shape `T1/ppl/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ppl/b/n' tried instead on input line 87.
+(Font)              Font shape `T1/ppl/b/n' tried instead on input line 84.
 
-Overfull \hbox (0.26996pt too wide) in paragraph at lines 93--94
+Overfull \hbox (0.26996pt too wide) in paragraph at lines 90--91
 \T1/ppl/m/n/12 Tietoa voi-daan esit-tää myös hei-jas-tus-näyt-tö-jen (Head-up D
 isplay, HUD) avul-la. Hei-
  []
 
 
-Overfull \hbox (1.52626pt too wide) in paragraph at lines 93--94
+Overfull \hbox (1.52626pt too wide) in paragraph at lines 90--91
 \T1/ppl/m/n/12 rat-tu-na hei-jas-tus-näy-tös-sä sym-bo-lei-ta sel-keyt-tä-vät p
 a-rem-mat kont-ras-tie-rot, ja HDD:n
  []
 
-[3
+[2
 
 ]
-LaTeX Font Info:    Try loading font information for OMS+ppl on input line 100.
-
+LaTeX Font Info:    Try loading font information for OMS+ppl on input line 97.
  ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsppl.fd"
 File: omsppl.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ppl/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 100.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 97.
 
-Overfull \hbox (26.31532pt too wide) in paragraph at lines 105--106
+Overfull \hbox (26.31532pt too wide) in paragraph at lines 102--103
 []\T1/ppl/m/n/12 Paremmat nousu- ja las-keu-tu-mis-mi-ni-mit joil-la-kin len-to
 -ken-til-lä ja ilma-alustyypeillä
  []
 
-<HUD.png, id=188, 400.49625pt x 266.49562pt>
+<HUD.png, id=183, 400.49625pt x 266.49562pt>
 File: HUD.png Graphic file (type png)
  <use HUD.png>
-Package pdftex.def Info: HUD.png used on input line 111.
+Package pdftex.def Info: HUD.png used on input line 108.
 (pdftex.def)             Requested size: 341.43306pt x 227.20549pt.
- [4] [5 <C:/Users/Matsku/OneDrive/Asiakirjat/kandi/Tutkielma/HUD.png>]
+ [3] [4 <C:/Users/Matsku/OneDrive/Asiakirjat/kandi/Tutkielma/HUD.png>]
 Luku 3.
 
-Overfull \hbox (23.29451pt too wide) in paragraph at lines 126--127
+Overfull \hbox (23.29451pt too wide) in paragraph at lines 123--124
 \T1/ppl/m/n/12 (Forward-Looking In-fra-red, FLIR) tai mil-li-met-ri-tut-kan (Mi
 l-li-me-ter Wa-ve Ra-dar, MMWR)
  []
 
 
-Overfull \hbox (0.23463pt too wide) in paragraph at lines 126--127
+Overfull \hbox (0.23463pt too wide) in paragraph at lines 123--124
 \T1/ppl/m/n/12 avul-la näy-tet-tyä ku-vaa ul-ko-maa-il-mas-ta ([]Bai-ley ym.[],
  []2007[]). Möl-le-rin ja Sach-sin ([]1994[])
  []
 
-[6
+[5
 
-] [7]
-Overfull \hbox (0.80627pt too wide) in paragraph at lines 151--152
+] [6]
+Overfull \hbox (0.80627pt too wide) in paragraph at lines 148--149
 \T1/ppl/m/n/12 ty-vän ta-pah-tu-man ai-ka-na ta-pah-tui 951 kii-to-tie-poik-kea
 -maa (Runway Incur-sion), jois-
  []
 
-[8]
-Overfull \hbox (0.19904pt too wide) in paragraph at lines 155--156
+[7]
+Overfull \hbox (0.19904pt too wide) in paragraph at lines 152--153
 \T1/ppl/m/n/12 mien avul-la. Eten-kin yöl-lä, tai sa-vun tai pö-lyn hai-ta-tes-
 sa nä-ky-vyyt-tä, EV-järjestelmät
  []
 
-<E-SMGCS.png, id=273, 430.60875pt x 396.7322pt>
+<E-SMGCS.png, id=269, 430.60875pt x 396.7322pt>
 File: E-SMGCS.png Graphic file (type png)
  <use E-SMGCS.png>
-Package pdftex.def Info: E-SMGCS.png used on input line 161.
+Package pdftex.def Info: E-SMGCS.png used on input line 158.
 (pdftex.def)             Requested size: 341.43306pt x 314.57729pt.
 
-Overfull \hbox (3.6854pt too wide) in paragraph at lines 166--167
+Overfull \hbox (3.6854pt too wide) in paragraph at lines 163--164
 \T1/ppl/m/n/12 mo-nok-ro-maat-ti-set hei-jas-tus-näy-töt vai-keut-ta-vat oi-kai
 -sua, kun len-ne-tään mittarilento-
  []
 
-[9] [10 <C:/Users/Matsku/OneDrive/Asiakirjat/kandi/Tutkielma/E-SMGCS.png>]
-Overfull \hbox (8.65317pt too wide) in paragraph at lines 170--171
+[8] [9 <C:/Users/Matsku/OneDrive/Asiakirjat/kandi/Tutkielma/E-SMGCS.png>]
+Overfull \hbox (8.65317pt too wide) in paragraph at lines 167--168
 []\T1/ppl/m/n/12 Kuva luo-daan yh-dis-täen lentoasento- ja tark-kuus-na-vi-goin
 -ti-jär-jes-tel-mil-tä se-kä maasto-
  []
 
 
-Overfull \hbox (3.39713pt too wide) in paragraph at lines 172--173
+Overfull \hbox (3.39713pt too wide) in paragraph at lines 169--170
 []\T1/ppl/m/n/12 Suunnitellessa uusia oh-jaa-moi-ta voi-daan ot-taa luon-nol-li
 -ses-ti huo-mioon SV-näyttöjen
  []
 
-[11] [12]
-Overfull \hbox (0.7809pt too wide) in paragraph at lines 202--203
+[10] [11]
+Overfull \hbox (0.7809pt too wide) in paragraph at lines 199--200
 []\T1/ppl/m/n/12 Toisistaan riip-pu-mat-to-man toi-min-nan mah-dol-lis-ta-mi-ne
 n rin-nak-kai-sil-la, lä-hek-
  []
 
 
-Overfull \hbox (1.0936pt too wide) in paragraph at lines 205--206
+Overfull \hbox (1.0936pt too wide) in paragraph at lines 202--203
 \T1/ppl/m/n/12 saa-ta-van huo-mat-ta-via pa-ran-nuk-sia maas-toes-te-tie-tou-te
 en ja voi-ta-van vä-hen-tää CFIT-
  []
 
-[13] <HUD_Fused.png, id=356, 475.7775pt x 333.245pt>
+[12] <HUD_Fused.png, id=352, 475.7775pt x 333.245pt>
 File: HUD_Fused.png Graphic file (type png)
  <use HUD_Fused.png>
-Package pdftex.def Info: HUD_Fused.png used on input line 211.
+Package pdftex.def Info: HUD_Fused.png used on input line 208.
 (pdftex.def)             Requested size: 341.43306pt x 239.15822pt.
 
-[14] [15 <C:/Users/Matsku/OneDrive/Asiakirjat/kandi/Tutkielma/HUD_Fused.png>]
+[13] [14 <C:/Users/Matsku/OneDrive/Asiakirjat/kandi/Tutkielma/HUD_Fused.png>]
 Luku 4.
-[16
+[15
 
-] <HUD_Conformal.png, id=409, 400.49625pt x 266.49562pt>
+] <HUD_Conformal.png, id=405, 400.49625pt x 266.49562pt>
 File: HUD_Conformal.png Graphic file (type png)
 
 <use HUD_Conformal.png>
-Package pdftex.def Info: HUD_Conformal.png used on input line 228.
+Package pdftex.def Info: HUD_Conformal.png used on input line 225.
 (pdftex.def)             Requested size: 341.43306pt x 227.20549pt.
- [17 <C:/Users/Matsku/OneDrive/Asiakirjat/kandi/Tutkielma/HUD_Conformal.png>]
-Overfull \hbox (5.95358pt too wide) in paragraph at lines 237--238
+ [16 <C:/Users/Matsku/OneDrive/Asiakirjat/kandi/Tutkielma/HUD_Conformal.png>]
+Overfull \hbox (5.95358pt too wide) in paragraph at lines 234--235
 \T1/ppl/m/n/12 dis-tet-ty-jen SV- ja EV-järjestelmien ke-hit-tyes-sä yhä luo-te
 t-ta-vam-mik-si ([]Korn ym.[], []2009[]).
  []
 
 
-Overfull \hbox (5.84996pt too wide) in paragraph at lines 237--238
+Overfull \hbox (5.84996pt too wide) in paragraph at lines 234--235
 \T1/ppl/m/n/12 huo-mio-ky-ky-kou-lu-tus on tär-keäs-sä osas-sa au-to-maa-tio-vi
 -nou-man eh-käi-se-mi-sek-si. Seu-
  []
 
-[18] [19] [20] [21]
+[17] [18] [19] [20]
 Luku 5.
-[22
+[21
 
-] [23] [24
+] [22] [23
 
 ]
-Underfull \hbox (badness 10000) in paragraph at lines 346--351
+Underfull \hbox (badness 10000) in paragraph at lines 343--348
 []\T1/ppl/m/n/12 Gerold, A. 2001. \T1/ppl/m/it/12 Runway Incur-sions: The Th-re
 at on the
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--351
+Underfull \hbox (badness 10000) in paragraph at lines 343--348
 \T1/ppl/m/it/12 Ground\T1/ppl/m/n/12 . Avio-nics To-day. Saa-ta-vil-la WWW-muod
 ossa
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 346--351
+Underfull \hbox (badness 10000) in paragraph at lines 343--348
 \T1/ppl/m/n/12 <http://www.aviationtoday.com/av/commercial/Runway-Incursions-Th
 e-
  []
 
-[25] [26] [27] [28]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 533.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 533.
+[24] [25] [26] [27]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 530.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 530.
 
 (C:\Users\Matsku\OneDrive\Asiakirjat\kandi\Tutkielma\Kanditutkielma_Laitinen_Ma
 tias.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 533.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 533.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 530.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 530.
 Package rerunfilecheck Info: File `Kanditutkielma_Laitinen_Matias.out' has not 
 changed.
 (rerunfilecheck)             Checksum: 86D49F46ABBFB42B674491EE6EB51CDC;1025.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 533.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 530.
  ) 
 Here is how much of TeX's memory you used:
- 7797 strings out of 493921
- 112653 string characters out of 3146476
- 205766 words of memory out of 3000000
+ 7796 strings out of 493921
+ 112646 string characters out of 3146476
+ 205765 words of memory out of 3000000
  10840 multiletter control sequences out of 15000+200000
  27567 words of font info for 60 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
@@ -1012,10 +1006,10 @@ Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x8
 6)/MiKTeX 2.9/fonts/type1/urw/palatino/uplb8a.pfb><C:/Program Files (x86)/MiKTe
 X 2.9/fonts/type1/urw/palatino/uplr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fo
 nts/type1/urw/palatino/uplri8a.pfb>
-Output written on Kanditutkielma_Laitinen_Matias.pdf (32 pages, 1022921 bytes).
+Output written on Kanditutkielma_Laitinen_Matias.pdf (31 pages, 1022329 bytes).
 
 PDF statistics:
- 576 PDF objects out of 1000 (max. 8388607)
- 100 named destinations out of 1000 (max. 500000)
+ 572 PDF objects out of 1000 (max. 8388607)
+ 99 named destinations out of 1000 (max. 500000)
  133 words of extra memory for PDF output out of 10000 (max. 10000000)
 
