@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.12)  4 OCT 2015 15:28
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (MiKTeX 2.9) (preloaded format=pdflatex 2014.10.12)  31 OCT 2015 15:39
 entering extended mode
 **TIEA217-suunnitelma.tex
 (C:\Users\Matsku\OneDrive\Asiakirjat\kandi\TIEA217\TIEA217-suunnitelma.tex
@@ -224,40 +224,46 @@ LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
 [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-LaTeX Font Info:    Try loading font information for OMS+ptm on input line 125.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 125.
+LaTeX Font Info:    Try loading font information for OMS+ptm on input line 128.
 
 
 ("C:\Program Files (x86)\MiKTeX 2.9\tex\latex\psnfss\omsptm.fd"
 File: omsptm.fd 
 )
 LaTeX Font Info:    Font shape `OMS/ptm/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 125.
- [1]
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 128.
+ [1] [2]
+Overfull \hbox (29.41658pt too wide) in paragraph at lines 192--193
+\T1/ptm/m/n/12 tel-m‰n pro-to-tyy-pin pe-rus-pe-ri-aat-tei-ta ja toi-min-nal-li
+-sia vaa-ti-muk-sia, p‰‰-asias-sa hahmontunnistus-
+ []
+
+[3]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [3]
-[4] (C:\Users\Matsku\OneDrive\Asiakirjat\kandi\TIEA217\TIEA217-suunnitelma.aux)
- ) 
+ [4]
+[5] [6]
+(C:\Users\Matsku\OneDrive\Asiakirjat\kandi\TIEA217\TIEA217-suunnitelma.aux) ) 
 Here is how much of TeX's memory you used:
- 2722 strings out of 493921
- 35819 string characters out of 3146476
- 97235 words of memory out of 3000000
- 5994 multiletter control sequences out of 15000+200000
- 25569 words of font info for 33 fonts, out of 3000000 for 9000
+ 2753 strings out of 493921
+ 36462 string characters out of 3146476
+ 98054 words of memory out of 3000000
+ 6024 multiletter control sequences out of 15000+200000
+ 30016 words of font info for 36 fonts, out of 3000000 for 9000
  841 hyphenation exceptions out of 8191
- 27i,4n,32p,1030b,147s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Progra
-m Files (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program 
-Files (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x8
-6)/MiKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2
-.9/fonts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/ty
-pe1/urw/times/utmri8a.pfb>
-Output written on TIEA217-suunnitelma.pdf (5 pages, 66932 bytes).
+ 27i,4n,32p,857b,242s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C
+:/Program Files (x86)/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Fi
+les (x86)/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program File
+s (x86)/MiKTeX 2.9/fonts/type1/urw/courier/ucrr8a.pfb><C:/Program Files (x86)/M
+iKTeX 2.9/fonts/type1/urw/times/utmb8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/f
+onts/type1/urw/times/utmr8a.pfb><C:/Program Files (x86)/MiKTeX 2.9/fonts/type1/
+urw/times/utmri8a.pfb>
+Output written on TIEA217-suunnitelma.pdf (7 pages, 75949 bytes).
 PDF statistics:
- 39 PDF objects out of 1000 (max. 8388607)
+ 47 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
